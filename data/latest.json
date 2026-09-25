@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-25T16:02:36.051Z",
+  "timestamp": "2026-09-25T21:12:54.319Z",
   "live": true,
   "dns": {
     "america.gov": {
@@ -23,8 +23,8 @@
     "www.america.gov": {
       "host": "www.america.gov",
       "a": [
-        "172.64.96.165",
-        "162.159.212.165"
+        "162.159.212.165",
+        "172.64.96.165"
       ],
       "aaaa": [
         "2606:54c1:10::ac40:60a5",
@@ -44,18 +44,18 @@
         "alt-svc": "h3=\":443\"; ma=86400",
         "cache-control": "public, max-age=0, must-revalidate",
         "cf-cache-status": "HIT",
-        "cf-ray": "a40b411eff4a1773-IAD",
+        "cf-ray": "a40d07ad98d8af01-ORD",
         "connection": "keep-alive",
         "content-encoding": "br",
         "content-security-policy": "base-uri 'none'; object-src 'none'; form-action 'self'; font-src 'self' data:; manifest-src 'self'; worker-src 'self' blob:; img-src 'self' data: blob: https://maps.geo.us-east-2.amazonaws.com https://*.cloudflarestream.com; connect-src 'self' https://maps.geo.us-east-2.amazonaws.com https://*.cloudflarestream.com https://videodelivery.net; media-src 'self' blob: https://*.cloudflarestream.com https://videodelivery.net; frame-src https://www.youtube-nocookie.com https://*.cloudflarestream.com; frame-ancestors 'none'",
         "content-type": "text/html",
-        "date": "Fri, 25 Sep 2026 16:02:38 GMT",
+        "date": "Fri, 25 Sep 2026 21:12:57 GMT",
         "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
         "permissions-policy": "camera=(), microphone=(self), geolocation=(), payment=(), usb=()",
         "referrer-policy": "no-referrer",
-        "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=cKWL2%2BRSLhti6o469v3Six8JA6DkaHNNRujzT0Ayi7XGsDh909Bs0eYgW1z6hZzY1w%2Fut6Wl1GjQcPxRR%2FMISRavxltsrpFlIa4WcuU1VLt%2FBLw1d86kdeW%2B%2BqOTiA%3D%3D\"}]}",
+        "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=hal7fr4GmtYr193GUrtrDynNgvajA8HVy8qLIIY5o4X6UE3oCmeu3YIP8LNKg5j%2BSW9u6tPjzeQj4K9UOkfNozCve9Pw6NHSSHnWCyheluozER%2BfKMcFp%2BXbFDyXrw%3D%3D\"}]}",
         "server": "cloudflare",
-        "server-timing": "cfL4;desc=\"?proto=TCP&rtt=0&min_rtt=0&rtt_var=0&sent=0&recv=0&lost=0&retrans=0&sent_bytes=0&recv_bytes=0&delivery_rate=0&cwnd=0&unsent_bytes=0&cid=42a2630656051ec2&ts=67&x=0\"",
+        "server-timing": "cfL4;desc=\"?proto=TCP&rtt=0&min_rtt=0&rtt_var=0&sent=0&recv=0&lost=0&retrans=0&sent_bytes=0&recv_bytes=0&delivery_rate=0&cwnd=0&unsent_bytes=0&cid=c9032d5572fcd920&ts=38&x=0\"",
         "strict-transport-security": "max-age=15552000; includeSubDomains; preload",
         "transfer-encoding": "chunked",
         "x-content-type-options": "nosniff",
@@ -69,18 +69,18 @@
             "alt-svc": "h3=\":443\"; ma=86400",
             "cache-control": "public, max-age=0, must-revalidate",
             "cf-cache-status": "HIT",
-            "cf-ray": "a40b411eff4a1773-IAD",
+            "cf-ray": "a40d07ad98d8af01-ORD",
             "connection": "keep-alive",
             "content-encoding": "br",
             "content-security-policy": "base-uri 'none'; object-src 'none'; form-action 'self'; font-src 'self' data:; manifest-src 'self'; worker-src 'self' blob:; img-src 'self' data: blob: https://maps.geo.us-east-2.amazonaws.com https://*.cloudflarestream.com; connect-src 'self' https://maps.geo.us-east-2.amazonaws.com https://*.cloudflarestream.com https://videodelivery.net; media-src 'self' blob: https://*.cloudflarestream.com https://videodelivery.net; frame-src https://www.youtube-nocookie.com https://*.cloudflarestream.com; frame-ancestors 'none'",
             "content-type": "text/html",
-            "date": "Fri, 25 Sep 2026 16:02:38 GMT",
+            "date": "Fri, 25 Sep 2026 21:12:57 GMT",
             "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
             "permissions-policy": "camera=(), microphone=(self), geolocation=(), payment=(), usb=()",
             "referrer-policy": "no-referrer",
-            "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=cKWL2%2BRSLhti6o469v3Six8JA6DkaHNNRujzT0Ayi7XGsDh909Bs0eYgW1z6hZzY1w%2Fut6Wl1GjQcPxRR%2FMISRavxltsrpFlIa4WcuU1VLt%2FBLw1d86kdeW%2B%2BqOTiA%3D%3D\"}]}",
+            "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=hal7fr4GmtYr193GUrtrDynNgvajA8HVy8qLIIY5o4X6UE3oCmeu3YIP8LNKg5j%2BSW9u6tPjzeQj4K9UOkfNozCve9Pw6NHSSHnWCyheluozER%2BfKMcFp%2BXbFDyXrw%3D%3D\"}]}",
             "server": "cloudflare",
-            "server-timing": "cfL4;desc=\"?proto=TCP&rtt=0&min_rtt=0&rtt_var=0&sent=0&recv=0&lost=0&retrans=0&sent_bytes=0&recv_bytes=0&delivery_rate=0&cwnd=0&unsent_bytes=0&cid=42a2630656051ec2&ts=67&x=0\"",
+            "server-timing": "cfL4;desc=\"?proto=TCP&rtt=0&min_rtt=0&rtt_var=0&sent=0&recv=0&lost=0&retrans=0&sent_bytes=0&recv_bytes=0&delivery_rate=0&cwnd=0&unsent_bytes=0&cid=c9032d5572fcd920&ts=38&x=0\"",
             "strict-transport-security": "max-age=15552000; includeSubDomains; preload",
             "transfer-encoding": "chunked",
             "x-content-type-options": "nosniff",
@@ -100,18 +100,18 @@
         "alt-svc": "h3=\":443\"; ma=86400",
         "cache-control": "public, max-age=0, must-revalidate",
         "cf-cache-status": "HIT",
-        "cf-ray": "a40b411fbfaa1773-IAD",
+        "cf-ray": "a40d07ae2abaaf01-ORD",
         "connection": "keep-alive",
         "content-encoding": "br",
         "content-security-policy": "base-uri 'none'; object-src 'none'; form-action 'self'; font-src 'self' data:; manifest-src 'self'; worker-src 'self' blob:; img-src 'self' data: blob: https://maps.geo.us-east-2.amazonaws.com https://*.cloudflarestream.com; connect-src 'self' https://maps.geo.us-east-2.amazonaws.com https://*.cloudflarestream.com https://videodelivery.net; media-src 'self' blob: https://*.cloudflarestream.com https://videodelivery.net; frame-src https://www.youtube-nocookie.com https://*.cloudflarestream.com; frame-ancestors 'none'",
         "content-type": "text/html",
-        "date": "Fri, 25 Sep 2026 16:02:38 GMT",
+        "date": "Fri, 25 Sep 2026 21:12:57 GMT",
         "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
         "permissions-policy": "camera=(), microphone=(self), geolocation=(), payment=(), usb=()",
         "referrer-policy": "no-referrer",
-        "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=X7AhkkzN%2BFShdaT1B4ACAoPW60qJCJDOBBaM1toT3eKWT3QbgBd7fq%2BM04Pk8N9A9d3ootiwdef9er1S2hcJ0h%2FboqZwMxXqetvfF0muWtyfInarl4ooZqQXEIBC4A%3D%3D\"}]}",
+        "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=CaGI6uVVafqXJPtsPrtsm9KV9WCOuxqnvTjkb8QoKAy73DwWNvPnwzSaA73Ce%2F%2FDu02og0TenD%2Fjxe9FOLa8dQpto7jlalwEYFj0MsWYT5ac2OnUpeEj9xhxY%2FWAcA%3D%3D\"}]}",
         "server": "cloudflare",
-        "server-timing": "cfL4;desc=\"?proto=TCP&rtt=0&min_rtt=0&rtt_var=0&sent=0&recv=0&lost=0&retrans=0&sent_bytes=0&recv_bytes=0&delivery_rate=0&cwnd=0&unsent_bytes=0&cid=42a2630656051ec2&ts=163&x=0\"",
+        "server-timing": "cfL4;desc=\"?proto=TCP&rtt=0&min_rtt=0&rtt_var=0&sent=0&recv=0&lost=0&retrans=0&sent_bytes=0&recv_bytes=0&delivery_rate=0&cwnd=0&unsent_bytes=0&cid=c9032d5572fcd920&ts=150&x=0\"",
         "strict-transport-security": "max-age=15552000; includeSubDomains; preload",
         "transfer-encoding": "chunked",
         "x-content-type-options": "nosniff",
@@ -122,15 +122,15 @@
           "url": "https://www.america.gov/",
           "status": 301,
           "headers": {
-            "cf-ray": "a40b411f9c7a4297-EWR",
+            "cf-ray": "a40d07ae0ff961bb-ORD",
             "connection": "keep-alive",
             "content-type": "text/html; charset=UTF-8",
-            "date": "Fri, 25 Sep 2026 16:02:38 GMT",
+            "date": "Fri, 25 Sep 2026 21:12:57 GMT",
             "location": "https://america.gov/",
             "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
-            "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=299xlA24mAJHeHTQvze9V3YvVJIoa%2F0uI5%2FVkS9fJEuM5G2bqUu4RETVGewwhc7CZuyIGTvWXB1PnSX%2B5qsO%2BOO4koPBQ9%2BkwvEN6bYqfeP6TPg%2F%2BuQu2uEzqCVwthUamIQ%3D\"}]}",
+            "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=nGfnjUW97IBRmr%2B1mhofJRDJBxDnOP49lLcOokKxIbGWIrJU90oUqYMW4u%2BWpEJg0aaj%2FHesr2ebrn70KJR0HK1A%2B2tALzw6ia4CZbCvPO0MAS45vl5IodayBv2WKoybTN8%3D\"}]}",
             "server": "cloudflare",
-            "server-timing": "cfL4;desc=\"?proto=TCP&rtt=0&min_rtt=0&rtt_var=0&sent=0&recv=0&lost=0&retrans=0&sent_bytes=0&recv_bytes=0&delivery_rate=0&cwnd=0&unsent_bytes=0&cid=66103a83b81c1a9a&ts=23&x=0\"",
+            "server-timing": "cfL4;desc=\"?proto=TCP&rtt=0&min_rtt=0&rtt_var=0&sent=0&recv=0&lost=0&retrans=0&sent_bytes=0&recv_bytes=0&delivery_rate=0&cwnd=0&unsent_bytes=0&cid=09072aaf107a92f3&ts=27&x=0\"",
             "strict-transport-security": "max-age=15552000; includeSubDomains; preload",
             "transfer-encoding": "chunked",
             "x-content-type-options": "nosniff"
@@ -143,18 +143,18 @@
             "alt-svc": "h3=\":443\"; ma=86400",
             "cache-control": "public, max-age=0, must-revalidate",
             "cf-cache-status": "HIT",
-            "cf-ray": "a40b411fbfaa1773-IAD",
+            "cf-ray": "a40d07ae2abaaf01-ORD",
             "connection": "keep-alive",
             "content-encoding": "br",
             "content-security-policy": "base-uri 'none'; object-src 'none'; form-action 'self'; font-src 'self' data:; manifest-src 'self'; worker-src 'self' blob:; img-src 'self' data: blob: https://maps.geo.us-east-2.amazonaws.com https://*.cloudflarestream.com; connect-src 'self' https://maps.geo.us-east-2.amazonaws.com https://*.cloudflarestream.com https://videodelivery.net; media-src 'self' blob: https://*.cloudflarestream.com https://videodelivery.net; frame-src https://www.youtube-nocookie.com https://*.cloudflarestream.com; frame-ancestors 'none'",
             "content-type": "text/html",
-            "date": "Fri, 25 Sep 2026 16:02:38 GMT",
+            "date": "Fri, 25 Sep 2026 21:12:57 GMT",
             "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
             "permissions-policy": "camera=(), microphone=(self), geolocation=(), payment=(), usb=()",
             "referrer-policy": "no-referrer",
-            "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=X7AhkkzN%2BFShdaT1B4ACAoPW60qJCJDOBBaM1toT3eKWT3QbgBd7fq%2BM04Pk8N9A9d3ootiwdef9er1S2hcJ0h%2FboqZwMxXqetvfF0muWtyfInarl4ooZqQXEIBC4A%3D%3D\"}]}",
+            "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=CaGI6uVVafqXJPtsPrtsm9KV9WCOuxqnvTjkb8QoKAy73DwWNvPnwzSaA73Ce%2F%2FDu02og0TenD%2Fjxe9FOLa8dQpto7jlalwEYFj0MsWYT5ac2OnUpeEj9xhxY%2FWAcA%3D%3D\"}]}",
             "server": "cloudflare",
-            "server-timing": "cfL4;desc=\"?proto=TCP&rtt=0&min_rtt=0&rtt_var=0&sent=0&recv=0&lost=0&retrans=0&sent_bytes=0&recv_bytes=0&delivery_rate=0&cwnd=0&unsent_bytes=0&cid=42a2630656051ec2&ts=163&x=0\"",
+            "server-timing": "cfL4;desc=\"?proto=TCP&rtt=0&min_rtt=0&rtt_var=0&sent=0&recv=0&lost=0&retrans=0&sent_bytes=0&recv_bytes=0&delivery_rate=0&cwnd=0&unsent_bytes=0&cid=c9032d5572fcd920&ts=150&x=0\"",
             "strict-transport-security": "max-age=15552000; includeSubDomains; preload",
             "transfer-encoding": "chunked",
             "x-content-type-options": "nosniff",
@@ -168,9 +168,250 @@
     }
   },
   "cert": {
-    "ok": false,
-    "error": "fetch failed",
-    "certs": []
+    "ok": true,
+    "error": null,
+    "certs": [
+      {
+        "common_name": "america.gov",
+        "issuer": "C=US, O=Google Trust Services, CN=WE1",
+        "not_before": "2026-09-23T17:45:33",
+        "not_after": "2026-12-22T18:45:30"
+      },
+      {
+        "common_name": "courses.america.gov",
+        "issuer": "C=US, O=Amazon, CN=Amazon RSA 2048 M01",
+        "not_before": "2026-09-11T00:00:00",
+        "not_after": "2027-03-27T23:59:59"
+      },
+      {
+        "common_name": "e.america.gov",
+        "issuer": "C=US, O=Let's Encrypt, CN=YE2",
+        "not_before": "2026-09-04T00:22:18",
+        "not_after": "2026-12-03T00:22:17"
+      },
+      {
+        "common_name": "e.america.gov",
+        "issuer": "C=US, O=Let's Encrypt, CN=YE1",
+        "not_before": "2026-09-03T23:15:43",
+        "not_after": "2026-12-02T23:15:42"
+      },
+      {
+        "common_name": "interactive.state.gov",
+        "issuer": "C=US, O=Amazon, CN=Amazon RSA 2048 M01",
+        "not_before": "2026-08-30T00:00:00",
+        "not_after": "2027-03-15T23:59:59"
+      },
+      {
+        "common_name": "publications.america.gov",
+        "issuer": "C=US, O=Amazon, CN=Amazon RSA 2048 M04",
+        "not_before": "2026-08-29T00:00:00",
+        "not_after": "2027-03-14T23:59:59"
+      },
+      {
+        "common_name": "courses.america.gov",
+        "issuer": "C=US, O=Amazon, CN=Amazon RSA 2048 M04",
+        "not_before": "2026-07-27T00:00:00",
+        "not_after": "2027-02-09T23:59:59"
+      },
+      {
+        "common_name": "brand.america.gov",
+        "issuer": "C=US, O=Amazon, CN=Amazon RSA 2048 M04",
+        "not_before": "2026-07-22T00:00:00",
+        "not_after": "2027-02-04T23:59:59"
+      },
+      {
+        "common_name": "archive-share.america.gov",
+        "issuer": "C=US, O=Amazon, CN=Amazon RSA 2048 M01",
+        "not_before": "2026-07-17T00:00:00",
+        "not_after": "2027-01-30T23:59:59"
+      },
+      {
+        "common_name": "share.america.gov",
+        "issuer": "C=US, O=Amazon, CN=Amazon RSA 2048 M04",
+        "not_before": "2026-07-17T00:00:00",
+        "not_after": "2027-01-30T23:59:59"
+      },
+      {
+        "common_name": "mta-sts.america.gov",
+        "issuer": "C=US, O=Amazon, CN=Amazon RSA 2048 M01",
+        "not_before": "2026-07-10T00:00:00",
+        "not_after": "2027-01-23T23:59:59"
+      },
+      {
+        "common_name": "courses.america.gov",
+        "issuer": "C=US, O=Google Trust Services, CN=WE1",
+        "not_before": "2026-07-06T13:44:58",
+        "not_after": "2026-10-04T14:44:54"
+      },
+      {
+        "common_name": "courses.america.gov",
+        "issuer": "C=US, O=Google Trust Services, CN=WR1",
+        "not_before": "2026-07-06T13:44:47",
+        "not_after": "2026-10-04T14:43:42"
+      },
+      {
+        "common_name": "e.america.gov",
+        "issuer": "C=US, O=Let's Encrypt, CN=YE1",
+        "not_before": "2026-07-05T23:52:44",
+        "not_after": "2026-10-03T23:52:43"
+      },
+      {
+        "common_name": "brand.america.gov",
+        "issuer": "C=US, O=Amazon, CN=Amazon RSA 2048 M04",
+        "not_before": "2026-05-26T00:00:00",
+        "not_after": "2026-12-09T23:59:59"
+      },
+      {
+        "common_name": "brand.america.gov",
+        "issuer": "C=US, O=Google Trust Services, CN=WE1",
+        "not_before": "2026-05-24T07:26:05",
+        "not_after": "2026-08-22T08:26:03"
+      },
+      {
+        "common_name": "brand.america.gov",
+        "issuer": "C=US, O=Google Trust Services, CN=WR1",
+        "not_before": "2026-05-24T07:25:57",
+        "not_after": "2026-08-22T08:25:56"
+      },
+      {
+        "common_name": "brand.america.gov",
+        "issuer": "C=US, O=Google Trust Services, CN=WE1",
+        "not_before": "2026-05-24T03:36:23",
+        "not_after": "2026-08-22T04:36:20"
+      },
+      {
+        "common_name": "brand.america.gov",
+        "issuer": "C=US, O=Google Trust Services, CN=WR1",
+        "not_before": "2026-05-24T03:36:13",
+        "not_after": "2026-08-22T04:35:06"
+      },
+      {
+        "common_name": "www.techcamp.america.gov",
+        "issuer": "C=US, O=Amazon, CN=Amazon RSA 2048 M04",
+        "not_before": "2026-05-17T00:00:00",
+        "not_after": "2026-11-30T23:59:59"
+      },
+      {
+        "common_name": "analytics.america.gov",
+        "issuer": "C=US, O=Amazon, CN=Amazon RSA 2048 M01",
+        "not_before": "2026-05-13T00:00:00",
+        "not_after": "2026-11-26T23:59:59"
+      },
+      {
+        "common_name": "courses.america.gov",
+        "issuer": "C=US, O=Google Trust Services, CN=WE1",
+        "not_before": "2026-05-08T12:59:09",
+        "not_after": "2026-08-06T13:59:08"
+      },
+      {
+        "common_name": "courses.america.gov",
+        "issuer": "C=US, O=Google Trust Services, CN=WR1",
+        "not_before": "2026-05-08T12:59:02",
+        "not_after": "2026-08-06T13:57:55"
+      },
+      {
+        "common_name": "e.america.gov",
+        "issuer": "C=US, O=Let's Encrypt, CN=E7",
+        "not_before": "2026-05-06T23:17:40",
+        "not_after": "2026-08-04T23:17:39"
+      },
+      {
+        "common_name": "americanspaces.state.gov",
+        "issuer": "C=US, O=Amazon, CN=Amazon RSA 2048 M04",
+        "not_before": "2026-05-06T00:00:00",
+        "not_after": "2026-11-19T23:59:59"
+      },
+      {
+        "common_name": "techcamp.edit.america.gov",
+        "issuer": "C=US, O=Amazon, CN=Amazon RSA 2048 M04",
+        "not_before": "2026-05-06T00:00:00",
+        "not_after": "2026-11-19T23:59:59"
+      },
+      {
+        "common_name": "interactive.state.gov",
+        "issuer": "C=US, O=Amazon, CN=Amazon RSA 2048 M01",
+        "not_before": "2026-03-30T00:00:00",
+        "not_after": "2026-10-13T23:59:59"
+      },
+      {
+        "common_name": "publications.america.gov",
+        "issuer": "C=US, O=Amazon, CN=Amazon RSA 2048 M04",
+        "not_before": "2026-03-29T00:00:00",
+        "not_after": "2026-10-12T23:59:59"
+      },
+      {
+        "common_name": "brand.america.gov",
+        "issuer": "C=US, O=Google Trust Services, CN=WE1",
+        "not_before": "2026-03-25T23:04:02",
+        "not_after": "2026-06-24T00:03:59"
+      },
+      {
+        "common_name": "brand.america.gov",
+        "issuer": "C=US, O=Google Trust Services, CN=WR1",
+        "not_before": "2026-03-25T23:03:53",
+        "not_after": "2026-06-24T00:02:45"
+      },
+      {
+        "common_name": "courses.america.gov",
+        "issuer": "C=US, O=Google Trust Services, CN=WE1",
+        "not_before": "2026-03-10T12:12:38",
+        "not_after": "2026-06-08T13:12:35"
+      },
+      {
+        "common_name": "courses.america.gov",
+        "issuer": "C=US, O=Google Trust Services, CN=WR1",
+        "not_before": "2026-03-10T12:12:29",
+        "not_after": "2026-06-08T13:11:04"
+      },
+      {
+        "common_name": "www.america.gov",
+        "issuer": "C=US, O=Google Trust Services, CN=WE1",
+        "not_before": "2026-03-08T06:13:50",
+        "not_after": "2026-06-06T07:13:48"
+      },
+      {
+        "common_name": "www.america.gov",
+        "issuer": "C=US, O=Google Trust Services, CN=WR1",
+        "not_before": "2026-03-08T06:13:43",
+        "not_after": "2026-06-06T07:12:35"
+      },
+      {
+        "common_name": "e.america.gov",
+        "issuer": "C=US, O=Let's Encrypt, CN=E8",
+        "not_before": "2026-03-07T23:43:37",
+        "not_after": "2026-06-05T23:43:36"
+      },
+      {
+        "common_name": "archive-share.america.gov",
+        "issuer": "C=US, O=Amazon, CN=Amazon RSA 2048 M01",
+        "not_before": "2026-03-01T00:00:00",
+        "not_after": "2026-09-14T23:59:59"
+      },
+      {
+        "common_name": "share.america.gov",
+        "issuer": "C=US, O=Amazon, CN=Amazon RSA 2048 M01",
+        "not_before": "2026-03-01T00:00:00",
+        "not_after": "2026-09-14T23:59:59"
+      },
+      {
+        "common_name": "mta-sts.america.gov",
+        "issuer": "C=US, O=Amazon, CN=Amazon RSA 2048 M04",
+        "not_before": "2026-02-22T00:00:00",
+        "not_after": "2026-09-07T23:59:59"
+      },
+      {
+        "common_name": "brand.america.gov",
+        "issuer": "C=US, O=Google Trust Services, CN=WE1",
+        "not_before": "2026-01-25T18:34:41",
+        "not_after": "2026-04-25T19:34:40"
+      },
+      {
+        "common_name": "brand.america.gov",
+        "issuer": "C=US, O=Google Trust Services, CN=WR1",
+        "not_before": "2026-01-25T18:34:34",
+        "not_after": "2026-04-25T19:33:26"
+      }
+    ]
   },
   "repos": {
     "ok": true,
@@ -718,6 +959,15 @@
       },
       {
         "repo": "18F/identity-idp",
+        "sha": "46887efd10d3ceb11f290c70cb50e42501153b87",
+        "author": "Vraj Mohan",
+        "githubLogin": "vrajmohan",
+        "date": "2026-09-25T18:51:58Z",
+        "message": "Remove unused code (#13594)\n\n[skip changelog]",
+        "url": "https://github.com/18F/identity-idp/commit/46887efd10d3ceb11f290c70cb50e42501153b87"
+      },
+      {
+        "repo": "18F/identity-idp",
         "sha": "06264cce6417ea4717cfd512a2872109e935bf3f",
         "author": "dependabot[bot]",
         "githubLogin": "dependabot[bot]",
@@ -976,15 +1226,6 @@
         "date": "2026-09-10T20:36:32Z",
         "message": "LG-17574: Create Device Profiling Error (LG22) Account Clearance Email Notification (#13520)\n\n* set up email to send once device profiling error has been cleared\n\nchangelog: Upcoming Features, device profiling error resolved, send email once LG22\n\n* add content and translation text\n\n* modify email send logic\n\n* add action to send email",
         "url": "https://github.com/18F/identity-idp/commit/be908e98eba4742f8354088abeff9b3095d85c67"
-      },
-      {
-        "repo": "18F/identity-idp",
-        "sha": "a5172287caae5a09750cdb395dd1942fa9926785",
-        "author": "Malick Diarra",
-        "githubLogin": "mdiarra3",
-        "date": "2026-09-10T19:25:05Z",
-        "message": "changelog: Internal, NDS, fix flakey nds look and feel spec (#13538)",
-        "url": "https://github.com/18F/identity-idp/commit/a5172287caae5a09750cdb395dd1942fa9926785"
       },
       {
         "repo": "GSA-TTS/identity-site",
@@ -2457,7 +2698,7 @@
       "server": "cloudflare",
       "via": null,
       "x_vercel_id": null,
-      "cf_ray": "a40b411eff4a1773-IAD",
+      "cf_ray": "a40d07ad98d8af01-ORD",
       "hsts": "max-age=15552000; includeSubDomains; preload",
       "csp": "base-uri 'none'; object-src 'none'; form-action 'self'; font-src 'self' data:; manifest-src 'self'; worker-src 'self' blob:; img-src 'self' data: blob: https://maps.geo.us-east-2.amazonaws.com https://*.cloudflarestream.com; connect-src 'self' https://maps.geo.us-east-2.amazonaws.com https://*.cloudflarestream.com https://videodelivery.net; media-src 'self' blob: https://*.cloudflarestream.com https://videodelivery.net; frame-src https://www.youtube-nocookie.com https://*.cloudflarestream.com; frame-ancestors 'none'",
       "x_powered_by": null,
