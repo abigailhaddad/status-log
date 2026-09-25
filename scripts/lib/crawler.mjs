@@ -243,10 +243,20 @@ export async function crawlSite({ startUrl, maxPages = 25, harPath, scanAccessib
       }
     }
 
+    // Metadata only, never values — cookie/storage values can be session
+    // tokens or other sensitive client-side state, and this all ends up
+    // committed to the (public) data/ directory.
+    const cookies = await context.cookies();
+    const storage = await page
+      .evaluate(() => ({
+        localStorageKeys: Object.keys(localStorage),
+        sessionStorageKeys: Object.keys(sessionStorage),
+      }))
+      .catch(() => ({ localStorageKeys: [], sessionStorageKeys: [] }));
+
     await context.close(); // flushes HAR
+    return { pages, requestLog, bodySamples, chatAttempts, wsLog, blockersFound, a11yByPage, cookies, storage };
   } finally {
     await browser.close();
   }
-
-  return { pages, requestLog, bodySamples, chatAttempts, wsLog, blockersFound, a11yByPage };
 }

@@ -64,6 +64,10 @@ until `watch.yml` has observed the target as live (checked via
 - Captures WebSocket traffic too (HAR doesn't include WS frames): every
   frame sent/received is logged and run through the same signature
   detection as HTTP bodies.
+- Records every cookie set and every `localStorage`/`sessionStorage` key
+  used, metadata only (name/domain/flags, never the value — this all gets
+  committed to the public `data/` directory), and diffs against the
+  previous run so a new cookie or storage key appearing is its own alert.
 - Dismisses an ordinary cookie-consent banner automatically (like any real
   visitor would) but *detects and reports rather than bypasses* an actual
   bot-check/CAPTCHA wall, so a blocked crawl shows up as "blocked," not as
@@ -75,7 +79,8 @@ until `watch.yml` has observed the target as live (checked via
   response early.
 - Files a GitHub issue if accessibility violations are found, or if the
   crawl turns up a new host, a new signature match, a new protocol
-  signature, or a bot-wall/CAPTCHA, compared to the previous run.
+  signature, a new cookie, a new storage key, or a bot-wall/CAPTCHA,
+  compared to the previous run.
 - **If the crawl finds a working chat widget, evaluates it**
   (`scripts/lib/chat-eval.mjs`): opens the widget fresh (a real
   conversation, not the crawl's own throwaway probe message) and asks a

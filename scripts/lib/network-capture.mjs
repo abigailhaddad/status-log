@@ -327,7 +327,16 @@ export function attachResponseListener(page, requestLog, bodySamples) {
   });
 }
 
-export function summarizeNetworkActivity({ requestLog, bodySamples, chatAttempts = [], pagesVisited = null, wsLog = [], blockersFound = [] }) {
+export function summarizeNetworkActivity({
+  requestLog,
+  bodySamples,
+  chatAttempts = [],
+  pagesVisited = null,
+  wsLog = [],
+  blockersFound = [],
+  cookies = [],
+  storage = null,
+}) {
   const hostCounts = {};
   for (const r of requestLog) {
     try {
@@ -412,5 +421,20 @@ export function summarizeNetworkActivity({ requestLog, bodySamples, chatAttempts
     websockets: wsLog.map((ws) => ({ url: ws.url, framesSentCount: ws.framesSent.length, framesReceivedCount: ws.framesReceived.length })),
     blockersEncountered: blockersFound,
     blockedOrFailedRequests: blockedRequestsDeduped,
+    // Metadata only, never the value (a cookie/storage value can be a
+    // session token or other sensitive state, and this gets committed to
+    // the public data/ directory).
+    cookies: cookies.map((c) => ({
+      name: c.name,
+      domain: c.domain,
+      secure: c.secure,
+      httpOnly: c.httpOnly,
+      sameSite: c.sameSite,
+      session: c.expires === -1,
+    })),
+    storageKeys: {
+      localStorage: storage?.localStorageKeys || [],
+      sessionStorage: storage?.sessionStorageKeys || [],
+    },
   };
 }

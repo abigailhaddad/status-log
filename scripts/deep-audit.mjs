@@ -146,6 +146,8 @@ async function runCrawlAndCapture(stamp) {
     pagesVisited: crawl.pages.length,
     wsLog: crawl.wsLog,
     blockersFound: crawl.blockersFound,
+    cookies: crawl.cookies,
+    storage: crawl.storage,
   });
   const siteWideA11yViolationCount = crawl.a11yByPage.reduce((sum, p) => sum + (p.violationCount || 0), 0);
   const result = {
@@ -192,6 +194,25 @@ async function runCrawlAndCapture(stamp) {
         type: "NEW_MODEL_PROTOCOL_SIGNATURE",
         detail: newSigs.map((s) => `${s.signature} on ${s.url}`).join(", "),
       });
+    }
+    const prevCookieNames = new Set((prev.cookies || []).map((c) => c.name));
+    const newCookies = (result.cookies || []).filter((c) => !prevCookieNames.has(c.name));
+    if (newCookies.length > 0) {
+      newEvents.push({
+        type: "NEW_COOKIES",
+        detail: newCookies.map((c) => `${c.name} (${c.domain}${c.session ? ", session" : ""}${c.httpOnly ? ", httpOnly" : ""})`).join(", "),
+      });
+    }
+    const prevStorageKeys = new Set([
+      ...(prev.storageKeys?.localStorage || []).map((k) => `local:${k}`),
+      ...(prev.storageKeys?.sessionStorage || []).map((k) => `session:${k}`),
+    ]);
+    const newStorageKeys = [
+      ...(result.storageKeys?.localStorage || []).map((k) => `local:${k}`),
+      ...(result.storageKeys?.sessionStorage || []).map((k) => `session:${k}`),
+    ].filter((k) => !prevStorageKeys.has(k));
+    if (newStorageKeys.length > 0) {
+      newEvents.push({ type: "NEW_STORAGE_KEYS", detail: newStorageKeys.join(", ") });
     }
   } else if ((result.aiProviderHostMatches || []).length > 0) {
     newEvents.push({
