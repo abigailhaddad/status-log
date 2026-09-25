@@ -1,0 +1,115 @@
+name: Scheduled check
+
+on:
+  schedule:
+    # Baseline cadence — always does the real check. Cheap (DNS/cert/commit
+    # scans, no browser), so every 4h is plenty to catch a new cert or repo
+    # while the countdown page is up and nothing else is expected to change.
+    - cron: "0 */4 * * *"
+    # Ramp-up cadence — a no-op until 1 day before the countdown observed on
+    # 2026-09-24 (~5 days out, i.e. ~2026-09-29). Once inside that window it
+    # takes over and gives hourly coverage through launch, without anyone
+    # needing to remember to flip this back on manually.
+    - cron: "0 * * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: status-log-watch
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Decide whether this run does real work
+        id: gate
+        run: |
+          # The hourly cron only does real work once we're within a day of
+          # the launch countdown (see comment above); the every-4h cron and
+          # manual runs always do. Ramp-up threshold is a one-time estimate
+          # from the countdown's day-count, not re-derived each run.
+          if [ "${{ github.event.schedule }}" = "0 * * * *" ] && [ "$(date -u +%Y-%m-%d)" \< "2026-09-28" ]; then
+            echo "should_run=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "should_run=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - if: steps.gate.outputs.should_run == 'true'
+        uses: actions/checkout@v4
+
+      - if: steps.gate.outputs.should_run == 'true'
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Run lightweight check
+        if: steps.gate.outputs.should_run == 'true'
+        id: check
+        run: node scripts/check.mjs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit updated data
+        if: steps.gate.outputs.should_run == 'true'
+        run: |
+          git config user.name "status-log-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+          git commit -m "chore: monitor snapshot $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          # A manual push or another workflow (deep-audit.yml also commits to
+          # data/) can land on main between our checkout and this push —
+          # rebase onto whatever's there and retry a few times before giving up.
+          # -X ours: data/latest.json and data/history.jsonl get fully
+          # rewritten/appended every run, so two runs based on the same stale
+          # checkout can produce a genuine line-level conflict on them (not
+          # just "needs a fast-forward") — confirmed live on 2026-09-19.
+          # Auto-resolving conflicting hunks in favor of this run's fresh
+          # data is safe: the permanent record of anything notable lives in
+          # data/events/*.json (unique per-timestamp filenames, never
+          # conflicts), so at worst this drops one superseded intermediate
+          # snapshot. -X only kicks in on an actual conflict — anything
+          # origin has that this run didn't touch still merges in normally.
+          for attempt in 1 2 3 4 5; do
+            if git push; then
+              exit 0
+            fi
+            echo "Push rejected (attempt $attempt) — pulling and rebasing before retrying"
+            git pull --rebase -X ours origin main
+            sleep $((attempt * 3))
+          done
+          echo "::error::Failed to push after multiple retries"
+          exit 1
+
+      - name: Open issue on notable event
+        if: steps.gate.outputs.should_run == 'true' && steps.check.outputs.changed == 'true'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # event_details/event_summary can contain third-party text (public
+          # PR titles, commit messages) with quotes, backticks, $() etc. —
+          # passing via env and letting bash quote "$VAR" normally avoids
+          # the classic GitHub Actions script-injection footgun of
+          # interpolating ${{ }} directly into the run: script text.
+          EVENT_SUMMARY: ${{ steps.check.outputs.event_summary }}
+          EVENT_DETAILS: ${{ steps.check.outputs.event_details }}
+          IS_LIVE: ${{ steps.check.outputs.live }}
+        run: |
+          body="Detected by the scheduled watch run at $(date -u +%Y-%m-%dT%H:%M:%SZ).
+
+          Live: $IS_LIVE
+
+          $EVENT_DETAILS
+
+          Full snapshot: \`data/latest.json\` and \`data/events/\`."
+
+          gh issue create \
+            --title "Alert: $EVENT_SUMMARY" \
+            --assignee abigailhaddad \
+            --body "$body"

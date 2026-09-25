@@ -1,0 +1,147 @@
+name: Deep audit
+
+on:
+  schedule:
+    - cron: "0 13 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: status-log-deep-audit
+  cancel-in-progress: false
+
+jobs:
+  gate:
+    runs-on: ubuntu-latest
+    outputs:
+      live: ${{ steps.read.outputs.live }}
+    steps:
+      - uses: actions/checkout@v4
+      - id: read
+        run: |
+          if [ -f data/latest.json ]; then
+            # `live` alone just means "responded with <500" — that's true for
+            # Cloudflare's "Just a moment..." bot-challenge page too. Running
+            # a full Lighthouse/axe-core audit against a challenge page is
+            # wasted minutes on meaningless data, so also require that no
+            # response looks like that challenge (confirmed live 2026-09-24:
+            # the target now resolves but only serves cf-mitigated=challenge).
+            live=$(node -e "
+              const d = JSON.parse(require('fs').readFileSync('data/latest.json','utf8'));
+              const http = Object.values(d.http || {});
+              const challenged = http.some((r) =>
+                r.finalHeaders?.['cf-mitigated'] === 'challenge' ||
+                (r.bodySnippet || '').includes('Just a moment')
+              );
+              console.log(d.live && !challenged);
+            ")
+          else
+            live=false
+          fi
+          echo "live=$live" >> "$GITHUB_OUTPUT"
+
+  audit:
+    needs: gate
+    if: needs.gate.outputs.live == 'true'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Install dependencies
+        run: npm install --no-audit --no-fund
+
+      - name: Install Playwright browsers
+        run: npx playwright install --with-deps chromium
+
+      - name: Run deep audit
+        run: node scripts/deep-audit.mjs
+
+      - name: Upload full HAR (raw network capture)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: har-${{ github.run_id }}
+          path: har-artifacts/*.har
+          retention-days: 90
+          if-no-files-found: ignore
+
+      - name: Commit results
+        run: |
+          git config user.name "status-log-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+          git commit -m "chore: deep audit $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          # watch.yml also commits to data/ on its own hourly schedule, so a
+          # push here can easily land after main has moved — rebase and retry.
+          for attempt in 1 2 3 4 5; do
+            if git push; then
+              exit 0
+            fi
+            echo "Push rejected (attempt $attempt) — pulling and rebasing before retrying"
+            # -X ours: auto-resolve a genuine conflict on the shared
+            # data/latest.json etc. in favor of this run's fresh data; anything
+            # else on origin still merges in normally. See watch.yml for the
+            # incident this was fixed after (2026-09-19).
+            git pull --rebase -X ours origin main
+            sleep $((attempt * 3))
+          done
+          echo "::error::Failed to push after multiple retries"
+          exit 1
+
+      - name: File issue if accessibility violations or new network activity found
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          a11y_count=$(node -e "const d=JSON.parse(require('fs').readFileSync('data/deep-audit-latest.json','utf8')); console.log((d.a11y?.violationCount ?? 0) + (d.network?.siteWideA11yViolationCount ?? 0))")
+          network_events=$(node -e "const d=JSON.parse(require('fs').readFileSync('data/deep-audit-latest.json','utf8')); console.log((d.network?.newEvents||[]).map(e=>e.type+': '+e.detail).join('\n') || '')")
+
+          if [ "$a11y_count" -gt 0 ]; then
+            gh issue create \
+              --title "Deep audit: $a11y_count accessibility violations found" \
+              --assignee abigailhaddad \
+              --body "See \`data/deep-audit-latest.json\` and \`data/a11y/\` for the full axe-core report, and \`data/lighthouse/\` for performance scores."
+          fi
+
+          if [ -n "$network_events" ]; then
+            body="$network_events
+
+          See data/network/latest.json for the full crawl summary and this run's HAR artifact for raw request/response detail."
+            gh issue create \
+              --title "Deep audit: new network activity detected" \
+              --assignee abigailhaddad \
+              --body "$body"
+          fi
+
+          chat_eval_summary=$(node -e "
+            const d = JSON.parse(require('fs').readFileSync('data/deep-audit-latest.json','utf8'));
+            const evals = (d.chatEvals || []).filter(e => e.ok);
+            if (evals.length === 0) { console.log(''); process.exit(0); }
+            const lines = evals.map(e => {
+              const s = e.summary;
+              const vendors = s.disclosedVendors.length ? s.disclosedVendors.join(', ') : 'none disclosed';
+              return \`\${e.url}\n  working: \${s.working}, wrote code/poem when asked: \${s.generalPurposeModelSuspected}, self-identified as: \${vendors}\n  transcript: \${e.reportPath}\`;
+            });
+            console.log(lines.join('\n\n'));
+          ")
+
+          if [ -n "$chat_eval_summary" ]; then
+            gh issue create \
+              --title "Deep audit: chatbot evaluated" \
+              --assignee abigailhaddad \
+              --body "A working chat widget was found and asked a fixed set of test questions (a real service question, a coding question, a self-identification question, and a garbled-input robustness check).
+
+          $chat_eval_summary
+
+          Full transcripts are in data/chat-eval/ (committed to this repo)."
+          fi

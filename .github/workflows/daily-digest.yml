@@ -1,0 +1,64 @@
+name: Daily digest
+
+on:
+  schedule:
+    - cron: "0 13 * * *" # ~9am ET
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: status-log-daily-digest
+  cancel-in-progress: false
+
+jobs:
+  digest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Roll up the day's events
+        id: digest
+        run: node scripts/daily-digest.mjs
+
+      - name: Commit digest state
+        run: |
+          git config user.name "status-log-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/digest-state.json
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+          git commit -m "chore: daily digest $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          for attempt in 1 2 3 4 5; do
+            if git push; then
+              exit 0
+            fi
+            echo "Push rejected (attempt $attempt) — pulling and rebasing before retrying"
+            # -X ours: auto-resolve a genuine conflict (two runs both landing
+            # on digest-state.json) in favor of this run's watermark; anything
+            # else on origin still merges in normally. See watch.yml for the
+            # incident this was fixed after (2026-09-19).
+            git pull --rebase -X ours origin main
+            sleep $((attempt * 3))
+          done
+          echo "::error::Failed to push after multiple retries"
+          exit 1
+
+      - name: File the digest issue
+        if: steps.digest.outputs.has_content == 'true'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          DIGEST_BODY: ${{ steps.digest.outputs.digest_body }}
+        run: |
+          gh issue create \
+            --title "Daily digest" \
+            --assignee abigailhaddad \
+            --body "$DIGEST_BODY"

@@ -1,0 +1,16 @@
+domain: america.gov
+
+people:
+  - ryparker
+  - samcorcos
+  - taigrr
+
+repos:
+  - uswds/uswds
+  - uswds/uswds-site
+  - 18F/identity-idp
+  - GSA-TTS/identity-site
+  - GSA-TTS/identity-handbook
+  - GSA-TTS/identity-dev-docs
+
+org: nationaldesignstudio
