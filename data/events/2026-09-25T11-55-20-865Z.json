@@ -1,0 +1,9 @@
+{
+  "timestamp": "2026-09-25T11:55:20.865Z",
+  "events": [
+    {
+      "type": "SITE_WENT_LIVE",
+      "detail": "First observed reachable"
+    }
+  ]
+}

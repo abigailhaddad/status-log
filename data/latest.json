@@ -1,0 +1,2331 @@
+{
+  "timestamp": "2026-09-25T11:55:20.865Z",
+  "live": true,
+  "dns": {
+    "america.gov": {
+      "host": "america.gov",
+      "a": [
+        "172.64.96.165",
+        "162.159.212.165"
+      ],
+      "aaaa": [
+        "2606:54c1:10::ac40:60a5",
+        "2606:54c1:10::a29f:d4a5"
+      ],
+      "cname": null,
+      "ns": [
+        "gold.us.foundationdns.com",
+        "gold.us.foundationdns.net",
+        "gold.us.foundationdns.org"
+      ],
+      "error": null
+    },
+    "www.america.gov": {
+      "host": "www.america.gov",
+      "a": [
+        "172.64.96.165",
+        "162.159.212.165"
+      ],
+      "aaaa": [
+        "2606:54c1:10::ac40:60a5",
+        "2606:54c1:10::a29f:d4a5"
+      ],
+      "cname": null,
+      "ns": [],
+      "error": null
+    }
+  },
+  "http": {
+    "america.gov": {
+      "host": "america.gov",
+      "reachable": true,
+      "finalStatus": 200,
+      "finalHeaders": {
+        "alt-svc": "h3=\":443\"; ma=86400",
+        "cache-control": "public, max-age=0, must-revalidate",
+        "cf-cache-status": "HIT",
+        "cf-ray": "a409d6f02889fa9a-SJC",
+        "connection": "keep-alive",
+        "content-encoding": "br",
+        "content-security-policy": "base-uri 'none'; object-src 'none'; form-action 'self'; font-src 'self' data:; manifest-src 'self'; worker-src 'self' blob:; img-src 'self' data: blob: https://maps.geo.us-east-2.amazonaws.com https://*.cloudflarestream.com; connect-src 'self' https://maps.geo.us-east-2.amazonaws.com https://*.cloudflarestream.com https://videodelivery.net; media-src 'self' blob: https://*.cloudflarestream.com https://videodelivery.net; frame-src https://www.youtube-nocookie.com https://*.cloudflarestream.com; frame-ancestors 'none'",
+        "content-type": "text/html",
+        "date": "Fri, 25 Sep 2026 11:55:23 GMT",
+        "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+        "permissions-policy": "camera=(), microphone=(self), geolocation=(), payment=(), usb=()",
+        "referrer-policy": "no-referrer",
+        "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=tmXGKAYoHgvq2Q3eV5iar6EnRa4lo6OWxX5oLMJnNWplnJv%2BbdrqOE2WyHjoVozH2E0n2Y2NkQRE20j%2B9dAUOftOy3dP64u3U4mRSE9lHg%2FXcF9eI8L%2BPXZwHyOD%2Fw%3D%3D\"}]}",
+        "server": "cloudflare",
+        "server-timing": "cfL4;desc=\"?proto=TCP&rtt=0&min_rtt=0&rtt_var=0&sent=0&recv=0&lost=0&retrans=0&sent_bytes=0&recv_bytes=0&delivery_rate=0&cwnd=0&unsent_bytes=0&cid=1f797233e51b239e&ts=35&x=0\"",
+        "strict-transport-security": "max-age=15552000; includeSubDomains; preload",
+        "transfer-encoding": "chunked",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "DENY"
+      },
+      "redirectChain": [
+        {
+          "url": "https://america.gov/",
+          "status": 200,
+          "headers": {
+            "alt-svc": "h3=\":443\"; ma=86400",
+            "cache-control": "public, max-age=0, must-revalidate",
+            "cf-cache-status": "HIT",
+            "cf-ray": "a409d6f02889fa9a-SJC",
+            "connection": "keep-alive",
+            "content-encoding": "br",
+            "content-security-policy": "base-uri 'none'; object-src 'none'; form-action 'self'; font-src 'self' data:; manifest-src 'self'; worker-src 'self' blob:; img-src 'self' data: blob: https://maps.geo.us-east-2.amazonaws.com https://*.cloudflarestream.com; connect-src 'self' https://maps.geo.us-east-2.amazonaws.com https://*.cloudflarestream.com https://videodelivery.net; media-src 'self' blob: https://*.cloudflarestream.com https://videodelivery.net; frame-src https://www.youtube-nocookie.com https://*.cloudflarestream.com; frame-ancestors 'none'",
+            "content-type": "text/html",
+            "date": "Fri, 25 Sep 2026 11:55:23 GMT",
+            "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+            "permissions-policy": "camera=(), microphone=(self), geolocation=(), payment=(), usb=()",
+            "referrer-policy": "no-referrer",
+            "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=tmXGKAYoHgvq2Q3eV5iar6EnRa4lo6OWxX5oLMJnNWplnJv%2BbdrqOE2WyHjoVozH2E0n2Y2NkQRE20j%2B9dAUOftOy3dP64u3U4mRSE9lHg%2FXcF9eI8L%2BPXZwHyOD%2Fw%3D%3D\"}]}",
+            "server": "cloudflare",
+            "server-timing": "cfL4;desc=\"?proto=TCP&rtt=0&min_rtt=0&rtt_var=0&sent=0&recv=0&lost=0&retrans=0&sent_bytes=0&recv_bytes=0&delivery_rate=0&cwnd=0&unsent_bytes=0&cid=1f797233e51b239e&ts=35&x=0\"",
+            "strict-transport-security": "max-age=15552000; includeSubDomains; preload",
+            "transfer-encoding": "chunked",
+            "x-content-type-options": "nosniff",
+            "x-frame-options": "DENY"
+          }
+        }
+      ],
+      "bodyLength": 6407,
+      "bodySnippet": "<!DOCTYPE html><html lang=\"en\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, viewport-fit=cover\"><meta name=\"theme-color\" content=\"#ffffff\"><meta name=\"robots\" content=\"noindex, nofollow\"><title>America.gov</title><link rel=\"canonical\" href=\"https://america.gov/\"><meta property=\"og:type\" content=\"website\"><meta property=\"og:url\" content=\"https://america.gov/\"><meta property=\"og:site_name\" content=\"America.gov\"><meta property=\"og:title\" content=\"America.gov\"><meta property=\"og:image\" content=\"https://america.gov/_astro/opengraph.CB-JID2l.png\"><meta property=\"og:image:type\" content=\"image/png\"><meta property=\"og:image:width\" content=\"4800\"><meta property=\"og:image:height\" content=\"2520\"><meta property=\"og:image:alt\" content=\"United States flag beside the America.gov wordmark\"><meta name=\"twitter:card\" content=\"summary_large_image\"><meta name=\"twitter:title\" content=\"America.gov\"><meta name=\"twitter:image\" content=\"https://america.gov/_astro/x-card.IIOD3eTV.png\"><meta name=\"twitter:image:alt\" content=\"United States flag beside the America.gov wordmark\"><link rel=\"icon\" href=\"/favicon.svg\" type=\"image/svg+xml\" sizes=\"any\"><link rel=\"apple-touch-icon\" href=\"/apple-touch-icon.png\" sizes=\"512x512\"><meta http-equiv=\"content-security-policy\" content=\"default-src 'none';base-uri 'none';object-src 'none';form-action 'self';font-src 'self' data:;manifest-src 'self';worker-src 'self' blob:;img-src 'self' data: blob: https://maps.geo.us-east-2.amazonaws.com https://*.cloudflarestream.com;connect-src 'self' https://maps.geo.us-east-2.amazonaws.com https://*.cloudflarestream.com https://videodelivery.net;media-src 'self' blob: https://*.cloudflarestream.com https://videodelivery.net;frame-src https://www.youtube-nocookie.com https://*.cloudflarestream.com; script-src 'self' 'sha256-BF0290pkb3jxQsE7z00xR8Imp8X34FLC88L0lkMnrGw=' 'sha256-QzWFZi+FLIx23tnm9SBU4aEgx4x8DsuASP07mfqol/c=' 'sha256-0chmwFk0zaA528yFfGV7J9ppIpdfTPPULncDF3WG7Zs='",
+      "error": null
+    },
+    "www.america.gov": {
+      "host": "www.america.gov",
+      "reachable": true,
+      "finalStatus": 200,
+      "finalHeaders": {
+        "alt-svc": "h3=\":443\"; ma=86400",
+        "cache-control": "public, max-age=0, must-revalidate",
+        "cf-cache-status": "HIT",
+        "cf-ray": "a409d6f08897fa9a-SJC",
+        "connection": "keep-alive",
+        "content-encoding": "br",
+        "content-security-policy": "base-uri 'none'; object-src 'none'; form-action 'self'; font-src 'self' data:; manifest-src 'self'; worker-src 'self' blob:; img-src 'self' data: blob: https://maps.geo.us-east-2.amazonaws.com https://*.cloudflarestream.com; connect-src 'self' https://maps.geo.us-east-2.amazonaws.com https://*.cloudflarestream.com https://videodelivery.net; media-src 'self' blob: https://*.cloudflarestream.com https://videodelivery.net; frame-src https://www.youtube-nocookie.com https://*.cloudflarestream.com; frame-ancestors 'none'",
+        "content-type": "text/html",
+        "date": "Fri, 25 Sep 2026 11:55:23 GMT",
+        "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+        "permissions-policy": "camera=(), microphone=(self), geolocation=(), payment=(), usb=()",
+        "referrer-policy": "no-referrer",
+        "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=ot9L2hw0HLjLKAiUnycifWKP7TKRl76Rmo%2B8Kuk0uY36XtX6qI1jYAOCCVe2gDX78r5PYOIaWqpTiFXQ0r7o8TcB7Ul8B%2FL%2FVeL8oSMStAb5Xm4roorRQ6%2BGeBhIkw%3D%3D\"}]}",
+        "server": "cloudflare",
+        "server-timing": "cfL4;desc=\"?proto=TCP&rtt=0&min_rtt=0&rtt_var=0&sent=0&recv=0&lost=0&retrans=0&sent_bytes=0&recv_bytes=0&delivery_rate=0&cwnd=0&unsent_bytes=0&cid=1f797233e51b239e&ts=77&x=0\"",
+        "strict-transport-security": "max-age=15552000; includeSubDomains; preload",
+        "transfer-encoding": "chunked",
+        "x-content-type-options": "nosniff",
+        "x-frame-options": "DENY"
+      },
+      "redirectChain": [
+        {
+          "url": "https://www.america.gov/",
+          "status": 301,
+          "headers": {
+            "cf-ray": "a409d6f0781d3451-SJC",
+            "connection": "keep-alive",
+            "content-type": "text/html; charset=UTF-8",
+            "date": "Fri, 25 Sep 2026 11:55:23 GMT",
+            "location": "https://america.gov/",
+            "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+            "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=0zm5GTLN4jNBbfs4Gw5keHrRWitgBawX5DuKj1ozDxFHZYGnsgGyIA2n2BzYX7D8DPBg%2F82l4h%2BR3gzMch5XcZMq537L%2FfHIBUpoR%2B7ConXIaRwe4q1NlKmkApQAZksoSqs%3D\"}]}",
+            "server": "cloudflare",
+            "server-timing": "cfL4;desc=\"?proto=TCP&rtt=0&min_rtt=0&rtt_var=0&sent=0&recv=0&lost=0&retrans=0&sent_bytes=0&recv_bytes=0&delivery_rate=0&cwnd=0&unsent_bytes=0&cid=deac699e5499dd59&ts=9&x=0\"",
+            "strict-transport-security": "max-age=15552000; includeSubDomains; preload",
+            "transfer-encoding": "chunked",
+            "x-content-type-options": "nosniff"
+          }
+        },
+        {
+          "url": "https://america.gov/",
+          "status": 200,
+          "headers": {
+            "alt-svc": "h3=\":443\"; ma=86400",
+            "cache-control": "public, max-age=0, must-revalidate",
+            "cf-cache-status": "HIT",
+            "cf-ray": "a409d6f08897fa9a-SJC",
+            "connection": "keep-alive",
+            "content-encoding": "br",
+            "content-security-policy": "base-uri 'none'; object-src 'none'; form-action 'self'; font-src 'self' data:; manifest-src 'self'; worker-src 'self' blob:; img-src 'self' data: blob: https://maps.geo.us-east-2.amazonaws.com https://*.cloudflarestream.com; connect-src 'self' https://maps.geo.us-east-2.amazonaws.com https://*.cloudflarestream.com https://videodelivery.net; media-src 'self' blob: https://*.cloudflarestream.com https://videodelivery.net; frame-src https://www.youtube-nocookie.com https://*.cloudflarestream.com; frame-ancestors 'none'",
+            "content-type": "text/html",
+            "date": "Fri, 25 Sep 2026 11:55:23 GMT",
+            "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+            "permissions-policy": "camera=(), microphone=(self), geolocation=(), payment=(), usb=()",
+            "referrer-policy": "no-referrer",
+            "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=ot9L2hw0HLjLKAiUnycifWKP7TKRl76Rmo%2B8Kuk0uY36XtX6qI1jYAOCCVe2gDX78r5PYOIaWqpTiFXQ0r7o8TcB7Ul8B%2FL%2FVeL8oSMStAb5Xm4roorRQ6%2BGeBhIkw%3D%3D\"}]}",
+            "server": "cloudflare",
+            "server-timing": "cfL4;desc=\"?proto=TCP&rtt=0&min_rtt=0&rtt_var=0&sent=0&recv=0&lost=0&retrans=0&sent_bytes=0&recv_bytes=0&delivery_rate=0&cwnd=0&unsent_bytes=0&cid=1f797233e51b239e&ts=77&x=0\"",
+            "strict-transport-security": "max-age=15552000; includeSubDomains; preload",
+            "transfer-encoding": "chunked",
+            "x-content-type-options": "nosniff",
+            "x-frame-options": "DENY"
+          }
+        }
+      ],
+      "bodyLength": 6407,
+      "bodySnippet": "<!DOCTYPE html><html lang=\"en\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, viewport-fit=cover\"><meta name=\"theme-color\" content=\"#ffffff\"><meta name=\"robots\" content=\"noindex, nofollow\"><title>America.gov</title><link rel=\"canonical\" href=\"https://america.gov/\"><meta property=\"og:type\" content=\"website\"><meta property=\"og:url\" content=\"https://america.gov/\"><meta property=\"og:site_name\" content=\"America.gov\"><meta property=\"og:title\" content=\"America.gov\"><meta property=\"og:image\" content=\"https://america.gov/_astro/opengraph.CB-JID2l.png\"><meta property=\"og:image:type\" content=\"image/png\"><meta property=\"og:image:width\" content=\"4800\"><meta property=\"og:image:height\" content=\"2520\"><meta property=\"og:image:alt\" content=\"United States flag beside the America.gov wordmark\"><meta name=\"twitter:card\" content=\"summary_large_image\"><meta name=\"twitter:title\" content=\"America.gov\"><meta name=\"twitter:image\" content=\"https://america.gov/_astro/x-card.IIOD3eTV.png\"><meta name=\"twitter:image:alt\" content=\"United States flag beside the America.gov wordmark\"><link rel=\"icon\" href=\"/favicon.svg\" type=\"image/svg+xml\" sizes=\"any\"><link rel=\"apple-touch-icon\" href=\"/apple-touch-icon.png\" sizes=\"512x512\"><meta http-equiv=\"content-security-policy\" content=\"default-src 'none';base-uri 'none';object-src 'none';form-action 'self';font-src 'self' data:;manifest-src 'self';worker-src 'self' blob:;img-src 'self' data: blob: https://maps.geo.us-east-2.amazonaws.com https://*.cloudflarestream.com;connect-src 'self' https://maps.geo.us-east-2.amazonaws.com https://*.cloudflarestream.com https://videodelivery.net;media-src 'self' blob: https://*.cloudflarestream.com https://videodelivery.net;frame-src https://www.youtube-nocookie.com https://*.cloudflarestream.com; script-src 'self' 'sha256-BF0290pkb3jxQsE7z00xR8Imp8X34FLC88L0lkMnrGw=' 'sha256-QzWFZi+FLIx23tnm9SBU4aEgx4x8DsuASP07mfqol/c=' 'sha256-0chmwFk0zaA528yFfGV7J9ppIpdfTPPULncDF3WG7Zs='",
+      "error": null
+    }
+  },
+  "cert": {
+    "ok": false,
+    "error": "fetch failed",
+    "certs": []
+  },
+  "repos": {
+    "ok": true,
+    "error": null,
+    "commits": [
+      {
+        "repo": "uswds/uswds",
+        "sha": "adeb3592ba0439d2f3a7001a1450309405ead64e",
+        "author": "ravitejapioneerblaze-code",
+        "githubLogin": "ravitejapioneerblaze-code",
+        "date": "2026-09-18T14:42:32Z",
+        "message": "chore: use npm ci, remove dead specs, widen lint scope, add spec-count floor",
+        "url": "https://github.com/uswds/uswds/commit/adeb3592ba0439d2f3a7001a1450309405ead64e"
+      },
+      {
+        "repo": "uswds/uswds",
+        "sha": "0e93dbbb6283cefd54c7e82b6205ad7e6ba2aee3",
+        "author": "Ryan Parker",
+        "githubLogin": "ryparker",
+        "date": "2026-09-18T07:05:41Z",
+        "message": "docs: clarify browser build targets within support guidance (#6955)",
+        "url": "https://github.com/uswds/uswds/commit/0e93dbbb6283cefd54c7e82b6205ad7e6ba2aee3"
+      },
+      {
+        "repo": "uswds/uswds",
+        "sha": "cf807302c36146a2fee203a831f1dc331e094106",
+        "author": "Ryan Parker",
+        "githubLogin": "ryparker",
+        "date": "2026-09-18T05:13:09Z",
+        "message": "fix(combo-box): preserve initial validation styling (#6942)\n\nfix(combo-box): preserve initial validation styling.",
+        "url": "https://github.com/uswds/uswds/commit/cf807302c36146a2fee203a831f1dc331e094106"
+      },
+      {
+        "repo": "uswds/uswds",
+        "sha": "10f9700de014810e0deef616824076f391d5754d",
+        "author": "Ryan Parker",
+        "githubLogin": "ryparker",
+        "date": "2026-09-18T05:05:52Z",
+        "message": "docs(input-mask): explain accepted formats in example hints (#6953)\n\ndocs(input-mask): explain accepted formats in example hints.",
+        "url": "https://github.com/uswds/uswds/commit/10f9700de014810e0deef616824076f391d5754d"
+      },
+      {
+        "repo": "uswds/uswds",
+        "sha": "6cddad9309202a2c2b33a8bb4c548c5596cdf51c",
+        "author": "Ryan Parker",
+        "githubLogin": "ryparker",
+        "date": "2026-09-18T04:58:11Z",
+        "message": "docs: define template placeholder links (#6952)\n\ndocs: define template placeholder links.",
+        "url": "https://github.com/uswds/uswds/commit/6cddad9309202a2c2b33a8bb4c548c5596cdf51c"
+      },
+      {
+        "repo": "uswds/uswds",
+        "sha": "7528b8db237e3c53b9994f6f522ee1d13ffd80a2",
+        "author": "Ryan Parker",
+        "githubLogin": "ryparker",
+        "date": "2026-09-18T04:50:21Z",
+        "message": "docs: link release workflows to the recovery runbook (#6950)\n\ndocs: link release workflows to the recovery runbook.",
+        "url": "https://github.com/uswds/uswds/commit/7528b8db237e3c53b9994f6f522ee1d13ffd80a2"
+      },
+      {
+        "repo": "uswds/uswds",
+        "sha": "82c49cd7b8b6f09da07356b7184b3cf9f71ca24e",
+        "author": "Ryan Parker",
+        "githubLogin": "ryparker",
+        "date": "2026-09-18T04:41:50Z",
+        "message": "docs: replace retired conduct policy references (#6949)\n\ndocs: replace retired conduct policy references.",
+        "url": "https://github.com/uswds/uswds/commit/82c49cd7b8b6f09da07356b7184b3cf9f71ca24e"
+      },
+      {
+        "repo": "uswds/uswds",
+        "sha": "fca24584304e836f1314a98b8847985b801503c3",
+        "author": "Ryan Parker",
+        "githubLogin": "ryparker",
+        "date": "2026-09-18T04:29:47Z",
+        "message": "fix(build): propagate Sass and audit failures (#6928)\n\nStop release preparation when Sass compilation or audit verification fails, while preserving successful builds and watch recovery.",
+        "url": "https://github.com/uswds/uswds/commit/fca24584304e836f1314a98b8847985b801503c3"
+      },
+      {
+        "repo": "uswds/uswds",
+        "sha": "eaef39533a0a0f78976d6888edf8ae56fe9334d6",
+        "author": "ravitejapioneerblaze-code",
+        "githubLogin": "ravitejapioneerblaze-code",
+        "date": "2026-09-17T23:27:44Z",
+        "message": "test(build): characterize the compiled JavaScript bundle",
+        "url": "https://github.com/uswds/uswds/commit/eaef39533a0a0f78976d6888edf8ae56fe9334d6"
+      },
+      {
+        "repo": "uswds/uswds",
+        "sha": "05cc4e65aa2a065cf8f26c3ce4be41dddfd71208",
+        "author": "Joe Castle",
+        "githubLogin": "opensource-joe",
+        "date": "2026-09-17T23:18:43Z",
+        "message": "test(storybook): cover open modals in accessibility scans",
+        "url": "https://github.com/uswds/uswds/commit/05cc4e65aa2a065cf8f26c3ce4be41dddfd71208"
+      },
+      {
+        "repo": "uswds/uswds",
+        "sha": "96c175f43ea6d182332e18aee22b643ca78caebf",
+        "author": "github-actions[bot]",
+        "githubLogin": "github-actions[bot]",
+        "date": "2026-09-17T23:09:47Z",
+        "message": "docs: update contributors information",
+        "url": "https://github.com/uswds/uswds/commit/96c175f43ea6d182332e18aee22b643ca78caebf"
+      },
+      {
+        "repo": "uswds/uswds",
+        "sha": "d3ed9d1afb8758caebcacee19c0593698b23cf03",
+        "author": "Ryan Parker",
+        "githubLogin": "ryparker",
+        "date": "2026-09-17T22:58:26Z",
+        "message": "ci: adopt conventional pull request titles (#6940)",
+        "url": "https://github.com/uswds/uswds/commit/d3ed9d1afb8758caebcacee19c0593698b23cf03"
+      },
+      {
+        "repo": "uswds/uswds",
+        "sha": "826f75164bf38b7cd0385fee9922a3f39dc7c41b",
+        "author": "Ryan Parker",
+        "githubLogin": "ryparker",
+        "date": "2026-09-17T22:19:07Z",
+        "message": "USWDS - Maintenance: Standardize squash merges and final review (#6933)",
+        "url": "https://github.com/uswds/uswds/commit/826f75164bf38b7cd0385fee9922a3f39dc7c41b"
+      },
+      {
+        "repo": "uswds/uswds",
+        "sha": "84c08bb020de9998ae681834dd88b03816ee695e",
+        "author": "Ryan Parker",
+        "githubLogin": "ryparker",
+        "date": "2026-09-17T22:03:03Z",
+        "message": "USWDS - Docs: Clarify discussion maintenance and proposal search (#6938)\n\nDocument discussion maintenance, link the pinned community guide, and prompt contributors to search existing proposals and feature requests.",
+        "url": "https://github.com/uswds/uswds/commit/84c08bb020de9998ae681834dd88b03816ee695e"
+      },
+      {
+        "repo": "uswds/uswds",
+        "sha": "790e5854778106d3f8398adfedcb81609673068d",
+        "author": "Ryan Parker",
+        "githubLogin": "ryparker",
+        "date": "2026-09-17T21:52:41Z",
+        "message": "USWDS - Docs: Route questions to Discussions (#6936)\n\nRoute support questions to Discussions, clarify issue intake, and document maintainer triage.",
+        "url": "https://github.com/uswds/uswds/commit/790e5854778106d3f8398adfedcb81609673068d"
+      },
+      {
+        "repo": "uswds/uswds",
+        "sha": "893610692acd5bdb3dc089a9c1d0e8a3c69c33dd",
+        "author": "Ryan Parker",
+        "githubLogin": "ryparker",
+        "date": "2026-09-17T20:48:55Z",
+        "message": "Restore proposal form and current community routing (#6931)\n\nRestore the proposal discussion form's category match and direct community coordination to GitHub Discussions.",
+        "url": "https://github.com/uswds/uswds/commit/893610692acd5bdb3dc089a9c1d0e8a3c69c33dd"
+      },
+      {
+        "repo": "uswds/uswds",
+        "sha": "7a4e7d40b47f45335b4314eab1e48e1fb76f1025",
+        "author": "Ryan Parker",
+        "githubLogin": "ryparker",
+        "date": "2026-09-17T20:19:23Z",
+        "message": "Merge pull request #6917: reject truncated review diffs\n\nUSWDS - Code Review: Fix silent diff truncation on pr-metrics.mjs timeout",
+        "url": "https://github.com/uswds/uswds/commit/7a4e7d40b47f45335b4314eab1e48e1fb76f1025"
+      },
+      {
+        "repo": "uswds/uswds",
+        "sha": "7e3e92ce37d2739b7738b09431e3d8b87d95cf9e",
+        "author": "Ryan Parker",
+        "githubLogin": "ryparker",
+        "date": "2026-09-17T20:11:00Z",
+        "message": "Merge branch 'develop' into fix/6883-pr-metrics-diff-truncation",
+        "url": "https://github.com/uswds/uswds/commit/7e3e92ce37d2739b7738b09431e3d8b87d95cf9e"
+      },
+      {
+        "repo": "uswds/uswds",
+        "sha": "8c1eaac7c679510651d31cfe36d010229a6d4a02",
+        "author": "Ryan Parker",
+        "githubLogin": "ryparker",
+        "date": "2026-09-17T20:10:14Z",
+        "message": "Merge pull request #6899: characterize package exports\n\nUSWDS - Core: Add characterization test for package-exports surface",
+        "url": "https://github.com/uswds/uswds/commit/8c1eaac7c679510651d31cfe36d010229a6d4a02"
+      },
+      {
+        "repo": "uswds/uswds",
+        "sha": "fc23bb1a2061eef6d500c51b24d91975bfb63799",
+        "author": "Ryan Parker",
+        "githubLogin": "ryparker",
+        "date": "2026-09-17T20:03:17Z",
+        "message": "Merge branch 'develop' into fix/6883-pr-metrics-diff-truncation",
+        "url": "https://github.com/uswds/uswds/commit/fc23bb1a2061eef6d500c51b24d91975bfb63799"
+      },
+      {
+        "repo": "uswds/uswds",
+        "sha": "0fc94f8e8fcdf92beac24046be6cab91bb1567c8",
+        "author": "Ryan Parker",
+        "githubLogin": "ryparker",
+        "date": "2026-09-17T20:03:15Z",
+        "message": "Merge branch 'develop' into feat/package-exports-spec-6848",
+        "url": "https://github.com/uswds/uswds/commit/0fc94f8e8fcdf92beac24046be6cab91bb1567c8"
+      },
+      {
+        "repo": "uswds/uswds",
+        "sha": "ae8a20bb4e140a2663f2f4456c94de21de446086",
+        "author": "Ryan Parker",
+        "githubLogin": "ryparker",
+        "date": "2026-09-17T01:04:06Z",
+        "message": "Merge pull request #6923: keep CodeRabbit review coverage active\n\nInclude lockfiles and SVG sources, review Dependabot updates automatically, and disable the commit-count pause. Update contributor guidance to match.",
+        "url": "https://github.com/uswds/uswds/commit/ae8a20bb4e140a2663f2f4456c94de21de446086"
+      },
+      {
+        "repo": "uswds/uswds",
+        "sha": "51bd52d37b33b36f0b3e9da8eec52fe3c447e2a9",
+        "author": "Ryan Parker",
+        "githubLogin": "ryparker",
+        "date": "2026-09-17T00:57:05Z",
+        "message": "Clarify CodeRabbit configuration precedence",
+        "url": "https://github.com/uswds/uswds/commit/51bd52d37b33b36f0b3e9da8eec52fe3c447e2a9"
+      },
+      {
+        "repo": "uswds/uswds",
+        "sha": "26ee4a0c6db1adf3a35d2dc7faf815f2c33d36dc",
+        "author": "Ryan Parker",
+        "githubLogin": "ryparker",
+        "date": "2026-09-17T00:50:12Z",
+        "message": "Keep CodeRabbit review coverage active\n\nInclude npm lockfiles and SVG sources, review Dependabot updates, and\nremove the commit-count pause. Document manual review controls and\nfeedback so contributor guidance matches the configuration.",
+        "url": "https://github.com/uswds/uswds/commit/26ee4a0c6db1adf3a35d2dc7faf815f2c33d36dc"
+      },
+      {
+        "repo": "uswds/uswds",
+        "sha": "c11d2ad42fd8d2c8dcdacee931fbac78f214e6ef",
+        "author": "Ryan Parker",
+        "githubLogin": "ryparker",
+        "date": "2026-09-17T00:47:05Z",
+        "message": "USWDS - Community: Refresh participation and maintainer guidance (#6922)\n\nUpdate community participation guidance and contacts to use GitHub\nDiscussions, preserving historical records and contribution credit.",
+        "url": "https://github.com/uswds/uswds/commit/c11d2ad42fd8d2c8dcdacee931fbac78f214e6ef"
+      },
+      {
+        "repo": "uswds/uswds",
+        "sha": "2af5c54c3e3140cc44cefddf3444132a071405eb",
+        "author": "Ryan Parker",
+        "githubLogin": "ryparker",
+        "date": "2026-09-16T23:03:15Z",
+        "message": "Merge pull request #6920: enable CodeRabbit reviews\n\nEnable advisory CodeRabbit reviews for pull requests into develop.",
+        "url": "https://github.com/uswds/uswds/commit/2af5c54c3e3140cc44cefddf3444132a071405eb"
+      },
+      {
+        "repo": "uswds/uswds",
+        "sha": "373abdba83362d9bfaef67903d409b0c0635a501",
+        "author": "Ryan Parker",
+        "githubLogin": "ryparker",
+        "date": "2026-09-16T22:33:10Z",
+        "message": "Fix nested JavaScript coverage in CodeRabbit checks\n\nInclude shared core JavaScript in dependency and regression-test checks.\nKeep test fixtures, specs, and stories outside the production source scope.",
+        "url": "https://github.com/uswds/uswds/commit/373abdba83362d9bfaef67903d409b0c0635a501"
+      },
+      {
+        "repo": "uswds/uswds",
+        "sha": "4c3b435382114a656d1f23ff660c655d88eb2ea5",
+        "author": "Ryan Parker",
+        "githubLogin": "ryparker",
+        "date": "2026-09-16T22:25:41Z",
+        "message": "Merge branch 'develop' into cr-add-coderabbit-config",
+        "url": "https://github.com/uswds/uswds/commit/4c3b435382114a656d1f23ff660c655d88eb2ea5"
+      },
+      {
+        "repo": "uswds/uswds",
+        "sha": "3e6c2f14106d8fdeffb9e9f2faf81ec01f6ed963",
+        "author": "Ryan Parker",
+        "githubLogin": "ryparker",
+        "date": "2026-09-16T21:23:21Z",
+        "message": "Merge pull request #6919 from uswds/codex/table-unsorted",
+        "url": "https://github.com/uswds/uswds/commit/3e6c2f14106d8fdeffb9e9f2faf81ec01f6ed963"
+      },
+      {
+        "repo": "uswds/uswds",
+        "sha": "cef0c8d9265bc04b62ea2f9642e9967d7bdc56e3",
+        "author": "Sam Corcos",
+        "githubLogin": "samcorcos",
+        "date": "2026-09-16T19:38:56Z",
+        "message": "USWDS - Table: Keep unsorted styling for aria-sort=\"none\"",
+        "url": "https://github.com/uswds/uswds/commit/cef0c8d9265bc04b62ea2f9642e9967d7bdc56e3"
+      },
+      {
+        "repo": "uswds/uswds-site",
+        "sha": "c1a8bdb89d2902fca3cbe2c239892eca69e3351f",
+        "author": "Ryan Parker",
+        "githubLogin": "ryparker",
+        "date": "2026-09-18T07:16:37Z",
+        "message": "docs: correct compile paths and maturity resources (#3313)",
+        "url": "https://github.com/uswds/uswds-site/commit/c1a8bdb89d2902fca3cbe2c239892eca69e3351f"
+      },
+      {
+        "repo": "uswds/uswds-site",
+        "sha": "e2297ec538cadd897004878e442f7525cb3b33ca",
+        "author": "Ryan Parker",
+        "githubLogin": "ryparker",
+        "date": "2026-09-18T05:03:39Z",
+        "message": "docs: clarify disabled form control behavior (#3316)\n\ndocs: clarify disabled form control behavior.",
+        "url": "https://github.com/uswds/uswds-site/commit/e2297ec538cadd897004878e442f7525cb3b33ca"
+      },
+      {
+        "repo": "uswds/uswds-site",
+        "sha": "c0a0a464d77b4445523d92c2c1cb7036ebb2912b",
+        "author": "Ryan Parker",
+        "githubLogin": "ryparker",
+        "date": "2026-09-18T04:54:19Z",
+        "message": "docs: document post authoring and preview checks (#3314)\n\ndocs: document post authoring and preview checks.",
+        "url": "https://github.com/uswds/uswds-site/commit/c0a0a464d77b4445523d92c2c1cb7036ebb2912b"
+      },
+      {
+        "repo": "uswds/uswds-site",
+        "sha": "a71ed4393e6c8e3b34322a8bf31f76fe4ca6ddb7",
+        "author": "Ryan Parker",
+        "githubLogin": "ryparker",
+        "date": "2026-09-18T04:44:12Z",
+        "message": "docs: record reduced-motion improvements in changelogs (#3310)\n\ndocs: record reduced-motion improvements in changelogs.",
+        "url": "https://github.com/uswds/uswds-site/commit/a71ed4393e6c8e3b34322a8bf31f76fe4ca6ddb7"
+      },
+      {
+        "repo": "uswds/uswds-site",
+        "sha": "97bf92138d4135421be5a61aec44fe2d6d37c20f",
+        "author": "Ryan Parker",
+        "githubLogin": "ryparker",
+        "date": "2026-09-18T04:32:52Z",
+        "message": "docs: replace retired conduct policy references (#3309)\n\ndocs: replace retired conduct policy references.",
+        "url": "https://github.com/uswds/uswds-site/commit/97bf92138d4135421be5a61aec44fe2d6d37c20f"
+      },
+      {
+        "repo": "uswds/uswds-site",
+        "sha": "13b16c3861a35796697842896a909be224254817",
+        "author": "AK",
+        "githubLogin": "AKnassa",
+        "date": "2026-09-17T23:31:27Z",
+        "message": "USWDS-Site - Code samples: Let long code lines wrap on small screens (#3302)\n\nWrap long code tokens to prevent horizontal overflow in narrow accordion panels. Add a mobile regression check with the migration accordion expanded, retain configured checks across CI shards, and document the accessibility fix.",
+        "url": "https://github.com/uswds/uswds-site/commit/13b16c3861a35796697842896a909be224254817"
+      },
+      {
+        "repo": "uswds/uswds-site",
+        "sha": "922bbebe07678c205b21766a5211b76f64dd1530",
+        "author": "Ryan Parker",
+        "githubLogin": "ryparker",
+        "date": "2026-09-17T22:37:05Z",
+        "message": "USWDS-Site - Docs: Route support questions to Q&A (#3308)\n\nRoute setup, usage, and contribution questions to USWDS Discussions Q&A. Clarify destinations for actionable bugs, enhancements, ideas, and proposals across issue forms, support guidance, contribution docs, and website resources. Update page changelogs with the merge date.",
+        "url": "https://github.com/uswds/uswds-site/commit/922bbebe07678c205b21766a5211b76f64dd1530"
+      },
+      {
+        "repo": "uswds/uswds-site",
+        "sha": "0a8daaa72b7c16f334e31835864c17c0afa2f6dd",
+        "author": "Ryan Parker",
+        "githubLogin": "ryparker",
+        "date": "2026-09-17T20:39:11Z",
+        "message": "Refresh community participation links in archived posts (#3307)\n\nUpdate archived post participation links to GitHub Discussions and add dated community notices while preserving historical accounts and publication metadata.",
+        "url": "https://github.com/uswds/uswds-site/commit/0a8daaa72b7c16f334e31835864c17c0afa2f6dd"
+      },
+      {
+        "repo": "uswds/uswds-site",
+        "sha": "cf137b6b5bb21dfaf2d677e183b4c3e5ed9984ed",
+        "author": "Ryan Parker",
+        "githubLogin": "ryparker",
+        "date": "2026-09-17T00:48:08Z",
+        "message": "USWDS-Site - Community: Update remaining participation guidance (#3303)\n\nUpdate community participation guidance and contacts to use GitHub\nDiscussions, preserving historical records and contribution credit.",
+        "url": "https://github.com/uswds/uswds-site/commit/cf137b6b5bb21dfaf2d677e183b4c3e5ed9984ed"
+      },
+      {
+        "repo": "uswds/uswds-site",
+        "sha": "084d55f7870877aa28eb43e19664dae954046da2",
+        "author": "Ryan Parker",
+        "githubLogin": "ryparker",
+        "date": "2026-09-17T00:07:41Z",
+        "message": "Merge pull request #3257 from AKnassa/ak-2637-adobe-xd-note\n\nUSWDS-Site - How to use USWDS: Update the Designers card to Figma and Sketch",
+        "url": "https://github.com/uswds/uswds-site/commit/084d55f7870877aa28eb43e19664dae954046da2"
+      },
+      {
+        "repo": "uswds/uswds-site",
+        "sha": "209bb6d2164bb0ace2cac0128f54005757783881",
+        "author": "Ryan Parker",
+        "githubLogin": "ryparker",
+        "date": "2026-09-17T00:06:50Z",
+        "message": "Merge pull request #3243 from AKnassa/rocky/issue-2872-pubmed-showcase\n\nUSWDS-Site - Showcase: Update PubMed Labs entry to PubMed",
+        "url": "https://github.com/uswds/uswds-site/commit/209bb6d2164bb0ace2cac0128f54005757783881"
+      },
+      {
+        "repo": "uswds/uswds-site",
+        "sha": "020de72f1fa5a0818e49fcdbf0b520d2fcd5082e",
+        "author": "Ryan Parker",
+        "githubLogin": "ryparker",
+        "date": "2026-09-16T22:30:39Z",
+        "message": "USWDS-Site - Community: Direct users to GitHub Discussions (#3301)\n\nDirect community participation to GitHub Discussions, remove outdated\ncommunity-manager information, and retain monthly calls as an archive.\nUpdate developer resources and finalize the page changelog dates.",
+        "url": "https://github.com/uswds/uswds-site/commit/020de72f1fa5a0818e49fcdbf0b520d2fcd5082e"
+      },
+      {
+        "repo": "uswds/uswds-site",
+        "sha": "ffe2da7c59cf4e59881b1b0362a138440dd153ff",
+        "author": "Chandra",
+        "githubLogin": "chandracarney",
+        "date": "2026-09-10T22:31:03Z",
+        "message": "Merge pull request #3294 from uswds/bug/3264-combo-box-default-selection\n\nUSWDS-Site - Combo box: Fix accessibility test for value vs state and add default selection test",
+        "url": "https://github.com/uswds/uswds-site/commit/ffe2da7c59cf4e59881b1b0362a138440dd153ff"
+      },
+      {
+        "repo": "uswds/uswds-site",
+        "sha": "6d9105110ef0379276c0389846741820e5328182",
+        "author": "Chandra",
+        "githubLogin": "chandracarney",
+        "date": "2026-09-10T22:18:47Z",
+        "message": "Merge branch 'main' into bug/3264-combo-box-default-selection",
+        "url": "https://github.com/uswds/uswds-site/commit/6d9105110ef0379276c0389846741820e5328182"
+      },
+      {
+        "repo": "uswds/uswds-site",
+        "sha": "548deba7c1efe388b255a63d18d1583eac48354d",
+        "author": "Ethan Gardner",
+        "githubLogin": "ethangardner",
+        "date": "2026-09-04T13:56:46Z",
+        "message": "Merge pull request #3285 from AKnassa/ak-3284-llms-txt\n\nUSWDS-Site - Site: Add llms.txt for AI-friendly docs discovery",
+        "url": "https://github.com/uswds/uswds-site/commit/548deba7c1efe388b255a63d18d1583eac48354d"
+      },
+      {
+        "repo": "uswds/uswds-site",
+        "sha": "b7f801a24a149030f7a4fd01306f0ea9273b83db",
+        "author": "Jonathan Bobel",
+        "githubLogin": "jonathanbobel",
+        "date": "2026-09-01T14:51:26Z",
+        "message": "Merge branch 'main' into bug/3264-combo-box-default-selection",
+        "url": "https://github.com/uswds/uswds-site/commit/b7f801a24a149030f7a4fd01306f0ea9273b83db"
+      },
+      {
+        "repo": "uswds/uswds-site",
+        "sha": "8e9e3649687d466287294c53f07101f6769230be",
+        "author": "Ethan Gardner",
+        "githubLogin": "ethangardner",
+        "date": "2026-08-28T13:28:54Z",
+        "message": "Merge pull request #3200 from IHIutch/update-time-picker-deps\n\nUSWDS-Site - Time Picker: Add combo box to time picker dependencies",
+        "url": "https://github.com/uswds/uswds-site/commit/8e9e3649687d466287294c53f07101f6769230be"
+      },
+      {
+        "repo": "uswds/uswds-site",
+        "sha": "f74c2523645a03b22fb03d2bfc074cd2a484b6d3",
+        "author": "Ethan Gardner",
+        "githubLogin": "ethangardner",
+        "date": "2026-08-28T03:19:00Z",
+        "message": "Merge pull request #3230 from AKnassa/fix/gsa-performance-reports-link-3228\n\nUSWDS-Site: Update GSA Performance reports footer link",
+        "url": "https://github.com/uswds/uswds-site/commit/f74c2523645a03b22fb03d2bfc074cd2a484b6d3"
+      },
+      {
+        "repo": "uswds/uswds-site",
+        "sha": "1abc63c2c5b8df7ac1d45976be28912dbeeeeac3",
+        "author": "Ethan Gardner",
+        "githubLogin": "ethangardner",
+        "date": "2026-08-28T03:07:52Z",
+        "message": "Merge branch 'main' into fix/gsa-performance-reports-link-3228",
+        "url": "https://github.com/uswds/uswds-site/commit/1abc63c2c5b8df7ac1d45976be28912dbeeeeac3"
+      },
+      {
+        "repo": "uswds/uswds-site",
+        "sha": "d836e27dafe03a76d5900b463de23fe886a6f085",
+        "author": "Jonathan Bobel",
+        "githubLogin": "jonathanbobel",
+        "date": "2026-08-26T18:11:22Z",
+        "message": "Merge branch 'main' into ak-3284-llms-txt",
+        "url": "https://github.com/uswds/uswds-site/commit/d836e27dafe03a76d5900b463de23fe886a6f085"
+      },
+      {
+        "repo": "uswds/uswds-site",
+        "sha": "51ce34b476b4abc7758b95d0c653bb6b6d54c184",
+        "author": "Jonathan Bobel",
+        "githubLogin": "jonathanbobel",
+        "date": "2026-08-25T16:24:22Z",
+        "message": "Update content for accessibility tests for the combo box. Added test.",
+        "url": "https://github.com/uswds/uswds-site/commit/51ce34b476b4abc7758b95d0c653bb6b6d54c184"
+      },
+      {
+        "repo": "uswds/uswds-site",
+        "sha": "ff93f88c4b48de4564177b5689c92e7498046d85",
+        "author": "Anne Petersen",
+        "githubLogin": "annepetersen",
+        "date": "2026-08-19T16:47:29Z",
+        "message": "Merge pull request #3282 from uswds/release-3.14.0\n\nUSWDS-Site - Release 3.14.0 documentation",
+        "url": "https://github.com/uswds/uswds-site/commit/ff93f88c4b48de4564177b5689c92e7498046d85"
+      },
+      {
+        "repo": "uswds/uswds-site",
+        "sha": "9c13681f346094f2ce5eaff5c25cf04b41f3b163",
+        "author": "Chandra",
+        "githubLogin": "chandracarney",
+        "date": "2026-08-19T16:27:29Z",
+        "message": "Remove a few lines of accordion guidance based on team's copy document",
+        "url": "https://github.com/uswds/uswds-site/commit/9c13681f346094f2ce5eaff5c25cf04b41f3b163"
+      },
+      {
+        "repo": "uswds/uswds-site",
+        "sha": "92f6164c7550cb5da32c1dbb25995e5fb3b8576e",
+        "author": "Ethan Gardner",
+        "githubLogin": "ethangardner",
+        "date": "2026-08-19T15:52:13Z",
+        "message": "replace changelog placeholder with release date",
+        "url": "https://github.com/uswds/uswds-site/commit/92f6164c7550cb5da32c1dbb25995e5fb3b8576e"
+      },
+      {
+        "repo": "uswds/uswds-site",
+        "sha": "dac986a1139d8f22fb6ba7b196dbd7716f414676",
+        "author": "Ethan Gardner",
+        "githubLogin": "ethangardner",
+        "date": "2026-08-19T14:18:16Z",
+        "message": "roll back previous strategy",
+        "url": "https://github.com/uswds/uswds-site/commit/dac986a1139d8f22fb6ba7b196dbd7716f414676"
+      },
+      {
+        "repo": "uswds/uswds-site",
+        "sha": "a3cdbeca1371d1043b248e483830f856bb339c77",
+        "author": "Ethan Gardner",
+        "githubLogin": "ethangardner",
+        "date": "2026-08-19T13:49:28Z",
+        "message": "update with codeql suggestion",
+        "url": "https://github.com/uswds/uswds-site/commit/a3cdbeca1371d1043b248e483830f856bb339c77"
+      },
+      {
+        "repo": "uswds/uswds-site",
+        "sha": "540899cdf51c10d081ae0821742d60cdbe4e5c70",
+        "author": "Ethan Gardner",
+        "githubLogin": "ethangardner",
+        "date": "2026-08-19T13:39:45Z",
+        "message": "split icon scan to a separate job",
+        "url": "https://github.com/uswds/uswds-site/commit/540899cdf51c10d081ae0821742d60cdbe4e5c70"
+      },
+      {
+        "repo": "uswds/uswds-site",
+        "sha": "9653e9dad5d390391ca3509fa51ffb1cde6d263c",
+        "author": "Ethan Gardner",
+        "githubLogin": "ethangardner",
+        "date": "2026-08-18T20:23:36Z",
+        "message": "pa11y was failing on mobile. Slightly darken color for syntax highlight",
+        "url": "https://github.com/uswds/uswds-site/commit/9653e9dad5d390391ca3509fa51ffb1cde6d263c"
+      },
+      {
+        "repo": "uswds/uswds-site",
+        "sha": "1c06c7d0279730c51aa8bff75069e0eb8763de92",
+        "author": "Ethan Gardner",
+        "githubLogin": "ethangardner",
+        "date": "2026-08-18T19:36:33Z",
+        "message": "use the 3.14.0 release",
+        "url": "https://github.com/uswds/uswds-site/commit/1c06c7d0279730c51aa8bff75069e0eb8763de92"
+      },
+      {
+        "repo": "uswds/uswds-site",
+        "sha": "cf2f413b23d4c12fb988e189fccb96545bf2ece1",
+        "author": "Anne Petersen",
+        "githubLogin": "annepetersen",
+        "date": "2026-08-18T15:26:23Z",
+        "message": "Merge pull request #3283 from uswds/feat/6784-introduce-left-justified-icon-accordion\n\nUSWDS-Site - Accordion: Document icon position setting and start/end modifiers",
+        "url": "https://github.com/uswds/uswds-site/commit/cf2f413b23d4c12fb988e189fccb96545bf2ece1"
+      },
+      {
+        "repo": "18F/identity-idp",
+        "sha": "06264cce6417ea4717cfd512a2872109e935bf3f",
+        "author": "dependabot[bot]",
+        "githubLogin": "dependabot[bot]",
+        "date": "2026-09-24T16:36:01Z",
+        "message": "Bump libphonenumber-js from 1.13.12 to 1.13.13 (#13551)\n\nBumps [libphonenumber-js](https://gitlab.com/catamphetamine/libphonenumber-js) from 1.13.12 to 1.13.13.\n- [Changelog](https://gitlab.com/catamphetamine/libphonenumber-js/blob/master/CHANGELOG.md)\n- [Commits](https://gitlab.com/catamphetamine/libphonenumber-js/compare/v1.13.12...v1.13.13)\n\n---\nupdated-dependencies:\n- dependency-name: libphonenumber-js\n  dependency-version: 1.13.13\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+        "url": "https://github.com/18F/identity-idp/commit/06264cce6417ea4717cfd512a2872109e935bf3f"
+      },
+      {
+        "repo": "18F/identity-idp",
+        "sha": "f4f8500a9059e77dcc18d0b11dbeea69c4ba1b82",
+        "author": "Davi (she/they)",
+        "githubLogin": "Sgtpluck",
+        "date": "2026-09-24T12:57:57Z",
+        "message": "changelog: Bug Fixes, LookBook Component, Sanitize Component schemes to fix XSS issue (#13583)",
+        "url": "https://github.com/18F/identity-idp/commit/f4f8500a9059e77dcc18d0b11dbeea69c4ba1b82"
+      },
+      {
+        "repo": "18F/identity-idp",
+        "sha": "54fa5f9d476a42d1cb49b5b5837ad5b30fd78809",
+        "author": "Vraj Mohan",
+        "githubLogin": "vrajmohan",
+        "date": "2026-09-23T20:09:58Z",
+        "message": "LG-17894 Log the extended reason codes enabled in reCaptcha (#13584)\n\nchangelog: Internal, Security, Log the extended reason codes enabled in reCaptcha",
+        "url": "https://github.com/18F/identity-idp/commit/54fa5f9d476a42d1cb49b5b5837ad5b30fd78809"
+      },
+      {
+        "repo": "18F/identity-idp",
+        "sha": "e8c3b367bbe9bb53c0743b9335962f6b4c93d6d3",
+        "author": "Daeron",
+        "githubLogin": "dlh-woc",
+        "date": "2026-09-23T20:01:25Z",
+        "message": "Revert \"SECURE-PROTOCOLS-120 Add optional PKCE support for private_key_jwt (#13561)\" (#13587)\n\nThis reverts commit df9128f7b178213f326226a3ecabeb513db784bf.\n\nThe feature introduced a regression that broke an integration, even with the flag set to false.\n\nCo-authored-by: AJ Farkas <aj.farkas@gsa.gov>",
+        "url": "https://github.com/18F/identity-idp/commit/e8c3b367bbe9bb53c0743b9335962f6b4c93d6d3"
+      },
+      {
+        "repo": "18F/identity-idp",
+        "sha": "df9128f7b178213f326226a3ecabeb513db784bf",
+        "author": "Daeron",
+        "githubLogin": "dlh-woc",
+        "date": "2026-09-22T17:05:18Z",
+        "message": "SECURE-PROTOCOLS-120 Add optional PKCE support for private_key_jwt (#13561)\n\n* SECURE-PROTOCOLS-120 Add optional PKCE support for private_key_jwt\n\nRequire independent client assertion and PKCE verification for confidential\nOIDC clients that submit a code challenge. Gate new combined authorizations\nbehind a default-off flag while enforcing previously issued challenges\nregardless of the flag's current value.\n\nValidate S256 inputs, reject unsolicited verifiers, and report PKCE failures\nas invalid_grant. Preserve legacy authentication modes, add challenge-presence\nanalytics, and document partner integration and safe rollout and rollback.\n\nAdd focused form and end-to-end coverage, including disabling the flag\nbetween authorization and token redemption. Keep production controllers and\nshared test helpers unchanged.\n\nchangelog: Upcoming Features, OpenID Connect, Add optional PKCE protection for integrations using private_key_jwt authentication\n\n* SECURE-PROTOCOLS-120 Clarify PKCE validation and review coverage\n\nName authentication and verification predicates by their responsibilities,\nsplit verifier validation into focused methods, and keep partial or empty\nPKCE parameters subject to validation. Make nullable and PKCE-only service\nprovider configurations explicit in authorization specs.\n\nRemove the unused feature-spec assignment and redundant configuration\ncomment. Remove partner guidance and rollout documentation from the IdP\nrepository so they can be maintained in their designated locations.\n\n* Clarify validation errors for incomplete PKCE parameters\n\n---------\n\nCo-authored-by: dlh-woc <288058039+dlh-woc@users.noreply.github.com>",
+        "url": "https://github.com/18F/identity-idp/commit/df9128f7b178213f326226a3ecabeb513db784bf"
+      },
+      {
+        "repo": "18F/identity-idp",
+        "sha": "5688a247b525216b4b411ea010b12ec9c027f80b",
+        "author": "Tai Groot",
+        "githubLogin": "taigrr",
+        "date": "2026-09-21T21:51:24Z",
+        "message": "Harden NDS opt-out: always persist, drop redundant lookup, stabilize session bucket (#13541)\n\n- opt_out! upserts so users without a persisted row (override cookie, inactive test)\n  can still opt out; controller also clears the ui_test_bucket override cookie\n- resolve_nds_bucket relies on AbTest's own persisted lookup instead of a duplicate\n  AbTestAssignment query; stores bucket as a string and doesn't cache nil\n- log previous_bucket on the opt-out event\n- component uses route helpers directly; notice is a role=region instead of aside\n- SCSS uses USWDS at-media('tablet'), drops nowrap so long translations wrap\n- scope i18n exclusions to the four new keys; add feature + controller coverage\n\nchangelog: Bug Fixes, NDS Layout, Ensure \"Switch to legacy\" opt-out always persists and clears the override cookie",
+        "url": "https://github.com/18F/identity-idp/commit/5688a247b525216b4b411ea010b12ec9c027f80b"
+      },
+      {
+        "repo": "18F/identity-idp",
+        "sha": "526e8a685461c7090044b1e44b885eccb7287b8a",
+        "author": "Tai Groot",
+        "githubLogin": "taigrr",
+        "date": "2026-09-21T19:58:01Z",
+        "message": "Add the NDS backup-codes setup confirmation page (#13570)\n\nRender an NDS form-page variant of users/backup_code_setup#new when\nnds_layout? is true; the default branch is byte-identical to before. The\ncard keeps the existing heading and intro paragraphs and stacks the\nprimary Continue submit (POST to the setup path) above a secondary\nCancel that honors the account redirect path. Wires the page into the\ndev NDS explorer.\n\nchangelog: Upcoming Features, Sign In, Add the NDS backup-codes setup confirmation page",
+        "url": "https://github.com/18F/identity-idp/commit/526e8a685461c7090044b1e44b885eccb7287b8a"
+      },
+      {
+        "repo": "18F/identity-idp",
+        "sha": "2c918ab9f0760982819c8ab702820616db7562a3",
+        "author": "Tai Groot",
+        "githubLogin": "taigrr",
+        "date": "2026-09-21T19:46:25Z",
+        "message": "Replace hand-rolled sleep polling in analytics_spec with Capybara sync (#13573)\n\n* Replace hand-rolled sleep polling in analytics_spec with Capybara sync\n\nanalytics_spec waited for frontend-logged events with a loop that slept\n100ms between expectation attempts and tracked a wall-clock deadline.\nReplace it with AnalyticsHelper#wait_for_logged_event, which uses\nCapybara's synchronize (10ms retry interval, bounded by the given wait)\nand falls through to the normal expectation so a genuine miss still\nreports the full event diff. The events in question are sent with\nnavigator.sendBeacon while the page unloads, so they legitimately race\nthe test thread; this keeps the wait but drops the coarse sleep.\n\nchangelog: Internal, Testing, Replace sleep polling for frontend analytics events\n\n* Make the hybrid Socure last-attempt rate limit regression test deterministic (#13574)\n\n* Make the hybrid Socure last-attempt rate limit regression test deterministic\n\nThe LG-16672 regression example stalled the final Socure result with\nsleep(1) hoping the desktop's 5s poller would fire while the last attempt\nwas still being processed. That only exercised the race about one run in\nfive and cost a second every run. Hold the final result behind a Queue\ninstead: send the last DOCUMENTS_UPLOADED webhook in the background, wait\nuntil the Socure stub is hit (rate limit already incremented, no result\nstored), poll the link sent status endpoint from the desktop session and\nassert it answers 401 rather than 429, then release the result.\n\nVerified by reverting LinkSentPollController#max_attempts_reached? to its\npre-fix form: the example now fails every time (got 429), where before it\npassed most runs.\n\nchangelog: Internal, Testing, Deterministically cover hybrid doc auth last-attempt rate limit race\n\n* Retry chromedriver detached-node errors inside Capybara synchronize (#13575)\n\n* Retry chromedriver detached-node errors inside Capybara synchronize\n\nCapybara retries StaleElementReferenceError inside synchronize, but recent\nChrome/chromedriver reports the same condition (DOM replaced between find\nand inspect) as a bare UnknownError with the message \"Node with given id\ndoes not belong to the document\". Capybara does not recognise that, so any\nhave_css / visible? racing a navigation fails immediately instead of\nretrying. This is the known-flake class behind request_letter_step_spec:37\nand hybrid_socure_mobile_spec:1008 on main.\n\nTeach Capybara::Node::Base#catch_error? to treat that error as retryable so\nthe existing wait handles it, and drop the local rescue in\nInteractionHelper#wait_for_content_to_disappear that papered over the same\nmessage.\n\nchangelog: Internal, Testing, Retry chromedriver detached node errors in Capybara waits\n\n* Start the Capybara::Webmock proxy once per run instead of per feature example (#13576)\n\n* Start the Capybara::Webmock proxy once per run instead of per feature example\n\nrails_helper wrapped every feature example in Capybara::Webmock.start/stop.\nstart spawns a rackup process; stop sends it HUP and then sleeps a full\nsecond waiting for it to exit. That is a hidden sleep(1) executed ~1,365\ntimes per CI pipeline: about 23 CPU-minutes, 15% of all spec time, and\nroughly 70% of the wall time of rack_test feature specs.\n\nThe proxy only exists so headless Chrome cannot reach the network; rack_test\nexamples never touch it, and nothing reads proxied_requests, so there is no\nper-example state to reset. Start it lazily the first time a browser-driven\nexample runs and stop it once after the suite.\n\nMeasured locally (CAPYBARA_WAIT_TIME_SECONDS=5): users/sign_in_spec +\nfeatures/visitors 3m25s -> 51s; browser specs unchanged and still isolated\nfrom the network.\n\nchangelog: Internal, Testing, Start the Capybara webmock proxy once per spec run\n\n* Refresh knapsack_rspec_report.json from a current pipeline (#13577)\n\nThe committed report dated from June and covered 1,122 of the 1,289\ncurrent spec files. The 190 missing files included several of the\nslowest feature specs (in_person_spec, hybrid_mobile_ddp_spec,\nproofing_agent_activation_spec, ...), which knapsack can only round-robin\nwithout timing data. Result: spec shards ranged from 5.9 to 13.3 minutes\nin pipeline 207321 while the mean was 7.1.\n\nThis report is taken from the coverage artifact of pipeline 207333, the\nfirst run that includes the per-example Capybara::Webmock proxy fix, so\nits per-file weights reflect the timing profile the suite now has (the\nfix shifted time away from rack_test-heavy files). Replaying knapsack's\ndistribution against those measured times: slowest shard 6.4 -> 5.8\nminutes and fastest 2.2 -> 4.6, i.e. shards are now within ~1 minute of\neach other instead of ~4. No change to what runs.\n\nspec/simplecov_merger.rb already produces this file on every pipeline;\nit just never gets committed back.\n\nchangelog: Internal, Testing, Refresh knapsack timing report so spec shards balance",
+        "url": "https://github.com/18F/identity-idp/commit/2c918ab9f0760982819c8ab702820616db7562a3"
+      },
+      {
+        "repo": "18F/identity-idp",
+        "sha": "ade89f180dd01ba6f97e5421fc5fae520a2d99b0",
+        "author": "Tai Groot",
+        "githubLogin": "taigrr",
+        "date": "2026-09-21T19:07:09Z",
+        "message": "Replace sleep(5) in in_person_spec with a deterministic poll assertion (#13572)\n\nStacked on #13571 (base branch `fix-account-reset-email-flakes`); part of the spec race-condition / sleep-removal series.\n\n## 🛠 Summary of changes\n\n`spec/features/idv/in_person_spec.rb` had a `sleep(5)` (the client poll interval) followed by a negative assertion that the desktop had *not* advanced after re-sending the link. That is a wall-clock-gated negative assertion: slow, and it proves nothing if the poller happens to be late.\n\nReplaced with a deterministic check of the same behaviour: hit the status endpoint the poller uses (from the browser session, via a new `DocAuthHelper#link_sent_poll_status` helper) and assert it answers `202` — the poller only advances on `200` — and assert server-side that the IPP enrollment was cancelled. Same coverage, ~5s faster, no timing dependence.\n\n## 📜 Testing Plan\n\n- [x] `spec/features/idv/in_person_spec.rb:522` 4/4 green locally (both `CAPYBARA_WAIT_TIME_SECONDS=0` and `=5`)\n- [x] rubocop clean",
+        "url": "https://github.com/18F/identity-idp/commit/ade89f180dd01ba6f97e5421fc5fae520a2d99b0"
+      },
+      {
+        "repo": "18F/identity-idp",
+        "sha": "d061ff70c2f2122dce5d1d7494d342d6342650ec",
+        "author": "Tai Groot",
+        "githubLogin": "taigrr",
+        "date": "2026-09-21T15:03:26Z",
+        "message": "Fix flaky account reset email feature specs (#13571)\n\nThe account reset feature specs called\nGrantAccountResetRequestsAndSendEmailsJob#perform with Time.zone.today (a\nDate) while production passes Time.zone.now. The job compares the value\nagainst the requested_at timestamp in SQL, so the Date is coerced to\nmidnight UTC. Zonebie randomizes Time.zone per rspec process; whenever it\npicks a zone with a negative UTC offset and the run happens after 00:00 UTC\nbut before local midnight, \"today\" in that zone is a day behind UTC, tvalue\nlands before requested_at, the query matches nothing, no granted email is\nsent, and open_last_email either raises \"No email has been sent!\" or opens\nthe request email (no cancel/delete token link). Passing Time.zone.now\nmatches the production job arguments and makes the comparison independent\nof the randomized zone.\n\nReproduced deterministically with ZONEBIE_TZ=Montevideo (all four examples\nfail before, pass after) and 20 unforced runs.\n\nchangelog: Internal, Testing, Fix account reset email spec flakiness",
+        "url": "https://github.com/18F/identity-idp/commit/d061ff70c2f2122dce5d1d7494d342d6342650ec"
+      },
+      {
+        "repo": "18F/identity-idp",
+        "sha": "f4ed5aebadd62b4c8583e492479bb36a4d5704c3",
+        "author": "Davi (she/they)",
+        "githubLogin": "Sgtpluck",
+        "date": "2026-09-20T02:59:08Z",
+        "message": "Fix flaky specs (#13568)\n\n* changelog: Internal, Fix Flaky Spec, Create users rather than relying on hard-coded user ids\n\n* Updating active user count specs\n\n* Update sp_active_users_report_spec\n\n* Update the rest of the specs user issuer 'foo'\n\n* cleanup%",
+        "url": "https://github.com/18F/identity-idp/commit/f4ed5aebadd62b4c8583e492479bb36a4d5704c3"
+      },
+      {
+        "repo": "18F/identity-idp",
+        "sha": "5aa8e8f9a1cc10942633f0082e13b3226035fa7c",
+        "author": "Tai Groot",
+        "githubLogin": "taigrr",
+        "date": "2026-09-20T01:53:30Z",
+        "message": "Add the NDS save-your-backup-codes page (#13569)\n\nRender an NDS form-page variant of users/backup_code_setup#create when\nnds_layout? is true; the default branch is byte-identical to before. The\ncodes render in a two-column card grid with copy, download and print\nactions, followed by a required flat-checkbox acknowledgment card and a\ngated Continue submit (PATCH to the continue path); the multi-MFA flow\nkeeps its choose-another-method delete as a tertiary action. Exposes the\naccount-creation helpers the NDS header progress needs and wires the\npage into the dev NDS explorer.\n\nchangelog: Upcoming Features, Sign In, Add the NDS save-your-backup-codes page",
+        "url": "https://github.com/18F/identity-idp/commit/5aa8e8f9a1cc10942633f0082e13b3226035fa7c"
+      },
+      {
+        "repo": "18F/identity-idp",
+        "sha": "a7b9b16ae926ba1fc1e5c041d1a3485cb1f33e7d",
+        "author": "Tai Groot",
+        "githubLogin": "taigrr",
+        "date": "2026-09-20T01:32:59Z",
+        "message": "Add the NDS regenerate-backup-codes page (#13566)\n\nRender an NDS form-page variant of users/backup_code_setup#edit when\nnds_layout? is true; the default branch is byte-identical to before. The\ncard mirrors the delete-backup-codes page: warning status icon, heading,\ndivider, caution copy, a primary regenerate submit posting to the setup\npath, and a secondary cancel back to the account page. Wires the page\ninto the dev NDS explorer.\n\nchangelog: Upcoming Features, Sign In, Add the NDS regenerate-backup-codes page",
+        "url": "https://github.com/18F/identity-idp/commit/a7b9b16ae926ba1fc1e5c041d1a3485cb1f33e7d"
+      },
+      {
+        "repo": "18F/identity-idp",
+        "sha": "351cfaedc4754955226704f3e3b4a2a34effcd0c",
+        "author": "Tai Groot",
+        "githubLogin": "taigrr",
+        "date": "2026-09-18T20:50:38Z",
+        "message": "Add the NDS backup-codes reminder page (#13565)\n\nRender an NDS form-page variant of users/backup_code_reminder#show when\nnds_layout? is true; the default branch is byte-identical to before. The\ncard keeps the illustration, heading and body copy, and stacks the\nprimary \"I have my codes\" submit above a secondary \"I need new codes\"\nsubmit (both still POST to the reminder path). Wires the page into the\ndev NDS explorer.\n\nchangelog: Upcoming Features, Sign In, Add the NDS backup-codes reminder page",
+        "url": "https://github.com/18F/identity-idp/commit/351cfaedc4754955226704f3e3b4a2a34effcd0c"
+      },
+      {
+        "repo": "18F/identity-idp",
+        "sha": "03eb3b485985f9881846d2b9018f6af64fced822",
+        "author": "Vraj Mohan",
+        "githubLogin": "vrajmohan",
+        "date": "2026-09-18T17:54:50Z",
+        "message": "Upgrade to ruby 3.4.10 (#13436)\n\nchangelog: Internal, Ruby version, Upgrade to ruby 3.4.10\n\nCo-authored-by: Joshua Alley <joshua.alley@gsa.gov>\n\n- Update bootsnap to 1.25.0\n- Update selenium-webdriver\n- Undo pinning of chrome version: Disable feature DeferRendererTasksAfterInput - See https://issues.chromium.org/issues/402796660#comment18\n- Update IDP_CI_SHA to point to successful push from build_ci_image\n- Fix latent Babel transpile bug by using __dirname\n- Update devenv",
+        "url": "https://github.com/18F/identity-idp/commit/03eb3b485985f9881846d2b9018f6af64fced822"
+      },
+      {
+        "repo": "18F/identity-idp",
+        "sha": "709c427929a2a7c0faa8243042a89f3feb44f1fd",
+        "author": "Malik Warren",
+        "githubLogin": "Mawar2",
+        "date": "2026-09-17T17:29:51Z",
+        "message": "LG-17798 proofing sms not sent (#13364)\n\n* LG-17798 Send proofing completion SMS when phone precheck skips the phone step\n\nchangelog: Bug Fixes, Identity Verification, Send the account verified SMS when a successful phone precheck skips the phone step\n\n* LG-17798 Add integration coverage for the phone precheck completion SMS\n\n[skip changelog]\n\n* LG-17798 Verify the proofing completion SMS is sent after a phone precheck\n\n[skip changelog]\n\n* address pr feedback to consolidate proofing completion phone resolution on idv session",
+        "url": "https://github.com/18F/identity-idp/commit/709c427929a2a7c0faa8243042a89f3feb44f1fd"
+      },
+      {
+        "repo": "18F/identity-idp",
+        "sha": "671dbc8d6a257409a40c4f07961682381719ad73",
+        "author": "Alex Bradley",
+        "githubLogin": "theabrad",
+        "date": "2026-09-17T16:37:37Z",
+        "message": "LG-17960 Proofing Agent Enter Password fix (#13562)\n\n* do not allow user to reach enter_password_controller without completing binding step\n\nCo-authored-by: Shane Chesnutt <shane.chesnutt@gsa.gov>\n\n* add changelog\n\nchangelog: Bug Fixes, IdV Proofing Agent, do not allow users to enter password without completing binding\n\n* add feature spec\n\n* remove binding.pry\n\n---------\n\nCo-authored-by: Shane Chesnutt <shane.chesnutt@gsa.gov>",
+        "url": "https://github.com/18F/identity-idp/commit/671dbc8d6a257409a40c4f07961682381719ad73"
+      },
+      {
+        "repo": "18F/identity-idp",
+        "sha": "25d586854428e3b485a96901b821b20252976f60",
+        "author": "Alex Bradley",
+        "githubLogin": "theabrad",
+        "date": "2026-09-16T15:54:22Z",
+        "message": "LG-17947 store front and back for ppt card in socure_docv_results_job in doc escrow (#13554)\n\n* store front and back for ppt card in socure_docv_results_job\n\n* add changelog\n\nchangelog: Internal, IdV, store front and back images for passport cards",
+        "url": "https://github.com/18F/identity-idp/commit/25d586854428e3b485a96901b821b20252976f60"
+      },
+      {
+        "repo": "18F/identity-idp",
+        "sha": "51f86f58ea054f25e831cbf4c9833cb62fbd0978",
+        "author": "A Shukla",
+        "githubLogin": "AShukla-GSA",
+        "date": "2026-09-16T15:48:05Z",
+        "message": "Lg 17813 proofing agent validation gaps (#13558)\n\n* Bug Fixes, Proofing agent, proofing agent api format validation\n\n* changelog: Bug Fixes, Proofing agent, proofing agent api format validation",
+        "url": "https://github.com/18F/identity-idp/commit/51f86f58ea054f25e831cbf4c9833cb62fbd0978"
+      },
+      {
+        "repo": "18F/identity-idp",
+        "sha": "f7b80748df89ba7a1e0f05ddff0b09e89b079fd8",
+        "author": "Tai Groot",
+        "githubLogin": "taigrr",
+        "date": "2026-09-15T22:05:47Z",
+        "message": "Add the NDS delete account page (#13549)\n\nRender an NDS form-page variant of users/delete#show when nds_layout? is\ntrue; the default branch is byte-identical to before. The card keeps the\nexisting heading, intro and bullets, renders the password confirmation\nwith the NDS input (show/hide toggle), and stacks a destructive delete\nsubmit above a secondary cancel back to the account page. Wires the page\ninto the dev NDS explorer under a new Account flow.\n\nchangelog: Upcoming Features, Account Management, Add the NDS delete account page",
+        "url": "https://github.com/18F/identity-idp/commit/f7b80748df89ba7a1e0f05ddff0b09e89b079fd8"
+      },
+      {
+        "repo": "18F/identity-idp",
+        "sha": "02e48e3af3af0add565fa93e569ea124cf0aa843",
+        "author": "Tai Groot",
+        "githubLogin": "taigrr",
+        "date": "2026-09-15T15:06:05Z",
+        "message": "Add the NDS email language preference page (#13548)\n\nRender an NDS form-page variant of users/email_language#show when\nnds_layout? is true; the default branch is byte-identical to before. The\ncard keeps the existing heading and copy, renders the locale choices as\nthe flat NDS radio group with the user's current language preselected,\nand stacks a primary Submit above a secondary Cancel back to the account\npage. Wires the page into the dev NDS explorer under a new Account flow.\n\nchangelog: Upcoming Features, Account Management, Add the NDS email language preference page",
+        "url": "https://github.com/18F/identity-idp/commit/02e48e3af3af0add565fa93e569ea124cf0aa843"
+      },
+      {
+        "repo": "18F/identity-idp",
+        "sha": "1c8833d928d49c7412c1af113da55f3d98d6d053",
+        "author": "Tai Groot",
+        "githubLogin": "taigrr",
+        "date": "2026-09-15T15:05:11Z",
+        "message": "Add the NDS backup-codes confirmation page (#13547)\n\nRender an NDS form-page variant of\nusers/backup_code_setup#confirm_backup_codes when nds_layout? is true;\nthe default branch is byte-identical to before. The card keeps the\nexisting heading and copy, drops the footer separator, and stacks the\nprimary add-another-method button above a secondary Continue submit\n(still a POST to the auth-method confirmation skip path). Wires the page\ninto the dev NDS explorer.\n\nchangelog: Upcoming Features, Sign In, Add the NDS backup-codes confirmation page",
+        "url": "https://github.com/18F/identity-idp/commit/1c8833d928d49c7412c1af113da55f3d98d6d053"
+      },
+      {
+        "repo": "18F/identity-idp",
+        "sha": "14f5aa6ad17c0c284585f9e8be1b46e6565e0e34",
+        "author": "ksebesta-gsa",
+        "githubLogin": "ksebesta-gsa",
+        "date": "2026-09-14T20:44:29Z",
+        "message": "GL reporting 716 phonefinder alternate result update (#13545)\n\n* changelog: Bug Fixes, reporting, add filter for alternate_result.vendor.vendor_name for phone finder in api transaction count report\n\n* reverted ln for testing purposes\n\n* fixed logic for ln phone finder filter\n\n* testing empty commit for fixing ci/cd issues",
+        "url": "https://github.com/18F/identity-idp/commit/14f5aa6ad17c0c284585f9e8be1b46e6565e0e34"
+      },
+      {
+        "repo": "18F/identity-idp",
+        "sha": "da419d2f1c627294478aa1098f8a60cd17be683f",
+        "author": "Davi (she/they)",
+        "githubLogin": "Sgtpluck",
+        "date": "2026-09-14T16:26:17Z",
+        "message": "IAL2 proofing following a basic IdV proofing works as expected (#13535)\n\n* changelog: Bug Fixes, Historic Attempts Data, Create UserProofingEvent on correct profile",
+        "url": "https://github.com/18F/identity-idp/commit/da419d2f1c627294478aa1098f8a60cd17be683f"
+      },
+      {
+        "repo": "18F/identity-idp",
+        "sha": "7a6a738272388d4b8b4daa3101ff39fa3b7a56a4",
+        "author": "Malick Diarra",
+        "githubLogin": "mdiarra3",
+        "date": "2026-09-14T15:34:30Z",
+        "message": "changelog: User-Facing Improvements, NDS Layout, Add an opt out function for NDS look and feel  (#13532)\n\n* changelog: User-Facing Improvements, NDS Layout, Add an opt out function for NDS\nlayout\n\nhttps://gitlab.login.gov/lg-teams/ui-refresh/-/work_items/155\n\nupdate margin bottom\n\nupdate to use ab_test_assignment\n\nremove unneded spec\n\nfix specs and linting issues\n\nuse redirect back order\n\nsimplify ab_test_assignment call\n\nsimplify opt out work\n\n* revert spec test\n\n* add nds look and feel experiment name",
+        "url": "https://github.com/18F/identity-idp/commit/7a6a738272388d4b8b4daa3101ff39fa3b7a56a4"
+      },
+      {
+        "repo": "18F/identity-idp",
+        "sha": "04a669370c56ef61e5b0e0fe4bca733d9ce4cb43",
+        "author": "Jeremy Curcio",
+        "githubLogin": "Jeremy1026",
+        "date": "2026-09-14T15:12:43Z",
+        "message": "Add logging to seeders (#13543)\n\n* Add logging to seeders\n\nchangelog: Internal, Database Seeding, Log seeder start/success/failure and continue on failure so db:seed reports every seeder's outcome",
+        "url": "https://github.com/18F/identity-idp/commit/04a669370c56ef61e5b0e0fe4bca733d9ce4cb43"
+      },
+      {
+        "repo": "18F/identity-idp",
+        "sha": "5da089b7279368e44a13a646db59d150bc9513e5",
+        "author": "A Shukla",
+        "githubLogin": "AShukla-GSA",
+        "date": "2026-09-14T14:34:16Z",
+        "message": "changelog: Internal, Doc Auth, notify new relic on mrz api exception (#13540)",
+        "url": "https://github.com/18F/identity-idp/commit/5da089b7279368e44a13a646db59d150bc9513e5"
+      },
+      {
+        "repo": "18F/identity-idp",
+        "sha": "e60f07a6e52aee20d2bcac26c4cb04454a240c9c",
+        "author": "Colton Lapp",
+        "githubLogin": "colton-lapp",
+        "date": "2026-09-10T21:42:01Z",
+        "message": "Fix import for S3-based demographics report (#13537)\n\n* move import from spec to job\n\n* changelog: Bug Fixes, reporting, fix missing import for s3 demographics report",
+        "url": "https://github.com/18F/identity-idp/commit/e60f07a6e52aee20d2bcac26c4cb04454a240c9c"
+      },
+      {
+        "repo": "18F/identity-idp",
+        "sha": "be908e98eba4742f8354088abeff9b3095d85c67",
+        "author": "Jessica Dembe",
+        "githubLogin": "jmdembe",
+        "date": "2026-09-10T20:36:32Z",
+        "message": "LG-17574: Create Device Profiling Error (LG22) Account Clearance Email Notification (#13520)\n\n* set up email to send once device profiling error has been cleared\n\nchangelog: Upcoming Features, device profiling error resolved, send email once LG22\n\n* add content and translation text\n\n* modify email send logic\n\n* add action to send email",
+        "url": "https://github.com/18F/identity-idp/commit/be908e98eba4742f8354088abeff9b3095d85c67"
+      },
+      {
+        "repo": "18F/identity-idp",
+        "sha": "a5172287caae5a09750cdb395dd1942fa9926785",
+        "author": "Malick Diarra",
+        "githubLogin": "mdiarra3",
+        "date": "2026-09-10T19:25:05Z",
+        "message": "changelog: Internal, NDS, fix flakey nds look and feel spec (#13538)",
+        "url": "https://github.com/18F/identity-idp/commit/a5172287caae5a09750cdb395dd1942fa9926785"
+      },
+      {
+        "repo": "GSA-TTS/identity-site",
+        "sha": "7217f4c2e634314f3063e53b624740c93bd10f5c",
+        "author": "Shane Chesnutt",
+        "githubLogin": "shanechesnutt-ft",
+        "date": "2026-09-16T14:59:21Z",
+        "message": "LG-17841 Add mDL as an accepted ID type (#1635)",
+        "url": "https://github.com/GSA-TTS/identity-site/commit/7217f4c2e634314f3063e53b624740c93bd10f5c"
+      },
+      {
+        "repo": "GSA-TTS/identity-site",
+        "sha": "510dc2f1109cb096e164af7e875c0e1cab6f161e",
+        "author": "Jessica Dembe",
+        "githubLogin": "jmdembe",
+        "date": "2026-09-09T19:08:21Z",
+        "message": "upgrade from `3.4.5` to `3.4.10` (#1628)",
+        "url": "https://github.com/GSA-TTS/identity-site/commit/510dc2f1109cb096e164af7e875c0e1cab6f161e"
+      },
+      {
+        "repo": "GSA-TTS/identity-site",
+        "sha": "d7197b92b60a7f7158230546144c4b9c90389f0d",
+        "author": "jc-gsa",
+        "githubLogin": "jc-gsa",
+        "date": "2026-09-02T17:36:16Z",
+        "message": "Add translations (#1630)",
+        "url": "https://github.com/GSA-TTS/identity-site/commit/d7197b92b60a7f7158230546144c4b9c90389f0d"
+      },
+      {
+        "repo": "GSA-TTS/identity-site",
+        "sha": "9783d3e7c50974dde3dc694159259c8069d4e7b0",
+        "author": "jc-gsa",
+        "githubLogin": "jc-gsa",
+        "date": "2026-08-31T19:50:16Z",
+        "message": "Joan: Add more requested changes (#1629)\n\n* Add more requested changes (Webpage Change Request Log)",
+        "url": "https://github.com/GSA-TTS/identity-site/commit/9783d3e7c50974dde3dc694159259c8069d4e7b0"
+      },
+      {
+        "repo": "GSA-TTS/identity-site",
+        "sha": "dd02548d171057f0b167c0aefdb9d692327187b2",
+        "author": "jc-gsa",
+        "githubLogin": "jc-gsa",
+        "date": "2026-08-31T15:33:52Z",
+        "message": "Add fact sheet (#1631)",
+        "url": "https://github.com/GSA-TTS/identity-site/commit/dd02548d171057f0b167c0aefdb9d692327187b2"
+      },
+      {
+        "repo": "GSA-TTS/identity-site",
+        "sha": "95230e9f4dd2a287c46c26a172128903ecfb725b",
+        "author": "jc-gsa",
+        "githubLogin": "jc-gsa",
+        "date": "2026-08-25T20:13:57Z",
+        "message": "Joan: Optimize reCAPTCHA (& assets) (#1627)\n\n* Optimize reCAPTCHA (& assets)",
+        "url": "https://github.com/GSA-TTS/identity-site/commit/95230e9f4dd2a287c46c26a172128903ecfb725b"
+      },
+      {
+        "repo": "GSA-TTS/identity-site",
+        "sha": "e3797e6150a7b208a82ab51844f11e23ec229eb7",
+        "author": "jc-gsa",
+        "githubLogin": "jc-gsa",
+        "date": "2026-08-24T21:18:37Z",
+        "message": "Joan: Implement Webpage Change Request Log (#1626)\n\n* Add fundamental updates\n\n* Remove partner page determining-your-assurance-level\n\n* Change redirect\n\n* Add redirect for partner FAQ page\n\n* Add new page titled \"new user interface\", styling, layout, etc\n\n* Add images\n\n* Update grammar\n\n* Restructure page\n\n* Fix image URLs\n\n* Remove section\n\n* Demonstrate temporary variant\n\n* Revert \"Demonstrate temporary variant\"\n\nThis reverts commit 99bb45b833023ed93f897691e9c81ec96504c9de.\n\n* Change layout\n\n* Add border to gif\n\n* Change text alignment\n\n* Improve consistency of Who Uses Login page across languages\n\n* Update CSS\n\n* Remove unused file\n\n* Lint",
+        "url": "https://github.com/GSA-TTS/identity-site/commit/e3797e6150a7b208a82ab51844f11e23ec229eb7"
+      },
+      {
+        "repo": "GSA-TTS/identity-site",
+        "sha": "d8cadff4f88d7fb9f31074d5c12e04473c0bf6d3",
+        "author": "jc-gsa",
+        "githubLogin": "jc-gsa",
+        "date": "2026-08-24T19:11:33Z",
+        "message": "Update program roadmap for August 2026 (#1625)\n\n* Update program roadmap for August 2026",
+        "url": "https://github.com/GSA-TTS/identity-site/commit/d8cadff4f88d7fb9f31074d5c12e04473c0bf6d3"
+      },
+      {
+        "repo": "GSA-TTS/identity-site",
+        "sha": "d5ee1289489094c288a6a83b72ade8d3d015abc4",
+        "author": "Alex Bradley",
+        "githubLogin": "theabrad",
+        "date": "2026-08-13T18:02:01Z",
+        "message": "fixed grammar errors in privacy and rules of use (#1624)",
+        "url": "https://github.com/GSA-TTS/identity-site/commit/d5ee1289489094c288a6a83b72ade8d3d015abc4"
+      },
+      {
+        "repo": "GSA-TTS/identity-site",
+        "sha": "7bc713b98bef38f5cec7668726013a53d8a53a94",
+        "author": "dependabot[bot]",
+        "githubLogin": "dependabot[bot]",
+        "date": "2026-08-05T23:42:25Z",
+        "message": "Bump esbuild from 0.27.3 to 0.28.1 (#1621)\n\nBumps [esbuild](https://github.com/evanw/esbuild) from 0.27.3 to 0.28.1.\n- [Release notes](https://github.com/evanw/esbuild/releases)\n- [Changelog](https://github.com/evanw/esbuild/blob/main/CHANGELOG.md)\n- [Commits](https://github.com/evanw/esbuild/compare/v0.27.3...v0.28.1)\n\n---\nupdated-dependencies:\n- dependency-name: esbuild\n  dependency-version: 0.28.1\n  dependency-type: direct:development\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+        "url": "https://github.com/GSA-TTS/identity-site/commit/7bc713b98bef38f5cec7668726013a53d8a53a94"
+      },
+      {
+        "repo": "GSA-TTS/identity-site",
+        "sha": "2b6b675ab999dbf4bb94dfb75d3542286686be6c",
+        "author": "dependabot[bot]",
+        "githubLogin": "dependabot[bot]",
+        "date": "2026-08-05T23:30:44Z",
+        "message": "Bump protocol-buffers-schema from 3.6.0 to 3.6.1 (#1587)\n\nBumps [protocol-buffers-schema](https://github.com/mafintosh/protocol-buffers-schema) from 3.6.0 to 3.6.1.\n- [Commits](https://github.com/mafintosh/protocol-buffers-schema/compare/v3.6.0...v3.6.1)\n\n---\nupdated-dependencies:\n- dependency-name: protocol-buffers-schema\n  dependency-version: 3.6.1\n  dependency-type: indirect\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+        "url": "https://github.com/GSA-TTS/identity-site/commit/2b6b675ab999dbf4bb94dfb75d3542286686be6c"
+      },
+      {
+        "repo": "GSA-TTS/identity-site",
+        "sha": "36e5fd18e37c08569d811ef4abdb3d0388cfbaa5",
+        "author": "dependabot[bot]",
+        "githubLogin": "dependabot[bot]",
+        "date": "2026-08-05T23:27:59Z",
+        "message": "Bump basic-ftp from 5.2.0 to 5.3.1 (#1584)\n\nBumps [basic-ftp](https://github.com/patrickjuchli/basic-ftp) from 5.2.0 to 5.3.1.\n- [Release notes](https://github.com/patrickjuchli/basic-ftp/releases)\n- [Changelog](https://github.com/patrickjuchli/basic-ftp/blob/master/CHANGELOG.md)\n- [Commits](https://github.com/patrickjuchli/basic-ftp/compare/v5.2.0...v5.3.1)\n\n---\nupdated-dependencies:\n- dependency-name: basic-ftp\n  dependency-version: 5.2.2\n  dependency-type: indirect\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+        "url": "https://github.com/GSA-TTS/identity-site/commit/36e5fd18e37c08569d811ef4abdb3d0388cfbaa5"
+      },
+      {
+        "repo": "GSA-TTS/identity-site",
+        "sha": "8668f27f1a7dbcff4b68d8d15b195388aa47c650",
+        "author": "dependabot[bot]",
+        "githubLogin": "dependabot[bot]",
+        "date": "2026-08-05T23:27:13Z",
+        "message": "Bump flatted from 3.3.3 to 3.4.4 (#1570)\n\nBumps [flatted](https://github.com/WebReflection/flatted) from 3.3.3 to 3.4.4.\n- [Commits](https://github.com/WebReflection/flatted/compare/v3.3.3...v3.4.4)\n\n---\nupdated-dependencies:\n- dependency-name: flatted\n  dependency-version: 3.4.2\n  dependency-type: indirect\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+        "url": "https://github.com/GSA-TTS/identity-site/commit/8668f27f1a7dbcff4b68d8d15b195388aa47c650"
+      },
+      {
+        "repo": "GSA-TTS/identity-site",
+        "sha": "0db5ed71b14892cf4ae5f2bbc4816fb10df25ebf",
+        "author": "dependabot[bot]",
+        "githubLogin": "dependabot[bot]",
+        "date": "2026-08-05T23:24:11Z",
+        "message": "Bump lodash from 4.17.23 to 4.18.1 (#1580)\n\nBumps [lodash](https://github.com/lodash/lodash) from 4.17.23 to 4.18.1.\n- [Release notes](https://github.com/lodash/lodash/releases)\n- [Commits](https://github.com/lodash/lodash/compare/4.17.23...4.18.1)\n\n---\nupdated-dependencies:\n- dependency-name: lodash\n  dependency-version: 4.18.1\n  dependency-type: indirect\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+        "url": "https://github.com/GSA-TTS/identity-site/commit/0db5ed71b14892cf4ae5f2bbc4816fb10df25ebf"
+      },
+      {
+        "repo": "GSA-TTS/identity-site",
+        "sha": "e0108e44bf883d226afd58b6c40442540c6884ea",
+        "author": "dependabot[bot]",
+        "githubLogin": "dependabot[bot]",
+        "date": "2026-08-05T23:22:21Z",
+        "message": "Bump uuid and decap-cms-app (#1622)\n\nRemoves [uuid](https://github.com/uuidjs/uuid). It's no longer used after updating ancestor dependency [decap-cms-app](https://github.com/decaporg/decap-cms). These dependencies need to be updated together.\n\n\nRemoves `uuid`\n\nUpdates `decap-cms-app` from 3.10.1 to 3.15.1\n- [Release notes](https://github.com/decaporg/decap-cms/releases)\n- [Changelog](https://github.com/decaporg/decap-cms/blob/main/CHANGELOG.md)\n- [Commits](https://github.com/decaporg/decap-cms/compare/decap-cms-app@3.10.1...decap-cms-app@3.15.1)\n\n---\nupdated-dependencies:\n- dependency-name: uuid\n  dependency-version:\n  dependency-type: indirect\n- dependency-name: decap-cms-app\n  dependency-version: 3.15.1\n  dependency-type: indirect\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+        "url": "https://github.com/GSA-TTS/identity-site/commit/e0108e44bf883d226afd58b6c40442540c6884ea"
+      },
+      {
+        "repo": "GSA-TTS/identity-site",
+        "sha": "b5ce75b68482b44f9f47a8aed2ef00ef40e5d27b",
+        "author": "dependabot[bot]",
+        "githubLogin": "dependabot[bot]",
+        "date": "2026-08-05T23:03:09Z",
+        "message": "Bump ws from 8.19.0 to 8.21.2 (#1619)\n\nBumps [ws](https://github.com/websockets/ws) from 8.19.0 to 8.21.2.\n- [Release notes](https://github.com/websockets/ws/releases)\n- [Commits](https://github.com/websockets/ws/compare/8.19.0...8.21.2)\n\n---\nupdated-dependencies:\n- dependency-name: ws\n  dependency-version: 8.21.2\n  dependency-type: indirect\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+        "url": "https://github.com/GSA-TTS/identity-site/commit/b5ce75b68482b44f9f47a8aed2ef00ef40e5d27b"
+      },
+      {
+        "repo": "GSA-TTS/identity-site",
+        "sha": "fb30c0eb95c4f058533afe4827dc4611eab4ec6d",
+        "author": "dependabot[bot]",
+        "githubLogin": "dependabot[bot]",
+        "date": "2026-08-05T23:01:58Z",
+        "message": "Bump concurrent-ruby from 1.3.6 to 1.3.7 (#1620)\n\nBumps [concurrent-ruby](https://github.com/ruby-concurrency/concurrent-ruby) from 1.3.6 to 1.3.7.\n- [Release notes](https://github.com/ruby-concurrency/concurrent-ruby/releases)\n- [Changelog](https://github.com/ruby-concurrency/concurrent-ruby/blob/master/CHANGELOG.md)\n- [Commits](https://github.com/ruby-concurrency/concurrent-ruby/compare/v1.3.6...v1.3.7)\n\n---\nupdated-dependencies:\n- dependency-name: concurrent-ruby\n  dependency-version: 1.3.7\n  dependency-type: indirect\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+        "url": "https://github.com/GSA-TTS/identity-site/commit/fb30c0eb95c4f058533afe4827dc4611eab4ec6d"
+      },
+      {
+        "repo": "GSA-TTS/identity-site",
+        "sha": "2b279c37191e3bb87af5b7e0eda37647aa2b86bd",
+        "author": "dependabot[bot]",
+        "githubLogin": "dependabot[bot]",
+        "date": "2026-08-05T22:49:57Z",
+        "message": "Bump lodash-es from 4.17.23 to 4.18.1 (#1576)",
+        "url": "https://github.com/GSA-TTS/identity-site/commit/2b279c37191e3bb87af5b7e0eda37647aa2b86bd"
+      },
+      {
+        "repo": "GSA-TTS/identity-site",
+        "sha": "f18037e5ede32e4c0e9e1df2fda855f68773e1d1",
+        "author": "dependabot[bot]",
+        "githubLogin": "dependabot[bot]",
+        "date": "2026-08-05T22:49:10Z",
+        "message": "Bump json from 2.18.1 to 2.19.9 (#1616)",
+        "url": "https://github.com/GSA-TTS/identity-site/commit/f18037e5ede32e4c0e9e1df2fda855f68773e1d1"
+      },
+      {
+        "repo": "GSA-TTS/identity-site",
+        "sha": "b6f88cbab63d95afb6b4b729347704cccef08bb7",
+        "author": "dependabot[bot]",
+        "githubLogin": "dependabot[bot]",
+        "date": "2026-08-05T22:45:58Z",
+        "message": "Bump nokogiri from 1.19.1 to 1.19.4 (#1592)",
+        "url": "https://github.com/GSA-TTS/identity-site/commit/b6f88cbab63d95afb6b4b729347704cccef08bb7"
+      },
+      {
+        "repo": "GSA-TTS/identity-site",
+        "sha": "de001e2f3f9ae4c548f2a8d7f3057769f39425ca",
+        "author": "dependabot[bot]",
+        "githubLogin": "dependabot[bot]",
+        "date": "2026-08-05T22:43:59Z",
+        "message": "Bump shell-quote and concurrently (#1617)",
+        "url": "https://github.com/GSA-TTS/identity-site/commit/de001e2f3f9ae4c548f2a8d7f3057769f39425ca"
+      },
+      {
+        "repo": "GSA-TTS/identity-site",
+        "sha": "c0cd5b37269189614bc43d6d1b1445934c4e1708",
+        "author": "dependabot[bot]",
+        "githubLogin": "dependabot[bot]",
+        "date": "2026-08-05T22:42:15Z",
+        "message": "Bump dompurify from 3.4.2 to 3.4.13 (#1618)",
+        "url": "https://github.com/GSA-TTS/identity-site/commit/c0cd5b37269189614bc43d6d1b1445934c4e1708"
+      },
+      {
+        "repo": "GSA-TTS/identity-site",
+        "sha": "0786931d50bbcbead3e540766f60e13033f95b31",
+        "author": "dependabot[bot]",
+        "githubLogin": "dependabot[bot]",
+        "date": "2026-08-05T22:32:30Z",
+        "message": "Bump svgo (#1615)\n\nBumps [svgo](https://github.com/svg/svgo) to 2.8.3 and updates ancestor dependency . These dependencies need to be updated together.\n\n\nUpdates `svgo` from 2.8.0 to 2.8.3\n- [Release notes](https://github.com/svg/svgo/releases)\n- [Commits](https://github.com/svg/svgo/compare/v2.8.0...v2.8.3)\n\nUpdates `svgo` from 4.0.1 to 4.0.2\n- [Release notes](https://github.com/svg/svgo/releases)\n- [Commits](https://github.com/svg/svgo/compare/v2.8.0...v2.8.3)\n\n---\nupdated-dependencies:\n- dependency-name: svgo\n  dependency-version: 2.8.3\n  dependency-type: indirect\n- dependency-name: svgo\n  dependency-version: 4.0.2\n  dependency-type: direct:development\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+        "url": "https://github.com/GSA-TTS/identity-site/commit/0786931d50bbcbead3e540766f60e13033f95b31"
+      },
+      {
+        "repo": "GSA-TTS/identity-site",
+        "sha": "a01431aa01ce15b4dad0f775e725d19986e147ef",
+        "author": "dependabot[bot]",
+        "githubLogin": "dependabot[bot]",
+        "date": "2026-08-05T22:21:52Z",
+        "message": "Bump postcss from 8.5.6 to 8.5.25 (#1610)\n\nBumps [postcss](https://github.com/postcss/postcss) from 8.5.6 to 8.5.25.\n- [Release notes](https://github.com/postcss/postcss/releases)\n- [Changelog](https://github.com/postcss/postcss/blob/main/CHANGELOG.md)\n- [Commits](https://github.com/postcss/postcss/compare/8.5.6...8.5.25)\n\n---\nupdated-dependencies:\n- dependency-name: postcss\n  dependency-version: 8.5.25\n  dependency-type: indirect\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+        "url": "https://github.com/GSA-TTS/identity-site/commit/a01431aa01ce15b4dad0f775e725d19986e147ef"
+      },
+      {
+        "repo": "GSA-TTS/identity-site",
+        "sha": "9daacf547416adbd6bb422a9d42ae6652e9da5c2",
+        "author": "dependabot[bot]",
+        "githubLogin": "dependabot[bot]",
+        "date": "2026-08-05T22:21:23Z",
+        "message": "Bump brace-expansion (#1612)\n\nBumps  and [brace-expansion](https://github.com/juliangruber/brace-expansion). These dependencies needed to be updated together.\n\nUpdates `brace-expansion` from 2.0.2 to 2.1.4\n- [Release notes](https://github.com/juliangruber/brace-expansion/releases)\n- [Commits](https://github.com/juliangruber/brace-expansion/compare/v2.0.2...v2.1.4)\n\nUpdates `brace-expansion` from 1.1.12 to 1.1.18\n- [Release notes](https://github.com/juliangruber/brace-expansion/releases)\n- [Commits](https://github.com/juliangruber/brace-expansion/compare/v2.0.2...v2.1.4)\n\nUpdates `brace-expansion` from 5.0.3 to 5.0.9\n- [Release notes](https://github.com/juliangruber/brace-expansion/releases)\n- [Commits](https://github.com/juliangruber/brace-expansion/compare/v2.0.2...v2.1.4)\n\n---\nupdated-dependencies:\n- dependency-name: brace-expansion\n  dependency-version: 2.1.4\n  dependency-type: indirect\n- dependency-name: brace-expansion\n  dependency-version: 1.1.18\n  dependency-type: indirect\n- dependency-name: brace-expansion\n  dependency-version: 5.0.9\n  dependency-type: indirect\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+        "url": "https://github.com/GSA-TTS/identity-site/commit/9daacf547416adbd6bb422a9d42ae6652e9da5c2"
+      },
+      {
+        "repo": "GSA-TTS/identity-site",
+        "sha": "5477f6f4572bfcb09a8f7969217fc83bb7a34191",
+        "author": "dependabot[bot]",
+        "githubLogin": "dependabot[bot]",
+        "date": "2026-08-05T22:18:25Z",
+        "message": "Bump ip-address from 10.1.0 to 10.4.0 (#1611)",
+        "url": "https://github.com/GSA-TTS/identity-site/commit/5477f6f4572bfcb09a8f7969217fc83bb7a34191"
+      },
+      {
+        "repo": "GSA-TTS/identity-site",
+        "sha": "b4b609ad4fe14f057ace54c7b5eb2101b12ccd60",
+        "author": "dependabot[bot]",
+        "githubLogin": "dependabot[bot]",
+        "date": "2026-08-05T22:15:02Z",
+        "message": "Bump fast-uri from 3.1.0 to 3.1.5 (#1613)\n\nBumps [fast-uri](https://github.com/fastify/fast-uri) from 3.1.0 to 3.1.5.\n- [Release notes](https://github.com/fastify/fast-uri/releases)\n- [Commits](https://github.com/fastify/fast-uri/compare/v3.1.0...v3.1.5)\n\n---\nupdated-dependencies:\n- dependency-name: fast-uri\n  dependency-version: 3.1.5\n  dependency-type: indirect\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+        "url": "https://github.com/GSA-TTS/identity-site/commit/b4b609ad4fe14f057ace54c7b5eb2101b12ccd60"
+      },
+      {
+        "repo": "GSA-TTS/identity-site",
+        "sha": "0e43104b1d3e2cfcd99472cbf33bd064a68ad5a4",
+        "author": "dependabot[bot]",
+        "githubLogin": "dependabot[bot]",
+        "date": "2026-08-05T22:11:56Z",
+        "message": "Bump undici from 7.22.0 to 7.29.0 (#1614)",
+        "url": "https://github.com/GSA-TTS/identity-site/commit/0e43104b1d3e2cfcd99472cbf33bd064a68ad5a4"
+      },
+      {
+        "repo": "GSA-TTS/identity-site",
+        "sha": "4c9e23081cce2264e67e701dc111c465a072fca8",
+        "author": "dependabot[bot]",
+        "githubLogin": "dependabot[bot]",
+        "date": "2026-08-05T21:58:58Z",
+        "message": "Bump dompurify from 3.3.1 to 3.4.2 (#1589)",
+        "url": "https://github.com/GSA-TTS/identity-site/commit/4c9e23081cce2264e67e701dc111c465a072fca8"
+      },
+      {
+        "repo": "GSA-TTS/identity-site",
+        "sha": "ee4e3c63c17b95152925b980fc19e9248fe5e6b6",
+        "author": "dependabot[bot]",
+        "githubLogin": "dependabot[bot]",
+        "date": "2026-08-05T21:57:28Z",
+        "message": "Bump @babel/plugin-transform-modules-systemjs from 7.24.7 to 7.29.4 (#1595)",
+        "url": "https://github.com/GSA-TTS/identity-site/commit/ee4e3c63c17b95152925b980fc19e9248fe5e6b6"
+      },
+      {
+        "repo": "GSA-TTS/identity-handbook",
+        "sha": "88a0ede4949504e7392fc492f5d5d1e6c61160d6",
+        "author": "zombonic-tts",
+        "githubLogin": "zombonic-tts",
+        "date": "2026-09-23T14:41:01Z",
+        "message": "Add details to pwned password maintenance instructions (#731)",
+        "url": "https://github.com/GSA-TTS/identity-handbook/commit/88a0ede4949504e7392fc492f5d5d1e6c61160d6"
+      },
+      {
+        "repo": "GSA-TTS/identity-handbook",
+        "sha": "c7bac94d8201115be62ed4341bfc0399914da879",
+        "author": "Vraj Mohan",
+        "githubLogin": "vrajmohan",
+        "date": "2026-08-28T22:24:36Z",
+        "message": "LG-17558 Add notification guidance (#730)",
+        "url": "https://github.com/GSA-TTS/identity-handbook/commit/c7bac94d8201115be62ed4341bfc0399914da879"
+      },
+      {
+        "repo": "GSA-TTS/identity-handbook",
+        "sha": "a9bc9ba7143a3df17c9d3b80d6011f5812581eb6",
+        "author": "Moncef Belyamani",
+        "githubLogin": "monfresh",
+        "date": "2026-08-28T21:13:17Z",
+        "message": "Add mfa-lookup to devops-scripts.md (#729)",
+        "url": "https://github.com/GSA-TTS/identity-handbook/commit/a9bc9ba7143a3df17c9d3b80d6011f5812581eb6"
+      },
+      {
+        "repo": "GSA-TTS/identity-handbook",
+        "sha": "152705794a9ec66e48835fc4dd8992cb56ecb433",
+        "author": "Tim Spencer",
+        "githubLogin": "timothy-spencer",
+        "date": "2026-08-24T16:31:29Z",
+        "message": "Improve env-runner relaunch instructions formatting (#728)\n\nUpdated the instructions for relaunching env-runner instances to include code formatting.",
+        "url": "https://github.com/GSA-TTS/identity-handbook/commit/152705794a9ec66e48835fc4dd8992cb56ecb433"
+      },
+      {
+        "repo": "GSA-TTS/identity-handbook",
+        "sha": "2595c3594bd29f9f2c5cbd2a0099fe60afa4c273",
+        "author": "Vraj Mohan",
+        "githubLogin": "vrajmohan",
+        "date": "2026-07-31T19:26:27Z",
+        "message": "Add note about only failed certs available for download (#727)",
+        "url": "https://github.com/GSA-TTS/identity-handbook/commit/2595c3594bd29f9f2c5cbd2a0099fe60afa4c273"
+      },
+      {
+        "repo": "GSA-TTS/identity-handbook",
+        "sha": "f2654c6577b1c1fdf53e215e80ab0e23c85a26a8",
+        "author": "A Shukla",
+        "githubLogin": "AShukla-GSA",
+        "date": "2026-07-23T21:22:07Z",
+        "message": "Updating GPO Letter image (#726)",
+        "url": "https://github.com/GSA-TTS/identity-handbook/commit/f2654c6577b1c1fdf53e215e80ab0e23c85a26a8"
+      },
+      {
+        "repo": "GSA-TTS/identity-handbook",
+        "sha": "c08d0b70073bce85491274990bb3097804501855",
+        "author": "Michael",
+        "githubLogin": "mmagsa",
+        "date": "2026-05-28T20:40:37Z",
+        "message": "update workflow screenshots (#724)",
+        "url": "https://github.com/GSA-TTS/identity-handbook/commit/c08d0b70073bce85491274990bb3097804501855"
+      },
+      {
+        "repo": "GSA-TTS/identity-handbook",
+        "sha": "accf5d45bc277c02ad468dc3fdaae8c13f67006d",
+        "author": "Vraj Mohan",
+        "githubLogin": "vrajmohan",
+        "date": "2026-05-28T20:39:04Z",
+        "message": "Move deploy announcements to #login-prod-changes (#723)",
+        "url": "https://github.com/GSA-TTS/identity-handbook/commit/accf5d45bc277c02ad468dc3fdaae8c13f67006d"
+      },
+      {
+        "repo": "GSA-TTS/identity-handbook",
+        "sha": "22b1ccd9ddb77abef583c1790fc214b4977a3d95",
+        "author": "jc-gsa",
+        "githubLogin": "jc-gsa",
+        "date": "2026-05-27T15:32:58Z",
+        "message": "Fix typo in Cloudwatch query (#721)",
+        "url": "https://github.com/GSA-TTS/identity-handbook/commit/22b1ccd9ddb77abef583c1790fc214b4977a3d95"
+      },
+      {
+        "repo": "GSA-TTS/identity-handbook",
+        "sha": "1ec4d5ffec7cec4f95867457058100273ac8fd9e",
+        "author": "A Shukla",
+        "githubLogin": "AShukla-GSA",
+        "date": "2026-05-11T19:47:36Z",
+        "message": "Add link to feedback form in spot check instructions (#720)",
+        "url": "https://github.com/GSA-TTS/identity-handbook/commit/1ec4d5ffec7cec4f95867457058100273ac8fd9e"
+      },
+      {
+        "repo": "GSA-TTS/identity-handbook",
+        "sha": "2155455f53bcd17a95543e0ced153e1f44192830",
+        "author": "Jessica Dembe",
+        "githubLogin": "jmdembe",
+        "date": "2026-05-06T13:48:26Z",
+        "message": "Enhance pwned passwords update instructions (#719)\n\nAdded instructions for logging into AWS sandbox and production environments.",
+        "url": "https://github.com/GSA-TTS/identity-handbook/commit/2155455f53bcd17a95543e0ced153e1f44192830"
+      },
+      {
+        "repo": "GSA-TTS/identity-handbook",
+        "sha": "08a358ae83cd106af47d2ee3dd677d734b2bea69",
+        "author": "Joshua Alley",
+        "githubLogin": "joshuaalley25",
+        "date": "2026-04-28T18:43:11Z",
+        "message": "[LG-17487] Remove inconclusive-duplicates-script reference (#718)",
+        "url": "https://github.com/GSA-TTS/identity-handbook/commit/08a358ae83cd106af47d2ee3dd677d734b2bea69"
+      },
+      {
+        "repo": "GSA-TTS/identity-handbook",
+        "sha": "4fb75339245339c7d1d2edbc99eba8d9ccc2f1f4",
+        "author": "Malick Diarra",
+        "githubLogin": "mdiarra3",
+        "date": "2026-04-17T17:56:54Z",
+        "message": "Add a guide to modifying and creating new SP sample apps to test in lower envs (#717)",
+        "url": "https://github.com/GSA-TTS/identity-handbook/commit/4fb75339245339c7d1d2edbc99eba8d9ccc2f1f4"
+      },
+      {
+        "repo": "GSA-TTS/identity-handbook",
+        "sha": "41730c298485def911055cede46c53c7503484a6",
+        "author": "Doug Price",
+        "githubLogin": "solipet",
+        "date": "2026-04-03T18:51:29Z",
+        "message": "LG-17429: Enhance Resolution Result Missing guidance with query (#716)\n\nAdded a new CloudWatch query link to assist with investigating multiple `IdV: proofing resolution result missing` events.",
+        "url": "https://github.com/GSA-TTS/identity-handbook/commit/41730c298485def911055cede46c53c7503484a6"
+      },
+      {
+        "repo": "GSA-TTS/identity-handbook",
+        "sha": "bceab3fb1d64108691bc95ff4f43f75e5f0fec89",
+        "author": "Luigi Ray-Montañez",
+        "githubLogin": "luigi",
+        "date": "2026-04-01T16:21:42Z",
+        "message": "Add UUIDs example for resetting user passwords (#715)",
+        "url": "https://github.com/GSA-TTS/identity-handbook/commit/bceab3fb1d64108691bc95ff4f43f75e5f0fec89"
+      },
+      {
+        "repo": "GSA-TTS/identity-handbook",
+        "sha": "b4b4687f394910e94c852fe79930c7a57ad06b78",
+        "author": "allisonrosenberg",
+        "githubLogin": "allisonrosenberg",
+        "date": "2026-03-31T22:48:10Z",
+        "message": "Update email-and-sms-previews.md (#714)",
+        "url": "https://github.com/GSA-TTS/identity-handbook/commit/b4b4687f394910e94c852fe79930c7a57ad06b78"
+      },
+      {
+        "repo": "GSA-TTS/identity-handbook",
+        "sha": "b720620f093385921cca09a45c61ea92776f764a",
+        "author": "Vraj Mohan",
+        "githubLogin": "vrajmohan",
+        "date": "2026-03-20T17:16:34Z",
+        "message": "Add UX category, link to email and SMS previews (#713)\n\n* Add UX category\n\n* Add Email and SMS Preview links",
+        "url": "https://github.com/GSA-TTS/identity-handbook/commit/b720620f093385921cca09a45c61ea92776f764a"
+      },
+      {
+        "repo": "GSA-TTS/identity-handbook",
+        "sha": "eb5d54d484a56e7fc25d822df6eae3a99cccd264",
+        "author": "Amir Reavis-Bey",
+        "githubLogin": "amirbey",
+        "date": "2026-03-16T18:14:02Z",
+        "message": "link to manual phone review guidance (#712)\n\n* link to manual phone review guidance\n\n* update text\n\n* fix link\n\n* remove IVERB\n\n* rewording\n\n* rewording",
+        "url": "https://github.com/GSA-TTS/identity-handbook/commit/eb5d54d484a56e7fc25d822df6eae3a99cccd264"
+      },
+      {
+        "repo": "GSA-TTS/identity-handbook",
+        "sha": "5814348aa798a4afb79c275dbb618acbc6f54307",
+        "author": "Jessica Dembe",
+        "githubLogin": "jmdembe",
+        "date": "2026-03-02T21:09:00Z",
+        "message": "add page for amazon pinpoint (#706)\n\n* add page for amazon pinpoint\n\n* edit about script output",
+        "url": "https://github.com/GSA-TTS/identity-handbook/commit/5814348aa798a4afb79c275dbb618acbc6f54307"
+      },
+      {
+        "repo": "GSA-TTS/identity-handbook",
+        "sha": "cc64011deaa508dcc7a99b4528a0c3688d1dba95",
+        "author": "Shane Chesnutt",
+        "githubLogin": "shanechesnutt-ft",
+        "date": "2026-02-24T16:17:37Z",
+        "message": "Add USPS IPP-B process spot check article (#705)",
+        "url": "https://github.com/GSA-TTS/identity-handbook/commit/cc64011deaa508dcc7a99b4528a0c3688d1dba95"
+      },
+      {
+        "repo": "GSA-TTS/identity-handbook",
+        "sha": "700763e3643a64917588bd242d3ff2eed9e3f1e6",
+        "author": "Doug Price",
+        "githubLogin": "solipet",
+        "date": "2026-02-13T20:31:10Z",
+        "message": "Enhance pre-deploy steps and server command updates (#703)\n\nAdded a section to check NewRelic before deployment and updated commands for server management/monitoring.",
+        "url": "https://github.com/GSA-TTS/identity-handbook/commit/700763e3643a64917588bd242d3ff2eed9e3f1e6"
+      },
+      {
+        "repo": "GSA-TTS/identity-handbook",
+        "sha": "caedc5da25ce27c316b2e3050508581f8558f8df",
+        "author": "Michael",
+        "githubLogin": "mmagsa",
+        "date": "2026-02-12T14:43:58Z",
+        "message": "update Announce a recycle Slack workflow instructions (#701)",
+        "url": "https://github.com/GSA-TTS/identity-handbook/commit/caedc5da25ce27c316b2e3050508581f8558f8df"
+      },
+      {
+        "repo": "GSA-TTS/identity-handbook",
+        "sha": "08008c2bfc26c124d73cab6898d4fc77078d1f23",
+        "author": "A Shukla",
+        "githubLogin": "AShukla-GSA",
+        "date": "2026-02-05T15:11:54Z",
+        "message": "Enhance recycling instructions with completion message details (#702)\n\nAdded instructions for posting estimated completion time during recycling process.",
+        "url": "https://github.com/GSA-TTS/identity-handbook/commit/08008c2bfc26c124d73cab6898d4fc77078d1f23"
+      },
+      {
+        "repo": "GSA-TTS/identity-handbook",
+        "sha": "c88d8a4b13cc27b0eda6d264b9e18a7b1b56fe71",
+        "author": "Vraj Mohan",
+        "githubLogin": "vrajmohan",
+        "date": "2026-01-21T22:03:30Z",
+        "message": "Make the testing of IdP conditional (#699)",
+        "url": "https://github.com/GSA-TTS/identity-handbook/commit/c88d8a4b13cc27b0eda6d264b9e18a7b1b56fe71"
+      },
+      {
+        "repo": "GSA-TTS/identity-handbook",
+        "sha": "baa463fb10cb6938066c8f49ea45786f1816d6e8",
+        "author": "dependabot[bot]",
+        "githubLogin": "dependabot[bot]",
+        "date": "2026-01-15T15:44:29Z",
+        "message": "Bump js-yaml in the npm_and_yarn group across 1 directory (#694)\n\nBumps the npm_and_yarn group with 1 update in the / directory: [js-yaml](https://github.com/nodeca/js-yaml).\n\n\nUpdates `js-yaml` from 4.1.0 to 4.1.1\n- [Changelog](https://github.com/nodeca/js-yaml/blob/master/CHANGELOG.md)\n- [Commits](https://github.com/nodeca/js-yaml/compare/4.1.0...4.1.1)\n\n---\nupdated-dependencies:\n- dependency-name: js-yaml\n  dependency-version: 4.1.1\n  dependency-type: indirect\n  dependency-group: npm_and_yarn\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+        "url": "https://github.com/GSA-TTS/identity-handbook/commit/baa463fb10cb6938066c8f49ea45786f1816d6e8"
+      },
+      {
+        "repo": "GSA-TTS/identity-handbook",
+        "sha": "fb322fb642d8d96bc173ebd6420498750828da57",
+        "author": "dependabot[bot]",
+        "githubLogin": "dependabot[bot]",
+        "date": "2026-01-15T15:44:12Z",
+        "message": "Bump uri from 1.0.3 to 1.0.4 in the bundler group across 1 directory (#697)\n\nBumps the bundler group with 1 update in the / directory: [uri](https://github.com/ruby/uri).\n\n\nUpdates `uri` from 1.0.3 to 1.0.4\n- [Release notes](https://github.com/ruby/uri/releases)\n- [Commits](https://github.com/ruby/uri/compare/v1.0.3...v1.0.4)\n\n---\nupdated-dependencies:\n- dependency-name: uri\n  dependency-version: 1.0.4\n  dependency-type: indirect\n  dependency-group: bundler\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+        "url": "https://github.com/GSA-TTS/identity-handbook/commit/fb322fb642d8d96bc173ebd6420498750828da57"
+      },
+      {
+        "repo": "GSA-TTS/identity-handbook",
+        "sha": "c65067a9937a53ba6913b91d1c5beb594e0b734b",
+        "author": "Luigi Ray-Montañez",
+        "githubLogin": "luigi",
+        "date": "2026-01-15T15:41:02Z",
+        "message": "Reinforce instructions for 15 minute wait when recycling in prod (#698)",
+        "url": "https://github.com/GSA-TTS/identity-handbook/commit/c65067a9937a53ba6913b91d1c5beb594e0b734b"
+      },
+      {
+        "repo": "GSA-TTS/identity-handbook",
+        "sha": "29c0f5e396b99a2f9b611d1bce7e34115e5be439",
+        "author": "Vraj Mohan",
+        "githubLogin": "vrajmohan",
+        "date": "2025-12-17T17:21:57Z",
+        "message": "Split PKI deployment from IDP deployment (#696)\n\n* Split PKI deployment from IDP deployment\n\nGoing forward, Team Katherine will own PKI deployment.\nIt makes sense to separate out the instructions to reduce confusion.",
+        "url": "https://github.com/GSA-TTS/identity-handbook/commit/29c0f5e396b99a2f9b611d1bce7e34115e5be439"
+      },
+      {
+        "repo": "GSA-TTS/identity-handbook",
+        "sha": "2cf9b8a98d9e259648e37610edb200b489ca81c0",
+        "author": "Vraj Mohan",
+        "githubLogin": "vrajmohan",
+        "date": "2025-12-12T18:43:14Z",
+        "message": "Update PKI releases URL to Gitlab (#695)",
+        "url": "https://github.com/GSA-TTS/identity-handbook/commit/2cf9b8a98d9e259648e37610edb200b489ca81c0"
+      },
+      {
+        "repo": "GSA-TTS/identity-handbook",
+        "sha": "ef063f742cc6339d24ab0f7fe203929eee0c546e",
+        "author": "dependabot[bot]",
+        "githubLogin": "dependabot[bot]",
+        "date": "2025-10-10T18:38:55Z",
+        "message": "Bump rack from 3.1.17 to 3.1.18 in the bundler group across 1 directory (#693)\n\nBumps the bundler group with 1 update in the / directory: [rack](https://github.com/rack/rack).\n\n\nUpdates `rack` from 3.1.17 to 3.1.18\n- [Release notes](https://github.com/rack/rack/releases)\n- [Changelog](https://github.com/rack/rack/blob/main/CHANGELOG.md)\n- [Commits](https://github.com/rack/rack/compare/v3.1.17...v3.1.18)\n\n---\nupdated-dependencies:\n- dependency-name: rack\n  dependency-version: 3.1.18\n  dependency-type: indirect\n  dependency-group: bundler\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+        "url": "https://github.com/GSA-TTS/identity-handbook/commit/ef063f742cc6339d24ab0f7fe203929eee0c546e"
+      },
+      {
+        "repo": "GSA-TTS/identity-dev-docs",
+        "sha": "0b7dbf5622338af279d6647d893d89f9cbfea08a",
+        "author": "Jeremy Curcio",
+        "githubLogin": "Jeremy1026",
+        "date": "2026-09-17T11:32:13Z",
+        "message": "Merge pull request #642 from GSA-TTS/jcurcio/release-notes/rc-2026-09-16\n\nRelease Notes for RC 2026-09-16",
+        "url": "https://github.com/GSA-TTS/identity-dev-docs/commit/0b7dbf5622338af279d6647d893d89f9cbfea08a"
+      },
+      {
+        "repo": "GSA-TTS/identity-dev-docs",
+        "sha": "f820a4cdf409b3780fc088cce193f0cb6ca7f637",
+        "author": "Jeremy Curcio",
+        "githubLogin": "Jeremy1026",
+        "date": "2026-09-16T15:44:30Z",
+        "message": "Typo",
+        "url": "https://github.com/GSA-TTS/identity-dev-docs/commit/f820a4cdf409b3780fc088cce193f0cb6ca7f637"
+      },
+      {
+        "repo": "GSA-TTS/identity-dev-docs",
+        "sha": "03b984941150dbf8b3e0f1ade18bf14a3b18d263",
+        "author": "Jeremy Curcio",
+        "githubLogin": "Jeremy1026",
+        "date": "2026-09-16T15:43:59Z",
+        "message": "Release Notes for RC 2026-09-16",
+        "url": "https://github.com/GSA-TTS/identity-dev-docs/commit/03b984941150dbf8b3e0f1ade18bf14a3b18d263"
+      },
+      {
+        "repo": "GSA-TTS/identity-dev-docs",
+        "sha": "a4f4d2d31392969604c55ef616b889ab7fac2b9a",
+        "author": "Jeremy Curcio",
+        "githubLogin": "Jeremy1026",
+        "date": "2026-09-11T13:02:16Z",
+        "message": "Merge pull request #639 from GSA-TTS/jcurcio/release-notes/rc-2026-09-10\n\nRelease Notes for RC 2026-09-10",
+        "url": "https://github.com/GSA-TTS/identity-dev-docs/commit/a4f4d2d31392969604c55ef616b889ab7fac2b9a"
+      },
+      {
+        "repo": "GSA-TTS/identity-dev-docs",
+        "sha": "3d57ab5f08ec456cf98ee467d15b047abe826e8f",
+        "author": "Jeremy Curcio",
+        "githubLogin": "Jeremy1026",
+        "date": "2026-09-10T19:40:01Z",
+        "message": "Release Notes for RC 2026-09-10",
+        "url": "https://github.com/GSA-TTS/identity-dev-docs/commit/3d57ab5f08ec456cf98ee467d15b047abe826e8f"
+      },
+      {
+        "repo": "GSA-TTS/identity-dev-docs",
+        "sha": "a7c719157e0c39e0fdb585e4713bacb5aca925f3",
+        "author": "AJ Farkas",
+        "githubLogin": "ajfarkas",
+        "date": "2026-09-02T17:09:12Z",
+        "message": "Merge pull request #638 from GSA-TTS/andrewjfarkas/release-notes/rc-2026-09-02\n\nRelease Notes for RC 2026-09-02",
+        "url": "https://github.com/GSA-TTS/identity-dev-docs/commit/a7c719157e0c39e0fdb585e4713bacb5aca925f3"
+      },
+      {
+        "repo": "GSA-TTS/identity-dev-docs",
+        "sha": "cbdefab76eb11ceb8b70ddbb7788ff8454d5fb11",
+        "author": "AJ Farkas",
+        "githubLogin": "ajfarkas",
+        "date": "2026-09-02T15:53:10Z",
+        "message": "Release Notes for RC 2026-09-02",
+        "url": "https://github.com/GSA-TTS/identity-dev-docs/commit/cbdefab76eb11ceb8b70ddbb7788ff8454d5fb11"
+      },
+      {
+        "repo": "GSA-TTS/identity-dev-docs",
+        "sha": "7220b7e6c1497960ffc16f1280e37e47d3b4a9f2",
+        "author": "Nadya Primak",
+        "githubLogin": "nprimak",
+        "date": "2026-08-31T18:50:04Z",
+        "message": "Merge pull request #637 from GSA-TTS/np/release-notes-tweak\n\nConsolidate release notes headers",
+        "url": "https://github.com/GSA-TTS/identity-dev-docs/commit/7220b7e6c1497960ffc16f1280e37e47d3b4a9f2"
+      },
+      {
+        "repo": "GSA-TTS/identity-dev-docs",
+        "sha": "2b3b0d3ed5ad2329ae478c623b3dc559664f3052",
+        "author": "Nadya Primak",
+        "githubLogin": "nprimak",
+        "date": "2026-08-31T18:20:31Z",
+        "message": "consolidate headers",
+        "url": "https://github.com/GSA-TTS/identity-dev-docs/commit/2b3b0d3ed5ad2329ae478c623b3dc559664f3052"
+      },
+      {
+        "repo": "GSA-TTS/identity-dev-docs",
+        "sha": "1885022136985e8355a220b344acf273df681d4a",
+        "author": "Nadya Primak",
+        "githubLogin": "nprimak",
+        "date": "2026-08-31T14:51:50Z",
+        "message": "Merge pull request #636 from GSA-TTS/np/release-notes-tweak\n\nUpdating release notes header and description",
+        "url": "https://github.com/GSA-TTS/identity-dev-docs/commit/1885022136985e8355a220b344acf273df681d4a"
+      },
+      {
+        "repo": "GSA-TTS/identity-dev-docs",
+        "sha": "6056c034f33d6afc1441ed281f43904986c4bd9e",
+        "author": "Nadya Primak",
+        "githubLogin": "nprimak",
+        "date": "2026-08-31T14:24:16Z",
+        "message": "small typo",
+        "url": "https://github.com/GSA-TTS/identity-dev-docs/commit/6056c034f33d6afc1441ed281f43904986c4bd9e"
+      },
+      {
+        "repo": "GSA-TTS/identity-dev-docs",
+        "sha": "a22c0b0606fe994c2ad8c725d9bb850fc051ecef",
+        "author": "Nadya Primak",
+        "githubLogin": "nprimak",
+        "date": "2026-08-28T21:11:15Z",
+        "message": "updating release notes header and description",
+        "url": "https://github.com/GSA-TTS/identity-dev-docs/commit/a22c0b0606fe994c2ad8c725d9bb850fc051ecef"
+      },
+      {
+        "repo": "GSA-TTS/identity-dev-docs",
+        "sha": "73cb541b66fcdf37fd6830495a28c0af33c15827",
+        "author": "AJ Farkas",
+        "githubLogin": "ajfarkas",
+        "date": "2026-08-27T17:31:40Z",
+        "message": "Merge pull request #635 from GSA-TTS/andrewjfarkas/release-notes/rc-2026-08-27\n\nRelease Notes for RC 2026-08-27",
+        "url": "https://github.com/GSA-TTS/identity-dev-docs/commit/73cb541b66fcdf37fd6830495a28c0af33c15827"
+      },
+      {
+        "repo": "GSA-TTS/identity-dev-docs",
+        "sha": "a1323d213c58cd598b292f09ecf7b88921506c82",
+        "author": "AJ Farkas",
+        "githubLogin": "ajfarkas",
+        "date": "2026-08-27T16:54:14Z",
+        "message": "Update release-notes.md\n\nIdentity Verification tab is only available to Login Admins",
+        "url": "https://github.com/GSA-TTS/identity-dev-docs/commit/a1323d213c58cd598b292f09ecf7b88921506c82"
+      },
+      {
+        "repo": "GSA-TTS/identity-dev-docs",
+        "sha": "751a27cf0bbbbf2b742c3e8340b78f817c6dfdeb",
+        "author": "AJ Farkas",
+        "githubLogin": "ajfarkas",
+        "date": "2026-08-27T16:52:02Z",
+        "message": "Release Notes for RC 2026-08-27",
+        "url": "https://github.com/GSA-TTS/identity-dev-docs/commit/751a27cf0bbbbf2b742c3e8340b78f817c6dfdeb"
+      },
+      {
+        "repo": "GSA-TTS/identity-dev-docs",
+        "sha": "fb38d299615e108b634288000c6a1894af8182c0",
+        "author": "Moncef Belyamani",
+        "githubLogin": "monfresh",
+        "date": "2026-08-24T15:07:45Z",
+        "message": "Merge pull request #634 from GSA-TTS/mb-improvements\n\nSpecify AAL2 as a minimum for all IdV apps",
+        "url": "https://github.com/GSA-TTS/identity-dev-docs/commit/fb38d299615e108b634288000c6a1894af8182c0"
+      },
+      {
+        "repo": "GSA-TTS/identity-dev-docs",
+        "sha": "ce9c738f9953a6c2b0127fc0abf08513fd2f2139",
+        "author": "Moncef Belyamani",
+        "githubLogin": "monfresh",
+        "date": "2026-08-21T20:10:11Z",
+        "message": "Specify AAL2 as a minimum for all IdV apps\n\nThe fact that we don't allow MFA remembered devices for IdV apps was not previously documented.",
+        "url": "https://github.com/GSA-TTS/identity-dev-docs/commit/ce9c738f9953a6c2b0127fc0abf08513fd2f2139"
+      },
+      {
+        "repo": "GSA-TTS/identity-dev-docs",
+        "sha": "15d078040250533fac9bbc42ae0e50c9640170d5",
+        "author": "AJ Farkas",
+        "githubLogin": "ajfarkas",
+        "date": "2026-08-21T13:19:09Z",
+        "message": "Merge pull request #633 from GSA-TTS/aj/fix-deps-2026-08-20\n\nupdate dependencies to remove CVEs",
+        "url": "https://github.com/GSA-TTS/identity-dev-docs/commit/15d078040250533fac9bbc42ae0e50c9640170d5"
+      },
+      {
+        "repo": "GSA-TTS/identity-dev-docs",
+        "sha": "59aa3b226bbcb9671db4195b3305f653eb7cbe3e",
+        "author": "AJ Farkas",
+        "githubLogin": "ajfarkas",
+        "date": "2026-08-20T21:00:22Z",
+        "message": "remove trailing whitespace",
+        "url": "https://github.com/GSA-TTS/identity-dev-docs/commit/59aa3b226bbcb9671db4195b3305f653eb7cbe3e"
+      },
+      {
+        "repo": "GSA-TTS/identity-dev-docs",
+        "sha": "4ba07b36392e4604e48ed0445e4d8e9550c40079",
+        "author": "AJ Farkas",
+        "githubLogin": "ajfarkas",
+        "date": "2026-08-20T20:47:11Z",
+        "message": "update puppeteer and @axe-core/puppeteer",
+        "url": "https://github.com/GSA-TTS/identity-dev-docs/commit/4ba07b36392e4604e48ed0445e4d8e9550c40079"
+      },
+      {
+        "repo": "GSA-TTS/identity-dev-docs",
+        "sha": "1cff2d2061671d370aa85aa026e3533d54f24f2c",
+        "author": "AJ Farkas",
+        "githubLogin": "ajfarkas",
+        "date": "2026-08-20T14:30:28Z",
+        "message": "Merge pull request #632 from GSA-TTS/andrewjfarkas/release-notes/rc-2026-08-20\n\nRelease Notes for RC 2026-08-19",
+        "url": "https://github.com/GSA-TTS/identity-dev-docs/commit/1cff2d2061671d370aa85aa026e3533d54f24f2c"
+      },
+      {
+        "repo": "GSA-TTS/identity-dev-docs",
+        "sha": "60be2c0067ce30fd405eb39d1ace333f74ecba68",
+        "author": "AJ Farkas",
+        "githubLogin": "ajfarkas",
+        "date": "2026-08-20T14:26:19Z",
+        "message": "Release Notes for RC 2026-08-20",
+        "url": "https://github.com/GSA-TTS/identity-dev-docs/commit/60be2c0067ce30fd405eb39d1ace333f74ecba68"
+      },
+      {
+        "repo": "GSA-TTS/identity-dev-docs",
+        "sha": "c315f0d637565bef75e12d05505330564bdb94f3",
+        "author": "Michael",
+        "githubLogin": "mmagsa",
+        "date": "2026-08-19T15:16:59Z",
+        "message": "update NIST 800-63 references (#630)",
+        "url": "https://github.com/GSA-TTS/identity-dev-docs/commit/c315f0d637565bef75e12d05505330564bdb94f3"
+      },
+      {
+        "repo": "GSA-TTS/identity-dev-docs",
+        "sha": "c9adb9ac6bb410f715547c8c3adee625285fa057",
+        "author": "Howard",
+        "githubLogin": "h-m-m",
+        "date": "2026-08-17T17:51:02Z",
+        "message": "Merge pull request #631 from GSA-TTS/hmiller/release-notes/rc-2026-08-12\n\nRelease Notes for RC 2026-08-12",
+        "url": "https://github.com/GSA-TTS/identity-dev-docs/commit/c9adb9ac6bb410f715547c8c3adee625285fa057"
+      },
+      {
+        "repo": "GSA-TTS/identity-dev-docs",
+        "sha": "6e5b0aa46e2a82f8c0c5c783356ddc869726d207",
+        "author": "Howard Miller",
+        "githubLogin": "h-m-m",
+        "date": "2026-08-14T20:15:10Z",
+        "message": "Release Notes for RC 2026-08-12",
+        "url": "https://github.com/GSA-TTS/identity-dev-docs/commit/6e5b0aa46e2a82f8c0c5c783356ddc869726d207"
+      },
+      {
+        "repo": "GSA-TTS/identity-dev-docs",
+        "sha": "b4a65c537abf00e7116ff56f7994e7e556c42f48",
+        "author": "Howard",
+        "githubLogin": "h-m-m",
+        "date": "2026-08-07T16:01:37Z",
+        "message": "Merge pull request #627 from GSA-TTS/hmiller/release-notes/rc-2026-08-05\n\nRelease Notes for RC 2026-08-05",
+        "url": "https://github.com/GSA-TTS/identity-dev-docs/commit/b4a65c537abf00e7116ff56f7994e7e556c42f48"
+      },
+      {
+        "repo": "GSA-TTS/identity-dev-docs",
+        "sha": "537ad0a5c47b53c0b5f2c451d390842777e38a15",
+        "author": "Howard Miller",
+        "githubLogin": "h-m-m",
+        "date": "2026-08-07T15:55:01Z",
+        "message": "Bump github action version",
+        "url": "https://github.com/GSA-TTS/identity-dev-docs/commit/537ad0a5c47b53c0b5f2c451d390842777e38a15"
+      },
+      {
+        "repo": "GSA-TTS/identity-dev-docs",
+        "sha": "91e2d5b46f3aa79caa961dd431cace16014515e4",
+        "author": "Howard Miller",
+        "githubLogin": "h-m-m",
+        "date": "2026-08-05T17:05:52Z",
+        "message": "Release Notes for RC 2026-08-05",
+        "url": "https://github.com/GSA-TTS/identity-dev-docs/commit/91e2d5b46f3aa79caa961dd431cace16014515e4"
+      },
+      {
+        "repo": "GSA-TTS/identity-dev-docs",
+        "sha": "e951e86a9e5d934f1d56fa023fbeccf20f8034cd",
+        "author": "Michael",
+        "githubLogin": "mmagsa",
+        "date": "2026-08-03T19:12:43Z",
+        "message": "add OIDC documentation for auth_time attribute, and SAML documentation for AuthInstant attribute (#625)",
+        "url": "https://github.com/GSA-TTS/identity-dev-docs/commit/e951e86a9e5d934f1d56fa023fbeccf20f8034cd"
+      },
+      {
+        "repo": "GSA-TTS/identity-dev-docs",
+        "sha": "61191a4f4e539e4e165ce7e822ec87207fc439c1",
+        "author": "Jeremy Curcio",
+        "githubLogin": "Jeremy1026",
+        "date": "2026-08-03T13:32:40Z",
+        "message": "Merge pull request #626 from GSA-TTS/jcurcio/release-notes/rc-2026-07-29\n\nRelease Notes for RC 2026-07-29",
+        "url": "https://github.com/GSA-TTS/identity-dev-docs/commit/61191a4f4e539e4e165ce7e822ec87207fc439c1"
+      }
+    ]
+  },
+  "org": {
+    "ok": true,
+    "error": null,
+    "repos": [
+      "nationaldesignstudio/rampart"
+    ],
+    "commits": [
+      {
+        "repo": "nationaldesignstudio/rampart",
+        "sha": "95798af5b0e71759e06f912d0a8b719f31744b20",
+        "author": "Tai Groot",
+        "date": "2026-06-30T19:43:08Z",
+        "message": "update model card to show released numbers rather than v0 training set",
+        "url": "https://github.com/nationaldesignstudio/rampart/commit/95798af5b0e71759e06f912d0a8b719f31744b20"
+      },
+      {
+        "repo": "nationaldesignstudio/rampart",
+        "sha": "ee63b3e9138fa32f5d7a3487d6a5834e9f5c3759",
+        "author": "Tai Groot",
+        "date": "2026-06-30T17:26:45Z",
+        "message": "fixup table widths in whitepaper",
+        "url": "https://github.com/nationaldesignstudio/rampart/commit/ee63b3e9138fa32f5d7a3487d6a5834e9f5c3759"
+      },
+      {
+        "repo": "nationaldesignstudio/rampart",
+        "sha": "763845bf273a876c20db508c9b7414c99ee0b30e",
+        "author": "Tai Groot",
+        "date": "2026-06-30T14:06:33Z",
+        "message": "Bump version to 0.1.3",
+        "url": "https://github.com/nationaldesignstudio/rampart/commit/763845bf273a876c20db508c9b7414c99ee0b30e"
+      },
+      {
+        "repo": "nationaldesignstudio/rampart",
+        "sha": "20a62a501af1f474592b8978d6cf46c4440d9ed4",
+        "author": "Tai Groot",
+        "date": "2026-06-30T14:05:31Z",
+        "message": "externalize transformers",
+        "url": "https://github.com/nationaldesignstudio/rampart/commit/20a62a501af1f474592b8978d6cf46c4440d9ed4"
+      },
+      {
+        "repo": "nationaldesignstudio/rampart",
+        "sha": "fc2c46914406d1f4a432175855de8ec44b323bfa",
+        "author": "Tai Groot",
+        "date": "2026-06-29T22:40:57Z",
+        "message": "Bump version to 0.1.2\n\nPatch release for NER offset recovery fixes (tokenizer-index offsets,\naccent handling, and adjacent GIVEN_NAME/SURNAME span separation).",
+        "url": "https://github.com/nationaldesignstudio/rampart/commit/fc2c46914406d1f4a432175855de8ec44b323bfa"
+      },
+      {
+        "repo": "nationaldesignstudio/rampart",
+        "sha": "ccdaba46c3acfd69a869eda1e3866029ad46336b",
+        "author": "Tai Groot",
+        "date": "2026-06-30T13:57:20Z",
+        "message": "Merge pull request #2 from AppleLamps/fix-modelcard-usage-example\n\ndocs: fix MODEL_CARD usage example (guard.redact -> guard.protect)",
+        "url": "https://github.com/nationaldesignstudio/rampart/commit/ccdaba46c3acfd69a869eda1e3866029ad46336b"
+      },
+      {
+        "repo": "nationaldesignstudio/rampart",
+        "sha": "d84f999ad91b4d38fe9767065ff100744507b7dc",
+        "author": "AppleLamps",
+        "date": "2026-06-29T22:47:23Z",
+        "message": "docs: fix MODEL_CARD usage example to use real ChatGuard API\n\nThe example called `guard.redact(...)` and destructured `{ redacted }`,\nneither of which exists. ChatGuard's public scrub method is `protect()`,\nwhich returns a ScrubResult whose field is `text` (not `redacted`).\n\nCo-Authored-By: Claude Opus 4.8 (1M context) <noreply@anthropic.com>",
+        "url": "https://github.com/nationaldesignstudio/rampart/commit/d84f999ad91b4d38fe9767065ff100744507b7dc"
+      },
+      {
+        "repo": "nationaldesignstudio/rampart",
+        "sha": "c91cafd0308bdc8de93e744db03c5197df4913b3",
+        "author": "tai",
+        "date": "2026-06-29T22:13:59Z",
+        "message": "Fix NER offset recovery for duplicate digit substrings.\n\nUse tokenizer token indices to map BIO labels to char offsets instead of\nindexOf on folded text, which attached address BUILDING_NUMBER tokens to\nphone digit runs when the same substring appeared twice. Add a regression\ntest and expose tokenize on the classifier adapter.\n\nCo-authored-by: ed <ed@ndstudio.gov>",
+        "url": "https://github.com/nationaldesignstudio/rampart/commit/c91cafd0308bdc8de93e744db03c5197df4913b3"
+      },
+      {
+        "repo": "nationaldesignstudio/rampart",
+        "sha": "31ad75d3dff4622e192039768d16e38234f55d2b",
+        "author": "Tai Groot",
+        "date": "2026-06-29T14:51:17Z",
+        "message": "Initial Public Release\n\nCo-authored-by: ed <ed@ndstudio.gov>",
+        "url": "https://github.com/nationaldesignstudio/rampart/commit/31ad75d3dff4622e192039768d16e38234f55d2b"
+      }
+    ]
+  },
+  "personActivity": {
+    "ryparker": {
+      "ok": true,
+      "error": null,
+      "events": [
+        {
+          "id": "15387206676",
+          "type": "PullRequestEvent",
+          "repo": "IRS-Public/aloud",
+          "createdAt": "2026-09-20T18:08:23Z",
+          "action": "merged",
+          "number": 33
+        }
+      ]
+    },
+    "samcorcos": {
+      "ok": true,
+      "error": null,
+      "events": [
+        {
+          "id": "21344617923",
+          "type": "PushEvent",
+          "repo": "uswds/uswds",
+          "createdAt": "2026-09-16T19:38:58Z",
+          "ref": "refs/heads/codex/table-unsorted",
+          "before": "9cdc99af4e49405d08d91982ea205f35fdf61896",
+          "head": "cef0c8d9265bc04b62ea2f9642e9967d7bdc56e3"
+        },
+        {
+          "id": "21344593796",
+          "type": "CreateEvent",
+          "repo": "uswds/uswds",
+          "createdAt": "2026-09-16T19:38:33Z",
+          "refType": "branch",
+          "ref": "codex/table-unsorted"
+        },
+        {
+          "id": "15177268349",
+          "type": "PullRequestEvent",
+          "repo": "uswds/uswds",
+          "createdAt": "2026-09-16T21:23:21Z",
+          "action": "merged",
+          "number": 6919
+        },
+        {
+          "id": "15171451624",
+          "type": "PullRequestEvent",
+          "repo": "uswds/uswds",
+          "createdAt": "2026-09-16T19:39:30Z",
+          "action": "opened",
+          "number": 6919
+        }
+      ]
+    },
+    "taigrr": {
+      "ok": true,
+      "error": null,
+      "events": [
+        {
+          "id": "22136456343",
+          "type": "CreateEvent",
+          "repo": "gogrlx/grlx",
+          "createdAt": "2026-09-25T06:07:34Z",
+          "refType": "branch",
+          "ref": "cd/grlx-round1-20260925"
+        },
+        {
+          "id": "15740748637",
+          "type": "PullRequestEvent",
+          "repo": "taigrr/blastd",
+          "createdAt": "2026-09-25T09:38:30Z",
+          "action": "opened",
+          "number": 18
+        },
+        {
+          "id": "22115825465",
+          "type": "PushEvent",
+          "repo": "gogrlx/grlx",
+          "createdAt": "2026-09-25T06:11:37Z",
+          "ref": "refs/heads/cd/grlx-round1-20260925",
+          "before": "848f3d2e7565f3dc91e0bafb52229cffa0e0bf33",
+          "head": "7e352743908e2760fd6022d1c97666893294c265"
+        },
+        {
+          "id": "15729064635",
+          "type": "PullRequestEvent",
+          "repo": "gogrlx/grlx",
+          "createdAt": "2026-09-25T06:07:45Z",
+          "action": "opened",
+          "number": 347
+        },
+        {
+          "id": "22048934393",
+          "type": "PushEvent",
+          "repo": "18F/identity-idp",
+          "createdAt": "2026-09-24T12:57:58Z",
+          "ref": "refs/heads/main",
+          "before": "54fa5f9d476a42d1cb49b5b5837ad5b30fd78809",
+          "head": "f4f8500a9059e77dcc18d0b11dbeea69c4ba1b82"
+        },
+        {
+          "id": "22033132675",
+          "type": "PushEvent",
+          "repo": "taigrr/bubbleterm",
+          "createdAt": "2026-09-24T09:03:52Z",
+          "ref": "refs/heads/cd/stabilize-poll-latency-test",
+          "before": "96daa786b164bd4ef7e4b4861df2517b8e1ffe6a",
+          "head": "1f9293ff2be466923c47e1d130ee20e332417828"
+        },
+        {
+          "id": "15650995845",
+          "type": "PullRequestEvent",
+          "repo": "taigrr/animals",
+          "createdAt": "2026-09-24T08:03:10Z",
+          "action": "opened",
+          "number": 12
+        },
+        {
+          "id": "22021674269",
+          "type": "CreateEvent",
+          "repo": "taigrr/animals",
+          "createdAt": "2026-09-24T08:02:58Z",
+          "refType": "branch",
+          "ref": "cd/docs-prefix-semantics"
+        },
+        {
+          "id": "22021087230",
+          "type": "PushEvent",
+          "repo": "taigrr/document-crack",
+          "createdAt": "2026-09-24T06:05:44Z",
+          "ref": "refs/heads/cd/update-go-1-27-1",
+          "before": "097eb32991a64495c596ce00ea2e3f95de45f047",
+          "head": "cff01d98c8a36d2319ebb764b0870734717b4163"
+        },
+        {
+          "id": "22015717729",
+          "type": "PushEvent",
+          "repo": "taigrr/trophy",
+          "createdAt": "2026-09-24T06:34:14Z",
+          "ref": "refs/heads/cd/obj-long-lines",
+          "before": "7f7fc951db10d0a611960bcc5254933e1ce7d41a",
+          "head": "3690d439d92b57f79d4df6c57d59db78b835d135"
+        },
+        {
+          "id": "21937464013",
+          "type": "CreateEvent",
+          "repo": "taigrr/log-mux",
+          "createdAt": "2026-09-23T10:02:43Z",
+          "refType": "branch",
+          "ref": "cd/update-go-1-27"
+        },
+        {
+          "id": "21935449171",
+          "type": "CreateEvent",
+          "repo": "gogrlx/snack",
+          "createdAt": "2026-09-23T10:34:30Z",
+          "refType": "branch",
+          "ref": "cd/snack-round10-20260923"
+        },
+        {
+          "id": "15576273632",
+          "type": "PullRequestEvent",
+          "repo": "gogrlx/snack",
+          "createdAt": "2026-09-23T10:34:43Z",
+          "action": "opened",
+          "number": 70
+        },
+        {
+          "id": "15574322669",
+          "type": "PullRequestEvent",
+          "repo": "taigrr/log-mux",
+          "createdAt": "2026-09-23T10:02:59Z",
+          "action": "opened",
+          "number": 12
+        },
+        {
+          "id": "15563527440",
+          "type": "PullRequestEvent",
+          "repo": "taigrr/temper",
+          "createdAt": "2026-09-23T07:03:44Z",
+          "action": "opened",
+          "number": 12
+        },
+        {
+          "id": "21917022230",
+          "type": "CreateEvent",
+          "repo": "taigrr/temper",
+          "createdAt": "2026-09-23T07:03:29Z",
+          "refType": "branch",
+          "ref": "cd/go-1-27-20260923"
+        },
+        {
+          "id": "21913445744",
+          "type": "PushEvent",
+          "repo": "gogrlx/grlx",
+          "createdAt": "2026-09-23T06:10:51Z",
+          "ref": "refs/heads/cd/self-update-signature-helper-20260923",
+          "before": "f0743f8422a838ac8397ee4ca144e9eb6da4900e",
+          "head": "b984791ecaa42fbd88742be819a62c2cd5caa13f"
+        },
+        {
+          "id": "15560791040",
+          "type": "PullRequestEvent",
+          "repo": "gogrlx/grlx",
+          "createdAt": "2026-09-23T06:07:56Z",
+          "action": "opened",
+          "number": 346
+        },
+        {
+          "id": "21913239043",
+          "type": "CreateEvent",
+          "repo": "gogrlx/grlx",
+          "createdAt": "2026-09-23T06:07:43Z",
+          "refType": "branch",
+          "ref": "cd/self-update-signature-helper-20260923"
+        },
+        {
+          "id": "21856879078",
+          "type": "CreateEvent",
+          "repo": "taigrr/go-pgdump",
+          "createdAt": "2026-09-22T07:33:02Z",
+          "refType": "branch",
+          "ref": "cd/cover-dumpall-args"
+        },
+        {
+          "id": "21855017348",
+          "type": "PushEvent",
+          "repo": "taigrr/gojev",
+          "createdAt": "2026-09-22T07:08:06Z",
+          "ref": "refs/heads/main",
+          "before": "58922c56cd632c9c96f0bc8bdb85e14e04751931",
+          "head": "c32e5746d3e942d05f3c4e164eab495abc04d720"
+        },
+        {
+          "id": "21830155284",
+          "type": "PushEvent",
+          "repo": "taigrr/catwalk",
+          "createdAt": "2026-09-22T05:58:26Z",
+          "ref": "refs/heads/main",
+          "before": "df368286465d0a7d2b0abdbc2ad80fd9423ffcc9",
+          "head": "f4692aa8e14c7aab841a87dcd430df5eef7635f6"
+        },
+        {
+          "id": "21828442752",
+          "type": "PushEvent",
+          "repo": "taigrr/mg",
+          "createdAt": "2026-09-22T10:33:03Z",
+          "ref": "refs/heads/cd/update-go-127",
+          "before": "c9404933ab3579f4768b2c578355930ef641112c",
+          "head": "3d0181ecf6bcc2ba9ccd6de1e394d97beea07cfc"
+        },
+        {
+          "id": "21821670044",
+          "type": "CreateEvent",
+          "repo": "taigrr/neocrush.nvim",
+          "createdAt": "2026-09-22T08:32:35Z",
+          "refType": "branch",
+          "ref": "cd/round6-maintenance"
+        },
+        {
+          "id": "15489197015",
+          "type": "PullRequestEvent",
+          "repo": "taigrr/neocrush.nvim",
+          "createdAt": "2026-09-22T08:32:47Z",
+          "action": "opened",
+          "number": 11
+        },
+        {
+          "id": "15487515785",
+          "type": "PullRequestEvent",
+          "repo": "taigrr/signalcli",
+          "createdAt": "2026-09-22T08:03:21Z",
+          "action": "opened",
+          "number": 10
+        },
+        {
+          "id": "21817932177",
+          "type": "CreateEvent",
+          "repo": "taigrr/signalcli",
+          "createdAt": "2026-09-22T08:03:09Z",
+          "refType": "branch",
+          "ref": "cd/ignore-nil-http-client"
+        },
+        {
+          "id": "15485891798",
+          "type": "PullRequestEvent",
+          "repo": "taigrr/go-pgdump",
+          "createdAt": "2026-09-22T07:33:14Z",
+          "action": "opened",
+          "number": 12
+        },
+        {
+          "id": "21812028941",
+          "type": "CreateEvent",
+          "repo": "taigrr/crunch",
+          "createdAt": "2026-09-22T06:35:45Z",
+          "refType": "branch",
+          "ref": "cd/document-crunch-api-key-priority-20260922"
+        },
+        {
+          "id": "15483009179",
+          "type": "PullRequestEvent",
+          "repo": "taigrr/crunch",
+          "createdAt": "2026-09-22T06:35:58Z",
+          "action": "opened",
+          "number": 33
+        },
+        {
+          "id": "21812009183",
+          "type": "CreateEvent",
+          "repo": "taigrr/crunch",
+          "createdAt": "2026-09-22T06:35:45Z",
+          "refType": "branch",
+          "ref": "cd/document-crunch-api-key-priority-20260922"
+        },
+        {
+          "id": "21810762773",
+          "type": "PushEvent",
+          "repo": "18F/identity-idp",
+          "createdAt": "2026-09-21T19:09:01Z",
+          "ref": "refs/heads/start-capybara-webmock-proxy-once",
+          "before": "63c5f2195dc653ffca5562807c2045c1e92f84b7",
+          "head": "16227a2371b8b1e5062f05fd666d4ec3d1483e41"
+        },
+        {
+          "id": "21810421827",
+          "type": "PushEvent",
+          "repo": "gogrlx/grlx",
+          "createdAt": "2026-09-22T06:11:18Z",
+          "ref": "refs/heads/cd/file-contains-preserve-buffer-20260922",
+          "before": "9b0ad968cfe12d07c7abdc03286c389da8929897",
+          "head": "3259afdba39a7a3edfa986ebe91ea630feda7b07"
+        },
+        {
+          "id": "15481741785",
+          "type": "PullRequestEvent",
+          "repo": "gogrlx/grlx",
+          "createdAt": "2026-09-22T06:07:16Z",
+          "action": "opened",
+          "number": 345
+        },
+        {
+          "id": "21810156063",
+          "type": "CreateEvent",
+          "repo": "gogrlx/grlx",
+          "createdAt": "2026-09-22T06:07:05Z",
+          "refType": "branch",
+          "ref": "cd/file-contains-preserve-buffer-20260922"
+        },
+        {
+          "id": "21809803206",
+          "type": "CreateEvent",
+          "repo": "taigrr/gojev",
+          "createdAt": "2026-09-22T06:01:40Z",
+          "refType": "branch",
+          "ref": "main"
+        },
+        {
+          "id": "21809590630",
+          "type": "PushEvent",
+          "repo": "taigrr/fantasy",
+          "createdAt": "2026-09-22T05:58:24Z",
+          "ref": "refs/heads/main",
+          "before": "8b1e5ca75562ba3a4a1c623877a7727546e756b0",
+          "head": "4fc7e00c164e2347aaa5899aacac486817fe6e0a"
+        },
+        {
+          "id": "21802319456",
+          "type": "PushEvent",
+          "repo": "taigrr/crush",
+          "createdAt": "2026-09-22T02:17:47Z",
+          "ref": "refs/heads/feature",
+          "before": "b31a7666922e939895f4d3cc86b783f588b25063",
+          "head": "ed4096e7b277f3209b531ae6309ca2a30d2286a3"
+        },
+        {
+          "id": "21794245255",
+          "type": "PushEvent",
+          "repo": "18F/identity-idp",
+          "createdAt": "2026-09-21T19:07:16Z",
+          "ref": "refs/heads/replace-analytics-wait-for-event",
+          "before": "bb76572a40e0af3b42da6ef990456d0508132539",
+          "head": "4f96e33116369506b84d3968975505444b5b5559"
+        },
+        {
+          "id": "21790533495",
+          "type": "PushEvent",
+          "repo": "18F/identity-idp",
+          "createdAt": "2026-09-21T21:51:26Z",
+          "ref": "refs/heads/main",
+          "before": "526e8a685461c7090044b1e44b885eccb7287b8a",
+          "head": "5688a247b525216b4b411ea010b12ec9c027f80b"
+        },
+        {
+          "id": "21783363197",
+          "type": "PushEvent",
+          "repo": "18F/identity-idp",
+          "createdAt": "2026-09-21T19:58:04Z",
+          "ref": "refs/heads/main",
+          "before": "2c918ab9f0760982819c8ab702820616db7562a3",
+          "head": "526e8a685461c7090044b1e44b885eccb7287b8a"
+        },
+        {
+          "id": "21781112686",
+          "type": "PushEvent",
+          "repo": "18F/identity-idp",
+          "createdAt": "2026-09-21T19:26:36Z",
+          "ref": "refs/heads/nds-backup-code-confirm-setup",
+          "before": "cf6399b83f331eb508380b304cd561564296c458",
+          "head": "864359fa7efff72e5924c20b11fc4f70bd9c6956"
+        },
+        {
+          "id": "21781024500",
+          "type": "PushEvent",
+          "repo": "18F/identity-idp",
+          "createdAt": "2026-09-21T20:24:51Z",
+          "ref": "refs/heads/taigrr/nds-opt-out-fixes",
+          "before": "dbbc5995311f1c1ea02ee8620386f42d41d6c7cd",
+          "head": "fff744c1d95a36f02f82d7b94191cf7310ad576a"
+        }
+      ]
+    }
+  },
+  "audit": {
+    "robotsTxt": "# As a condition of accessing this website, you agree to abide by the following\n# content signals:\n\n# (a)  If a Content-Signal = yes, you may collect content for the corresponding\n#      use.\n# (b)  If a Content-Signal = no, you may not collect content for the\n#      corresponding use.\n# (c)  If the website operator does not include a Content-Signal for a\n#      corresponding use, the website operator neither grants nor restricts\n#      permission via Content-Signal with respect to the corresponding use.\n\n# The content signals and their meanings are:\n\n# search:   building a search index and providing search results (e.g., returning\n#           hyperlinks and short excerpts from your website's contents). Search does not\n#           include providing AI-generated search summaries.\n# ai-input: inputting content into one or more AI models (e.g., retrieval\n#           augmented generation, grounding, or other real-time taking of content for\n#           generative AI search answers).\n# ai-train: training or fine-tuning AI models.\n# use:      how AI systems may consume the content (immediate, reference, or full).\n\n# ANY RESTRICTIONS EXPRESSED VIA CONTENT SIGNALS ARE EXPRESS RESERVATIONS OF\n# RIGHTS UNDER ARTICLE 4 OF THE EUROPEAN UNION DIRECTIVE 2019/790 ON COPYRIGHT\n# AND RELATED RIGHTS IN THE DIGITAL SINGLE MARKET.\n\n# BEGIN Cloudflare Managed content\n\n\nUser-agent: *\nContent-Signal: search=yes,ai-train=no,use=reference\nAllow: /\n\n# Training crawlers\nUser-agent: Amazonbot\nDisallow: /\n\nUser-agent: Applebot-Extended\nDisallow: /\n\nUser-agent: Bytespider\nDisallow: /\n\nUser-agent: CCBot\nDisallow: /\n\nUser-agent: ClaudeBot\nDisallow: /\n\nUser-agent: Diffbot\nDisallow: /\n\nUser-agent: Google-Extended\nDisallow: /\n\nUser-agent: GPTBot\nDisallow: /\n\nUser-agent: omgili\nDisallow: /\n\nUser-agent: anthropic-ai\nDisallow: /\n\nUser-agent: Claude-Web\nDisallow: /\n\nUser-agent: cohere-ai\nDisallow: /\n\nUser-agent: MistralAI-Training\nDisallow: /\n\nUser-agent: meta-externalagent\nDisallow: /\n\nUser-agent: GoogleOther\nDisallow: /\n\nUser-agent: Baiduspider\nDisallow: /\n\nUser-agent: PetalBot\nDisallow: /\n\nUser-agent: AwarioSmartBot\nUser-agent: AwarioRssBot\nDisallow: /\n\nUser-agent: Google-CloudVertexBot\nDisallow: /\n\nUser-agent: QualifiedBot\nDisallow: /\n\nUser-agent: Cotoyogi\nDisallow: /\n\nUser-agent: ICC-Crawler\nDisallow: /\n\nUser-agent: atlassian-bot\nDisallow: /\n\nUser-agent: FishBot\nDisallow: /\n\nUser-agent: BorderxBot\nDisallow: /\n\nUser-agent: NavuBot\nDisallow: /\n\nUser-agent: SemrushBot-SWA\nDisallow: /\n\nUser-agent: WARDBot\nDisallow: /\n\nUser-agent: magpie-crawler\nDisallow: /\n\nUser-agent: KimiBot\nDisallow: /\n\nUser-agent: CitibotSiteCrawler\nDisallow: /\n\n# AI Agents\nUser-agent: Perplexity-User\nDisallow: /\n\nUser-agent: FireCrawl\nDisallow: /\n\nUser-agent: FirecrawlAgent\nDisallow: /\n\nUser-agent: Claude-User\nDisallow: /\n\nUser-agent: ChatGPT-User\nDisallow: /\n\nUser-agent: Google-Agent\nDisallow: /\n\nUser-agent: Google-GeminiNotebook\nUser-agent: Google-NotebookLM\nDisallow: /\n\nUser-agent: MistralAI-User\nDisallow: /\n\nUser-agent: Kimi-User\nDisallow: /\n\nUser-agent: Amzn-User\nDisallow: /\n\nUser-agent: meta-externalfetcher\nDisallow: /\n\nUser-agent: Retool\nDisallow: /\n\nUser-agent: Instapaper\nDisallow: /\n\nUser-agent: ChathiveCrawler\nDisallow: /\n\n# END Cloudflare Managed Content\n\n",
+    "sitemapXml": null,
+    "sourceSignatures": {
+      "grok_xai": false,
+      "openai": false,
+      "anthropic_claude": false,
+      "login_gov": false,
+      "uswds": false,
+      "vercel": false,
+      "cloud_gov": false,
+      "google_analytics": false,
+      "irs_direct_file_terms": false
+    },
+    "headerSignatures": {
+      "server": "cloudflare",
+      "via": null,
+      "x_vercel_id": null,
+      "cf_ray": "a409d6f02889fa9a-SJC",
+      "hsts": "max-age=15552000; includeSubDomains; preload",
+      "csp": "base-uri 'none'; object-src 'none'; form-action 'self'; font-src 'self' data:; manifest-src 'self'; worker-src 'self' blob:; img-src 'self' data: blob: https://maps.geo.us-east-2.amazonaws.com https://*.cloudflarestream.com; connect-src 'self' https://maps.geo.us-east-2.amazonaws.com https://*.cloudflarestream.com https://videodelivery.net; media-src 'self' blob: https://*.cloudflarestream.com https://videodelivery.net; frame-src https://www.youtube-nocookie.com https://*.cloudflarestream.com; frame-ancestors 'none'",
+      "x_powered_by": null,
+      "looks_like_akamai": false,
+      "looks_like_cloudflare": true
+    }
+  }
+}
