@@ -1,0 +1,58 @@
+{
+  "timestamp": "2026-09-25T13:19:26.348Z",
+  "lighthouse": {
+    "ok": true,
+    "scores": {
+      "performance": 0.91,
+      "accessibility": 1,
+      "bestPractices": 0.92,
+      "seo": 0.58
+    },
+    "reportPath": "data/lighthouse/2026-09-25T13-18-55-651Z.json"
+  },
+  "a11y": {
+    "ok": false,
+    "error": "Please use browser.newContext()\n Please check out https://github.com/dequelabs/axe-core-npm/blob/develop/packages/playwright/error-handling.md"
+  },
+  "network": {
+    "ok": true,
+    "timestamp": "2026-09-25T13:19:26.346Z",
+    "harArtifactPath": "har-artifacts/2026-09-25T13-18-55-651Z.har",
+    "pages": [
+      {
+        "url": "https://america.gov/",
+        "redirectedTo": null,
+        "title": "America.gov",
+        "httpStatus": 200,
+        "navError": null,
+        "formCount": 0,
+        "chatInputFound": false,
+        "blockers": [],
+        "a11yViolationCount": 0
+      }
+    ],
+    "siteWideA11yViolationCount": 0,
+    "a11yReportPath": "data/a11y/2026-09-25T13-18-55-651Z-sitewide.json",
+    "pagesVisited": 1,
+    "chatInputFoundOnPages": [],
+    "totalRequests": 7,
+    "uniqueHosts": [
+      "america.gov",
+      "static.cloudflareinsights.com"
+    ],
+    "aiProviderHostMatches": [],
+    "streamingEndpoints": [],
+    "protocolSignatures": [],
+    "websockets": [],
+    "blockersEncountered": [],
+    "blockedOrFailedRequests": [
+      {
+        "url": "https://static.cloudflareinsights.com/beacon.min.js/v31edd6df95cf4e85bb4c19e7a9bdbcba1788362987495",
+        "errorText": "csp",
+        "count": 1
+      }
+    ],
+    "newEvents": []
+  },
+  "chatEvals": []
+}
