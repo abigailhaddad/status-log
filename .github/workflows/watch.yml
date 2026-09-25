@@ -46,6 +46,11 @@ jobs:
         with:
           node-version: 22
 
+      # check.mjs imports js-yaml (via scripts/lib/watch-targets.mjs).
+      - name: Install dependencies
+        if: steps.gate.outputs.should_run == 'true'
+        run: npm ci --no-audit --no-fund
+
       - name: Run lightweight check
         if: steps.gate.outputs.should_run == 'true'
         id: check
