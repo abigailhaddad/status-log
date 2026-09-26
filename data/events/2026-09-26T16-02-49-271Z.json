@@ -1,0 +1,13 @@
+{
+  "timestamp": "2026-09-26T16:02:49.271Z",
+  "events": [
+    {
+      "type": "NEW_COMMENT",
+      "detail": "mogul commented on discussion #6991 on uswds/uswds: We're working on a significant piece of work which might contribute a bunch of WebComponents back. As things stand our components have to use light DOM to allow for styling, which makes for a poor abstraction. The main blocker to using shadow DOM is to have the USWDS provide and use tokens, which th\n  `https://github.com/uswds/uswds/discussions/6991#discussioncomment-18614411`"
+    },
+    {
+      "type": "NEW_PERSON_ACTIVITY",
+      "detail": "taigrr:\n[2026-09-26T06:36:02Z] created branch \"cd/llm-env-helper-tests-20260926\" on taigrr/crunch"
+    }
+  ]
+}
