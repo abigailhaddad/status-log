@@ -6,6 +6,7 @@ import { checkCertTransparency } from "./lib/crtsh.mjs";
 import { checkRepos } from "./lib/repo-watch.mjs";
 import { checkOrgRepos } from "./lib/org-watch.mjs";
 import { checkAllWatchedUsers, diffUserActivity } from "./lib/person-watch.mjs";
+import { checkRepoActivity } from "./lib/comment-watch.mjs";
 import { scanSource, scanHeaders } from "./lib/source-scan.mjs";
 import { escapeMentions } from "./lib/escape-mentions.mjs";
 import { WATCH_TARGETS } from "./lib/watch-targets.mjs";
@@ -42,6 +43,20 @@ function formatCommit(c) {
 function diffNewCommits(current, previous, excludeShas) {
   const prevShas = new Set((previous?.commits || []).map((c) => c.sha));
   return (current.commits || []).filter((c) => !prevShas.has(c.sha) && !excludeShas.has(c.sha));
+}
+
+function formatIssue(i) {
+  return `${i.author} opened ${i.isPullRequest ? "PR" : "issue"} #${i.number} on ${i.repo}: "${i.title}"\n  \`${i.url}\``;
+}
+
+function formatComment(c) {
+  const body = escapeMentions((c.body || "").replace(/\r?\n/g, " ").slice(0, 300));
+  return `${c.author} commented on ${c.repo}#${c.issueNumber}: ${body}\n  \`${c.url}\``;
+}
+
+function formatDeletedComment(c) {
+  const body = escapeMentions((c.body || "").replace(/\r?\n/g, " ").slice(0, 500));
+  return `${c.author}'s comment on ${c.repo}#${c.issueNumber} (posted ${c.createdAt}) was deleted. Last known content: "${body}"`;
 }
 
 async function runFullSnapshot(prev) {
@@ -89,7 +104,11 @@ async function runFullSnapshot(prev) {
     };
   }
 
-  const snapshot = { timestamp, live, dns, http, cert, repos, org, personActivity, audit };
+  // Only checked once there's a `prev` to diff against (below) — on the very
+  // first run there's no baseline yet, and fetching "everything since the
+  // dawn of time" would both be a huge/slow request and misreport the
+  // entire pre-existing issue/comment history as brand new.
+  let comments = { known: prev?.comments?.known || [] };
 
   const events = [];
   if (prev) {
@@ -140,6 +159,23 @@ async function runFullSnapshot(prev) {
       events.push({ type: "NEW_ORG_REPO", detail: newOrgRepos.map((r) => `\`https://github.com/${r}\``).join(", ") });
     }
 
+    const trackedRepos = [...new Set([...WATCH_TARGETS.repos, ...(org.repos || [])])];
+    const activity = await checkRepoActivity(trackedRepos, prev.timestamp, prev.comments?.known || []);
+    comments = { known: activity.known };
+
+    if (activity.newIssues.length > 0) {
+      events.push({ type: "NEW_ISSUE", detail: activity.newIssues.map(formatIssue).join("\n\n") });
+    }
+    if (activity.newComments.length > 0) {
+      events.push({ type: "NEW_COMMENT", detail: activity.newComments.map(formatComment).join("\n\n") });
+    }
+    // Someone deleting a comment is the whole reason this is worth tracking
+    // at all (routine new comments are noise; a comment quietly disappearing
+    // is not) — worth an immediate alert rather than the daily digest.
+    if (activity.deletedComments.length > 0) {
+      events.push({ type: "DELETED_COMMENT", detail: activity.deletedComments.map(formatDeletedComment).join("\n\n") });
+    }
+
     for (const diff of personDiffs) {
       events.push({ type: "NEW_PERSON_ACTIVITY", detail: `${diff.username}:\n${diff.detail}` });
     }
@@ -147,6 +183,7 @@ async function runFullSnapshot(prev) {
     events.push({ type: "SITE_WENT_LIVE", detail: "First observed reachable" });
   }
 
+  const snapshot = { timestamp, live, dns, http, cert, repos, org, personActivity, comments, audit };
   return { snapshot, events };
 }
 
@@ -154,7 +191,7 @@ async function runFullSnapshot(prev) {
 // the thing worth knowing about the moment it happens. Commit/person-activity
 // noise is still recorded every run (below) but only surfaces as a daily
 // digest (see scripts/daily-digest.mjs) instead of an email every hour.
-const IMMEDIATE_EVENT_TYPES = new Set(["SITE_WENT_LIVE", "SITE_WENT_DOWN", "NEW_CERTIFICATE", "NEW_ORG_REPO"]);
+const IMMEDIATE_EVENT_TYPES = new Set(["SITE_WENT_LIVE", "SITE_WENT_DOWN", "NEW_CERTIFICATE", "NEW_ORG_REPO", "DELETED_COMMENT"]);
 
 async function main() {
   await mkdir(EVENTS_DIR, { recursive: true });

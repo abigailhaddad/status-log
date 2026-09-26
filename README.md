@@ -24,12 +24,20 @@ normal browser-equivalent requests.
   change to notice.
 - Once the target responds, fetches `robots.txt` / `sitemap.xml` and scans
   the page source + response headers for known signatures.
+- Tracks new issues/PRs and new issue/PR comments (who, when, and the
+  content) across the same tracked repos. GitHub gives no "list deleted
+  comments" feed, so noticing a deletion means re-checking every comment
+  we've already recorded to see if it 404s now — one GET per previously-known
+  comment per run, which is fine at this project's scale but would need
+  capping (e.g. only re-checking recent ones) if that set grew very large.
+  A comment's full content is kept in our own state even after a deletion,
+  since that's the whole point — GitHub's own copy is gone by then.
 - Diffs every run against the previous one and commits all results to
   `data/` so the whole history is diffable in git. Only target-itself events
-  (goes live/down, a new relevant cert, a brand-new repo appearing) open a
-  GitHub issue immediately — routine commit and account activity is still
-  recorded every run but rolls up into the daily digest below instead of
-  filing an issue every time.
+  (goes live/down, a new relevant cert, a brand-new repo appearing, a comment
+  getting deleted) open a GitHub issue immediately — routine commit, issue/
+  comment, and account activity is still recorded every run but rolls up
+  into the daily digest below instead of filing an issue every time.
 - All embedded GitHub links, and any bare `@handle` in third-party commit
   messages or PR titles, are wrapped in backticks before going into an issue
   body — a plain link or mention triggers GitHub's own cross-reference/

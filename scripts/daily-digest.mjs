@@ -10,7 +10,7 @@ const DATA_DIR = path.join(process.cwd(), "data");
 const EVENTS_DIR = path.join(DATA_DIR, "events");
 const STATE_PATH = path.join(DATA_DIR, "digest-state.json");
 
-const DIGEST_EVENT_TYPES = new Set(["NEW_REPO_COMMITS", "NEW_PERSON_ACTIVITY"]);
+const DIGEST_EVENT_TYPES = new Set(["NEW_REPO_COMMITS", "NEW_PERSON_ACTIVITY", "NEW_ISSUE", "NEW_COMMENT"]);
 
 async function loadState() {
   try {
@@ -54,10 +54,18 @@ async function main() {
 
   const commitEvents = collected.filter((e) => e.type === "NEW_REPO_COMMITS");
   const personEvents = collected.filter((e) => e.type === "NEW_PERSON_ACTIVITY");
+  const issueEvents = collected.filter((e) => e.type === "NEW_ISSUE");
+  const commentEvents = collected.filter((e) => e.type === "NEW_COMMENT");
 
   const sections = [];
   if (commitEvents.length > 0) {
     sections.push(`## Repo commits\n\n${commitEvents.map((e) => e.detail).join("\n\n")}`);
+  }
+  if (issueEvents.length > 0) {
+    sections.push(`## New issues/PRs\n\n${issueEvents.map((e) => e.detail).join("\n\n")}`);
+  }
+  if (commentEvents.length > 0) {
+    sections.push(`## New comments\n\n${commentEvents.map((e) => e.detail).join("\n\n")}`);
   }
   if (personEvents.length > 0) {
     sections.push(`## Account activity\n\n${personEvents.map((e) => e.detail).join("\n\n")}`);

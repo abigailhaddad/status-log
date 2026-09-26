@@ -1,0 +1,100 @@
+// Tracks issues and issue/PR comments across a list of repos: new issues
+// opened, new comments (who, when, and the content — kept in full in our
+// own state even after truncation in a human-facing summary, since a
+// deletion means GitHub's own copy is gone), and comments that existed on a
+// previous run but don't anymore.
+//
+// GitHub has no "list deleted comments" feed — noticing a deletion means
+// re-checking every comment we've already recorded to see if it 404s now.
+// That's one GET per previously-known comment per run, bounded by however
+// many comments we've actually seen since tracking started (fine at this
+// project's scale; would need capping — e.g. only re-checking comments from
+// the last N days — if that set grew into the thousands).
+import { escapeMentions } from "./escape-mentions.mjs";
+
+const TIMEOUT_MS = 15000;
+
+function authHeaders() {
+  const headers = { "user-agent": "status-log/1.0", accept: "application/vnd.github+json" };
+  if (process.env.GITHUB_TOKEN) headers.authorization = `Bearer ${process.env.GITHUB_TOKEN}`;
+  return headers;
+}
+
+async function fetchJson(url) {
+  const controller = new AbortController();
+  const timer = setTimeout(() => controller.abort(), TIMEOUT_MS);
+  try {
+    const res = await fetch(url, { signal: controller.signal, headers: authHeaders() });
+    if (res.status === 404) return { ok: true, status: 404, data: null };
+    if (!res.ok) return { ok: false, status: res.status, data: null };
+    return { ok: true, status: res.status, data: await res.json() };
+  } catch (e) {
+    return { ok: false, status: null, data: null, error: e.message || String(e) };
+  } finally {
+    clearTimeout(timer);
+  }
+}
+
+async function fetchNewIssues(repo, sinceIso) {
+  const { ok, data } = await fetchJson(
+    `https://api.github.com/repos/${repo}/issues?since=${encodeURIComponent(sinceIso)}&state=all&per_page=100`
+  );
+  if (!ok || !Array.isArray(data)) return [];
+  return data
+    .filter((issue) => issue.created_at >= sinceIso)
+    .map((issue) => ({
+      repo,
+      number: issue.number,
+      title: escapeMentions(issue.title || ""),
+      author: issue.user?.login || "unknown",
+      isPullRequest: Boolean(issue.pull_request),
+      createdAt: issue.created_at,
+      url: issue.html_url,
+    }));
+}
+
+async function fetchNewComments(repo, sinceIso) {
+  const { ok, data } = await fetchJson(
+    `https://api.github.com/repos/${repo}/issues/comments?since=${encodeURIComponent(sinceIso)}&per_page=100`
+  );
+  if (!ok || !Array.isArray(data)) return [];
+  return data
+    .filter((c) => c.created_at >= sinceIso)
+    .map((c) => ({
+      id: c.id,
+      repo,
+      issueNumber: Number(c.issue_url.split("/").pop()),
+      author: c.user?.login || "unknown",
+      body: c.body || "",
+      createdAt: c.created_at,
+      url: c.html_url,
+    }));
+}
+
+async function commentStillExists(repo, commentId) {
+  const { ok, status } = await fetchJson(`https://api.github.com/repos/${repo}/issues/comments/${commentId}`);
+  if (!ok) return null; // network/timeout error — inconclusive, never report a false deletion
+  return status !== 404;
+}
+
+// prevKnown: [{ id, repo, issueNumber, author, body, createdAt, url }, ...] from the last run.
+export async function checkRepoActivity(repos, sinceIso, prevKnown = []) {
+  const [issueLists, commentLists] = await Promise.all([
+    Promise.all(repos.map((r) => fetchNewIssues(r, sinceIso))),
+    Promise.all(repos.map((r) => fetchNewComments(r, sinceIso))),
+  ]);
+  const newIssues = issueLists.flat();
+  const newComments = commentLists.flat();
+
+  const existenceChecks = await Promise.all(
+    prevKnown.map(async (c) => ({ comment: c, exists: await commentStillExists(c.repo, c.id) }))
+  );
+  const deletedComments = existenceChecks.filter((r) => r.exists === false).map((r) => r.comment);
+  const deletedIds = new Set(deletedComments.map((c) => c.id));
+  const stillExistingPrev = prevKnown.filter((c) => !deletedIds.has(c.id));
+
+  const knownById = new Map(stillExistingPrev.map((c) => [c.id, c]));
+  for (const c of newComments) knownById.set(c.id, c);
+
+  return { newIssues, newComments, deletedComments, known: [...knownById.values()] };
+}
