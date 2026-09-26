@@ -1,7 +1,7 @@
 {
   "ok": true,
-  "timestamp": "2026-09-25T13:19:26.346Z",
-  "harArtifactPath": "har-artifacts/2026-09-25T13-18-55-651Z.har",
+  "timestamp": "2026-09-26T15:44:52.968Z",
+  "harArtifactPath": "har-artifacts/2026-09-26T15-44-34-419Z.har",
   "pages": [
     {
       "url": "https://america.gov/",
@@ -16,7 +16,7 @@
     }
   ],
   "siteWideA11yViolationCount": 0,
-  "a11yReportPath": "data/a11y/2026-09-25T13-18-55-651Z-sitewide.json",
+  "a11yReportPath": "data/a11y/2026-09-26T15-44-34-419Z-sitewide.json",
   "pagesVisited": 1,
   "chatInputFoundOnPages": [],
   "totalRequests": 7,
@@ -36,5 +36,10 @@
       "count": 1
     }
   ],
+  "cookies": [],
+  "storageKeys": {
+    "localStorage": [],
+    "sessionStorage": []
+  },
   "newEvents": []
 }
