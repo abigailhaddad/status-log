@@ -7,6 +7,7 @@ import { checkRepos } from "./lib/repo-watch.mjs";
 import { checkOrgRepos } from "./lib/org-watch.mjs";
 import { checkAllWatchedUsers, diffUserActivity } from "./lib/person-watch.mjs";
 import { checkRepoActivity } from "./lib/comment-watch.mjs";
+import { checkDiscussionActivity } from "./lib/discussion-watch.mjs";
 import { scanSource, scanHeaders } from "./lib/source-scan.mjs";
 import { escapeMentions } from "./lib/escape-mentions.mjs";
 import { WATCH_TARGETS } from "./lib/watch-targets.mjs";
@@ -49,14 +50,25 @@ function formatIssue(i) {
   return `${i.author} opened ${i.isPullRequest ? "PR" : "issue"} #${i.number} on ${i.repo}: "${i.title}"\n  \`${i.url}\``;
 }
 
+function formatDiscussion(d) {
+  return `${d.author} opened discussion #${d.number} on ${d.repo}: "${d.title}"\n  \`${d.url}\``;
+}
+
+// A comment's location reads differently depending on whether it came from
+// comment-watch.mjs (an issue/PR) or discussion-watch.mjs (a discussion) —
+// everything else about the two is handled identically from here on.
+function commentLocation(c) {
+  return c.kind === "discussion" ? `discussion #${c.discussionNumber} on ${c.repo}` : `${c.repo}#${c.issueNumber}`;
+}
+
 function formatComment(c) {
   const body = escapeMentions((c.body || "").replace(/\r?\n/g, " ").slice(0, 300));
-  return `${c.author} commented on ${c.repo}#${c.issueNumber}: ${body}\n  \`${c.url}\``;
+  return `${c.author} commented on ${commentLocation(c)}: ${body}\n  \`${c.url}\``;
 }
 
 function formatDeletedComment(c) {
   const body = escapeMentions((c.body || "").replace(/\r?\n/g, " ").slice(0, 500));
-  return `${c.author}'s comment on ${c.repo}#${c.issueNumber} (posted ${c.createdAt}) was deleted. Last known content: "${body}"`;
+  return `${c.author}'s comment on ${commentLocation(c)} (posted ${c.createdAt}) was deleted. Last known content: "${body}"`;
 }
 
 async function runFullSnapshot(prev) {
@@ -160,20 +172,34 @@ async function runFullSnapshot(prev) {
     }
 
     const trackedRepos = [...new Set([...WATCH_TARGETS.repos, ...(org.repos || [])])];
-    const activity = await checkRepoActivity(trackedRepos, prev.timestamp, prev.comments?.known || []);
-    comments = { known: activity.known };
+    // Split by kind before checking: a discussion comment's ID lives in
+    // GraphQL's ID space, not REST's, so handing the wrong kind to the
+    // wrong checker would either error or (worse) 404 spuriously.
+    const prevKnownComments = prev.comments?.known || [];
+    const prevIssueComments = prevKnownComments.filter((c) => c.kind !== "discussion");
+    const prevDiscussionComments = prevKnownComments.filter((c) => c.kind === "discussion");
+    const [issueActivity, discussionActivity] = await Promise.all([
+      checkRepoActivity(trackedRepos, prev.timestamp, prevIssueComments),
+      checkDiscussionActivity(trackedRepos, prev.timestamp, prevDiscussionComments),
+    ]);
+    comments = { known: [...issueActivity.known, ...discussionActivity.known] };
 
-    if (activity.newIssues.length > 0) {
-      events.push({ type: "NEW_ISSUE", detail: activity.newIssues.map(formatIssue).join("\n\n") });
+    if (issueActivity.newIssues.length > 0) {
+      events.push({ type: "NEW_ISSUE", detail: issueActivity.newIssues.map(formatIssue).join("\n\n") });
     }
-    if (activity.newComments.length > 0) {
-      events.push({ type: "NEW_COMMENT", detail: activity.newComments.map(formatComment).join("\n\n") });
+    if (discussionActivity.newDiscussions.length > 0) {
+      events.push({ type: "NEW_DISCUSSION", detail: discussionActivity.newDiscussions.map(formatDiscussion).join("\n\n") });
+    }
+    const newComments = [...issueActivity.newComments, ...discussionActivity.newComments];
+    if (newComments.length > 0) {
+      events.push({ type: "NEW_COMMENT", detail: newComments.map(formatComment).join("\n\n") });
     }
     // Someone deleting a comment is the whole reason this is worth tracking
     // at all (routine new comments are noise; a comment quietly disappearing
     // is not) — worth an immediate alert rather than the daily digest.
-    if (activity.deletedComments.length > 0) {
-      events.push({ type: "DELETED_COMMENT", detail: activity.deletedComments.map(formatDeletedComment).join("\n\n") });
+    const deletedComments = [...issueActivity.deletedComments, ...discussionActivity.deletedComments];
+    if (deletedComments.length > 0) {
+      events.push({ type: "DELETED_COMMENT", detail: deletedComments.map(formatDeletedComment).join("\n\n") });
     }
 
     for (const diff of personDiffs) {

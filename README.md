@@ -24,14 +24,19 @@ normal browser-equivalent requests.
   change to notice.
 - Once the target responds, fetches `robots.txt` / `sitemap.xml` and scans
   the page source + response headers for known signatures.
-- Tracks new issues/PRs and new issue/PR comments (who, when, and the
-  content) across the same tracked repos. GitHub gives no "list deleted
-  comments" feed, so noticing a deletion means re-checking every comment
-  we've already recorded to see if it 404s now — one GET per previously-known
-  comment per run, which is fine at this project's scale but would need
-  capping (e.g. only re-checking recent ones) if that set grew very large.
-  A comment's full content is kept in our own state even after a deletion,
-  since that's the whole point — GitHub's own copy is gone by then.
+- Tracks new issues/PRs, new GitHub Discussions, and new comments on either
+  (who, when, and the content) across the same tracked repos. Discussions
+  are a separate GitHub feature reachable only via its GraphQL API (no REST
+  endpoint), opt-in per repo, so most watched repos likely don't have them
+  enabled — that's handled as a normal empty result, not an error.
+  GitHub gives no "list deleted comments" feed for either kind, so noticing
+  a deletion means re-checking a comment we've already recorded to see if
+  it's gone now (a REST 404 for an issue/PR comment, a GraphQL node lookup
+  for a discussion comment) — capped so it doesn't grow unbounded as the
+  known set accumulates: a comment younger than a week is re-checked every
+  run, older ones at most once a week. A comment's full content is kept in
+  our own state even after a deletion, since that's the whole point —
+  GitHub's own copy is gone by then.
 - Diffs every run against the previous one and commits all results to
   `data/` so the whole history is diffable in git. Only target-itself events
   (goes live/down, a new relevant cert, a brand-new repo appearing, a comment

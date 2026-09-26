@@ -5,12 +5,11 @@
 // previous run but don't anymore.
 //
 // GitHub has no "list deleted comments" feed — noticing a deletion means
-// re-checking every comment we've already recorded to see if it 404s now.
-// That's one GET per previously-known comment per run, bounded by however
-// many comments we've actually seen since tracking started (fine at this
-// project's scale; would need capping — e.g. only re-checking comments from
-// the last N days — if that set grew into the thousands).
+// re-checking a comment we've already recorded to see if it 404s now. See
+// deletion-check.mjs for the caching policy that keeps that bounded as the
+// known set grows (recent comments every run, older ones at most weekly).
 import { escapeMentions } from "./escape-mentions.mjs";
+import { partitionForDeletionCheck, applyDeletionResults } from "./deletion-check.mjs";
 
 const TIMEOUT_MS = 15000;
 
@@ -61,6 +60,7 @@ async function fetchNewComments(repo, sinceIso) {
   return data
     .filter((c) => c.created_at >= sinceIso)
     .map((c) => ({
+      kind: "issue",
       id: c.id,
       repo,
       issueNumber: Number(c.issue_url.split("/").pop()),
@@ -77,7 +77,7 @@ async function commentStillExists(repo, commentId) {
   return status !== 404;
 }
 
-// prevKnown: [{ id, repo, issueNumber, author, body, createdAt, url }, ...] from the last run.
+// prevKnown: [{ id, repo, issueNumber, author, body, createdAt, url, lastCheckedAt }, ...] from the last run.
 export async function checkRepoActivity(repos, sinceIso, prevKnown = []) {
   const [issueLists, commentLists] = await Promise.all([
     Promise.all(repos.map((r) => fetchNewIssues(r, sinceIso))),
@@ -86,15 +86,15 @@ export async function checkRepoActivity(repos, sinceIso, prevKnown = []) {
   const newIssues = issueLists.flat();
   const newComments = commentLists.flat();
 
+  const now = Date.now();
+  const { due, notDue } = partitionForDeletionCheck(prevKnown, now);
   const existenceChecks = await Promise.all(
-    prevKnown.map(async (c) => ({ comment: c, exists: await commentStillExists(c.repo, c.id) }))
+    due.map(async (c) => ({ comment: c, exists: await commentStillExists(c.repo, c.id) }))
   );
-  const deletedComments = existenceChecks.filter((r) => r.exists === false).map((r) => r.comment);
-  const deletedIds = new Set(deletedComments.map((c) => c.id));
-  const stillExistingPrev = prevKnown.filter((c) => !deletedIds.has(c.id));
+  const { deleted: deletedComments, stillKnown } = applyDeletionResults(existenceChecks, notDue, now);
 
-  const knownById = new Map(stillExistingPrev.map((c) => [c.id, c]));
-  for (const c of newComments) knownById.set(c.id, c);
+  const knownById = new Map(stillKnown.map((c) => [c.id, c]));
+  for (const c of newComments) knownById.set(c.id, { ...c, lastCheckedAt: new Date(now).toISOString() });
 
   return { newIssues, newComments, deletedComments, known: [...knownById.values()] };
 }
