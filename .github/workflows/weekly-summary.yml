@@ -1,0 +1,64 @@
+name: Weekly summary
+
+on:
+  schedule:
+    - cron: "0 13 * * 1" # Monday, ~9am ET
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: status-log-weekly-summary
+  cancel-in-progress: false
+
+jobs:
+  summary:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Install dependencies
+        run: npm install --no-audit --no-fund
+
+      - name: Build the weekly summary
+        id: summary
+        run: node scripts/weekly-summary.mjs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit the summary record
+        run: |
+          git config user.name "status-log-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/weekly-summary/
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+          git commit -m "chore: weekly summary $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          for attempt in 1 2 3 4 5; do
+            if git push; then
+              exit 0
+            fi
+            echo "Push rejected (attempt $attempt) — pulling and rebasing before retrying"
+            git pull --rebase -X ours origin main
+            sleep $((attempt * 3))
+          done
+          echo "::error::Failed to push after multiple retries"
+          exit 1
+
+      - name: File the summary issue
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SUMMARY_BODY: ${{ steps.summary.outputs.summary_body }}
+        run: |
+          gh issue create \
+            --title "Weekly summary: $(date -u +%Y-%m-%d)" \
+            --assignee abigailhaddad \
+            --body "$SUMMARY_BODY"

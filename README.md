@@ -55,6 +55,19 @@ of filing one every time any of it fires. Tracks its own watermark in
 `data/digest-state.json` so each day only covers what's new since the last
 digest.
 
+**`.github/workflows/weekly-summary.yml`** — runs once a week: a different
+question from the other two ("what's new") — commit volume/authorship/timing
+across the tracked repos over the trailing 7 days (who's committing, how
+much, and at what hours), plus the most-reacted comments/discussion replies
+in either direction. Pulled fresh from GitHub's API for the window each time
+rather than reconstructed from `watch.yml`'s own history, so a gap in its run
+cadence can't silently produce an incomplete report — and because reaction
+counts accumulate on a comment long after it's created, which an incremental
+"since last check" fetch has no reason to ever revisit. Also flags same-author
+commits landing closer together than a human could plausibly write and review
+between them — not a verdict on its own (a scripted dependency-bump batch
+trips this too), but worth a look at what actually landed that fast.
+
 **`.github/workflows/deep-audit.yml`** — runs once daily, but does nothing
 until `watch.yml` has observed the target as live (checked via
 `data/latest.json` before installing anything heavy):
@@ -120,6 +133,7 @@ data/
   network/latest.json    # crawl-wide summary: hosts, signature matches, protocol signatures
   chat-eval/*.json        # full transcript + grade for each chatbot evaluation (deep audit only)
   deep-audit-latest.json # summary of the most recent deep audit
+  weekly-summary/*.json   # per-week commit/comment stats (weekly summary only)
 ```
 
 ## Running locally

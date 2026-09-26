@@ -34,11 +34,21 @@ async function fetchJson(url) {
   }
 }
 
-async function fetchNewIssues(repo, sinceIso) {
-  const { ok, data } = await fetchJson(
+async function fetchAllPages(urlWithoutPage) {
+  const items = [];
+  for (let page = 1; page <= 20; page++) {
+    const { ok, data } = await fetchJson(`${urlWithoutPage}&page=${page}`);
+    if (!ok || !Array.isArray(data) || data.length === 0) break;
+    items.push(...data);
+    if (data.length < 100) break; // last page
+  }
+  return items;
+}
+
+export async function fetchNewIssues(repo, sinceIso) {
+  const data = await fetchAllPages(
     `https://api.github.com/repos/${repo}/issues?since=${encodeURIComponent(sinceIso)}&state=all&per_page=100`
   );
-  if (!ok || !Array.isArray(data)) return [];
   return data
     .filter((issue) => issue.created_at >= sinceIso)
     .map((issue) => ({
@@ -52,11 +62,17 @@ async function fetchNewIssues(repo, sinceIso) {
     }));
 }
 
-async function fetchNewComments(repo, sinceIso) {
-  const { ok, data } = await fetchJson(
+// GitHub includes reaction counts on every comment in this same response at
+// no extra cost — but note `since` here filters by the comment's updated_at,
+// and adding a reaction doesn't bump that, so a reaction added well after a
+// comment's creation on an old comment won't be caught by an incremental
+// "since last check" fetch. That's fine for "was this just posted" (this
+// function's job); ranking by reaction counts needs its own fresh, wider
+// fetch instead (see weekly-summary.mjs), not this incremental one.
+export async function fetchNewComments(repo, sinceIso) {
+  const data = await fetchAllPages(
     `https://api.github.com/repos/${repo}/issues/comments?since=${encodeURIComponent(sinceIso)}&per_page=100`
   );
-  if (!ok || !Array.isArray(data)) return [];
   return data
     .filter((c) => c.created_at >= sinceIso)
     .map((c) => ({
@@ -68,6 +84,9 @@ async function fetchNewComments(repo, sinceIso) {
       body: c.body || "",
       createdAt: c.created_at,
       url: c.html_url,
+      up: c.reactions?.["+1"] || 0,
+      down: c.reactions?.["-1"] || 0,
+      totalReactions: c.reactions?.total_count || 0,
     }));
 }
 

@@ -43,23 +43,28 @@ async function graphql(query, variables) {
   }
 }
 
+// first:50 / last:50 rather than paginating fully — enough headroom for
+// this project's scale (would need real cursor pagination if a discussion
+// ever ran past 50 comments in a single tracking window).
 const DISCUSSIONS_QUERY = `
   query($owner: String!, $name: String!) {
     repository(owner: $owner, name: $name) {
-      discussions(first: 25, orderBy: { field: UPDATED_AT, direction: DESC }) {
+      discussions(first: 50, orderBy: { field: UPDATED_AT, direction: DESC }) {
         nodes {
           number
           title
           url
           createdAt
           author { login }
-          comments(last: 25) {
+          comments(last: 50) {
             nodes {
               id
               url
               body
               createdAt
               author { login }
+              upvoteCount
+              reactionGroups { content reactors { totalCount } }
             }
           }
         }
@@ -79,7 +84,11 @@ function splitRepo(repo) {
   return { owner, name };
 }
 
-async function fetchRepoDiscussions(repo, sinceIso) {
+function thumbsDownCount(reactionGroups) {
+  return reactionGroups?.find((g) => g.content === "THUMBS_DOWN")?.reactors?.totalCount || 0;
+}
+
+export async function fetchRepoDiscussions(repo, sinceIso) {
   const { owner, name } = splitRepo(repo);
   const { ok, data } = await graphql(DISCUSSIONS_QUERY, { owner, name });
   const nodes = ok ? data?.repository?.discussions?.nodes : null;
@@ -107,6 +116,11 @@ async function fetchRepoDiscussions(repo, sinceIso) {
         body: c.body || "",
         createdAt: c.createdAt,
         url: c.url,
+        // Discussions' actual voting feature is upvoteCount, not a reaction —
+        // "down" has no equivalent there, so THUMBS_DOWN reactions are the
+        // closest stand-in for a negative signal.
+        up: c.upvoteCount || 0,
+        down: thumbsDownCount(c.reactionGroups),
       }))
   );
   return { newDiscussions, newComments };
