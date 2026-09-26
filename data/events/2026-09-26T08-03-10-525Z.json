@@ -1,0 +1,13 @@
+{
+  "timestamp": "2026-09-26T08:03:10.525Z",
+  "events": [
+    {
+      "type": "NEW_PERSON_ACTIVITY",
+      "detail": "taigrr:\n[2026-09-26T07:03:47Z] pushed to taigrr/hooks (cd/pre-commit-optional-lfs):\n  98edb64 test(hooks): cover pre-commit gitleaks delegation\n\n[2026-09-26T06:36:13Z] opened PR #34 on taigrr/crunch: \"fix(llm): read provider credentials from environment\" (`https://github.com/taigrr/crunch/pull/34`)\n\n[2026-09-26T06:12:02Z] pushed to gogrlx/grlx (cd/log-wrapper-tests-20260926):\n  b4814f4 test(log): cover logger wrapper methods\n\n[2026-09-26T06:07:56Z] opened PR #348 on gogrlx/grlx: \"test(log): cover logger wrapper methods\" (`https://github.com/gogrlx/grlx/pull/348`)\n\n[2026-09-26T06:07:44Z] created branch \"cd/log-wrapper-tests-20260926\" on gogrlx/grlx"
+    },
+    {
+      "type": "NEW_PERSON_ACTIVITY",
+      "detail": "caelinsutch:\n[2026-09-24T01:48:51Z] made caelinsutch/matic-macos PUBLIC\n\n[2026-09-22T21:50:07Z] created branch \"main\" on caelinsutch/split-flap-countdown\n\n[2026-09-09T19:01:38Z] made caelinsutch/annual-archive-canvas PUBLIC\n\n[2026-09-08T19:27:48Z] made caelinsutch/refract PUBLIC"
+    }
+  ]
+}
