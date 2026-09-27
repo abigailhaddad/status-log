@@ -1,14 +1,14 @@
 {
-  "timestamp": "2026-09-26T15:44:52.969Z",
+  "timestamp": "2026-09-27T13:16:46.327Z",
   "lighthouse": {
     "ok": true,
     "scores": {
-      "performance": 0.74,
+      "performance": 0.75,
       "accessibility": 1,
-      "bestPractices": 0.92,
+      "bestPractices": 1,
       "seo": 0.58
     },
-    "reportPath": "data/lighthouse/2026-09-26T15-44-34-419Z.json"
+    "reportPath": "data/lighthouse/2026-09-27T13-16-28-736Z.json"
   },
   "a11y": {
     "ok": false,
@@ -16,8 +16,8 @@
   },
   "network": {
     "ok": true,
-    "timestamp": "2026-09-26T15:44:52.968Z",
-    "harArtifactPath": "har-artifacts/2026-09-26T15-44-34-419Z.har",
+    "timestamp": "2026-09-27T13:16:46.326Z",
+    "harArtifactPath": "har-artifacts/2026-09-27T13-16-28-736Z.har",
     "pages": [
       {
         "url": "https://america.gov/",
@@ -32,26 +32,19 @@
       }
     ],
     "siteWideA11yViolationCount": 0,
-    "a11yReportPath": "data/a11y/2026-09-26T15-44-34-419Z-sitewide.json",
+    "a11yReportPath": "data/a11y/2026-09-27T13-16-28-736Z-sitewide.json",
     "pagesVisited": 1,
     "chatInputFoundOnPages": [],
-    "totalRequests": 7,
+    "totalRequests": 6,
     "uniqueHosts": [
-      "america.gov",
-      "static.cloudflareinsights.com"
+      "america.gov"
     ],
     "aiProviderHostMatches": [],
     "streamingEndpoints": [],
     "protocolSignatures": [],
     "websockets": [],
     "blockersEncountered": [],
-    "blockedOrFailedRequests": [
-      {
-        "url": "https://static.cloudflareinsights.com/beacon.min.js/v31edd6df95cf4e85bb4c19e7a9bdbcba1788362987495",
-        "errorText": "csp",
-        "count": 1
-      }
-    ],
+    "blockedOrFailedRequests": [],
     "cookies": [],
     "storageKeys": {
       "localStorage": [],
