@@ -1,0 +1,9 @@
+{
+  "timestamp": "2026-09-27T08:03:15.778Z",
+  "events": [
+    {
+      "type": "NEW_PERSON_ACTIVITY",
+      "detail": "taigrr:\n[2026-09-27T06:35:09Z] pushed to taigrr/crunch (cd/projects-registry):\n  e1d6ec8 build(deps): bump the gomod group\n  8e0f13a build(deps): bump modernc.org/sqlite in the gomod group (#30)\n  68312b5 feat(scanner): discover Crush databases from registry\n  c4e6c5d docs(scanner): document registry discovery\n  3355015 fix(scanner): validate root before registry scan\n  eef4dc1 docs(readme): align Go requirement\n\n[2026-09-27T06:11:22Z] pushed to gogrlx/grlx (cd/props-empty-map-20260927):\n  c414d3a fix(props): return nil for empty props\n\n[2026-09-27T06:06:57Z] opened PR #349 on gogrlx/grlx: \"fix(props): return nil for empty props\" (`https://github.com/gogrlx/grlx/pull/349`)"
+    }
+  ]
+}
