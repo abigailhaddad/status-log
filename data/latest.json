@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-09-27T08:03:15.778Z",
+  "timestamp": "2026-09-27T12:03:03.546Z",
   "live": true,
   "dns": {
     "america.gov": {
       "host": "america.gov",
       "a": [
-        "172.64.96.165",
-        "162.159.212.165"
+        "162.159.212.165",
+        "172.64.96.165"
       ],
       "aaaa": [
         "2606:54c1:10::a29f:d4a5",
@@ -27,8 +27,8 @@
         "162.159.212.165"
       ],
       "aaaa": [
-        "2606:54c1:10::ac40:60a5",
-        "2606:54c1:10::a29f:d4a5"
+        "2606:54c1:10::a29f:d4a5",
+        "2606:54c1:10::ac40:60a5"
       ],
       "cname": null,
       "ns": [],
@@ -44,18 +44,18 @@
         "alt-svc": "h3=\":443\"; ma=86400",
         "cache-control": "public, max-age=0, must-revalidate",
         "cf-cache-status": "HIT",
-        "cf-ray": "a418fdba58237587-SJC",
+        "cf-ray": "a41a5d121d10f5f7-EWR",
         "connection": "keep-alive",
         "content-encoding": "br",
         "content-security-policy": "base-uri 'none'; object-src 'none'; form-action 'self'; font-src 'self' data:; manifest-src 'self'; worker-src 'self' blob:; img-src 'self' data: blob: https://maps.geo.us-east-2.amazonaws.com https://*.cloudflarestream.com; connect-src 'self' https://maps.geo.us-east-2.amazonaws.com https://*.cloudflarestream.com https://videodelivery.net; media-src 'self' blob: https://*.cloudflarestream.com https://videodelivery.net; frame-src https://www.youtube-nocookie.com https://*.cloudflarestream.com; frame-ancestors 'none'",
         "content-type": "text/html",
-        "date": "Sun, 27 Sep 2026 08:03:18 GMT",
+        "date": "Sun, 27 Sep 2026 12:03:09 GMT",
         "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
         "permissions-policy": "camera=(), microphone=(self), geolocation=(), payment=(), usb=()",
         "referrer-policy": "no-referrer",
-        "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=YVi4BCp5088xopUce7ix6D0GXKuqSu%2FLPEEnjrtP%2Bum6PgzOWI112N2I3DT1PxiRAdPkRNpkG%2FqZ491x7oH1jxaIY6sz%2BNCQ545uEYmtVxHG1an0oKqcz%2B5kLrB6KA%3D%3D\"}]}",
+        "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=NPldGcToUN1PVSRnvPbTX7LWbZifeDGkAr0MRRHDVpi9%2F%2BlD2IhaKa9WBn8j1Rrf1Xxn7IP%2BK359VxG3H4fO0llbGjImnero0uz8PfGuSr8bXlH5wJTHpleMyOyOEA%3D%3D\"}]}",
         "server": "cloudflare",
-        "server-timing": "cfL4;desc=\"?proto=TCP&rtt=0&min_rtt=0&rtt_var=0&sent=0&recv=0&lost=0&retrans=0&sent_bytes=0&recv_bytes=0&delivery_rate=0&cwnd=0&unsent_bytes=0&cid=b145c39b1698ef68&ts=30&x=0\"",
+        "server-timing": "cfL4;desc=\"?proto=TCP&rtt=0&min_rtt=0&rtt_var=0&sent=0&recv=0&lost=0&retrans=0&sent_bytes=0&recv_bytes=0&delivery_rate=0&cwnd=0&unsent_bytes=0&cid=551aeb9078f9e93f&ts=50&x=0\"",
         "strict-transport-security": "max-age=15552000; includeSubDomains; preload",
         "transfer-encoding": "chunked",
         "x-content-type-options": "nosniff",
@@ -69,18 +69,18 @@
             "alt-svc": "h3=\":443\"; ma=86400",
             "cache-control": "public, max-age=0, must-revalidate",
             "cf-cache-status": "HIT",
-            "cf-ray": "a418fdba58237587-SJC",
+            "cf-ray": "a41a5d121d10f5f7-EWR",
             "connection": "keep-alive",
             "content-encoding": "br",
             "content-security-policy": "base-uri 'none'; object-src 'none'; form-action 'self'; font-src 'self' data:; manifest-src 'self'; worker-src 'self' blob:; img-src 'self' data: blob: https://maps.geo.us-east-2.amazonaws.com https://*.cloudflarestream.com; connect-src 'self' https://maps.geo.us-east-2.amazonaws.com https://*.cloudflarestream.com https://videodelivery.net; media-src 'self' blob: https://*.cloudflarestream.com https://videodelivery.net; frame-src https://www.youtube-nocookie.com https://*.cloudflarestream.com; frame-ancestors 'none'",
             "content-type": "text/html",
-            "date": "Sun, 27 Sep 2026 08:03:18 GMT",
+            "date": "Sun, 27 Sep 2026 12:03:09 GMT",
             "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
             "permissions-policy": "camera=(), microphone=(self), geolocation=(), payment=(), usb=()",
             "referrer-policy": "no-referrer",
-            "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=YVi4BCp5088xopUce7ix6D0GXKuqSu%2FLPEEnjrtP%2Bum6PgzOWI112N2I3DT1PxiRAdPkRNpkG%2FqZ491x7oH1jxaIY6sz%2BNCQ545uEYmtVxHG1an0oKqcz%2B5kLrB6KA%3D%3D\"}]}",
+            "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=NPldGcToUN1PVSRnvPbTX7LWbZifeDGkAr0MRRHDVpi9%2F%2BlD2IhaKa9WBn8j1Rrf1Xxn7IP%2BK359VxG3H4fO0llbGjImnero0uz8PfGuSr8bXlH5wJTHpleMyOyOEA%3D%3D\"}]}",
             "server": "cloudflare",
-            "server-timing": "cfL4;desc=\"?proto=TCP&rtt=0&min_rtt=0&rtt_var=0&sent=0&recv=0&lost=0&retrans=0&sent_bytes=0&recv_bytes=0&delivery_rate=0&cwnd=0&unsent_bytes=0&cid=b145c39b1698ef68&ts=30&x=0\"",
+            "server-timing": "cfL4;desc=\"?proto=TCP&rtt=0&min_rtt=0&rtt_var=0&sent=0&recv=0&lost=0&retrans=0&sent_bytes=0&recv_bytes=0&delivery_rate=0&cwnd=0&unsent_bytes=0&cid=551aeb9078f9e93f&ts=50&x=0\"",
             "strict-transport-security": "max-age=15552000; includeSubDomains; preload",
             "transfer-encoding": "chunked",
             "x-content-type-options": "nosniff",
@@ -100,18 +100,18 @@
         "alt-svc": "h3=\":443\"; ma=86400",
         "cache-control": "public, max-age=0, must-revalidate",
         "cf-cache-status": "HIT",
-        "cf-ray": "a418fdba98687587-SJC",
+        "cf-ray": "a41a5d129e4df5f7-EWR",
         "connection": "keep-alive",
         "content-encoding": "br",
         "content-security-policy": "base-uri 'none'; object-src 'none'; form-action 'self'; font-src 'self' data:; manifest-src 'self'; worker-src 'self' blob:; img-src 'self' data: blob: https://maps.geo.us-east-2.amazonaws.com https://*.cloudflarestream.com; connect-src 'self' https://maps.geo.us-east-2.amazonaws.com https://*.cloudflarestream.com https://videodelivery.net; media-src 'self' blob: https://*.cloudflarestream.com https://videodelivery.net; frame-src https://www.youtube-nocookie.com https://*.cloudflarestream.com; frame-ancestors 'none'",
         "content-type": "text/html",
-        "date": "Sun, 27 Sep 2026 08:03:18 GMT",
+        "date": "Sun, 27 Sep 2026 12:03:09 GMT",
         "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
         "permissions-policy": "camera=(), microphone=(self), geolocation=(), payment=(), usb=()",
         "referrer-policy": "no-referrer",
-        "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=87K37W3fEYWhIBoqw1fqN4LAUtzLmmZHabCh2AhctRFSmqCDvSIJYq%2BKvComM8Cj1Ev6ueM53hoyriYb5BXtY%2FJ9Iu3bkgo9WZB%2F6XSYGbB5cQYzvXzUxWkjNTe2dA%3D%3D\"}]}",
+        "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=Rrav%2FOMon%2FKYaxCXiL9y94Q6AZderILOy5IV%2FXV%2FHnEPdFn7dZLGSc2JiaJEX6g859IAUa82sie1TwFSrgFLFfFhY30xxYWMo5asqTLH47lrRRxu%2F7c9UR8aCrIVGw%3D%3D\"}]}",
         "server": "cloudflare",
-        "server-timing": "cfL4;desc=\"?proto=TCP&rtt=0&min_rtt=0&rtt_var=0&sent=0&recv=0&lost=0&retrans=0&sent_bytes=0&recv_bytes=0&delivery_rate=0&cwnd=0&unsent_bytes=0&cid=b145c39b1698ef68&ts=70&x=0\"",
+        "server-timing": "cfL4;desc=\"?proto=TCP&rtt=0&min_rtt=0&rtt_var=0&sent=0&recv=0&lost=0&retrans=0&sent_bytes=0&recv_bytes=0&delivery_rate=0&cwnd=0&unsent_bytes=0&cid=551aeb9078f9e93f&ts=138&x=0\"",
         "strict-transport-security": "max-age=15552000; includeSubDomains; preload",
         "transfer-encoding": "chunked",
         "x-content-type-options": "nosniff",
@@ -122,15 +122,15 @@
           "url": "https://www.america.gov/",
           "status": 301,
           "headers": {
-            "cf-ray": "a418fdba9d4eeb2e-SJC",
+            "cf-ray": "a41a5d127b242ced-ORD",
             "connection": "keep-alive",
             "content-type": "text/html; charset=UTF-8",
-            "date": "Sun, 27 Sep 2026 08:03:18 GMT",
+            "date": "Sun, 27 Sep 2026 12:03:09 GMT",
             "location": "https://america.gov/",
             "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
-            "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=DN0d7x2U6947Mg0jezNwWP6NEszMUfeIUh8qLCdGeLLf5syEfM4fn5XOGDSkTag0f0tsCGd9T60GL4WlXV%2FTr2fJ%2FbCbtlXT5c58i5WmtbdVG8Mj%2F8gwLTIUgO5nnxMOpyg%3D\"}]}",
+            "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=2SwHQeMc9QFXm34ZScVKv%2B8APCwXfOuj%2BGG59mP1OywqEcXJVlVI3e0pqbPP1LUFPcDPbuOLmALCuTwWBHHRWVQfkbDZBbdKCo9wOskYNZgd%2FdqkQMAUF%2F76HNSAHcHEW84%3D\"}]}",
             "server": "cloudflare",
-            "server-timing": "cfL4;desc=\"?proto=TCP&rtt=0&min_rtt=0&rtt_var=0&sent=0&recv=0&lost=0&retrans=0&sent_bytes=0&recv_bytes=0&delivery_rate=0&cwnd=0&unsent_bytes=0&cid=750d83c66323fc03&ts=8&x=0\"",
+            "server-timing": "cfL4;desc=\"?proto=TCP&rtt=0&min_rtt=0&rtt_var=0&sent=0&recv=0&lost=0&retrans=0&sent_bytes=0&recv_bytes=0&delivery_rate=0&cwnd=0&unsent_bytes=0&cid=9f15b5a64233d1a6&ts=17&x=0\"",
             "strict-transport-security": "max-age=15552000; includeSubDomains; preload",
             "transfer-encoding": "chunked",
             "x-content-type-options": "nosniff"
@@ -143,18 +143,18 @@
             "alt-svc": "h3=\":443\"; ma=86400",
             "cache-control": "public, max-age=0, must-revalidate",
             "cf-cache-status": "HIT",
-            "cf-ray": "a418fdba98687587-SJC",
+            "cf-ray": "a41a5d129e4df5f7-EWR",
             "connection": "keep-alive",
             "content-encoding": "br",
             "content-security-policy": "base-uri 'none'; object-src 'none'; form-action 'self'; font-src 'self' data:; manifest-src 'self'; worker-src 'self' blob:; img-src 'self' data: blob: https://maps.geo.us-east-2.amazonaws.com https://*.cloudflarestream.com; connect-src 'self' https://maps.geo.us-east-2.amazonaws.com https://*.cloudflarestream.com https://videodelivery.net; media-src 'self' blob: https://*.cloudflarestream.com https://videodelivery.net; frame-src https://www.youtube-nocookie.com https://*.cloudflarestream.com; frame-ancestors 'none'",
             "content-type": "text/html",
-            "date": "Sun, 27 Sep 2026 08:03:18 GMT",
+            "date": "Sun, 27 Sep 2026 12:03:09 GMT",
             "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
             "permissions-policy": "camera=(), microphone=(self), geolocation=(), payment=(), usb=()",
             "referrer-policy": "no-referrer",
-            "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=87K37W3fEYWhIBoqw1fqN4LAUtzLmmZHabCh2AhctRFSmqCDvSIJYq%2BKvComM8Cj1Ev6ueM53hoyriYb5BXtY%2FJ9Iu3bkgo9WZB%2F6XSYGbB5cQYzvXzUxWkjNTe2dA%3D%3D\"}]}",
+            "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=Rrav%2FOMon%2FKYaxCXiL9y94Q6AZderILOy5IV%2FXV%2FHnEPdFn7dZLGSc2JiaJEX6g859IAUa82sie1TwFSrgFLFfFhY30xxYWMo5asqTLH47lrRRxu%2F7c9UR8aCrIVGw%3D%3D\"}]}",
             "server": "cloudflare",
-            "server-timing": "cfL4;desc=\"?proto=TCP&rtt=0&min_rtt=0&rtt_var=0&sent=0&recv=0&lost=0&retrans=0&sent_bytes=0&recv_bytes=0&delivery_rate=0&cwnd=0&unsent_bytes=0&cid=b145c39b1698ef68&ts=70&x=0\"",
+            "server-timing": "cfL4;desc=\"?proto=TCP&rtt=0&min_rtt=0&rtt_var=0&sent=0&recv=0&lost=0&retrans=0&sent_bytes=0&recv_bytes=0&delivery_rate=0&cwnd=0&unsent_bytes=0&cid=551aeb9078f9e93f&ts=138&x=0\"",
             "strict-transport-security": "max-age=15552000; includeSubDomains; preload",
             "transfer-encoding": "chunked",
             "x-content-type-options": "nosniff",
@@ -2299,6 +2299,14 @@
       "error": null,
       "events": [
         {
+          "id": "15847045100",
+          "type": "PullRequestEvent",
+          "repo": "taigrr/cyberpunk.nvim",
+          "createdAt": "2026-09-27T09:03:38Z",
+          "action": "opened",
+          "number": 7
+        },
+        {
           "id": "22282165164",
           "type": "PushEvent",
           "repo": "taigrr/crunch",
@@ -2681,14 +2689,6 @@
           "ref": "refs/heads/cd/file-contains-preserve-buffer-20260922",
           "before": "9b0ad968cfe12d07c7abdc03286c389da8929897",
           "head": "3259afdba39a7a3edfa986ebe91ea630feda7b07"
-        },
-        {
-          "id": "15481741785",
-          "type": "PullRequestEvent",
-          "repo": "gogrlx/grlx",
-          "createdAt": "2026-09-22T06:07:16Z",
-          "action": "opened",
-          "number": 345
         }
       ]
     },
@@ -2731,7 +2731,7 @@
         "up": 0,
         "down": 0,
         "totalReactions": 0,
-        "lastCheckedAt": "2026-09-27T08:03:19.603Z"
+        "lastCheckedAt": "2026-09-27T12:03:10.711Z"
       },
       {
         "kind": "discussion",
@@ -2744,7 +2744,7 @@
         "url": "https://github.com/uswds/uswds/discussions/6991#discussioncomment-18614411",
         "up": 1,
         "down": 0,
-        "lastCheckedAt": "2026-09-27T08:03:21.355Z"
+        "lastCheckedAt": "2026-09-27T12:03:12.961Z"
       }
     ]
   },
@@ -2766,7 +2766,7 @@
       "server": "cloudflare",
       "via": null,
       "x_vercel_id": null,
-      "cf_ray": "a418fdba58237587-SJC",
+      "cf_ray": "a41a5d121d10f5f7-EWR",
       "hsts": "max-age=15552000; includeSubDomains; preload",
       "csp": "base-uri 'none'; object-src 'none'; form-action 'self'; font-src 'self' data:; manifest-src 'self'; worker-src 'self' blob:; img-src 'self' data: blob: https://maps.geo.us-east-2.amazonaws.com https://*.cloudflarestream.com; connect-src 'self' https://maps.geo.us-east-2.amazonaws.com https://*.cloudflarestream.com https://videodelivery.net; media-src 'self' blob: https://*.cloudflarestream.com https://videodelivery.net; frame-src https://www.youtube-nocookie.com https://*.cloudflarestream.com; frame-ancestors 'none'",
       "x_powered_by": null,
