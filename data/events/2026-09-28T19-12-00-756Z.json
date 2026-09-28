@@ -1,0 +1,9 @@
+{
+  "timestamp": "2026-09-28T19:12:00.756Z",
+  "events": [
+    {
+      "type": "NEW_REPO_COMMITS",
+      "detail": "[18F/identity-idp] fd2797d Bump libphonenumber-js from 1.13.13 to 1.13.14 (#13600) — dependabot[bot]\n  `https://github.com/18F/identity-idp/commit/fd2797d4c98ee16ff92d3bae03f575389e4ac7b8`\n\n[18F/identity-idp] 8cee86f Joan-131: Implement AAMVA get-to-yes for Socure KYC (#13542) — Chris Ameter\n  `https://github.com/18F/identity-idp/commit/8cee86f49d8f7d1cf2901581166bc7884c565d7c`"
+    }
+  ]
+}
