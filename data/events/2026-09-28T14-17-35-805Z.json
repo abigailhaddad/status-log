@@ -1,0 +1,9 @@
+{
+  "timestamp": "2026-09-28T14:17:35.805Z",
+  "events": [
+    {
+      "type": "NEW_PERSON_ACTIVITY",
+      "detail": "taigrr:\n[2026-09-28T05:32:32Z] pushed to taigrr/fantasy (main):\n  a7be611 feat(retry): also retry on network connection errors\n  4cf3a0f refactor(retry): move functions to a better place\n  15e3da1 v0.25.0\n  54c29a3 chore(deps): bump the all group with 2 updates (#243)\n  c5fcd7c chore(deps): bump github.com/ardanlabs/kronk (#244)\n  e277abd fix(openai): require terminal stream events before finishing (#246)\n  9aa7447 fix(anthropic): require message_stop before finishing stream (#245)\n  98dc56e v0.25.1\n  c8d4eb2 chore: add `.helix/ignore`\n  1b525a1 fix(bedrock): enforce `us-east-1` as region for bedrock (#248)"
+    }
+  ]
+}
