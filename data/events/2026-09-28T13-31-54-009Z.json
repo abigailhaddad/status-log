@@ -1,0 +1,9 @@
+{
+  "timestamp": "2026-09-28T13:31:54.009Z",
+  "events": [
+    {
+      "type": "NEW_PERSON_ACTIVITY",
+      "detail": "ryparker:\n[2026-09-28T03:09:22Z] pushed to uswds/uswds (develop):\n  c04c675 docs: add moderation statement to conduct guidance"
+    }
+  ]
+}
