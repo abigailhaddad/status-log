@@ -1,0 +1,9 @@
+{
+  "timestamp": "2026-09-28T15:15:56.967Z",
+  "events": [
+    {
+      "type": "NEW_REPO_COMMITS",
+      "detail": "[18F/identity-idp] bd91de6 Lg-17923 proofing agent phone risk (#13586) — A Shukla\n  `https://github.com/18F/identity-idp/commit/bd91de67e0c962dcc310b84334bb69209e815903`"
+    }
+  ]
+}
