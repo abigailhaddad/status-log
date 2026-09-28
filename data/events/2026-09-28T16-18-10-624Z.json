@@ -1,0 +1,9 @@
+{
+  "timestamp": "2026-09-28T16:18:10.624Z",
+  "events": [
+    {
+      "type": "NEW_REPO_COMMITS",
+      "detail": "[18F/identity-idp] 7b2d537 changelog: Internal, Identity Verification, Remove AAMVA-at-proofing feature flags and always perform AAMVA at document authentication (#13440) — Anthony\n  `https://github.com/18F/identity-idp/commit/7b2d537f3ae2c302af5b7a8a12aeb314a71a1ab9`"
+    }
+  ]
+}
