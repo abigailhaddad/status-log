@@ -1,14 +1,14 @@
 {
-  "timestamp": "2026-09-27T13:16:46.327Z",
+  "timestamp": "2026-09-28T13:32:43.002Z",
   "lighthouse": {
     "ok": true,
     "scores": {
-      "performance": 0.75,
+      "performance": 0.44,
       "accessibility": 1,
       "bestPractices": 1,
       "seo": 0.58
     },
-    "reportPath": "data/lighthouse/2026-09-27T13-16-28-736Z.json"
+    "reportPath": "data/lighthouse/2026-09-28T13-32-06-429Z.json"
   },
   "a11y": {
     "ok": false,
@@ -16,8 +16,8 @@
   },
   "network": {
     "ok": true,
-    "timestamp": "2026-09-27T13:16:46.326Z",
-    "harArtifactPath": "har-artifacts/2026-09-27T13-16-28-736Z.har",
+    "timestamp": "2026-09-28T13:32:43.001Z",
+    "harArtifactPath": "har-artifacts/2026-09-28T13-32-06-429Z.har",
     "pages": [
       {
         "url": "https://america.gov/",
@@ -32,7 +32,7 @@
       }
     ],
     "siteWideA11yViolationCount": 0,
-    "a11yReportPath": "data/a11y/2026-09-27T13-16-28-736Z-sitewide.json",
+    "a11yReportPath": "data/a11y/2026-09-28T13-32-06-429Z-sitewide.json",
     "pagesVisited": 1,
     "chatInputFoundOnPages": [],
     "totalRequests": 6,
