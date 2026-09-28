@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-28T01:35:19.635Z",
+  "timestamp": "2026-09-28T06:25:55.185Z",
   "live": true,
   "dns": {
     "america.gov": {
@@ -9,8 +9,8 @@
         "162.159.212.165"
       ],
       "aaaa": [
-        "2606:54c1:10::a29f:d4a5",
-        "2606:54c1:10::ac40:60a5"
+        "2606:54c1:10::ac40:60a5",
+        "2606:54c1:10::a29f:d4a5"
       ],
       "cname": null,
       "ns": [
@@ -44,18 +44,18 @@
         "alt-svc": "h3=\":443\"; ma=86400",
         "cache-control": "public, max-age=0, must-revalidate",
         "cf-cache-status": "HIT",
-        "cf-ray": "a41f0321c9d86213-ORD",
+        "cf-ray": "a420ac815d0414a7-LAX",
         "connection": "keep-alive",
         "content-encoding": "br",
         "content-security-policy": "base-uri 'none'; object-src 'none'; form-action 'self'; font-src 'self' data:; manifest-src 'self'; worker-src 'self' blob:; img-src 'self' data: blob: https://maps.geo.us-east-2.amazonaws.com https://*.cloudflarestream.com; connect-src 'self' https://maps.geo.us-east-2.amazonaws.com https://*.cloudflarestream.com https://videodelivery.net; media-src 'self' blob: https://*.cloudflarestream.com https://videodelivery.net; frame-src https://www.youtube-nocookie.com https://*.cloudflarestream.com; frame-ancestors 'none'",
         "content-type": "text/html",
-        "date": "Mon, 28 Sep 2026 01:35:34 GMT",
+        "date": "Mon, 28 Sep 2026 06:25:58 GMT",
         "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
         "permissions-policy": "camera=(), microphone=(self), geolocation=(), payment=(), usb=()",
         "referrer-policy": "no-referrer",
-        "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=xrMVkZs%2FglJmWuls6hsxwCFTDNKb5pqpLg90y8fPP1IJFCEYiR5nMU7fHwvPhKMaLPmj7PzcL7AgOABHhILiQZrDh7aYSTjFwlQiTSYkncjPGw0XfHLvPEIUrLGOPg%3D%3D\"}]}",
+        "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=3P%2FHh9U5dM5xS4vVH74iY88Q95L06vRoC1T85yjF26rP9k0Oya9TYmHrIYOy2y7GTJ4GYMUSCsvc%2F8y2t0FR0DjBkm6B%2FiUqLFH4YxeL5qu5j2dZI8hQU%2FboHH%2Bm0g%3D%3D\"}]}",
         "server": "cloudflare",
-        "server-timing": "cfL4;desc=\"?proto=TCP&rtt=0&min_rtt=0&rtt_var=0&sent=0&recv=0&lost=0&retrans=0&sent_bytes=0&recv_bytes=0&delivery_rate=0&cwnd=0&unsent_bytes=0&cid=65583f964b64f8f0&ts=54&x=0\"",
+        "server-timing": "cfL4;desc=\"?proto=TCP&rtt=0&min_rtt=0&rtt_var=0&sent=0&recv=0&lost=0&retrans=0&sent_bytes=0&recv_bytes=0&delivery_rate=0&cwnd=0&unsent_bytes=0&cid=7b63eaacf6923c77&ts=41&x=0\"",
         "strict-transport-security": "max-age=15552000; includeSubDomains; preload",
         "transfer-encoding": "chunked",
         "x-content-type-options": "nosniff",
@@ -69,18 +69,18 @@
             "alt-svc": "h3=\":443\"; ma=86400",
             "cache-control": "public, max-age=0, must-revalidate",
             "cf-cache-status": "HIT",
-            "cf-ray": "a41f0321c9d86213-ORD",
+            "cf-ray": "a420ac815d0414a7-LAX",
             "connection": "keep-alive",
             "content-encoding": "br",
             "content-security-policy": "base-uri 'none'; object-src 'none'; form-action 'self'; font-src 'self' data:; manifest-src 'self'; worker-src 'self' blob:; img-src 'self' data: blob: https://maps.geo.us-east-2.amazonaws.com https://*.cloudflarestream.com; connect-src 'self' https://maps.geo.us-east-2.amazonaws.com https://*.cloudflarestream.com https://videodelivery.net; media-src 'self' blob: https://*.cloudflarestream.com https://videodelivery.net; frame-src https://www.youtube-nocookie.com https://*.cloudflarestream.com; frame-ancestors 'none'",
             "content-type": "text/html",
-            "date": "Mon, 28 Sep 2026 01:35:34 GMT",
+            "date": "Mon, 28 Sep 2026 06:25:58 GMT",
             "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
             "permissions-policy": "camera=(), microphone=(self), geolocation=(), payment=(), usb=()",
             "referrer-policy": "no-referrer",
-            "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=xrMVkZs%2FglJmWuls6hsxwCFTDNKb5pqpLg90y8fPP1IJFCEYiR5nMU7fHwvPhKMaLPmj7PzcL7AgOABHhILiQZrDh7aYSTjFwlQiTSYkncjPGw0XfHLvPEIUrLGOPg%3D%3D\"}]}",
+            "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=3P%2FHh9U5dM5xS4vVH74iY88Q95L06vRoC1T85yjF26rP9k0Oya9TYmHrIYOy2y7GTJ4GYMUSCsvc%2F8y2t0FR0DjBkm6B%2FiUqLFH4YxeL5qu5j2dZI8hQU%2FboHH%2Bm0g%3D%3D\"}]}",
             "server": "cloudflare",
-            "server-timing": "cfL4;desc=\"?proto=TCP&rtt=0&min_rtt=0&rtt_var=0&sent=0&recv=0&lost=0&retrans=0&sent_bytes=0&recv_bytes=0&delivery_rate=0&cwnd=0&unsent_bytes=0&cid=65583f964b64f8f0&ts=54&x=0\"",
+            "server-timing": "cfL4;desc=\"?proto=TCP&rtt=0&min_rtt=0&rtt_var=0&sent=0&recv=0&lost=0&retrans=0&sent_bytes=0&recv_bytes=0&delivery_rate=0&cwnd=0&unsent_bytes=0&cid=7b63eaacf6923c77&ts=41&x=0\"",
             "strict-transport-security": "max-age=15552000; includeSubDomains; preload",
             "transfer-encoding": "chunked",
             "x-content-type-options": "nosniff",
@@ -100,18 +100,18 @@
         "alt-svc": "h3=\":443\"; ma=86400",
         "cache-control": "public, max-age=0, must-revalidate",
         "cf-cache-status": "HIT",
-        "cf-ray": "a41f03226a706213-ORD",
+        "cf-ray": "a420ac81ef0514a7-LAX",
         "connection": "keep-alive",
         "content-encoding": "br",
         "content-security-policy": "base-uri 'none'; object-src 'none'; form-action 'self'; font-src 'self' data:; manifest-src 'self'; worker-src 'self' blob:; img-src 'self' data: blob: https://maps.geo.us-east-2.amazonaws.com https://*.cloudflarestream.com; connect-src 'self' https://maps.geo.us-east-2.amazonaws.com https://*.cloudflarestream.com https://videodelivery.net; media-src 'self' blob: https://*.cloudflarestream.com https://videodelivery.net; frame-src https://www.youtube-nocookie.com https://*.cloudflarestream.com; frame-ancestors 'none'",
         "content-type": "text/html",
-        "date": "Mon, 28 Sep 2026 01:35:34 GMT",
+        "date": "Mon, 28 Sep 2026 06:25:58 GMT",
         "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
         "permissions-policy": "camera=(), microphone=(self), geolocation=(), payment=(), usb=()",
         "referrer-policy": "no-referrer",
-        "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=5pCVM53FVzcXqSMigudhqKbnOrH112XnArdNQF6FE%2BmClJqEWewcFxvFZtkkqAwfMMd6EvKn0p81CzwrUoa1S%2BzsYXmJAbyzMqcgy2Qs2eNPmIWyNVQAr0b9PXGPng%3D%3D\"}]}",
+        "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=vsgNerOrtCKt0x6k1NxE367H7VQVSdEc7bi5zKiyI%2FrswmZBtfvZ9MsLVw4qacYFzutDIO%2Bfv5ArC8c9wvMpdLI4mzV5Yzso8%2BVhp%2BhUI2wjJYJo4kSJlV0uAPW40g%3D%3D\"}]}",
         "server": "cloudflare",
-        "server-timing": "cfL4;desc=\"?proto=TCP&rtt=0&min_rtt=0&rtt_var=0&sent=0&recv=0&lost=0&retrans=0&sent_bytes=0&recv_bytes=0&delivery_rate=0&cwnd=0&unsent_bytes=0&cid=65583f964b64f8f0&ts=144&x=0\"",
+        "server-timing": "cfL4;desc=\"?proto=TCP&rtt=0&min_rtt=0&rtt_var=0&sent=0&recv=0&lost=0&retrans=0&sent_bytes=0&recv_bytes=0&delivery_rate=0&cwnd=0&unsent_bytes=0&cid=7b63eaacf6923c77&ts=122&x=0\"",
         "strict-transport-security": "max-age=15552000; includeSubDomains; preload",
         "transfer-encoding": "chunked",
         "x-content-type-options": "nosniff",
@@ -122,15 +122,15 @@
           "url": "https://www.america.gov/",
           "status": 301,
           "headers": {
-            "cf-ray": "a41f03224b46f92b-ORD",
+            "cf-ray": "a420ac81cbf67650-LAX",
             "connection": "keep-alive",
             "content-type": "text/html; charset=UTF-8",
-            "date": "Mon, 28 Sep 2026 01:35:34 GMT",
+            "date": "Mon, 28 Sep 2026 06:25:58 GMT",
             "location": "https://america.gov/",
             "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
-            "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=TpeW04Z9T3pbnpp3EbQ6qg7O84zEzkuuAicoDKe%2B7wJVJfHvExoZCroeyHgeZtlWgdGGuIx%2Bty6MuPcZvUtneSYDWkiM%2Flrfae5GOXvhHRRTgN4Hfp%2BTfG%2BGFyDnH2LrEss%3D\"}]}",
+            "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=G6aF8FW8ZkcVKu2yPxKEi81zxtQAhWZDjwVsnnkAHMJ%2BHy2hUPQ9UxBJ139Jwep647tNVR24i6SDbidpmp1NxJ%2FzcQ7RGNV%2F5zs7wCyRg%2FWiKqGDLIShcMziRTxjNVgq4Ag%3D\"}]}",
             "server": "cloudflare",
-            "server-timing": "cfL4;desc=\"?proto=TCP&rtt=0&min_rtt=0&rtt_var=0&sent=0&recv=0&lost=0&retrans=0&sent_bytes=0&recv_bytes=0&delivery_rate=0&cwnd=0&unsent_bytes=0&cid=4bca5c3c0a85ca92&ts=23&x=0\"",
+            "server-timing": "cfL4;desc=\"?proto=TCP&rtt=0&min_rtt=0&rtt_var=0&sent=0&recv=0&lost=0&retrans=0&sent_bytes=0&recv_bytes=0&delivery_rate=0&cwnd=0&unsent_bytes=0&cid=8fa604e9a658185f&ts=25&x=0\"",
             "strict-transport-security": "max-age=15552000; includeSubDomains; preload",
             "transfer-encoding": "chunked",
             "x-content-type-options": "nosniff"
@@ -143,18 +143,18 @@
             "alt-svc": "h3=\":443\"; ma=86400",
             "cache-control": "public, max-age=0, must-revalidate",
             "cf-cache-status": "HIT",
-            "cf-ray": "a41f03226a706213-ORD",
+            "cf-ray": "a420ac81ef0514a7-LAX",
             "connection": "keep-alive",
             "content-encoding": "br",
             "content-security-policy": "base-uri 'none'; object-src 'none'; form-action 'self'; font-src 'self' data:; manifest-src 'self'; worker-src 'self' blob:; img-src 'self' data: blob: https://maps.geo.us-east-2.amazonaws.com https://*.cloudflarestream.com; connect-src 'self' https://maps.geo.us-east-2.amazonaws.com https://*.cloudflarestream.com https://videodelivery.net; media-src 'self' blob: https://*.cloudflarestream.com https://videodelivery.net; frame-src https://www.youtube-nocookie.com https://*.cloudflarestream.com; frame-ancestors 'none'",
             "content-type": "text/html",
-            "date": "Mon, 28 Sep 2026 01:35:34 GMT",
+            "date": "Mon, 28 Sep 2026 06:25:58 GMT",
             "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
             "permissions-policy": "camera=(), microphone=(self), geolocation=(), payment=(), usb=()",
             "referrer-policy": "no-referrer",
-            "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=5pCVM53FVzcXqSMigudhqKbnOrH112XnArdNQF6FE%2BmClJqEWewcFxvFZtkkqAwfMMd6EvKn0p81CzwrUoa1S%2BzsYXmJAbyzMqcgy2Qs2eNPmIWyNVQAr0b9PXGPng%3D%3D\"}]}",
+            "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=vsgNerOrtCKt0x6k1NxE367H7VQVSdEc7bi5zKiyI%2FrswmZBtfvZ9MsLVw4qacYFzutDIO%2Bfv5ArC8c9wvMpdLI4mzV5Yzso8%2BVhp%2BhUI2wjJYJo4kSJlV0uAPW40g%3D%3D\"}]}",
             "server": "cloudflare",
-            "server-timing": "cfL4;desc=\"?proto=TCP&rtt=0&min_rtt=0&rtt_var=0&sent=0&recv=0&lost=0&retrans=0&sent_bytes=0&recv_bytes=0&delivery_rate=0&cwnd=0&unsent_bytes=0&cid=65583f964b64f8f0&ts=144&x=0\"",
+            "server-timing": "cfL4;desc=\"?proto=TCP&rtt=0&min_rtt=0&rtt_var=0&sent=0&recv=0&lost=0&retrans=0&sent_bytes=0&recv_bytes=0&delivery_rate=0&cwnd=0&unsent_bytes=0&cid=7b63eaacf6923c77&ts=122&x=0\"",
             "strict-transport-security": "max-age=15552000; includeSubDomains; preload",
             "transfer-encoding": "chunked",
             "x-content-type-options": "nosniff",
@@ -419,6 +419,15 @@
     "commits": [
       {
         "repo": "uswds/uswds",
+        "sha": "c04c675582a6d214891708dda78321e09e83c1b2",
+        "author": "Ryan Parker",
+        "githubLogin": "ryparker",
+        "date": "2026-09-28T03:09:20Z",
+        "message": "docs: add moderation statement to conduct guidance",
+        "url": "https://github.com/uswds/uswds/commit/c04c675582a6d214891708dda78321e09e83c1b2"
+      },
+      {
+        "repo": "uswds/uswds",
         "sha": "adeb3592ba0439d2f3a7001a1450309405ead64e",
         "author": "ravitejapioneerblaze-code",
         "githubLogin": "ravitejapioneerblaze-code",
@@ -679,13 +688,13 @@
         "url": "https://github.com/uswds/uswds/commit/3e6c2f14106d8fdeffb9e9f2faf81ec01f6ed963"
       },
       {
-        "repo": "uswds/uswds",
-        "sha": "cef0c8d9265bc04b62ea2f9642e9967d7bdc56e3",
-        "author": "Sam Corcos",
-        "githubLogin": "samcorcos",
-        "date": "2026-09-16T19:38:56Z",
-        "message": "USWDS - Table: Keep unsorted styling for aria-sort=\"none\"",
-        "url": "https://github.com/uswds/uswds/commit/cef0c8d9265bc04b62ea2f9642e9967d7bdc56e3"
+        "repo": "uswds/uswds-site",
+        "sha": "4393275e292b2c081cc543198d895441aa4218d4",
+        "author": "Ryan Parker",
+        "githubLogin": "ryparker",
+        "date": "2026-09-28T03:09:30Z",
+        "message": "docs: add moderation statement to conduct guidance",
+        "url": "https://github.com/uswds/uswds-site/commit/4393275e292b2c081cc543198d895441aa4218d4"
       },
       {
         "repo": "uswds/uswds-site",
@@ -947,15 +956,6 @@
         "date": "2026-08-18T19:36:33Z",
         "message": "use the 3.14.0 release",
         "url": "https://github.com/uswds/uswds-site/commit/1c06c7d0279730c51aa8bff75069e0eb8763de92"
-      },
-      {
-        "repo": "uswds/uswds-site",
-        "sha": "cf2f413b23d4c12fb988e189fccb96545bf2ece1",
-        "author": "Anne Petersen",
-        "githubLogin": "annepetersen",
-        "date": "2026-08-18T15:26:23Z",
-        "message": "Merge pull request #3283 from uswds/feat/6784-introduce-left-justified-icon-accordion\n\nUSWDS-Site - Accordion: Document icon position setting and start/end modifiers",
-        "url": "https://github.com/uswds/uswds-site/commit/cf2f413b23d4c12fb988e189fccb96545bf2ece1"
       },
       {
         "repo": "18F/identity-idp",
@@ -2126,132 +2126,405 @@
       "error": null,
       "events": [
         {
-          "id": "15760677756",
+          "id": "15883008950",
           "type": "PullRequestEvent",
-          "repo": "uswds/uswds",
-          "createdAt": "2026-09-17T01:59:56Z",
-          "action": "labeled",
-          "number": 4938
+          "repo": "uswds/uswds-savings",
+          "createdAt": "2026-09-28T03:10:09Z",
+          "action": "merged",
+          "number": 3
         },
         {
-          "id": "15760671663",
-          "type": "PullRequestEvent",
-          "repo": "uswds/uswds",
-          "createdAt": "2026-09-17T03:38:00Z",
-          "action": "labeled",
-          "number": 5263
+          "id": "22347676571",
+          "type": "PushEvent",
+          "repo": "uswds/uswds-elements",
+          "createdAt": "2026-09-28T03:10:06Z",
+          "ref": "refs/heads/develop",
+          "before": "29ad53bcc9cf0e34a7a92ded12b750ffa29ff0ba",
+          "head": "c42783111413e73cc2eba59d963bc97c1d336c85"
         },
         {
-          "id": "15760667185",
+          "id": "15883005814",
           "type": "PullRequestEvent",
-          "repo": "uswds/uswds",
-          "createdAt": "2026-09-17T03:57:52Z",
-          "action": "labeled",
-          "number": 5345
+          "repo": "uswds/uswds-elements",
+          "createdAt": "2026-09-28T03:10:05Z",
+          "action": "merged",
+          "number": 330
         },
         {
-          "id": "15760661280",
+          "id": "15883003054",
           "type": "PullRequestEvent",
-          "repo": "uswds/uswds",
-          "createdAt": "2026-09-17T04:10:01Z",
-          "action": "labeled",
-          "number": 5513
+          "repo": "uswds/uswds-proposals",
+          "createdAt": "2026-09-28T03:10:01Z",
+          "action": "merged",
+          "number": 57
         },
         {
-          "id": "15760655193",
-          "type": "PullRequestEvent",
-          "repo": "uswds/uswds",
-          "createdAt": "2026-09-17T04:07:49Z",
-          "action": "labeled",
-          "number": 5699
+          "id": "22347671957",
+          "type": "PushEvent",
+          "repo": "uswds/uswds-proposals",
+          "createdAt": "2026-09-28T03:10:02Z",
+          "ref": "refs/heads/main",
+          "before": "8f7e64850e26e943e5bb2c152a7bf16fed15476d",
+          "head": "bbb934bcaa25853c986e3514c2bcb0bbc07e4177"
         },
         {
-          "id": "15760648842",
-          "type": "PullRequestEvent",
-          "repo": "uswds/uswds",
-          "createdAt": "2026-09-17T04:18:49Z",
-          "action": "labeled",
-          "number": 5906
+          "id": "22347667052",
+          "type": "PushEvent",
+          "repo": "uswds/uswds-compile",
+          "createdAt": "2026-09-28T03:09:57Z",
+          "ref": "refs/heads/develop",
+          "before": "2513f63c56ef644134a4ad3ac502a4111142a3f9",
+          "head": "eae608644fa51e91ed9277a7f0c21ade54e8f405"
         },
         {
-          "id": "15760643201",
+          "id": "15882999461",
           "type": "PullRequestEvent",
-          "repo": "uswds/uswds",
-          "createdAt": "2026-09-17T04:30:57Z",
-          "action": "labeled",
-          "number": 6148
+          "repo": "uswds/uswds-compile",
+          "createdAt": "2026-09-28T03:09:56Z",
+          "action": "merged",
+          "number": 197
         },
         {
-          "id": "15760637102",
-          "type": "PullRequestEvent",
-          "repo": "uswds/uswds",
-          "createdAt": "2026-09-17T04:35:00Z",
-          "action": "labeled",
-          "number": 6203
+          "id": "22347662482",
+          "type": "PushEvent",
+          "repo": "uswds/uswds-tutorial",
+          "createdAt": "2026-09-28T03:09:52Z",
+          "ref": "refs/heads/main",
+          "before": "fb551f0d57e6b4056a212688e479ae6e240f3838",
+          "head": "95141570cfd03a0570d2d500c4aa9b655d164d20"
         },
         {
-          "id": "15760630389",
+          "id": "15882995900",
           "type": "PullRequestEvent",
-          "repo": "uswds/uswds",
-          "createdAt": "2026-09-17T04:38:46Z",
-          "action": "labeled",
-          "number": 6210
+          "repo": "uswds/uswds-tutorial",
+          "createdAt": "2026-09-28T03:09:51Z",
+          "action": "merged",
+          "number": 75
         },
         {
-          "id": "15760623183",
+          "id": "15882993353",
           "type": "PullRequestEvent",
-          "repo": "uswds/uswds",
-          "createdAt": "2026-09-17T04:39:44Z",
-          "action": "labeled",
-          "number": 6220
+          "repo": "uswds/uswds-team",
+          "createdAt": "2026-09-28T03:09:46Z",
+          "action": "merged",
+          "number": 498
         },
         {
-          "id": "15760616563",
-          "type": "PullRequestEvent",
-          "repo": "uswds/uswds",
-          "createdAt": "2026-09-17T04:48:02Z",
-          "action": "labeled",
-          "number": 6289
+          "id": "22347658753",
+          "type": "PushEvent",
+          "repo": "uswds/uswds-team",
+          "createdAt": "2026-09-28T03:09:47Z",
+          "ref": "refs/heads/main",
+          "before": "c54bc8dd4268d296ac01dbce35ddaabd80485bad",
+          "head": "4a69fc8676127a59f0b54b6802fb845591fbaaad"
         },
         {
-          "id": "15760610114",
+          "id": "15882989854",
           "type": "PullRequestEvent",
-          "repo": "uswds/uswds",
-          "createdAt": "2026-09-17T07:03:34Z",
-          "action": "labeled",
-          "number": 6389
+          "repo": "uswds/uswds-sandbox",
+          "createdAt": "2026-09-28T03:09:41Z",
+          "action": "merged",
+          "number": 196
         },
         {
-          "id": "15760603381",
-          "type": "PullRequestEvent",
-          "repo": "uswds/uswds",
-          "createdAt": "2026-09-23T14:08:43Z",
-          "action": "labeled",
-          "number": 6758
+          "id": "22347654081",
+          "type": "PushEvent",
+          "repo": "uswds/uswds-sandbox",
+          "createdAt": "2026-09-28T03:09:42Z",
+          "ref": "refs/heads/main",
+          "before": "0b8185ea96a332362c78b05d58eb11fc69a6b99d",
+          "head": "c5c1e541b402046324346dd20f524863ea5d87ff"
         },
         {
-          "id": "15760597175",
-          "type": "PullRequestEvent",
-          "repo": "uswds/uswds",
-          "createdAt": "2026-09-18T03:04:49Z",
-          "action": "labeled",
-          "number": 6946
+          "id": "22347650536",
+          "type": "PushEvent",
+          "repo": "uswds/public-sans",
+          "createdAt": "2026-09-28T03:09:37Z",
+          "ref": "refs/heads/develop",
+          "before": "d3df3455fb94643925f816276e81b231bc31619f",
+          "head": "62058987ce57f64e39a30adc8a512998a3110c70"
         },
         {
-          "id": "15760591327",
+          "id": "15882985843",
           "type": "PullRequestEvent",
-          "repo": "uswds/uswds",
-          "createdAt": "2026-09-18T02:35:51Z",
-          "action": "labeled",
-          "number": 6954
+          "repo": "uswds/public-sans",
+          "createdAt": "2026-09-28T03:09:36Z",
+          "action": "merged",
+          "number": 394
         },
         {
-          "id": "15760584116",
+          "id": "22347644282",
+          "type": "PushEvent",
+          "repo": "uswds/uswds-site",
+          "createdAt": "2026-09-28T03:09:32Z",
+          "ref": "refs/heads/main",
+          "before": "c1a8bdb89d2902fca3cbe2c239892eca69e3351f",
+          "head": "4393275e292b2c081cc543198d895441aa4218d4"
+        },
+        {
+          "id": "15882982133",
+          "type": "PullRequestEvent",
+          "repo": "uswds/uswds-site",
+          "createdAt": "2026-09-28T03:09:31Z",
+          "action": "merged",
+          "number": 3318
+        },
+        {
+          "id": "15882978897",
+          "type": "PullRequestEvent",
+          "repo": "uswds/uswds-for-designers",
+          "createdAt": "2026-09-28T03:09:26Z",
+          "action": "merged",
+          "number": 103
+        },
+        {
+          "id": "22347640400",
+          "type": "PushEvent",
+          "repo": "uswds/uswds-for-designers",
+          "createdAt": "2026-09-28T03:09:27Z",
+          "ref": "refs/heads/main",
+          "before": "939663bd43b955292a59e7e52ed08aa26d58ca35",
+          "head": "ea4cf1d7c707836f9ebc52f49751486062c1e378"
+        },
+        {
+          "id": "15882975614",
           "type": "PullRequestEvent",
           "repo": "uswds/uswds",
-          "createdAt": "2026-09-18T16:39:55Z",
-          "action": "labeled",
-          "number": 6975
+          "createdAt": "2026-09-28T03:09:21Z",
+          "action": "merged",
+          "number": 6993
+        },
+        {
+          "id": "15882602725",
+          "type": "PullRequestEvent",
+          "repo": "uswds/uswds-savings",
+          "createdAt": "2026-09-28T03:00:14Z",
+          "action": "assigned",
+          "number": 3
+        },
+        {
+          "id": "15882601593",
+          "type": "PullRequestEvent",
+          "repo": "uswds/uswds-savings",
+          "createdAt": "2026-09-28T03:00:14Z",
+          "action": "opened",
+          "number": 3
+        },
+        {
+          "id": "22347116599",
+          "type": "CreateEvent",
+          "repo": "uswds/uswds-savings",
+          "createdAt": "2026-09-28T03:00:11Z",
+          "refType": "branch",
+          "ref": "docs/conduct-moderation-20260927"
+        },
+        {
+          "id": "15882596469",
+          "type": "PullRequestEvent",
+          "repo": "uswds/uswds-elements",
+          "createdAt": "2026-09-28T03:00:05Z",
+          "action": "assigned",
+          "number": 330
+        },
+        {
+          "id": "15882595535",
+          "type": "PullRequestEvent",
+          "repo": "uswds/uswds-elements",
+          "createdAt": "2026-09-28T03:00:05Z",
+          "action": "opened",
+          "number": 330
+        },
+        {
+          "id": "22347107427",
+          "type": "CreateEvent",
+          "repo": "uswds/uswds-elements",
+          "createdAt": "2026-09-28T03:00:03Z",
+          "refType": "branch",
+          "ref": "docs/conduct-moderation-20260927"
+        },
+        {
+          "id": "15882591146",
+          "type": "PullRequestEvent",
+          "repo": "uswds/uswds-proposals",
+          "createdAt": "2026-09-28T02:59:56Z",
+          "action": "assigned",
+          "number": 57
+        },
+        {
+          "id": "15882589849",
+          "type": "PullRequestEvent",
+          "repo": "uswds/uswds-proposals",
+          "createdAt": "2026-09-28T02:59:56Z",
+          "action": "opened",
+          "number": 57
+        },
+        {
+          "id": "22347098795",
+          "type": "CreateEvent",
+          "repo": "uswds/uswds-proposals",
+          "createdAt": "2026-09-28T02:59:54Z",
+          "refType": "branch",
+          "ref": "docs/conduct-moderation-20260927"
+        },
+        {
+          "id": "15882586427",
+          "type": "PullRequestEvent",
+          "repo": "uswds/uswds-compile",
+          "createdAt": "2026-09-28T02:59:49Z",
+          "action": "assigned",
+          "number": 197
+        },
+        {
+          "id": "15882585313",
+          "type": "PullRequestEvent",
+          "repo": "uswds/uswds-compile",
+          "createdAt": "2026-09-28T02:59:49Z",
+          "action": "opened",
+          "number": 197
+        },
+        {
+          "id": "22347093183",
+          "type": "CreateEvent",
+          "repo": "uswds/uswds-compile",
+          "createdAt": "2026-09-28T02:59:47Z",
+          "refType": "branch",
+          "ref": "docs/conduct-moderation-20260927"
+        },
+        {
+          "id": "15882581585",
+          "type": "PullRequestEvent",
+          "repo": "uswds/uswds-tutorial",
+          "createdAt": "2026-09-28T02:59:42Z",
+          "action": "assigned",
+          "number": 75
+        },
+        {
+          "id": "15882580539",
+          "type": "PullRequestEvent",
+          "repo": "uswds/uswds-tutorial",
+          "createdAt": "2026-09-28T02:59:42Z",
+          "action": "opened",
+          "number": 75
+        },
+        {
+          "id": "22347086998",
+          "type": "CreateEvent",
+          "repo": "uswds/uswds-tutorial",
+          "createdAt": "2026-09-28T02:59:40Z",
+          "refType": "branch",
+          "ref": "docs/conduct-moderation-20260927"
+        },
+        {
+          "id": "15882577811",
+          "type": "PullRequestEvent",
+          "repo": "uswds/uswds-team",
+          "createdAt": "2026-09-28T02:59:34Z",
+          "action": "assigned",
+          "number": 498
+        },
+        {
+          "id": "15882576101",
+          "type": "PullRequestEvent",
+          "repo": "uswds/uswds-team",
+          "createdAt": "2026-09-28T02:59:34Z",
+          "action": "opened",
+          "number": 498
+        },
+        {
+          "id": "22347080362",
+          "type": "CreateEvent",
+          "repo": "uswds/uswds-team",
+          "createdAt": "2026-09-28T02:59:33Z",
+          "refType": "branch",
+          "ref": "docs/conduct-moderation-20260927"
+        },
+        {
+          "id": "15882572104",
+          "type": "PullRequestEvent",
+          "repo": "uswds/uswds-sandbox",
+          "createdAt": "2026-09-28T02:59:27Z",
+          "action": "assigned",
+          "number": 196
+        },
+        {
+          "id": "15882571088",
+          "type": "PullRequestEvent",
+          "repo": "uswds/uswds-sandbox",
+          "createdAt": "2026-09-28T02:59:27Z",
+          "action": "opened",
+          "number": 196
+        },
+        {
+          "id": "22347074675",
+          "type": "CreateEvent",
+          "repo": "uswds/uswds-sandbox",
+          "createdAt": "2026-09-28T02:59:26Z",
+          "refType": "branch",
+          "ref": "docs/conduct-moderation-20260927"
+        },
+        {
+          "id": "15882568556",
+          "type": "PullRequestEvent",
+          "repo": "uswds/public-sans",
+          "createdAt": "2026-09-28T02:59:21Z",
+          "action": "assigned",
+          "number": 394
+        },
+        {
+          "id": "15882567255",
+          "type": "PullRequestEvent",
+          "repo": "uswds/public-sans",
+          "createdAt": "2026-09-28T02:59:21Z",
+          "action": "opened",
+          "number": 394
+        },
+        {
+          "id": "22347069288",
+          "type": "CreateEvent",
+          "repo": "uswds/public-sans",
+          "createdAt": "2026-09-28T02:59:19Z",
+          "refType": "branch",
+          "ref": "docs/conduct-moderation-20260927"
+        },
+        {
+          "id": "15882563697",
+          "type": "PullRequestEvent",
+          "repo": "uswds/uswds-site",
+          "createdAt": "2026-09-28T02:59:13Z",
+          "action": "assigned",
+          "number": 3318
+        },
+        {
+          "id": "15882562527",
+          "type": "PullRequestEvent",
+          "repo": "uswds/uswds-site",
+          "createdAt": "2026-09-28T02:59:13Z",
+          "action": "opened",
+          "number": 3318
+        },
+        {
+          "id": "22347063357",
+          "type": "CreateEvent",
+          "repo": "uswds/uswds-site",
+          "createdAt": "2026-09-28T02:59:12Z",
+          "refType": "branch",
+          "ref": "docs/conduct-moderation-20260927"
+        },
+        {
+          "id": "15882555474",
+          "type": "PullRequestEvent",
+          "repo": "uswds/uswds-for-designers",
+          "createdAt": "2026-09-28T02:59:00Z",
+          "action": "assigned",
+          "number": 103
+        },
+        {
+          "id": "15882554272",
+          "type": "PullRequestEvent",
+          "repo": "uswds/uswds-for-designers",
+          "createdAt": "2026-09-28T02:59:00Z",
+          "action": "opened",
+          "number": 103
         }
       ]
     },
@@ -2298,6 +2571,58 @@
       "ok": true,
       "error": null,
       "events": [
+        {
+          "id": "15890628907",
+          "type": "PullRequestEvent",
+          "repo": "taigrr/crunch",
+          "createdAt": "2026-09-28T06:06:04Z",
+          "action": "opened",
+          "number": 36
+        },
+        {
+          "id": "22357418181",
+          "type": "CreateEvent",
+          "repo": "taigrr/crunch",
+          "createdAt": "2026-09-28T06:05:50Z",
+          "refType": "branch",
+          "ref": "cd/check-generated-files-20260928"
+        },
+        {
+          "id": "22355842447",
+          "type": "PushEvent",
+          "repo": "taigrr/crush",
+          "createdAt": "2026-09-28T05:38:42Z",
+          "ref": "refs/heads/feature",
+          "before": "ed4096e7b277f3209b531ae6309ca2a30d2286a3",
+          "head": "dc5616307d675e6a5395561f2b5ebc76c0a08220"
+        },
+        {
+          "id": "22355543587",
+          "type": "PushEvent",
+          "repo": "taigrr/catwalk",
+          "createdAt": "2026-09-28T05:33:27Z",
+          "ref": "refs/heads/main",
+          "before": "f4692aa8e14c7aab841a87dcd430df5eef7635f6",
+          "head": "7f28d62cae22fc2131df5d4cc04749ac12ab0b60"
+        },
+        {
+          "id": "22352503528",
+          "type": "PushEvent",
+          "repo": "gogrlx/snack",
+          "createdAt": "2026-09-27T21:03:33Z",
+          "ref": "refs/heads/master",
+          "before": "519fb032a829b7aa0721769b33dd1d97b64e680a",
+          "head": "36d599284fe760b00e532efdad8b2bbfb6c1c9a2"
+        },
+        {
+          "id": "22351736741",
+          "type": "PushEvent",
+          "repo": "taigrr/pokemon-tinygo",
+          "createdAt": "2026-09-27T20:49:58Z",
+          "ref": "refs/heads/master",
+          "before": "c84e4b466f12913ac05fa6d26897da51db505a00",
+          "head": "866488b6d86443a423edcbbb01b4f2fb4484786c"
+        },
         {
           "id": "15870451423",
           "type": "PullRequestEvent",
@@ -2646,57 +2971,6 @@
           "createdAt": "2026-09-22T07:33:02Z",
           "refType": "branch",
           "ref": "cd/cover-dumpall-args"
-        },
-        {
-          "id": "21855017348",
-          "type": "PushEvent",
-          "repo": "taigrr/gojev",
-          "createdAt": "2026-09-22T07:08:06Z",
-          "ref": "refs/heads/main",
-          "before": "58922c56cd632c9c96f0bc8bdb85e14e04751931",
-          "head": "c32e5746d3e942d05f3c4e164eab495abc04d720"
-        },
-        {
-          "id": "21830155284",
-          "type": "PushEvent",
-          "repo": "taigrr/catwalk",
-          "createdAt": "2026-09-22T05:58:26Z",
-          "ref": "refs/heads/main",
-          "before": "df368286465d0a7d2b0abdbc2ad80fd9423ffcc9",
-          "head": "f4692aa8e14c7aab841a87dcd430df5eef7635f6"
-        },
-        {
-          "id": "21828442752",
-          "type": "PushEvent",
-          "repo": "taigrr/mg",
-          "createdAt": "2026-09-22T10:33:03Z",
-          "ref": "refs/heads/cd/update-go-127",
-          "before": "c9404933ab3579f4768b2c578355930ef641112c",
-          "head": "3d0181ecf6bcc2ba9ccd6de1e394d97beea07cfc"
-        },
-        {
-          "id": "21821670044",
-          "type": "CreateEvent",
-          "repo": "taigrr/neocrush.nvim",
-          "createdAt": "2026-09-22T08:32:35Z",
-          "refType": "branch",
-          "ref": "cd/round6-maintenance"
-        },
-        {
-          "id": "15489197015",
-          "type": "PullRequestEvent",
-          "repo": "taigrr/neocrush.nvim",
-          "createdAt": "2026-09-22T08:32:47Z",
-          "action": "opened",
-          "number": 11
-        },
-        {
-          "id": "15487515785",
-          "type": "PullRequestEvent",
-          "repo": "taigrr/signalcli",
-          "createdAt": "2026-09-22T08:03:21Z",
-          "action": "opened",
-          "number": 10
         }
       ]
     },
@@ -2739,7 +3013,21 @@
         "up": 0,
         "down": 0,
         "totalReactions": 0,
-        "lastCheckedAt": "2026-09-28T01:35:35.257Z"
+        "lastCheckedAt": "2026-09-28T06:26:00.417Z"
+      },
+      {
+        "kind": "issue",
+        "id": 5862475315,
+        "repo": "uswds/uswds",
+        "issueNumber": 6993,
+        "author": "github-actions[bot]",
+        "body": "Hi @ryparker — thanks for your contribution!\n\nThere is one thing that may be holding this up: for security reasons, USWDS requires that all commits to this repo have a [verified commit](https://github.com/uswds/uswds/blob/develop/CONTRIBUTING.md#setting-up-verified-commits). The following commit(s) on this PR aren't verified:\n\n- `d76a12c` — docs: add moderation statement to conduct guidance\n\nHere's what's needed:\n\n1. **Set up signature verification in GitHub.** Use one of the following GitHub guides to set up your verification signature:\n   - [GPG commit signature verification](https://docs.github.com/en/authentication/managing-commit-signature-verification/about-commit-signature-verification#gpg-commit-signature-verification)\n   - [SSH commit signature verification](https://docs.github.com/en/authentication/managing-commit-signature-verification/about-commit-signature-verification#ssh-commit-signature-verification)\n\n2. **Rebase your commits with your verified signature.** Once your signature is set up, complete the following steps in the terminal to update the verification status of your previous commits:\n   ```sh\n   git checkout docs/conduct-moderation-20260927\n   git rebase origin/develop\n   git push --force-with-lease\n   ```\n\nPlease let us know if you have any questions. We appreciate your help here. This comment will update automatically once your commits are verified.\n<!-- Sticky Pull Request Commentverify-commits -->",
+        "createdAt": "2026-09-28T02:59:02Z",
+        "url": "https://github.com/uswds/uswds/pull/6993#issuecomment-5862475315",
+        "up": 0,
+        "down": 0,
+        "totalReactions": 0,
+        "lastCheckedAt": "2026-09-28T06:26:00.417Z"
       },
       {
         "kind": "discussion",
@@ -2752,7 +3040,7 @@
         "url": "https://github.com/uswds/uswds/discussions/6991#discussioncomment-18614411",
         "up": 1,
         "down": 0,
-        "lastCheckedAt": "2026-09-28T01:35:36.931Z"
+        "lastCheckedAt": "2026-09-28T06:26:02.130Z"
       }
     ]
   },
@@ -2774,7 +3062,7 @@
       "server": "cloudflare",
       "via": null,
       "x_vercel_id": null,
-      "cf_ray": "a41f0321c9d86213-ORD",
+      "cf_ray": "a420ac815d0414a7-LAX",
       "hsts": "max-age=15552000; includeSubDomains; preload",
       "csp": "base-uri 'none'; object-src 'none'; form-action 'self'; font-src 'self' data:; manifest-src 'self'; worker-src 'self' blob:; img-src 'self' data: blob: https://maps.geo.us-east-2.amazonaws.com https://*.cloudflarestream.com; connect-src 'self' https://maps.geo.us-east-2.amazonaws.com https://*.cloudflarestream.com https://videodelivery.net; media-src 'self' blob: https://*.cloudflarestream.com https://videodelivery.net; frame-src https://www.youtube-nocookie.com https://*.cloudflarestream.com; frame-ancestors 'none'",
       "x_powered_by": null,
