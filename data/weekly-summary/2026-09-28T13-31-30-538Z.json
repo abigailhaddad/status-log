@@ -1,0 +1,202 @@
+{
+  "sinceIso": "2026-09-21T13:31:30.538Z",
+  "untilIso": "2026-09-28T13:31:30.538Z",
+  "repos": [
+    "uswds/uswds",
+    "uswds/uswds-site",
+    "18F/identity-idp",
+    "GSA-TTS/identity-site",
+    "GSA-TTS/identity-handbook",
+    "GSA-TTS/identity-dev-docs",
+    "nationaldesignstudio/rampart"
+  ],
+  "commitSummary": {
+    "total": 14,
+    "topAuthors": [
+      [
+        "taigrr",
+        5
+      ],
+      [
+        "ryparker",
+        2
+      ],
+      [
+        "vrajmohan",
+        2
+      ],
+      [
+        "dlh-woc",
+        2
+      ],
+      [
+        "dependabot[bot]",
+        1
+      ],
+      [
+        "Sgtpluck",
+        1
+      ],
+      [
+        "zombonic-tts",
+        1
+      ]
+    ],
+    "byHourUtc": [
+      0,
+      0,
+      0,
+      2,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      3,
+      2,
+      1,
+      0,
+      0
+    ],
+    "rapidFirePairs": [
+      [
+        "ryparker",
+        1
+      ]
+    ]
+  },
+  "topUpvotedComments": [
+    {
+      "kind": "discussion",
+      "id": "DC_kwDOAiTWQs4BG6yJ",
+      "repo": "uswds/uswds",
+      "discussionNumber": 6992,
+      "author": "ajfarkas",
+      "body": "Could you provide some insight into the development of these priorities?  \r\nFor instance, who are the stakeholders who influenced this list? Are there a few agencies that gave input? A working group within TTS? If there are priorities (listed or not) we feel strongly about, how can we–as civic technologists and as the American public–best make our needs heard?\r\n",
+      "createdAt": "2026-09-25T02:21:00Z",
+      "url": "https://github.com/uswds/uswds/discussions/6992#discussioncomment-18590857",
+      "up": 7,
+      "down": 0
+    },
+    {
+      "kind": "discussion",
+      "id": "DC_kwDOAiTWQs4BGy7J",
+      "repo": "uswds/uswds",
+      "discussionNumber": 6988,
+      "author": "aardrian",
+      "body": "This ask:\r\n> * Which problems have automated checks missed, particularly during keyboard or screen-reader use?\r\n\r\nCoupled with:\r\n> Links to existing findings or test cases are welcome; there is no need to repeat an existing report.\r\n\r\n\r\nMeans the quickest way for me to answer this is with a 2023 post where I compared 4 automated testing tools  to a manual WCAG review (and someone tested a 5th tool, finding similar results): [_Comparing Manual and Free Automated WCAG Reviews_](https://adrianroselli.com/2023/01/comparing-manual-and-free-automated-wcag-reviews.html)\r\n\r\nThat post breaks it down by SC, and since more than 2.1.1 and 4.1.2 impact keyboard and screen reader users, I'll leave it to you to wade into and pull out the bits that matter to you.\r\n\r\nThe result was that my own testing showed automated tools topped out below a 14% success rate.\r\n\r\nI also link to other articles that ran other automated tools tests and they largely find the same thing — automated tools perform well below the ~30% of WCAG that can be automated and well below the ~60-80% some tool vendors claim (never mind the 100% overlay companies claim).\r\n\r\nNow, this is an interesting question:\r\n> * What evidence would you need to trust an automated or AI-assisted assessment?\r\n\r\nSee my failure notes in the \"Manual\" column of the table in the linked post. At a _minimum_ I'd need a **succinct** explanation that makes sense in context, an XPath or other absolute path to the node in the code, the affected code block, screen shot(s), videos if it's an interaction, instructions to get it into that state, how the things are exposed in each (and every) platform AAPI (and browser accessibility trees to ease UA/AT bugs causing false negatives), testing kit (UA and AT with versions) and, well, even then I'd still not trust it given how I've seen these efforts perform so far. Mostly the evidence needs to be sufficient for me to perform QA on every assertion.\r\n\r\nIf using an \"AI\"-assisted process, then any \"AI\" that runs the deterministic tests as non-deterministic is the best way for me to turn the tool off and bin it, because I'm not paying for tokens that didn't need to be burned. That's probably a different kind of evidence than you meant, though.",
+      "createdAt": "2026-09-22T21:01:24Z",
+      "url": "https://github.com/uswds/uswds/discussions/6988#discussioncomment-18558665",
+      "up": 4,
+      "down": 0
+    },
+    {
+      "kind": "discussion",
+      "id": "DC_kwDOAiTWQs4BGw2i",
+      "repo": "uswds/uswds",
+      "discussionNumber": 6988,
+      "author": "Kin230k",
+      "body": "One useful reliability fixture would be a complete keyboard task, not just a component at rest: open a dialog, move through a form with an error, correct it, submit, and confirm that focus returns to the invoking control and the outcome is announced. A static DOM check can pass while the focus sequence or spoken state fails after the transition. I'd pair that with a combo box in the form, since its active option, empty results, and dismissal are easy to regress when components are assembled.\r\n\r\nFor each fixture, I would publish the tested USWDS/browser/assistive-technology versions, the interaction steps, expected focus and announcement sequence, observed evidence, and the human-reviewed pass/fail judgment. Then run the same known-pass and deliberately broken variants repeatedly to report misses, incorrect warnings, and inconsistent results separately. If a tool cannot observe the screen-reader output, that check should remain “not assessed” rather than counted as a pass. This would give downstream teams a practical boundary between reusable component checks and the service-level tasks they still need to test.",
+      "createdAt": "2026-09-22T08:36:27Z",
+      "url": "https://github.com/uswds/uswds/discussions/6988#discussioncomment-18550178",
+      "up": 2,
+      "down": 0
+    },
+    {
+      "kind": "discussion",
+      "id": "DC_kwDOAiTWQs4BGzDo",
+      "repo": "uswds/uswds",
+      "discussionNumber": 6988,
+      "author": "lauraGgit",
+      "body": "In the other thread you mention applicable WCAG standards, but this posture is clearly missing a lot of the point of what USWDS is for.  As a design system used by many other systems the onus of accessibility is greater for USWDS than other sites as it has an amplifying effect across the sites it is used. From a cost savings, any poor accessible component may have to be remediated many times over. The point of this exercise shouldn't be a cost cutting exercise on automation, but an accessibility optimization because that would actually be more cost cutting in the broader adoption of the USWDS.",
+      "createdAt": "2026-09-22T22:16:11Z",
+      "url": "https://github.com/uswds/uswds/discussions/6988#discussioncomment-18559208",
+      "up": 2,
+      "down": 0
+    },
+    {
+      "kind": "discussion",
+      "id": "DC_kwDOAiTWQs4BG1Ww",
+      "repo": "uswds/uswds",
+      "discussionNumber": 6988,
+      "author": "maggiewachs",
+      "body": "@ryparker in an earlier comment you mentioned:\r\n\r\n> One of the challenges here is to identify what we should be testing for any particular component and what scenarios should be tested. One thing I'm currently working on is an accessibility checklist that defines the minimal expected checks that need to be in place per component and scenario.\r\n\r\nRelated: are you planning to maintain/extend these? https://designsystem.digital.gov/components/accordion/accessibility-tests/",
+      "createdAt": "2026-09-23T15:07:23Z",
+      "url": "https://github.com/uswds/uswds/discussions/6988#discussioncomment-18568624",
+      "up": 2,
+      "down": 0
+    },
+    {
+      "kind": "discussion",
+      "id": "DC_kwDOAiTWQs4BG-KS",
+      "repo": "uswds/uswds",
+      "discussionNumber": 6988,
+      "author": "harrisj",
+      "body": "I know you are focusing on what to build here, but I wanted to ask _why_ the government needs to develop its own automated accessibility testing tools here.\r\n\r\n[Executive Order 14271](https://www.presidency.ucsb.edu/documents/executive-order-14271-ensuring-commercial-cost-effective-solutions-federal-contracts) states that \"agencies shall procure commercially available products and services, including those that can be modified to fill agencies' needs, to the maximum extent practicable.\"\r\n\r\nWhat is this suite giving the government that a license for [Deque Axe](https://www.deque.com/axe/) wouldn't? Is the cost of AI tokens as well as an your salary and future operations and maintenance costs being factored into this decision? Does the government have special requirements or possess an expertise that outmatches companies selling products in this space? I know that _technically_ this situation is slightly different since this work is being insourced rather than procured, but the general point is that government should reduce its costs of custom development if it can buy a product to serve its needs instead. Why does it need custom development?",
+      "createdAt": "2026-09-25T19:32:40Z",
+      "url": "https://github.com/uswds/uswds/discussions/6988#discussioncomment-18604690",
+      "up": 2,
+      "down": 0
+    },
+    {
+      "kind": "discussion",
+      "id": "DC_kwDOAiTWQs4BG46-",
+      "repo": "uswds/uswds",
+      "discussionNumber": 6978,
+      "author": "msbtterswrth",
+      "body": "Hey Ryan, Sam, et. al, \r\n\r\nMy name is Lynn Stahl and I'm a former maintainer of USWDS and a Senior Product manager (and former engineer) at a federal contractor working on several agency websites that utilize USWDS daily. Myself and others at my company and our partners have deep historical and technical knowledge of USWDS and how it's used both by designers, engineers and users. I'd love to talk to you about the history, current status and future of USWDS and where we might be able to help.",
+      "createdAt": "2026-09-24T14:56:07Z",
+      "url": "https://github.com/uswds/uswds/discussions/6978#discussioncomment-18583230",
+      "up": 2,
+      "down": 0
+    },
+    {
+      "kind": "discussion",
+      "id": "DC_kwDOAiTWQs4BGvfw",
+      "repo": "uswds/uswds",
+      "discussionNumber": 6984,
+      "author": "ethangardner",
+      "body": "Some historical context for this work. This was tried initially in https://github.com/uswds/uswds/pull/5090 prior to my involvement with USWDS. The original attempt was a large PR that sat dormant with conflicts and by one of the former core team members that was no longer around to resolve them. It was also a larger PR that took some approaches like using `mjs` file extensions temporarily.\r\n\r\nI rescoped it into multiple PRs as an epic that the community could pick up if they chose to do so, or that the core team could work on at some point in the future.\r\n\r\nConverting to ESM would open up some things. For instance, it would allow updating the build tool stack and provide a path forward with Storybook. A few months ago, we were on Storybook 6. Now we're on Storybook 9, which is still 1 major version behind but that's as far as staying on CommonJS syntax will allow. The upgrade to Storybook v9 required a judgment call to take on extra complexity in the form of a custom vite plugin described here: https://github.com/uswds/uswds-proposals/blob/main/decisions/0011-use-custom-vite-plugins.md. Migrating to ESM would unblock a Storybook 10 update, which would mean the vite plugin could be retired.",
+      "createdAt": "2026-09-21T20:00:09Z",
+      "url": "https://github.com/uswds/uswds/discussions/6984#discussioncomment-18544624",
+      "up": 2,
+      "down": 0
+    },
+    {
+      "kind": "issue",
+      "id": 5819258665,
+      "repo": "18F/identity-idp",
+      "issueNumber": 13544,
+      "author": "vrajmohan",
+      "body": "We should also remove mentions of `int` in the commit messages and changelog as the code changes are independent of environment.",
+      "createdAt": "2026-09-24T17:50:38Z",
+      "url": "https://github.com/18F/identity-idp/pull/13544#issuecomment-5819258665",
+      "up": 1,
+      "down": 0,
+      "totalReactions": 1
+    },
+    {
+      "kind": "discussion",
+      "id": "DC_kwDOAiTWQs4BHAiL",
+      "repo": "uswds/uswds",
+      "discussionNumber": 6991,
+      "author": "mogul",
+      "body": "We're working on a significant piece of work which might contribute a bunch of WebComponents back. As things stand our components have to use light DOM to allow for styling, which makes for a poor abstraction. The main blocker to using shadow DOM is to have the USWDS provide and use tokens, which then become part of the component interface. Work was previously underway to move to providing and using tokens. Where does that sit among USWDS' priorities now?",
+      "createdAt": "2026-09-26T15:42:30Z",
+      "url": "https://github.com/uswds/uswds/discussions/6991#discussioncomment-18614411",
+      "up": 1,
+      "down": 0
+    }
+  ],
+  "topDownvotedComments": []
+}
