@@ -1,0 +1,9 @@
+{
+  "timestamp": "2026-09-28T00:05:45.008Z",
+  "events": [
+    {
+      "type": "NEW_PERSON_ACTIVITY",
+      "detail": "taigrr:\n[2026-09-27T21:03:32Z] merged PR #69 on gogrlx/snack: \"fix(deps): patch vulnerable Go modules\" (`https://github.com/gogrlx/snack/pull/69`)\n\n[2026-09-27T21:03:20Z] pushed to gogrlx/snack (master):\n  519fb03 fix(apt): honor package source targets (#70)\n\n[2026-09-27T21:03:19Z] merged PR #70 on gogrlx/snack: \"fix(apt): honor package source targets\" (`https://github.com/gogrlx/snack/pull/70`)\n\n[2026-09-27T20:49:57Z] merged PR #14 on taigrr/pokemon-tinygo: \"ci(gopherbadgeimg): tighten module checks\" (`https://github.com/taigrr/pokemon-tinygo/pull/14`)\n\n[2026-09-27T20:49:00Z] pushed to gogrlx/grlx (master):\n  c414d3a fix(props): return nil for empty props\n  8df8f3b Merge pull request #349 from gogrlx/cd/props-empty-map-20260927\n\n[2026-09-27T20:48:59Z] merged PR #349 on gogrlx/grlx: \"fix(props): return nil for empty props\" (`https://github.com/gogrlx/grlx/pull/349`)"
+    }
+  ]
+}
