@@ -1,0 +1,9 @@
+{
+  "timestamp": "2026-09-29T09:17:48.002Z",
+  "events": [
+    {
+      "type": "NEW_PERSON_ACTIVITY",
+      "detail": "taigrr:\n[2026-09-29T09:03:36Z] opened PR #10 on taigrr/adb: \"test(device): cover pull destination guard\" (`https://github.com/taigrr/adb/pull/10`)\n\n[2026-09-29T09:03:23Z] created branch \"cd/pull-dest-exists\" on taigrr/adb"
+    }
+  ]
+}
