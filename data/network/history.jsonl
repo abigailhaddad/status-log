@@ -2,3 +2,4 @@
 {"timestamp":"2026-09-26T15:44:52.968Z","pagesVisited":1,"totalRequests":7,"uniqueHostCount":2,"aiProviderMatchCount":0,"newEventTypes":[]}
 {"timestamp":"2026-09-27T13:16:46.326Z","pagesVisited":1,"totalRequests":6,"uniqueHostCount":1,"aiProviderMatchCount":0,"newEventTypes":[]}
 {"timestamp":"2026-09-28T13:32:43.001Z","pagesVisited":1,"totalRequests":6,"uniqueHostCount":1,"aiProviderMatchCount":0,"newEventTypes":[]}
+{"timestamp":"2026-09-29T14:16:06.930Z","pagesVisited":1,"totalRequests":21,"uniqueHostCount":2,"aiProviderMatchCount":0,"newEventTypes":["NEW_NETWORK_HOSTS","NEW_COOKIES","PAGE_ERROR_STATUS"]}

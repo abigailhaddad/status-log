@@ -1,43 +1,44 @@
 {
-  "timestamp": "2026-09-28T13:32:43.002Z",
+  "timestamp": "2026-09-29T14:16:06.931Z",
   "lighthouse": {
     "ok": true,
     "scores": {
-      "performance": 0.44,
-      "accessibility": 1,
-      "bestPractices": 1,
-      "seo": 0.58
+      "performance": 0.6,
+      "accessibility": 0.97,
+      "bestPractices": 0.88,
+      "seo": 1
     },
-    "reportPath": "data/lighthouse/2026-09-28T13-32-06-429Z.json"
+    "reportPath": "data/lighthouse/2026-09-29T14-15-24-302Z.json"
   },
   "a11y": {
     "ok": false,
-    "error": "Please use browser.newContext()\n Please check out https://github.com/dequelabs/axe-core-npm/blob/develop/packages/playwright/error-handling.md"
+    "error": "page.goto: Timeout 30000ms exceeded.\nCall log:\n  - navigating to \"https://america.gov/\", waiting until \"networkidle\"\n"
   },
   "network": {
     "ok": true,
-    "timestamp": "2026-09-28T13:32:43.001Z",
-    "harArtifactPath": "har-artifacts/2026-09-28T13-32-06-429Z.har",
+    "timestamp": "2026-09-29T14:16:06.930Z",
+    "harArtifactPath": "har-artifacts/2026-09-29T14-15-24-302Z.har",
     "pages": [
       {
         "url": "https://america.gov/",
         "redirectedTo": null,
-        "title": "America.gov",
-        "httpStatus": 200,
+        "title": "Just a moment...",
+        "httpStatus": 403,
         "navError": null,
         "formCount": 0,
         "chatInputFound": false,
         "blockers": [],
-        "a11yViolationCount": 0
+        "a11yViolationCount": 1
       }
     ],
-    "siteWideA11yViolationCount": 0,
-    "a11yReportPath": "data/a11y/2026-09-28T13-32-06-429Z-sitewide.json",
+    "siteWideA11yViolationCount": 1,
+    "a11yReportPath": "data/a11y/2026-09-29T14-15-24-302Z-sitewide.json",
     "pagesVisited": 1,
     "chatInputFoundOnPages": [],
-    "totalRequests": 6,
+    "totalRequests": 21,
     "uniqueHosts": [
-      "america.gov"
+      "america.gov",
+      "challenges.fed.cloudflare.com"
     ],
     "aiProviderHostMatches": [],
     "streamingEndpoints": [],
@@ -45,12 +46,66 @@
     "websockets": [],
     "blockersEncountered": [],
     "blockedOrFailedRequests": [],
-    "cookies": [],
+    "cookies": [
+      {
+        "name": "cf_clearance",
+        "domain": ".cloudflare.com",
+        "secure": true,
+        "httpOnly": true,
+        "sameSite": "None",
+        "session": false
+      },
+      {
+        "name": "cf_clearance",
+        "domain": ".america.gov",
+        "secure": true,
+        "httpOnly": true,
+        "sameSite": "None",
+        "session": false
+      },
+      {
+        "name": "cf_chl_rc_ni",
+        "domain": "america.gov",
+        "secure": true,
+        "httpOnly": false,
+        "sameSite": "None",
+        "session": false
+      },
+      {
+        "name": "__cf_bm",
+        "domain": ".america.gov",
+        "secure": true,
+        "httpOnly": true,
+        "sameSite": "None",
+        "session": false
+      },
+      {
+        "name": "__cf_bm",
+        "domain": ".challenges.fed.cloudflare.com",
+        "secure": true,
+        "httpOnly": true,
+        "sameSite": "None",
+        "session": false
+      }
+    ],
     "storageKeys": {
       "localStorage": [],
       "sessionStorage": []
     },
-    "newEvents": []
+    "newEvents": [
+      {
+        "type": "NEW_NETWORK_HOSTS",
+        "detail": "challenges.fed.cloudflare.com"
+      },
+      {
+        "type": "NEW_COOKIES",
+        "detail": "cf_clearance (.cloudflare.com, httpOnly), cf_clearance (.america.gov, httpOnly), cf_chl_rc_ni (america.gov), __cf_bm (.america.gov, httpOnly), __cf_bm (.challenges.fed.cloudflare.com, httpOnly)"
+      },
+      {
+        "type": "PAGE_ERROR_STATUS",
+        "detail": "403 on https://america.gov/ (\"Just a moment...\")"
+      }
+    ]
   },
   "chatEvals": []
 }

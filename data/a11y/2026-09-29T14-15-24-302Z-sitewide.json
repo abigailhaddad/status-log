@@ -1,0 +1,13 @@
+[
+  {
+    "url": "https://america.gov/",
+    "violationCount": 1,
+    "violations": [
+      {
+        "id": "meta-refresh",
+        "impact": "critical",
+        "nodes": 1
+      }
+    ]
+  }
+]
