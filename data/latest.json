@@ -1,16 +1,16 @@
 {
-  "timestamp": "2026-09-29T00:05:44.893Z",
+  "timestamp": "2026-09-29T00:42:47.448Z",
   "live": true,
   "dns": {
     "america.gov": {
       "host": "america.gov",
       "a": [
-        "162.159.212.165",
-        "172.64.96.165"
+        "172.64.96.165",
+        "162.159.212.165"
       ],
       "aaaa": [
-        "2606:54c1:10::ac40:60a5",
-        "2606:54c1:10::a29f:d4a5"
+        "2606:54c1:10::a29f:d4a5",
+        "2606:54c1:10::ac40:60a5"
       ],
       "cname": null,
       "ns": [
@@ -44,23 +44,23 @@
         "accept-ch": "Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA",
         "alt-svc": "h3=\":443\"; ma=86400",
         "cf-mitigated": "challenge",
-        "cf-ray": "a426bcfb39d4981a-SJC",
+        "cf-ray": "a426f356598aae0c-IAD",
         "connection": "close",
         "content-encoding": "br",
-        "content-security-policy": "default-src 'none'; script-src 'nonce-Pdn2srVLWMP32im5cFz3gx' 'unsafe-eval' https://challenges.fed.cloudflare.com; script-src-attr 'none'; style-src 'unsafe-inline'; img-src 'self' https://challenges.fed.cloudflare.com; connect-src 'self' https://challenges.fed.cloudflare.com; frame-src 'self' https://challenges.fed.cloudflare.com blob:; child-src 'self' https://challenges.fed.cloudflare.com blob:; worker-src blob:; form-action http: https:; base-uri 'self'",
+        "content-security-policy": "default-src 'none'; script-src 'nonce-OK0Jtjbt774dkGhzBCVY8n' 'unsafe-eval' https://challenges.fed.cloudflare.com; script-src-attr 'none'; style-src 'unsafe-inline'; img-src 'self' https://challenges.fed.cloudflare.com; connect-src 'self' https://challenges.fed.cloudflare.com; frame-src 'self' https://challenges.fed.cloudflare.com blob:; child-src 'self' https://challenges.fed.cloudflare.com blob:; worker-src blob:; form-action http: https:; base-uri 'self'",
         "content-type": "text/html; charset=UTF-8",
         "critical-ch": "Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA",
         "cross-origin-embedder-policy": "require-corp",
         "cross-origin-opener-policy": "same-origin",
         "cross-origin-resource-policy": "same-origin",
-        "date": "Tue, 29 Sep 2026 00:05:47 GMT",
+        "date": "Tue, 29 Sep 2026 00:42:53 GMT",
         "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
         "origin-agent-cluster": "?1",
         "permissions-policy": "accelerometer=(),camera=(),clipboard-read=(),clipboard-write=(),geolocation=(),gyroscope=(),hid=(),magnetometer=(),microphone=(),payment=(),publickey-credentials-get=(),screen-wake-lock=(),serial=(),sync-xhr=(),usb=(),xr-spatial-tracking=*",
         "referrer-policy": "same-origin",
-        "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=J6u%2Fr%2F07ASt0nE6h5brn2BfvlDvYXsItW0vXKBD7sQq2wRq5thqf7Vdj2%2BdRUhau49bp07YaB0ggFy3juzIbzWigY9TLuoLVWaQdRTXrfh%2Fp635bdw%2B8KtG%2F6PTr0g%3D%3D\"}]}",
+        "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=xop70r3Lr%2Fkv%2FBd6mrnaNJTnycLpGVOqcAAEtMEc3J90tckQsLwsfpC2DURD3wWlpA6S%2BvxQvVw3JvmmE64Z4maYDDfb09By%2F%2BJVXWHYXxhK47go1ta6T44DCHtmhA%3D%3D\"}]}",
         "server": "cloudflare",
-        "server-timing": "chlray;desc=\"a426bcfb39d4981a\", cfL4;desc=\"?proto=TCP&rtt=0&min_rtt=0&rtt_var=0&sent=0&recv=0&lost=0&retrans=0&sent_bytes=0&recv_bytes=0&delivery_rate=0&cwnd=0&unsent_bytes=0&cid=f5003654a47d2241&ts=9&x=0\"",
+        "server-timing": "chlray;desc=\"a426f356598aae0c\", cfL4;desc=\"?proto=TCP&rtt=0&min_rtt=0&rtt_var=0&sent=0&recv=0&lost=0&retrans=0&sent_bytes=0&recv_bytes=0&delivery_rate=0&cwnd=0&unsent_bytes=0&cid=8967e3d21515e1f5&ts=16&x=0\"",
         "strict-transport-security": "max-age=15552000; includeSubDomains; preload",
         "transfer-encoding": "chunked",
         "x-content-type-options": "nosniff",
@@ -74,23 +74,23 @@
             "accept-ch": "Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA",
             "alt-svc": "h3=\":443\"; ma=86400",
             "cf-mitigated": "challenge",
-            "cf-ray": "a426bcfb39d4981a-SJC",
+            "cf-ray": "a426f356598aae0c-IAD",
             "connection": "close",
             "content-encoding": "br",
-            "content-security-policy": "default-src 'none'; script-src 'nonce-Pdn2srVLWMP32im5cFz3gx' 'unsafe-eval' https://challenges.fed.cloudflare.com; script-src-attr 'none'; style-src 'unsafe-inline'; img-src 'self' https://challenges.fed.cloudflare.com; connect-src 'self' https://challenges.fed.cloudflare.com; frame-src 'self' https://challenges.fed.cloudflare.com blob:; child-src 'self' https://challenges.fed.cloudflare.com blob:; worker-src blob:; form-action http: https:; base-uri 'self'",
+            "content-security-policy": "default-src 'none'; script-src 'nonce-OK0Jtjbt774dkGhzBCVY8n' 'unsafe-eval' https://challenges.fed.cloudflare.com; script-src-attr 'none'; style-src 'unsafe-inline'; img-src 'self' https://challenges.fed.cloudflare.com; connect-src 'self' https://challenges.fed.cloudflare.com; frame-src 'self' https://challenges.fed.cloudflare.com blob:; child-src 'self' https://challenges.fed.cloudflare.com blob:; worker-src blob:; form-action http: https:; base-uri 'self'",
             "content-type": "text/html; charset=UTF-8",
             "critical-ch": "Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA",
             "cross-origin-embedder-policy": "require-corp",
             "cross-origin-opener-policy": "same-origin",
             "cross-origin-resource-policy": "same-origin",
-            "date": "Tue, 29 Sep 2026 00:05:47 GMT",
+            "date": "Tue, 29 Sep 2026 00:42:53 GMT",
             "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
             "origin-agent-cluster": "?1",
             "permissions-policy": "accelerometer=(),camera=(),clipboard-read=(),clipboard-write=(),geolocation=(),gyroscope=(),hid=(),magnetometer=(),microphone=(),payment=(),publickey-credentials-get=(),screen-wake-lock=(),serial=(),sync-xhr=(),usb=(),xr-spatial-tracking=*",
             "referrer-policy": "same-origin",
-            "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=J6u%2Fr%2F07ASt0nE6h5brn2BfvlDvYXsItW0vXKBD7sQq2wRq5thqf7Vdj2%2BdRUhau49bp07YaB0ggFy3juzIbzWigY9TLuoLVWaQdRTXrfh%2Fp635bdw%2B8KtG%2F6PTr0g%3D%3D\"}]}",
+            "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=xop70r3Lr%2Fkv%2FBd6mrnaNJTnycLpGVOqcAAEtMEc3J90tckQsLwsfpC2DURD3wWlpA6S%2BvxQvVw3JvmmE64Z4maYDDfb09By%2F%2BJVXWHYXxhK47go1ta6T44DCHtmhA%3D%3D\"}]}",
             "server": "cloudflare",
-            "server-timing": "chlray;desc=\"a426bcfb39d4981a\", cfL4;desc=\"?proto=TCP&rtt=0&min_rtt=0&rtt_var=0&sent=0&recv=0&lost=0&retrans=0&sent_bytes=0&recv_bytes=0&delivery_rate=0&cwnd=0&unsent_bytes=0&cid=f5003654a47d2241&ts=9&x=0\"",
+            "server-timing": "chlray;desc=\"a426f356598aae0c\", cfL4;desc=\"?proto=TCP&rtt=0&min_rtt=0&rtt_var=0&sent=0&recv=0&lost=0&retrans=0&sent_bytes=0&recv_bytes=0&delivery_rate=0&cwnd=0&unsent_bytes=0&cid=8967e3d21515e1f5&ts=16&x=0\"",
             "strict-transport-security": "max-age=15552000; includeSubDomains; preload",
             "transfer-encoding": "chunked",
             "x-content-type-options": "nosniff",
@@ -99,7 +99,7 @@
         }
       ],
       "bodyLength": 5422,
-      "bodySnippet": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><meta http-equiv=\"content-security-policy\" content=\"default-src &#39;none&#39;; script-src &#39;nonce-Pdn2srVLWMP32im5cFz3gx&#39; &#39;unsafe-eval&#39; https://challenges.fed.cloudflare.com; script-src-attr &#39;none&#39;; style-src &#39;unsafe-inline&#39;; img-src &#39;self&#39; https://challenges.fed.cloudflare.com; connect-src &#39;self&#39; https://challenges.fed.cloudflare.com; frame-src &#39;self&#39; https://challenges.fed.cloudflare.com blob:; child-src &#39;self&#39; https://challenges.fed.cloudflare.com blob:; worker-src blob:; form-action http: https:; base-uri &#39;self&#39;\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\"}body{display:flex;flex-direction:column;height:100vh;min-height:100vh}.main-content{margin:8rem auto;padding-left:1.5rem;max-width:60rem}@media (width <= 720px){.main-content{margin-top:4rem}}#challenge-error-text{background-image:url(\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0ibm9uZSI+PHBhdGggZmlsbD0iI0IyMEYwMyIgZD0iTTE2IDNhMTMgMTMgMCAxIDAgMTMgMTNBMTMuMDE1IDEzLjAxNSAwIDAgMCAxNiAzbTAgMjRhMTEgMTEgMCAxIDEgMTEtMTEgMTEuMDEgMTEuMDEgMCAwIDEtMTEgMTEiLz48cGF0aCBmaWxsPSIjQjIwRjAzIiBkPSJNMTcuMDM4IDE4LjYxNUgxNC44N0wxNC41NjMgOS41aDIuNzgzem0tMS4wODQgMS40MjdxLjY2IDAgMS4wNTcuMzg4LjQwNy4zODkuNDA3Ljk5NCAwIC41OTYtLjQwNy45ODQtLjM5Ny4zOS0xLjA1Ny4zODktLjY1IDAtMS4wNTYtLjM4OS0uMzk4LS4zODktLjM5OC0uOTg0IDAtLjU5Ny4zOTgtLjk4NS40MDYtL",
+      "bodySnippet": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><meta http-equiv=\"content-security-policy\" content=\"default-src &#39;none&#39;; script-src &#39;nonce-OK0Jtjbt774dkGhzBCVY8n&#39; &#39;unsafe-eval&#39; https://challenges.fed.cloudflare.com; script-src-attr &#39;none&#39;; style-src &#39;unsafe-inline&#39;; img-src &#39;self&#39; https://challenges.fed.cloudflare.com; connect-src &#39;self&#39; https://challenges.fed.cloudflare.com; frame-src &#39;self&#39; https://challenges.fed.cloudflare.com blob:; child-src &#39;self&#39; https://challenges.fed.cloudflare.com blob:; worker-src blob:; form-action http: https:; base-uri &#39;self&#39;\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\"}body{display:flex;flex-direction:column;height:100vh;min-height:100vh}.main-content{margin:8rem auto;padding-left:1.5rem;max-width:60rem}@media (width <= 720px){.main-content{margin-top:4rem}}#challenge-error-text{background-image:url(\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0ibm9uZSI+PHBhdGggZmlsbD0iI0IyMEYwMyIgZD0iTTE2IDNhMTMgMTMgMCAxIDAgMTMgMTNBMTMuMDE1IDEzLjAxNSAwIDAgMCAxNiAzbTAgMjRhMTEgMTEgMCAxIDEgMTEtMTEgMTEuMDEgMTEuMDEgMCAwIDEtMTEgMTEiLz48cGF0aCBmaWxsPSIjQjIwRjAzIiBkPSJNMTcuMDM4IDE4LjYxNUgxNC44N0wxNC41NjMgOS41aDIuNzgzem0tMS4wODQgMS40MjdxLjY2IDAgMS4wNTcuMzg4LjQwNy4zODkuNDA3Ljk5NCAwIC41OTYtLjQwNy45ODQtLjM5Ny4zOS0xLjA1Ny4zODktLjY1IDAtMS4wNTYtLjM4OS0uMzk4LS4zODktLjM5OC0uOTg0IDAtLjU5Ny4zOTgtLjk4NS40MDYtL",
       "error": null
     },
     "www.america.gov": {
@@ -110,23 +110,23 @@
         "accept-ch": "Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA",
         "alt-svc": "h3=\":443\"; ma=86400",
         "cf-mitigated": "challenge",
-        "cf-ray": "a426bcfb8fc69100-SJC",
+        "cf-ray": "a426f356fa18d6c5-IAD",
         "connection": "close",
         "content-encoding": "br",
-        "content-security-policy": "default-src 'none'; script-src 'nonce-dnou4JxzWZmKsmpRqKFfqb' 'unsafe-eval' https://challenges.fed.cloudflare.com; script-src-attr 'none'; style-src 'unsafe-inline'; img-src 'self' https://challenges.fed.cloudflare.com; connect-src 'self' https://challenges.fed.cloudflare.com; frame-src 'self' https://challenges.fed.cloudflare.com blob:; child-src 'self' https://challenges.fed.cloudflare.com blob:; worker-src blob:; form-action http: https:; base-uri 'self'",
+        "content-security-policy": "default-src 'none'; script-src 'nonce-2fQTScRT1FzqwBfM7u9Xzv' 'unsafe-eval' https://challenges.fed.cloudflare.com; script-src-attr 'none'; style-src 'unsafe-inline'; img-src 'self' https://challenges.fed.cloudflare.com; connect-src 'self' https://challenges.fed.cloudflare.com; frame-src 'self' https://challenges.fed.cloudflare.com blob:; child-src 'self' https://challenges.fed.cloudflare.com blob:; worker-src blob:; form-action http: https:; base-uri 'self'",
         "content-type": "text/html; charset=UTF-8",
         "critical-ch": "Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA",
         "cross-origin-embedder-policy": "require-corp",
         "cross-origin-opener-policy": "same-origin",
         "cross-origin-resource-policy": "same-origin",
-        "date": "Tue, 29 Sep 2026 00:05:47 GMT",
+        "date": "Tue, 29 Sep 2026 00:42:53 GMT",
         "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
         "origin-agent-cluster": "?1",
         "permissions-policy": "accelerometer=(),camera=(),clipboard-read=(),clipboard-write=(),geolocation=(),gyroscope=(),hid=(),magnetometer=(),microphone=(),payment=(),publickey-credentials-get=(),screen-wake-lock=(),serial=(),sync-xhr=(),usb=(),xr-spatial-tracking=*",
         "referrer-policy": "same-origin",
-        "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=IjJWIYjhBIe%2Fni67O3TAweXKSM5f66nPFrIA6BO8XMHHCeWaQlkp44QIQZa0zHz5Sb9hW3T1%2FKypytpyjqfkDVgtA1kOC0xUYev0jWXIc489vICjBmjJqjbAGatMZg%3D%3D\"}]}",
+        "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=HS39ZJNbiUhxtKJTeiRixmmD5%2FJbjGmrZLcVxxvG6swaMVIfK0TCtEc%2FtWY5I%2FUNTvggdC5KpNj08flcBMXXcjSa6wP89YHVd9RXjdw4dFz0IBDauhzacNhZ%2BeFn7A%3D%3D\"}]}",
         "server": "cloudflare",
-        "server-timing": "chlray;desc=\"a426bcfb8fc69100\", cfL4;desc=\"?proto=TCP&rtt=0&min_rtt=0&rtt_var=0&sent=0&recv=0&lost=0&retrans=0&sent_bytes=0&recv_bytes=0&delivery_rate=0&cwnd=0&unsent_bytes=0&cid=fab37e2ae5adb199&ts=15&x=0\"",
+        "server-timing": "chlray;desc=\"a426f356fa18d6c5\", cfL4;desc=\"?proto=TCP&rtt=0&min_rtt=0&rtt_var=0&sent=0&recv=0&lost=0&retrans=0&sent_bytes=0&recv_bytes=0&delivery_rate=0&cwnd=0&unsent_bytes=0&cid=210d36fcc70e53bb&ts=14&x=0\"",
         "strict-transport-security": "max-age=15552000; includeSubDomains; preload",
         "transfer-encoding": "chunked",
         "x-content-type-options": "nosniff",
@@ -137,15 +137,15 @@
           "url": "https://www.america.gov/",
           "status": 301,
           "headers": {
-            "cf-ray": "a426bcfb6ad68123-SJC",
+            "cf-ray": "a426f356cb5a4308-EWR",
             "connection": "keep-alive",
             "content-type": "text/html; charset=UTF-8",
-            "date": "Tue, 29 Sep 2026 00:05:47 GMT",
+            "date": "Tue, 29 Sep 2026 00:42:53 GMT",
             "location": "https://america.gov/",
             "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
-            "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=RmBexqn%2FYnongdgYmalsHNk79pFCa5z1hKOi3y7PXPJ9ehx8%2BblYxIm9cD%2FMO5AvBBSUECYX793kbcKTTeQxya8Hu2PRDeQHwf1jnbk5WG80lPOL%2FbR0RPS6gJlL1eTveKg%3D\"}]}",
+            "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=1UCVgUtlUNg4ZAiCY2x6eYZzVYf6FxxgX%2F1UvIJ%2BQjTcYdmArEYKR%2FOuCcb3Q103YWsUGM4E76IYkdlaT9jZPP9W%2F7R2uCKrW1CSzAoiSLOradNtie35k7sBXcvqWbEbAmk%3D\"}]}",
             "server": "cloudflare",
-            "server-timing": "cfL4;desc=\"?proto=TCP&rtt=0&min_rtt=0&rtt_var=0&sent=0&recv=0&lost=0&retrans=0&sent_bytes=0&recv_bytes=0&delivery_rate=0&cwnd=0&unsent_bytes=0&cid=8b4fa416756310b8&ts=10&x=0\"",
+            "server-timing": "cfL4;desc=\"?proto=TCP&rtt=0&min_rtt=0&rtt_var=0&sent=0&recv=0&lost=0&retrans=0&sent_bytes=0&recv_bytes=0&delivery_rate=0&cwnd=0&unsent_bytes=0&cid=e5d86bf3813841c2&ts=31&x=0\"",
             "strict-transport-security": "max-age=15552000; includeSubDomains; preload",
             "transfer-encoding": "chunked",
             "x-content-type-options": "nosniff"
@@ -158,23 +158,23 @@
             "accept-ch": "Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA",
             "alt-svc": "h3=\":443\"; ma=86400",
             "cf-mitigated": "challenge",
-            "cf-ray": "a426bcfb8fc69100-SJC",
+            "cf-ray": "a426f356fa18d6c5-IAD",
             "connection": "close",
             "content-encoding": "br",
-            "content-security-policy": "default-src 'none'; script-src 'nonce-dnou4JxzWZmKsmpRqKFfqb' 'unsafe-eval' https://challenges.fed.cloudflare.com; script-src-attr 'none'; style-src 'unsafe-inline'; img-src 'self' https://challenges.fed.cloudflare.com; connect-src 'self' https://challenges.fed.cloudflare.com; frame-src 'self' https://challenges.fed.cloudflare.com blob:; child-src 'self' https://challenges.fed.cloudflare.com blob:; worker-src blob:; form-action http: https:; base-uri 'self'",
+            "content-security-policy": "default-src 'none'; script-src 'nonce-2fQTScRT1FzqwBfM7u9Xzv' 'unsafe-eval' https://challenges.fed.cloudflare.com; script-src-attr 'none'; style-src 'unsafe-inline'; img-src 'self' https://challenges.fed.cloudflare.com; connect-src 'self' https://challenges.fed.cloudflare.com; frame-src 'self' https://challenges.fed.cloudflare.com blob:; child-src 'self' https://challenges.fed.cloudflare.com blob:; worker-src blob:; form-action http: https:; base-uri 'self'",
             "content-type": "text/html; charset=UTF-8",
             "critical-ch": "Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA",
             "cross-origin-embedder-policy": "require-corp",
             "cross-origin-opener-policy": "same-origin",
             "cross-origin-resource-policy": "same-origin",
-            "date": "Tue, 29 Sep 2026 00:05:47 GMT",
+            "date": "Tue, 29 Sep 2026 00:42:53 GMT",
             "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
             "origin-agent-cluster": "?1",
             "permissions-policy": "accelerometer=(),camera=(),clipboard-read=(),clipboard-write=(),geolocation=(),gyroscope=(),hid=(),magnetometer=(),microphone=(),payment=(),publickey-credentials-get=(),screen-wake-lock=(),serial=(),sync-xhr=(),usb=(),xr-spatial-tracking=*",
             "referrer-policy": "same-origin",
-            "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=IjJWIYjhBIe%2Fni67O3TAweXKSM5f66nPFrIA6BO8XMHHCeWaQlkp44QIQZa0zHz5Sb9hW3T1%2FKypytpyjqfkDVgtA1kOC0xUYev0jWXIc489vICjBmjJqjbAGatMZg%3D%3D\"}]}",
+            "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=HS39ZJNbiUhxtKJTeiRixmmD5%2FJbjGmrZLcVxxvG6swaMVIfK0TCtEc%2FtWY5I%2FUNTvggdC5KpNj08flcBMXXcjSa6wP89YHVd9RXjdw4dFz0IBDauhzacNhZ%2BeFn7A%3D%3D\"}]}",
             "server": "cloudflare",
-            "server-timing": "chlray;desc=\"a426bcfb8fc69100\", cfL4;desc=\"?proto=TCP&rtt=0&min_rtt=0&rtt_var=0&sent=0&recv=0&lost=0&retrans=0&sent_bytes=0&recv_bytes=0&delivery_rate=0&cwnd=0&unsent_bytes=0&cid=fab37e2ae5adb199&ts=15&x=0\"",
+            "server-timing": "chlray;desc=\"a426f356fa18d6c5\", cfL4;desc=\"?proto=TCP&rtt=0&min_rtt=0&rtt_var=0&sent=0&recv=0&lost=0&retrans=0&sent_bytes=0&recv_bytes=0&delivery_rate=0&cwnd=0&unsent_bytes=0&cid=210d36fcc70e53bb&ts=14&x=0\"",
             "strict-transport-security": "max-age=15552000; includeSubDomains; preload",
             "transfer-encoding": "chunked",
             "x-content-type-options": "nosniff",
@@ -182,8 +182,8 @@
           }
         }
       ],
-      "bodyLength": 5400,
-      "bodySnippet": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><meta http-equiv=\"content-security-policy\" content=\"default-src &#39;none&#39;; script-src &#39;nonce-dnou4JxzWZmKsmpRqKFfqb&#39; &#39;unsafe-eval&#39; https://challenges.fed.cloudflare.com; script-src-attr &#39;none&#39;; style-src &#39;unsafe-inline&#39;; img-src &#39;self&#39; https://challenges.fed.cloudflare.com; connect-src &#39;self&#39; https://challenges.fed.cloudflare.com; frame-src &#39;self&#39; https://challenges.fed.cloudflare.com blob:; child-src &#39;self&#39; https://challenges.fed.cloudflare.com blob:; worker-src blob:; form-action http: https:; base-uri &#39;self&#39;\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\"}body{display:flex;flex-direction:column;height:100vh;min-height:100vh}.main-content{margin:8rem auto;padding-left:1.5rem;max-width:60rem}@media (width <= 720px){.main-content{margin-top:4rem}}#challenge-error-text{background-image:url(\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0ibm9uZSI+PHBhdGggZmlsbD0iI0IyMEYwMyIgZD0iTTE2IDNhMTMgMTMgMCAxIDAgMTMgMTNBMTMuMDE1IDEzLjAxNSAwIDAgMCAxNiAzbTAgMjRhMTEgMTEgMCAxIDEgMTEtMTEgMTEuMDEgMTEuMDEgMCAwIDEtMTEgMTEiLz48cGF0aCBmaWxsPSIjQjIwRjAzIiBkPSJNMTcuMDM4IDE4LjYxNUgxNC44N0wxNC41NjMgOS41aDIuNzgzem0tMS4wODQgMS40MjdxLjY2IDAgMS4wNTcuMzg4LjQwNy4zODkuNDA3Ljk5NCAwIC41OTYtLjQwNy45ODQtLjM5Ny4zOS0xLjA1Ny4zODktLjY1IDAtMS4wNTYtLjM4OS0uMzk4LS4zODktLjM5OC0uOTg0IDAtLjU5Ny4zOTgtLjk4NS40MDYtL",
+      "bodyLength": 5422,
+      "bodySnippet": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><meta http-equiv=\"content-security-policy\" content=\"default-src &#39;none&#39;; script-src &#39;nonce-2fQTScRT1FzqwBfM7u9Xzv&#39; &#39;unsafe-eval&#39; https://challenges.fed.cloudflare.com; script-src-attr &#39;none&#39;; style-src &#39;unsafe-inline&#39;; img-src &#39;self&#39; https://challenges.fed.cloudflare.com; connect-src &#39;self&#39; https://challenges.fed.cloudflare.com; frame-src &#39;self&#39; https://challenges.fed.cloudflare.com blob:; child-src &#39;self&#39; https://challenges.fed.cloudflare.com blob:; worker-src blob:; form-action http: https:; base-uri &#39;self&#39;\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\"}body{display:flex;flex-direction:column;height:100vh;min-height:100vh}.main-content{margin:8rem auto;padding-left:1.5rem;max-width:60rem}@media (width <= 720px){.main-content{margin-top:4rem}}#challenge-error-text{background-image:url(\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0ibm9uZSI+PHBhdGggZmlsbD0iI0IyMEYwMyIgZD0iTTE2IDNhMTMgMTMgMCAxIDAgMTMgMTNBMTMuMDE1IDEzLjAxNSAwIDAgMCAxNiAzbTAgMjRhMTEgMTEgMCAxIDEgMTEtMTEgMTEuMDEgMTEuMDEgMCAwIDEtMTEgMTEiLz48cGF0aCBmaWxsPSIjQjIwRjAzIiBkPSJNMTcuMDM4IDE4LjYxNUgxNC44N0wxNC41NjMgOS41aDIuNzgzem0tMS4wODQgMS40MjdxLjY2IDAgMS4wNTcuMzg4LjQwNy4zODkuNDA3Ljk5NCAwIC41OTYtLjQwNy45ODQtLjM5Ny4zOS0xLjA1Ny4zODktLjY1IDAtMS4wNTYtLjM4OS0uMzk4LS4zODktLjM5OC0uOTg0IDAtLjU5Ny4zOTgtLjk4NS40MDYtL",
       "error": null
     }
   },
@@ -3029,7 +3029,7 @@
         "up": 0,
         "down": 0,
         "totalReactions": 0,
-        "lastCheckedAt": "2026-09-29T00:05:47.777Z"
+        "lastCheckedAt": "2026-09-29T00:42:54.267Z"
       },
       {
         "kind": "issue",
@@ -3043,7 +3043,7 @@
         "up": 0,
         "down": 0,
         "totalReactions": 0,
-        "lastCheckedAt": "2026-09-29T00:05:47.777Z"
+        "lastCheckedAt": "2026-09-29T00:42:54.267Z"
       },
       {
         "kind": "issue",
@@ -3057,7 +3057,7 @@
         "up": 0,
         "down": 0,
         "totalReactions": 0,
-        "lastCheckedAt": "2026-09-29T00:05:47.777Z"
+        "lastCheckedAt": "2026-09-29T00:42:54.267Z"
       },
       {
         "kind": "issue",
@@ -3071,7 +3071,7 @@
         "up": 0,
         "down": 0,
         "totalReactions": 0,
-        "lastCheckedAt": "2026-09-29T00:05:47.777Z"
+        "lastCheckedAt": "2026-09-29T00:42:54.267Z"
       },
       {
         "kind": "discussion",
@@ -3084,7 +3084,7 @@
         "url": "https://github.com/uswds/uswds/discussions/6991#discussioncomment-18614411",
         "up": 1,
         "down": 0,
-        "lastCheckedAt": "2026-09-29T00:05:50.125Z"
+        "lastCheckedAt": "2026-09-29T00:42:56.088Z"
       }
     ]
   },
@@ -3106,9 +3106,9 @@
       "server": "cloudflare",
       "via": null,
       "x_vercel_id": null,
-      "cf_ray": "a426bcfb39d4981a-SJC",
+      "cf_ray": "a426f356598aae0c-IAD",
       "hsts": "max-age=15552000; includeSubDomains; preload",
-      "csp": "default-src 'none'; script-src 'nonce-Pdn2srVLWMP32im5cFz3gx' 'unsafe-eval' https://challenges.fed.cloudflare.com; script-src-attr 'none'; style-src 'unsafe-inline'; img-src 'self' https://challenges.fed.cloudflare.com; connect-src 'self' https://challenges.fed.cloudflare.com; frame-src 'self' https://challenges.fed.cloudflare.com blob:; child-src 'self' https://challenges.fed.cloudflare.com blob:; worker-src blob:; form-action http: https:; base-uri 'self'",
+      "csp": "default-src 'none'; script-src 'nonce-OK0Jtjbt774dkGhzBCVY8n' 'unsafe-eval' https://challenges.fed.cloudflare.com; script-src-attr 'none'; style-src 'unsafe-inline'; img-src 'self' https://challenges.fed.cloudflare.com; connect-src 'self' https://challenges.fed.cloudflare.com; frame-src 'self' https://challenges.fed.cloudflare.com blob:; child-src 'self' https://challenges.fed.cloudflare.com blob:; worker-src blob:; form-action http: https:; base-uri 'self'",
       "x_powered_by": null,
       "looks_like_akamai": false,
       "looks_like_cloudflare": true
