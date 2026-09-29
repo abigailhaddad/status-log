@@ -1,0 +1,13 @@
+{
+  "timestamp": "2026-09-29T15:15:36.794Z",
+  "events": [
+    {
+      "type": "NEW_REPO_COMMITS",
+      "detail": "[18F/identity-idp] b854242 Ensure sign_in_flow set to create_account (#13601) — Vraj Mohan\n  `https://github.com/18F/identity-idp/commit/b854242c20fc8091fdcde39d1710a5eeb95d4df1`\n\n[18F/identity-idp] 0a45e5d LG-17951 Add failure email delivery job to PA flow (#13595) — Shane Chesnutt\n  `https://github.com/18F/identity-idp/commit/0a45e5d4ef18f0760d82e5a5dae7c31a9e525d7e`"
+    },
+    {
+      "type": "NEW_COMMENT",
+      "detail": "vrajmohan commented on 18F/identity-idp#13544: Do we need separate `_enabled` feature flags? Doesn't setting `_score_threshold` to zero suffice? Sorry for not noticing this earlier.\n  `https://github.com/18F/identity-idp/pull/13544#issuecomment-5892362629`"
+    }
+  ]
+}
