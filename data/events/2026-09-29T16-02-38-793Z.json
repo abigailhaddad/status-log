@@ -1,0 +1,9 @@
+{
+  "timestamp": "2026-09-29T16:02:38.793Z",
+  "events": [
+    {
+      "type": "NEW_REPO_COMMITS",
+      "detail": "[18F/identity-idp] 38a9dcb remove extra line from clear device profiling email (#13603) — Jessica Dembe\n  `https://github.com/18F/identity-idp/commit/38a9dcbfe56063a3441ff0700a30ea6e2baa42c8`\n\n[18F/identity-idp] 2c19e99 increase webauthn_configurations name length (#13597) — Aaron\n  `https://github.com/18F/identity-idp/commit/2c19e99206fab9ba4de1f37da43454ca122ab3ee`"
+    }
+  ]
+}
