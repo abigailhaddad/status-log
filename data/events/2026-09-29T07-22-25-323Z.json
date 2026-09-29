@@ -1,0 +1,9 @@
+{
+  "timestamp": "2026-09-29T07:22:25.323Z",
+  "events": [
+    {
+      "type": "NEW_PERSON_ACTIVITY",
+      "detail": "taigrr:\n[2026-09-29T07:05:22Z] opened PR #351 on gogrlx/grlx: \"fix(update): allow long checksum entries\" (`https://github.com/gogrlx/grlx/pull/351`)\n\n[2026-09-29T07:05:09Z] created branch \"cd/update-same-dir-rollback-20260929\" on gogrlx/grlx\n\n[2026-09-29T06:33:14Z] opened PR #37 on taigrr/crunch: \"test(ui): cover progress state updates\" (`https://github.com/taigrr/crunch/pull/37`)"
+    }
+  ]
+}
