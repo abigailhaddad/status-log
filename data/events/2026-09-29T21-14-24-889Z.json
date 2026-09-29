@@ -1,0 +1,13 @@
+{
+  "timestamp": "2026-09-29T21:14:24.889Z",
+  "events": [
+    {
+      "type": "NEW_REPO_COMMITS",
+      "detail": "[18F/identity-idp] 148839e LG-17934 Add proofing components during PA flow (#13560) — Shane Chesnutt\n  `https://github.com/18F/identity-idp/commit/148839ec78d08b8fc14f560d3820fca1d3fa1377`"
+    },
+    {
+      "type": "NEW_COMMENT",
+      "detail": "joshuaalley25 commented on 18F/identity-idp#13544: > > Do we need separate `_enabled` feature flags? Doesn't setting `_score_threshold` to zero suffice? Sorry for not noticing this earlier. >  > Not a problem at all. I went through these questions myself. I decided to go with separate \"enabled\" flags for the potential future that they we could turn \n  `https://github.com/18F/identity-idp/pull/13544#issuecomment-5898622524`"
+    }
+  ]
+}
