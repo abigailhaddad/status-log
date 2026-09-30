@@ -1,0 +1,9 @@
+{
+  "timestamp": "2026-09-30T19:13:22.728Z",
+  "events": [
+    {
+      "type": "NEW_PERSON_ACTIVITY",
+      "detail": "ryparker:\n[2026-09-17T04:35:00Z] labeled PR #6203 on uswds/uswds: \"USWDS - Input Mask: (Error Feedback) Code Refactor\" (`https://github.com/uswds/uswds/pull/6203`)"
+    }
+  ]
+}
