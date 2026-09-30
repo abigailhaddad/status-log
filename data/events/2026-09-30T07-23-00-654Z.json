@@ -1,0 +1,9 @@
+{
+  "timestamp": "2026-09-30T07:23:00.654Z",
+  "events": [
+    {
+      "type": "NEW_PERSON_ACTIVITY",
+      "detail": "taigrr:\n[2026-09-30T07:06:00Z] opened PR #352 on gogrlx/grlx: \"fix(file): honor makedirs for prepend\" (`https://github.com/gogrlx/grlx/pull/352`)"
+    }
+  ]
+}
