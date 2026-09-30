@@ -1,0 +1,9 @@
+{
+  "timestamp": "2026-09-30T18:19:11.056Z",
+  "events": [
+    {
+      "type": "NEW_COMMENT",
+      "detail": "github-actions[bot] commented on uswds/uswds#5024: Hi `@mgifford` — thanks for your contribution!  There is one thing that may be holding this up: for security reasons, USWDS requires that all commits to this repo have a [verified commit](https://github.com/uswds/uswds/blob/develop/CONTRIBUTING.md#setting-up-verified-commits). The following commit(s) \n  `https://github.com/uswds/uswds/pull/5024#issuecomment-5917072327`"
+    }
+  ]
+}
