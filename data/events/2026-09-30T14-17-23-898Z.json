@@ -1,0 +1,13 @@
+{
+  "timestamp": "2026-09-30T14:17:23.898Z",
+  "events": [
+    {
+      "type": "NEW_REPO_COMMITS",
+      "detail": "[18F/identity-idp] e65b4e3 changelog: Internal, Spec Fix, Make the setup more explicit (#13606) — Davi (she/they)\n  `https://github.com/18F/identity-idp/commit/e65b4e35f1e98bba9d803772d9d1fbe538b72aca`"
+    },
+    {
+      "type": "NEW_PERSON_ACTIVITY",
+      "detail": "ryparker:\n[2026-09-17T01:59:56Z] labeled PR #4938 on uswds/uswds: \"Combo box list keyboard navigation additions\" (`https://github.com/uswds/uswds/pull/4938`)\n\n[2026-09-17T03:38:00Z] labeled PR #5263 on uswds/uswds: \"USWDS - Tooltip: Fix handling of children icons\" (`https://github.com/uswds/uswds/pull/5263`)\n\n[2026-09-17T03:57:52Z] labeled PR #5345 on uswds/uswds: \"USWDS - Step Indicator: Fix accessibility issues\" (`https://github.com/uswds/uswds/pull/5345`)\n\n[2026-09-17T04:10:01Z] labeled PR #5513 on uswds/uswds: \"USWDS - Header: Allow mobile nav to stay open during new page load\" (`https://github.com/uswds/uswds/pull/5513`)"
+    }
+  ]
+}
