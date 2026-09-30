@@ -1,0 +1,13 @@
+{
+  "timestamp": "2026-09-30T15:16:43.084Z",
+  "events": [
+    {
+      "type": "NEW_REPO_COMMITS",
+      "detail": "[18F/identity-idp] 7b4ccc2 Fix flakey PA send failure emails job spec (#13607) — Shane Chesnutt\n  `https://github.com/18F/identity-idp/commit/7b4ccc203bc2975ae87e971ec5c3a31fe2737767`"
+    },
+    {
+      "type": "NEW_PERSON_ACTIVITY",
+      "detail": "ryparker:\n[2026-09-17T04:07:49Z] labeled PR #5699 on uswds/uswds: \"USWDS - Utilities: Avoid outputting styles for add-aspect if not configured for output\" (`https://github.com/uswds/uswds/pull/5699`)\n\n[2026-09-17T04:18:49Z] labeled PR #5906 on uswds/uswds: \"USWDS - Tooltip: Announce \"tooltip\" in screen reader readout\" (`https://github.com/uswds/uswds/pull/5906`)"
+    }
+  ]
+}
