@@ -1,0 +1,9 @@
+{
+  "timestamp": "2026-09-30T13:18:57.254Z",
+  "events": [
+    {
+      "type": "NEW_PERSON_ACTIVITY",
+      "detail": "ryparker:\n[2026-09-28T02:59:00Z] assigned PR #103 on uswds/uswds-for-designers: \"docs: add moderation statement to conduct guidance\" (`https://github.com/uswds/uswds-for-designers/pull/103`)\n\n[2026-09-28T02:59:00Z] opened PR #103 on uswds/uswds-for-designers: \"docs: add moderation statement to conduct guidance\" (`https://github.com/uswds/uswds-for-designers/pull/103`)\n\n[2026-09-28T02:58:53Z] assigned PR #6993 on uswds/uswds: \"docs: add moderation statement to conduct guidance\" (`https://github.com/uswds/uswds/pull/6993`)\n\n[2026-09-28T02:58:53Z] opened PR #6993 on uswds/uswds: \"docs: add moderation statement to conduct guidance\" (`https://github.com/uswds/uswds/pull/6993`)"
+    }
+  ]
+}
