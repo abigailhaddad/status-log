@@ -1,0 +1,13 @@
+{
+  "timestamp": "2026-10-01T21:38:21.192Z",
+  "events": [
+    {
+      "type": "NEW_REPO_COMMITS",
+      "detail": "[uswds/uswds-site] 69c76d6 revert: docs: add moderation statement to conduct guidance (#3320) — Ryan Parker\n  `https://github.com/uswds/uswds-site/commit/69c76d6c85b3c8c322dc38e4613e43451a34a06a`"
+    },
+    {
+      "type": "NEW_PERSON_ACTIVITY",
+      "detail": "ryparker:\n[2026-10-01T20:42:03Z] merged PR #3320 on uswds/uswds-site: \"revert: docs: add moderation statement to conduct guidance\" (`https://github.com/uswds/uswds-site/pull/3320`)"
+    }
+  ]
+}
