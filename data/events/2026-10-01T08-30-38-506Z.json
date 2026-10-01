@@ -1,0 +1,9 @@
+{
+  "timestamp": "2026-10-01T08:30:38.506Z",
+  "events": [
+    {
+      "type": "NEW_PERSON_ACTIVITY",
+      "detail": "taigrr:\n[2026-10-01T06:35:01Z] opened PR #38 on taigrr/crunch: \"fix(db): derive project labels with path boundaries\" (`https://github.com/taigrr/crunch/pull/38`)\n\n[2026-10-01T06:06:54Z] opened PR #353 on gogrlx/grlx: \"fix(ssh): reject empty picker selections\" (`https://github.com/gogrlx/grlx/pull/353`)\n\n[2026-10-01T06:06:42Z] created branch \"cd/sshpicker-empty-sprouts-20261001\" on gogrlx/grlx"
+    }
+  ]
+}
