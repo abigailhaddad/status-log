@@ -1,0 +1,9 @@
+{
+  "timestamp": "2026-10-02T01:22:58.754Z",
+  "events": [
+    {
+      "type": "NEW_PERSON_ACTIVITY",
+      "detail": "taigrr:\n[2026-10-02T00:31:30Z] opened PR #4011 on charmbracelet/crush: \"perf(agent): warm prompt cache during long tool calls\" (`https://github.com/charmbracelet/crush/pull/4011`)\n\n[2026-10-02T00:31:16Z] created branch \"cd/cache-warm-long-tools\" on taigrr/crush"
+    }
+  ]
+}
