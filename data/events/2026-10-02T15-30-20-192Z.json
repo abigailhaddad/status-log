@@ -1,0 +1,17 @@
+{
+  "timestamp": "2026-10-02T15:30:20.192Z",
+  "events": [
+    {
+      "type": "NEW_REPO_COMMITS",
+      "detail": "[18F/identity-idp] 827da13 changelog: Internal, Proofing Agent, update phone confirnation analytics events to match non proofing flow (#13610) — A Shukla\n  `https://github.com/18F/identity-idp/commit/827da132a031f0f66c7ddd1ee9b977a7d2cf19f9`\n\n[18F/identity-idp] 37d98dc changelog: Internal, Facial Match, Remove feature flag that has been enabled in all envs (#13612) — Davi (she/they)\n  `https://github.com/18F/identity-idp/commit/37d98dc6b326d51d6b9dc8be6129e4f8b3516ea5`"
+    },
+    {
+      "type": "NEW_COMMENT",
+      "detail": "ajfarkas commented on uswds/uswds#5024: `@mgifford` I'm happy to merge this as soon as you rebase with a verified signature.\n  `https://github.com/uswds/uswds/pull/5024#issuecomment-5954928990`\n\najfarkas commented on uswds/uswds#3449: Resolved by #6918\n  `https://github.com/uswds/uswds/issues/3449#issuecomment-5955220245`"
+    },
+    {
+      "type": "NEW_PERSON_ACTIVITY",
+      "detail": "taigrr:\n[2026-10-02T10:33:34Z] opened PR #7 on taigrr/qr.nvim: \"fix(render): honor explicit QR options\" (`https://github.com/taigrr/qr.nvim/pull/7`)\n\n[2026-10-02T10:33:22Z] created branch \"cd/render-explicit-options\" on taigrr/qr.nvim"
+    }
+  ]
+}

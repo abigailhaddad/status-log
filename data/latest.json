@@ -1,16 +1,16 @@
 {
-  "timestamp": "2026-10-02T10:06:36.628Z",
+  "timestamp": "2026-10-02T15:30:20.192Z",
   "live": true,
   "dns": {
     "america.gov": {
       "host": "america.gov",
       "a": [
-        "162.159.212.165",
-        "172.64.96.165"
+        "172.64.96.165",
+        "162.159.212.165"
       ],
       "aaaa": [
-        "2606:54c1:10::a29f:d4a5",
-        "2606:54c1:10::ac40:60a5"
+        "2606:54c1:10::ac40:60a5",
+        "2606:54c1:10::a29f:d4a5"
       ],
       "cname": null,
       "ns": [
@@ -27,8 +27,8 @@
         "162.159.212.165"
       ],
       "aaaa": [
-        "2606:54c1:10::ac40:60a5",
-        "2606:54c1:10::a29f:d4a5"
+        "2606:54c1:10::a29f:d4a5",
+        "2606:54c1:10::ac40:60a5"
       ],
       "cname": null,
       "ns": [],
@@ -43,22 +43,22 @@
       "finalHeaders": {
         "accept-ch": "Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA",
         "cf-mitigated": "challenge",
-        "cf-ray": "a442e547dd75ed3f-SJC",
+        "cf-ray": "a444bf7dd9c61249-ORD",
         "connection": "close",
         "content-encoding": "gzip",
-        "content-security-policy": "default-src 'none'; script-src 'nonce-IOpSNP5zA5bc9EI7gZeGmx' 'unsafe-eval' https://challenges.fed.cloudflare.com; script-src-attr 'none'; style-src 'unsafe-inline'; img-src 'self' https://challenges.fed.cloudflare.com; connect-src 'self' https://challenges.fed.cloudflare.com; frame-src 'self' https://challenges.fed.cloudflare.com blob:; child-src 'self' https://challenges.fed.cloudflare.com blob:; worker-src blob:; form-action http: https:; base-uri 'self'",
+        "content-security-policy": "default-src 'none'; script-src 'nonce-QpvN6aG5lEJEiatqXOJDYY' 'unsafe-eval' https://challenges.fed.cloudflare.com; script-src-attr 'none'; style-src 'unsafe-inline'; img-src 'self' https://challenges.fed.cloudflare.com; connect-src 'self' https://challenges.fed.cloudflare.com; frame-src 'self' https://challenges.fed.cloudflare.com blob:; child-src 'self' https://challenges.fed.cloudflare.com blob:; worker-src blob:; form-action http: https:; base-uri 'self'",
         "content-type": "text/html; charset=UTF-8",
         "critical-ch": "Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA",
         "cross-origin-embedder-policy": "require-corp",
         "cross-origin-opener-policy": "same-origin",
         "cross-origin-resource-policy": "same-origin",
-        "date": "Fri, 02 Oct 2026 10:06:39 GMT",
+        "date": "Fri, 02 Oct 2026 15:30:23 GMT",
         "origin-agent-cluster": "?1",
         "permissions-policy": "accelerometer=(),camera=(),clipboard-read=(),clipboard-write=(),geolocation=(),gyroscope=(),hid=(),magnetometer=(),microphone=(),payment=(),publickey-credentials-get=(),screen-wake-lock=(),serial=(),sync-xhr=(),usb=(),xr-spatial-tracking=*",
         "referrer-policy": "same-origin",
         "server": "cloudflare",
-        "server-timing": "chlray;desc=\"a442e547dd75ed3f\"",
-        "set-cookie": "__cf_bm=90T6v1qnaNUTasjriHs.ofiiMkDw.heDQIwGZvwrGKM-1790935599.3350081-1.0.1.1-0c9CNIt8OD1Qt0fq8jKKPsOYgIiPAmX.8ZT6uXlY35TvMOQKFEN55ghEianSfkI6JDEJqz.O6wfy2Jh8S33IMawDAJ_h4uzV0kYIwrpAq2RP97J7BjyuX4gzy_bpUnWG; HttpOnly; SameSite=None; Secure; Path=/; Domain=america.gov; Expires=Fri, 02 Oct 2026 10:36:39 GMT",
+        "server-timing": "chlray;desc=\"a444bf7dd9c61249\"",
+        "set-cookie": "__cf_bm=MpZBqpkcjGlecCciQjPIegXtkUTYe3jn.C.SxKsR0qI-1790955023.0187573-1.0.1.1-QkvW1bP49.E78CTsDi5aHIy5RMRZ.MEXswEmcxFA5.9ZYjf.fA9Ag2nxOkODMDpHUNrQ4Doo.3xZTd6U71_0qxatkmrTFi3CSZyALPkCTxqPBnUTZD60nuOPAq6TP6i2; HttpOnly; SameSite=None; Secure; Path=/; Domain=america.gov; Expires=Fri, 02 Oct 2026 16:00:23 GMT",
         "strict-transport-security": "max-age=15552000; includeSubDomains; preload",
         "transfer-encoding": "chunked",
         "x-content-type-options": "nosniff",
@@ -71,22 +71,22 @@
           "headers": {
             "accept-ch": "Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA",
             "cf-mitigated": "challenge",
-            "cf-ray": "a442e547dd75ed3f-SJC",
+            "cf-ray": "a444bf7dd9c61249-ORD",
             "connection": "close",
             "content-encoding": "gzip",
-            "content-security-policy": "default-src 'none'; script-src 'nonce-IOpSNP5zA5bc9EI7gZeGmx' 'unsafe-eval' https://challenges.fed.cloudflare.com; script-src-attr 'none'; style-src 'unsafe-inline'; img-src 'self' https://challenges.fed.cloudflare.com; connect-src 'self' https://challenges.fed.cloudflare.com; frame-src 'self' https://challenges.fed.cloudflare.com blob:; child-src 'self' https://challenges.fed.cloudflare.com blob:; worker-src blob:; form-action http: https:; base-uri 'self'",
+            "content-security-policy": "default-src 'none'; script-src 'nonce-QpvN6aG5lEJEiatqXOJDYY' 'unsafe-eval' https://challenges.fed.cloudflare.com; script-src-attr 'none'; style-src 'unsafe-inline'; img-src 'self' https://challenges.fed.cloudflare.com; connect-src 'self' https://challenges.fed.cloudflare.com; frame-src 'self' https://challenges.fed.cloudflare.com blob:; child-src 'self' https://challenges.fed.cloudflare.com blob:; worker-src blob:; form-action http: https:; base-uri 'self'",
             "content-type": "text/html; charset=UTF-8",
             "critical-ch": "Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA",
             "cross-origin-embedder-policy": "require-corp",
             "cross-origin-opener-policy": "same-origin",
             "cross-origin-resource-policy": "same-origin",
-            "date": "Fri, 02 Oct 2026 10:06:39 GMT",
+            "date": "Fri, 02 Oct 2026 15:30:23 GMT",
             "origin-agent-cluster": "?1",
             "permissions-policy": "accelerometer=(),camera=(),clipboard-read=(),clipboard-write=(),geolocation=(),gyroscope=(),hid=(),magnetometer=(),microphone=(),payment=(),publickey-credentials-get=(),screen-wake-lock=(),serial=(),sync-xhr=(),usb=(),xr-spatial-tracking=*",
             "referrer-policy": "same-origin",
             "server": "cloudflare",
-            "server-timing": "chlray;desc=\"a442e547dd75ed3f\"",
-            "set-cookie": "__cf_bm=90T6v1qnaNUTasjriHs.ofiiMkDw.heDQIwGZvwrGKM-1790935599.3350081-1.0.1.1-0c9CNIt8OD1Qt0fq8jKKPsOYgIiPAmX.8ZT6uXlY35TvMOQKFEN55ghEianSfkI6JDEJqz.O6wfy2Jh8S33IMawDAJ_h4uzV0kYIwrpAq2RP97J7BjyuX4gzy_bpUnWG; HttpOnly; SameSite=None; Secure; Path=/; Domain=america.gov; Expires=Fri, 02 Oct 2026 10:36:39 GMT",
+            "server-timing": "chlray;desc=\"a444bf7dd9c61249\"",
+            "set-cookie": "__cf_bm=MpZBqpkcjGlecCciQjPIegXtkUTYe3jn.C.SxKsR0qI-1790955023.0187573-1.0.1.1-QkvW1bP49.E78CTsDi5aHIy5RMRZ.MEXswEmcxFA5.9ZYjf.fA9Ag2nxOkODMDpHUNrQ4Doo.3xZTd6U71_0qxatkmrTFi3CSZyALPkCTxqPBnUTZD60nuOPAq6TP6i2; HttpOnly; SameSite=None; Secure; Path=/; Domain=america.gov; Expires=Fri, 02 Oct 2026 16:00:23 GMT",
             "strict-transport-security": "max-age=15552000; includeSubDomains; preload",
             "transfer-encoding": "chunked",
             "x-content-type-options": "nosniff",
@@ -95,7 +95,7 @@
         }
       ],
       "bodyLength": 5422,
-      "bodySnippet": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><meta http-equiv=\"content-security-policy\" content=\"default-src &#39;none&#39;; script-src &#39;nonce-IOpSNP5zA5bc9EI7gZeGmx&#39; &#39;unsafe-eval&#39; https://challenges.fed.cloudflare.com; script-src-attr &#39;none&#39;; style-src &#39;unsafe-inline&#39;; img-src &#39;self&#39; https://challenges.fed.cloudflare.com; connect-src &#39;self&#39; https://challenges.fed.cloudflare.com; frame-src &#39;self&#39; https://challenges.fed.cloudflare.com blob:; child-src &#39;self&#39; https://challenges.fed.cloudflare.com blob:; worker-src blob:; form-action http: https:; base-uri &#39;self&#39;\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\"}body{display:flex;flex-direction:column;height:100vh;min-height:100vh}.main-content{margin:8rem auto;padding-left:1.5rem;max-width:60rem}@media (width <= 720px){.main-content{margin-top:4rem}}#challenge-error-text{background-image:url(\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0ibm9uZSI+PHBhdGggZmlsbD0iI0IyMEYwMyIgZD0iTTE2IDNhMTMgMTMgMCAxIDAgMTMgMTNBMTMuMDE1IDEzLjAxNSAwIDAgMCAxNiAzbTAgMjRhMTEgMTEgMCAxIDEgMTEtMTEgMTEuMDEgMTEuMDEgMCAwIDEtMTEgMTEiLz48cGF0aCBmaWxsPSIjQjIwRjAzIiBkPSJNMTcuMDM4IDE4LjYxNUgxNC44N0wxNC41NjMgOS41aDIuNzgzem0tMS4wODQgMS40MjdxLjY2IDAgMS4wNTcuMzg4LjQwNy4zODkuNDA3Ljk5NCAwIC41OTYtLjQwNy45ODQtLjM5Ny4zOS0xLjA1Ny4zODktLjY1IDAtMS4wNTYtLjM4OS0uMzk4LS4zODktLjM5OC0uOTg0IDAtLjU5Ny4zOTgtLjk4NS40MDYtL",
+      "bodySnippet": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><meta http-equiv=\"content-security-policy\" content=\"default-src &#39;none&#39;; script-src &#39;nonce-QpvN6aG5lEJEiatqXOJDYY&#39; &#39;unsafe-eval&#39; https://challenges.fed.cloudflare.com; script-src-attr &#39;none&#39;; style-src &#39;unsafe-inline&#39;; img-src &#39;self&#39; https://challenges.fed.cloudflare.com; connect-src &#39;self&#39; https://challenges.fed.cloudflare.com; frame-src &#39;self&#39; https://challenges.fed.cloudflare.com blob:; child-src &#39;self&#39; https://challenges.fed.cloudflare.com blob:; worker-src blob:; form-action http: https:; base-uri &#39;self&#39;\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\"}body{display:flex;flex-direction:column;height:100vh;min-height:100vh}.main-content{margin:8rem auto;padding-left:1.5rem;max-width:60rem}@media (width <= 720px){.main-content{margin-top:4rem}}#challenge-error-text{background-image:url(\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0ibm9uZSI+PHBhdGggZmlsbD0iI0IyMEYwMyIgZD0iTTE2IDNhMTMgMTMgMCAxIDAgMTMgMTNBMTMuMDE1IDEzLjAxNSAwIDAgMCAxNiAzbTAgMjRhMTEgMTEgMCAxIDEgMTEtMTEgMTEuMDEgMTEuMDEgMCAwIDEtMTEgMTEiLz48cGF0aCBmaWxsPSIjQjIwRjAzIiBkPSJNMTcuMDM4IDE4LjYxNUgxNC44N0wxNC41NjMgOS41aDIuNzgzem0tMS4wODQgMS40MjdxLjY2IDAgMS4wNTcuMzg4LjQwNy4zODkuNDA3Ljk5NCAwIC41OTYtLjQwNy45ODQtLjM5Ny4zOS0xLjA1Ny4zODktLjY1IDAtMS4wNTYtLjM4OS0uMzk4LS4zODktLjM5OC0uOTg0IDAtLjU5Ny4zOTgtLjk4NS40MDYtL",
       "error": null
     },
     "www.america.gov": {
@@ -105,22 +105,22 @@
       "finalHeaders": {
         "accept-ch": "Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA",
         "cf-mitigated": "challenge",
-        "cf-ray": "a442e5481c6eda5a-SJC",
+        "cf-ray": "a444bf7e2f1be852-ORD",
         "connection": "close",
         "content-encoding": "gzip",
-        "content-security-policy": "default-src 'none'; script-src 'nonce-bzsqLJ6mAcqJkQRbOneGWW' 'unsafe-eval' https://challenges.fed.cloudflare.com; script-src-attr 'none'; style-src 'unsafe-inline'; img-src 'self' https://challenges.fed.cloudflare.com; connect-src 'self' https://challenges.fed.cloudflare.com; frame-src 'self' https://challenges.fed.cloudflare.com blob:; child-src 'self' https://challenges.fed.cloudflare.com blob:; worker-src blob:; form-action http: https:; base-uri 'self'",
+        "content-security-policy": "default-src 'none'; script-src 'nonce-mg4ueyEgvxKsxApS4aSrgj' 'unsafe-eval' https://challenges.fed.cloudflare.com; script-src-attr 'none'; style-src 'unsafe-inline'; img-src 'self' https://challenges.fed.cloudflare.com; connect-src 'self' https://challenges.fed.cloudflare.com; frame-src 'self' https://challenges.fed.cloudflare.com blob:; child-src 'self' https://challenges.fed.cloudflare.com blob:; worker-src blob:; form-action http: https:; base-uri 'self'",
         "content-type": "text/html; charset=UTF-8",
         "critical-ch": "Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA",
         "cross-origin-embedder-policy": "require-corp",
         "cross-origin-opener-policy": "same-origin",
         "cross-origin-resource-policy": "same-origin",
-        "date": "Fri, 02 Oct 2026 10:06:39 GMT",
+        "date": "Fri, 02 Oct 2026 15:30:23 GMT",
         "origin-agent-cluster": "?1",
         "permissions-policy": "accelerometer=(),camera=(),clipboard-read=(),clipboard-write=(),geolocation=(),gyroscope=(),hid=(),magnetometer=(),microphone=(),payment=(),publickey-credentials-get=(),screen-wake-lock=(),serial=(),sync-xhr=(),usb=(),xr-spatial-tracking=*",
         "referrer-policy": "same-origin",
         "server": "cloudflare",
-        "server-timing": "chlray;desc=\"a442e5481c6eda5a\"",
-        "set-cookie": "__cf_bm=sEuubupUt6diPO3mwPnC1qLN4fh_U.qpI4z9DAyM8HY-1790935599.3750732-1.0.1.1-OP9TCmrsSYQHF5MvUyU5zBopOMoBk8cNuCRb1Tvlc5CsNOGEfkr_N5Ft2.UH2KBcVZ1j.K4.TZuvWmrh5BQIJQHJ90x.cQBwWPlhqo7cYpLObenxXPUMtI8MO1evvLkw; HttpOnly; SameSite=None; Secure; Path=/; Domain=america.gov; Expires=Fri, 02 Oct 2026 10:36:39 GMT",
+        "server-timing": "chlray;desc=\"a444bf7e2f1be852\"",
+        "set-cookie": "__cf_bm=deoD06tMOazW1ienzjYvEoMkY4hljE.yX4OSuWseYjg-1790955023.071925-1.0.1.1-cXPKcc46n0r.NbaS5BdtzfskmHeqSYs6AJvvK2PqNuHiI9rQK.jbDOYUAmTUm54vH05v_V.Q1liTz1YnIue0bDO08uHogS8duDNEiFZLPvWEZ1OgyIOn.8haYMzz2h58; HttpOnly; SameSite=None; Secure; Path=/; Domain=america.gov; Expires=Fri, 02 Oct 2026 16:00:23 GMT",
         "strict-transport-security": "max-age=15552000; includeSubDomains; preload",
         "transfer-encoding": "chunked",
         "x-content-type-options": "nosniff",
@@ -131,10 +131,10 @@
           "url": "https://www.america.gov/",
           "status": 301,
           "headers": {
-            "cf-ray": "a442e547fb9d17dc-SJC",
+            "cf-ray": "a444bf7e0ae77a66-ORD",
             "connection": "keep-alive",
             "content-type": "text/html; charset=UTF-8",
-            "date": "Fri, 02 Oct 2026 10:06:39 GMT",
+            "date": "Fri, 02 Oct 2026 15:30:23 GMT",
             "location": "https://america.gov/",
             "server": "cloudflare",
             "strict-transport-security": "max-age=15552000; includeSubDomains; preload",
@@ -148,22 +148,22 @@
           "headers": {
             "accept-ch": "Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA",
             "cf-mitigated": "challenge",
-            "cf-ray": "a442e5481c6eda5a-SJC",
+            "cf-ray": "a444bf7e2f1be852-ORD",
             "connection": "close",
             "content-encoding": "gzip",
-            "content-security-policy": "default-src 'none'; script-src 'nonce-bzsqLJ6mAcqJkQRbOneGWW' 'unsafe-eval' https://challenges.fed.cloudflare.com; script-src-attr 'none'; style-src 'unsafe-inline'; img-src 'self' https://challenges.fed.cloudflare.com; connect-src 'self' https://challenges.fed.cloudflare.com; frame-src 'self' https://challenges.fed.cloudflare.com blob:; child-src 'self' https://challenges.fed.cloudflare.com blob:; worker-src blob:; form-action http: https:; base-uri 'self'",
+            "content-security-policy": "default-src 'none'; script-src 'nonce-mg4ueyEgvxKsxApS4aSrgj' 'unsafe-eval' https://challenges.fed.cloudflare.com; script-src-attr 'none'; style-src 'unsafe-inline'; img-src 'self' https://challenges.fed.cloudflare.com; connect-src 'self' https://challenges.fed.cloudflare.com; frame-src 'self' https://challenges.fed.cloudflare.com blob:; child-src 'self' https://challenges.fed.cloudflare.com blob:; worker-src blob:; form-action http: https:; base-uri 'self'",
             "content-type": "text/html; charset=UTF-8",
             "critical-ch": "Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA",
             "cross-origin-embedder-policy": "require-corp",
             "cross-origin-opener-policy": "same-origin",
             "cross-origin-resource-policy": "same-origin",
-            "date": "Fri, 02 Oct 2026 10:06:39 GMT",
+            "date": "Fri, 02 Oct 2026 15:30:23 GMT",
             "origin-agent-cluster": "?1",
             "permissions-policy": "accelerometer=(),camera=(),clipboard-read=(),clipboard-write=(),geolocation=(),gyroscope=(),hid=(),magnetometer=(),microphone=(),payment=(),publickey-credentials-get=(),screen-wake-lock=(),serial=(),sync-xhr=(),usb=(),xr-spatial-tracking=*",
             "referrer-policy": "same-origin",
             "server": "cloudflare",
-            "server-timing": "chlray;desc=\"a442e5481c6eda5a\"",
-            "set-cookie": "__cf_bm=sEuubupUt6diPO3mwPnC1qLN4fh_U.qpI4z9DAyM8HY-1790935599.3750732-1.0.1.1-OP9TCmrsSYQHF5MvUyU5zBopOMoBk8cNuCRb1Tvlc5CsNOGEfkr_N5Ft2.UH2KBcVZ1j.K4.TZuvWmrh5BQIJQHJ90x.cQBwWPlhqo7cYpLObenxXPUMtI8MO1evvLkw; HttpOnly; SameSite=None; Secure; Path=/; Domain=america.gov; Expires=Fri, 02 Oct 2026 10:36:39 GMT",
+            "server-timing": "chlray;desc=\"a444bf7e2f1be852\"",
+            "set-cookie": "__cf_bm=deoD06tMOazW1ienzjYvEoMkY4hljE.yX4OSuWseYjg-1790955023.071925-1.0.1.1-cXPKcc46n0r.NbaS5BdtzfskmHeqSYs6AJvvK2PqNuHiI9rQK.jbDOYUAmTUm54vH05v_V.Q1liTz1YnIue0bDO08uHogS8duDNEiFZLPvWEZ1OgyIOn.8haYMzz2h58; HttpOnly; SameSite=None; Secure; Path=/; Domain=america.gov; Expires=Fri, 02 Oct 2026 16:00:23 GMT",
             "strict-transport-security": "max-age=15552000; includeSubDomains; preload",
             "transfer-encoding": "chunked",
             "x-content-type-options": "nosniff",
@@ -171,8 +171,8 @@
           }
         }
       ],
-      "bodyLength": 5400,
-      "bodySnippet": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><meta http-equiv=\"content-security-policy\" content=\"default-src &#39;none&#39;; script-src &#39;nonce-bzsqLJ6mAcqJkQRbOneGWW&#39; &#39;unsafe-eval&#39; https://challenges.fed.cloudflare.com; script-src-attr &#39;none&#39;; style-src &#39;unsafe-inline&#39;; img-src &#39;self&#39; https://challenges.fed.cloudflare.com; connect-src &#39;self&#39; https://challenges.fed.cloudflare.com; frame-src &#39;self&#39; https://challenges.fed.cloudflare.com blob:; child-src &#39;self&#39; https://challenges.fed.cloudflare.com blob:; worker-src blob:; form-action http: https:; base-uri &#39;self&#39;\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\"}body{display:flex;flex-direction:column;height:100vh;min-height:100vh}.main-content{margin:8rem auto;padding-left:1.5rem;max-width:60rem}@media (width <= 720px){.main-content{margin-top:4rem}}#challenge-error-text{background-image:url(\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0ibm9uZSI+PHBhdGggZmlsbD0iI0IyMEYwMyIgZD0iTTE2IDNhMTMgMTMgMCAxIDAgMTMgMTNBMTMuMDE1IDEzLjAxNSAwIDAgMCAxNiAzbTAgMjRhMTEgMTEgMCAxIDEgMTEtMTEgMTEuMDEgMTEuMDEgMCAwIDEtMTEgMTEiLz48cGF0aCBmaWxsPSIjQjIwRjAzIiBkPSJNMTcuMDM4IDE4LjYxNUgxNC44N0wxNC41NjMgOS41aDIuNzgzem0tMS4wODQgMS40MjdxLjY2IDAgMS4wNTcuMzg4LjQwNy4zODkuNDA3Ljk5NCAwIC41OTYtLjQwNy45ODQtLjM5Ny4zOS0xLjA1Ny4zODktLjY1IDAtMS4wNTYtLjM4OS0uMzk4LS4zODktLjM5OC0uOTg0IDAtLjU5Ny4zOTgtLjk4NS40MDYtL",
+      "bodyLength": 5422,
+      "bodySnippet": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><meta http-equiv=\"content-security-policy\" content=\"default-src &#39;none&#39;; script-src &#39;nonce-mg4ueyEgvxKsxApS4aSrgj&#39; &#39;unsafe-eval&#39; https://challenges.fed.cloudflare.com; script-src-attr &#39;none&#39;; style-src &#39;unsafe-inline&#39;; img-src &#39;self&#39; https://challenges.fed.cloudflare.com; connect-src &#39;self&#39; https://challenges.fed.cloudflare.com; frame-src &#39;self&#39; https://challenges.fed.cloudflare.com blob:; child-src &#39;self&#39; https://challenges.fed.cloudflare.com blob:; worker-src blob:; form-action http: https:; base-uri &#39;self&#39;\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\"}body{display:flex;flex-direction:column;height:100vh;min-height:100vh}.main-content{margin:8rem auto;padding-left:1.5rem;max-width:60rem}@media (width <= 720px){.main-content{margin-top:4rem}}#challenge-error-text{background-image:url(\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0ibm9uZSI+PHBhdGggZmlsbD0iI0IyMEYwMyIgZD0iTTE2IDNhMTMgMTMgMCAxIDAgMTMgMTNBMTMuMDE1IDEzLjAxNSAwIDAgMCAxNiAzbTAgMjRhMTEgMTEgMCAxIDEgMTEtMTEgMTEuMDEgMTEuMDEgMCAwIDEtMTEgMTEiLz48cGF0aCBmaWxsPSIjQjIwRjAzIiBkPSJNMTcuMDM4IDE4LjYxNUgxNC44N0wxNC41NjMgOS41aDIuNzgzem0tMS4wODQgMS40MjdxLjY2IDAgMS4wNTcuMzg4LjQwNy4zODkuNDA3Ljk5NCAwIC41OTYtLjQwNy45ODQtLjM5Ny4zOS0xLjA1Ny4zODktLjY1IDAtMS4wNTYtLjM4OS0uMzk4LS4zODktLjM5OC0uOTg0IDAtLjU5Ny4zOTgtLjk4NS40MDYtL",
       "error": null
     }
   },
@@ -968,6 +968,24 @@
       },
       {
         "repo": "18F/identity-idp",
+        "sha": "827da132a031f0f66c7ddd1ee9b977a7d2cf19f9",
+        "author": "A Shukla",
+        "githubLogin": "AShukla-GSA",
+        "date": "2026-10-02T15:07:35Z",
+        "message": "changelog: Internal, Proofing Agent, update phone confirnation analytics events to match non proofing flow (#13610)",
+        "url": "https://github.com/18F/identity-idp/commit/827da132a031f0f66c7ddd1ee9b977a7d2cf19f9"
+      },
+      {
+        "repo": "18F/identity-idp",
+        "sha": "37d98dc6b326d51d6b9dc8be6129e4f8b3516ea5",
+        "author": "Davi (she/they)",
+        "githubLogin": "Sgtpluck",
+        "date": "2026-10-02T11:03:35Z",
+        "message": "changelog: Internal, Facial Match, Remove feature flag that has been enabled in all envs (#13612)",
+        "url": "https://github.com/18F/identity-idp/commit/37d98dc6b326d51d6b9dc8be6129e4f8b3516ea5"
+      },
+      {
+        "repo": "18F/identity-idp",
         "sha": "11ea45b6b46bfd6cfb8718b966fc540f0b2651b4",
         "author": "Alex Bradley",
         "githubLogin": "theabrad",
@@ -1217,24 +1235,6 @@
         "date": "2026-09-21T19:46:25Z",
         "message": "Replace hand-rolled sleep polling in analytics_spec with Capybara sync (#13573)\n\n* Replace hand-rolled sleep polling in analytics_spec with Capybara sync\n\nanalytics_spec waited for frontend-logged events with a loop that slept\n100ms between expectation attempts and tracked a wall-clock deadline.\nReplace it with AnalyticsHelper#wait_for_logged_event, which uses\nCapybara's synchronize (10ms retry interval, bounded by the given wait)\nand falls through to the normal expectation so a genuine miss still\nreports the full event diff. The events in question are sent with\nnavigator.sendBeacon while the page unloads, so they legitimately race\nthe test thread; this keeps the wait but drops the coarse sleep.\n\nchangelog: Internal, Testing, Replace sleep polling for frontend analytics events\n\n* Make the hybrid Socure last-attempt rate limit regression test deterministic (#13574)\n\n* Make the hybrid Socure last-attempt rate limit regression test deterministic\n\nThe LG-16672 regression example stalled the final Socure result with\nsleep(1) hoping the desktop's 5s poller would fire while the last attempt\nwas still being processed. That only exercised the race about one run in\nfive and cost a second every run. Hold the final result behind a Queue\ninstead: send the last DOCUMENTS_UPLOADED webhook in the background, wait\nuntil the Socure stub is hit (rate limit already incremented, no result\nstored), poll the link sent status endpoint from the desktop session and\nassert it answers 401 rather than 429, then release the result.\n\nVerified by reverting LinkSentPollController#max_attempts_reached? to its\npre-fix form: the example now fails every time (got 429), where before it\npassed most runs.\n\nchangelog: Internal, Testing, Deterministically cover hybrid doc auth last-attempt rate limit race\n\n* Retry chromedriver detached-node errors inside Capybara synchronize (#13575)\n\n* Retry chromedriver detached-node errors inside Capybara synchronize\n\nCapybara retries StaleElementReferenceError inside synchronize, but recent\nChrome/chromedriver reports the same condition (DOM replaced between find\nand inspect) as a bare UnknownError with the message \"Node with given id\ndoes not belong to the document\". Capybara does not recognise that, so any\nhave_css / visible? racing a navigation fails immediately instead of\nretrying. This is the known-flake class behind request_letter_step_spec:37\nand hybrid_socure_mobile_spec:1008 on main.\n\nTeach Capybara::Node::Base#catch_error? to treat that error as retryable so\nthe existing wait handles it, and drop the local rescue in\nInteractionHelper#wait_for_content_to_disappear that papered over the same\nmessage.\n\nchangelog: Internal, Testing, Retry chromedriver detached node errors in Capybara waits\n\n* Start the Capybara::Webmock proxy once per run instead of per feature example (#13576)\n\n* Start the Capybara::Webmock proxy once per run instead of per feature example\n\nrails_helper wrapped every feature example in Capybara::Webmock.start/stop.\nstart spawns a rackup process; stop sends it HUP and then sleeps a full\nsecond waiting for it to exit. That is a hidden sleep(1) executed ~1,365\ntimes per CI pipeline: about 23 CPU-minutes, 15% of all spec time, and\nroughly 70% of the wall time of rack_test feature specs.\n\nThe proxy only exists so headless Chrome cannot reach the network; rack_test\nexamples never touch it, and nothing reads proxied_requests, so there is no\nper-example state to reset. Start it lazily the first time a browser-driven\nexample runs and stop it once after the suite.\n\nMeasured locally (CAPYBARA_WAIT_TIME_SECONDS=5): users/sign_in_spec +\nfeatures/visitors 3m25s -> 51s; browser specs unchanged and still isolated\nfrom the network.\n\nchangelog: Internal, Testing, Start the Capybara webmock proxy once per spec run\n\n* Refresh knapsack_rspec_report.json from a current pipeline (#13577)\n\nThe committed report dated from June and covered 1,122 of the 1,289\ncurrent spec files. The 190 missing files included several of the\nslowest feature specs (in_person_spec, hybrid_mobile_ddp_spec,\nproofing_agent_activation_spec, ...), which knapsack can only round-robin\nwithout timing data. Result: spec shards ranged from 5.9 to 13.3 minutes\nin pipeline 207321 while the mean was 7.1.\n\nThis report is taken from the coverage artifact of pipeline 207333, the\nfirst run that includes the per-example Capybara::Webmock proxy fix, so\nits per-file weights reflect the timing profile the suite now has (the\nfix shifted time away from rack_test-heavy files). Replaying knapsack's\ndistribution against those measured times: slowest shard 6.4 -> 5.8\nminutes and fastest 2.2 -> 4.6, i.e. shards are now within ~1 minute of\neach other instead of ~4. No change to what runs.\n\nspec/simplecov_merger.rb already produces this file on every pipeline;\nit just never gets committed back.\n\nchangelog: Internal, Testing, Refresh knapsack timing report so spec shards balance",
         "url": "https://github.com/18F/identity-idp/commit/2c918ab9f0760982819c8ab702820616db7562a3"
-      },
-      {
-        "repo": "18F/identity-idp",
-        "sha": "ade89f180dd01ba6f97e5421fc5fae520a2d99b0",
-        "author": "Tai Groot",
-        "githubLogin": "taigrr",
-        "date": "2026-09-21T19:07:09Z",
-        "message": "Replace sleep(5) in in_person_spec with a deterministic poll assertion (#13572)\n\nStacked on #13571 (base branch `fix-account-reset-email-flakes`); part of the spec race-condition / sleep-removal series.\n\n## 🛠 Summary of changes\n\n`spec/features/idv/in_person_spec.rb` had a `sleep(5)` (the client poll interval) followed by a negative assertion that the desktop had *not* advanced after re-sending the link. That is a wall-clock-gated negative assertion: slow, and it proves nothing if the poller happens to be late.\n\nReplaced with a deterministic check of the same behaviour: hit the status endpoint the poller uses (from the browser session, via a new `DocAuthHelper#link_sent_poll_status` helper) and assert it answers `202` — the poller only advances on `200` — and assert server-side that the IPP enrollment was cancelled. Same coverage, ~5s faster, no timing dependence.\n\n## 📜 Testing Plan\n\n- [x] `spec/features/idv/in_person_spec.rb:522` 4/4 green locally (both `CAPYBARA_WAIT_TIME_SECONDS=0` and `=5`)\n- [x] rubocop clean",
-        "url": "https://github.com/18F/identity-idp/commit/ade89f180dd01ba6f97e5421fc5fae520a2d99b0"
-      },
-      {
-        "repo": "18F/identity-idp",
-        "sha": "d061ff70c2f2122dce5d1d7494d342d6342650ec",
-        "author": "Tai Groot",
-        "githubLogin": "taigrr",
-        "date": "2026-09-21T15:03:26Z",
-        "message": "Fix flaky account reset email feature specs (#13571)\n\nThe account reset feature specs called\nGrantAccountResetRequestsAndSendEmailsJob#perform with Time.zone.today (a\nDate) while production passes Time.zone.now. The job compares the value\nagainst the requested_at timestamp in SQL, so the Date is coerced to\nmidnight UTC. Zonebie randomizes Time.zone per rspec process; whenever it\npicks a zone with a negative UTC offset and the run happens after 00:00 UTC\nbut before local midnight, \"today\" in that zone is a day behind UTC, tvalue\nlands before requested_at, the query matches nothing, no granted email is\nsent, and open_last_email either raises \"No email has been sent!\" or opens\nthe request email (no cancel/delete token link). Passing Time.zone.now\nmatches the production job arguments and makes the comparison independent\nof the randomized zone.\n\nReproduced deterministically with ZONEBIE_TZ=Montevideo (all four examples\nfail before, pass after) and 20 unforced runs.\n\nchangelog: Internal, Testing, Fix account reset email spec flakiness",
-        "url": "https://github.com/18F/identity-idp/commit/d061ff70c2f2122dce5d1d7494d342d6342650ec"
       },
       {
         "repo": "GSA-TTS/identity-site",
@@ -2547,6 +2547,22 @@
       "error": null,
       "events": [
         {
+          "id": "16268755529",
+          "type": "PullRequestEvent",
+          "repo": "taigrr/qr.nvim",
+          "createdAt": "2026-10-02T10:33:34Z",
+          "action": "opened",
+          "number": 7
+        },
+        {
+          "id": "22781098039",
+          "type": "CreateEvent",
+          "repo": "taigrr/qr.nvim",
+          "createdAt": "2026-10-02T10:33:22Z",
+          "refType": "branch",
+          "ref": "cd/render-explicit-options"
+        },
+        {
           "id": "22770853910",
           "type": "PushEvent",
           "repo": "taigrr/colorhash",
@@ -2944,23 +2960,6 @@
           "ref": "refs/heads/cd/projects-registry",
           "before": "46969936a33a88141d2ad9cc0bc3ae69c5e2c571",
           "head": "eef4dc1a53936519342ed39c6ba16a77c1f5277c"
-        },
-        {
-          "id": "22281063156",
-          "type": "PushEvent",
-          "repo": "gogrlx/grlx",
-          "createdAt": "2026-09-27T06:11:22Z",
-          "ref": "refs/heads/cd/props-empty-map-20260927",
-          "before": "d8c22e892c9e555873ce4137a5ba5fd22ce67c17",
-          "head": "c414d3a6605c6726618abf93066ff8b098eea809"
-        },
-        {
-          "id": "15842057769",
-          "type": "PullRequestEvent",
-          "repo": "gogrlx/grlx",
-          "createdAt": "2026-09-27T06:06:57Z",
-          "action": "opened",
-          "number": 349
         }
       ]
     },
@@ -3003,7 +3002,7 @@
         "up": 0,
         "down": 0,
         "totalReactions": 0,
-        "lastCheckedAt": "2026-10-02T10:06:40.560Z"
+        "lastCheckedAt": "2026-10-02T15:30:24.003Z"
       },
       {
         "kind": "issue",
@@ -3017,7 +3016,7 @@
         "up": 0,
         "down": 0,
         "totalReactions": 0,
-        "lastCheckedAt": "2026-10-02T10:06:40.560Z"
+        "lastCheckedAt": "2026-10-02T15:30:24.003Z"
       },
       {
         "kind": "issue",
@@ -3031,7 +3030,7 @@
         "up": 0,
         "down": 0,
         "totalReactions": 0,
-        "lastCheckedAt": "2026-10-02T10:06:40.560Z"
+        "lastCheckedAt": "2026-10-02T15:30:24.003Z"
       },
       {
         "kind": "issue",
@@ -3045,7 +3044,7 @@
         "up": 0,
         "down": 0,
         "totalReactions": 0,
-        "lastCheckedAt": "2026-10-02T10:06:40.560Z"
+        "lastCheckedAt": "2026-10-02T15:30:24.003Z"
       },
       {
         "kind": "issue",
@@ -3059,7 +3058,7 @@
         "up": 0,
         "down": 0,
         "totalReactions": 0,
-        "lastCheckedAt": "2026-10-02T10:06:40.560Z"
+        "lastCheckedAt": "2026-10-02T15:30:24.003Z"
       },
       {
         "kind": "issue",
@@ -3073,7 +3072,7 @@
         "up": 0,
         "down": 0,
         "totalReactions": 0,
-        "lastCheckedAt": "2026-10-02T10:06:40.560Z"
+        "lastCheckedAt": "2026-10-02T15:30:24.003Z"
       },
       {
         "kind": "issue",
@@ -3087,7 +3086,7 @@
         "up": 0,
         "down": 0,
         "totalReactions": 0,
-        "lastCheckedAt": "2026-10-02T10:06:40.560Z"
+        "lastCheckedAt": "2026-10-02T15:30:24.003Z"
       },
       {
         "kind": "issue",
@@ -3101,7 +3100,7 @@
         "up": 0,
         "down": 0,
         "totalReactions": 0,
-        "lastCheckedAt": "2026-10-02T10:06:40.560Z"
+        "lastCheckedAt": "2026-10-02T15:30:24.003Z"
       },
       {
         "kind": "issue",
@@ -3115,7 +3114,7 @@
         "up": 0,
         "down": 0,
         "totalReactions": 0,
-        "lastCheckedAt": "2026-10-02T10:06:40.560Z"
+        "lastCheckedAt": "2026-10-02T15:30:24.003Z"
       },
       {
         "kind": "issue",
@@ -3129,7 +3128,7 @@
         "up": 0,
         "down": 0,
         "totalReactions": 0,
-        "lastCheckedAt": "2026-10-02T10:06:40.560Z"
+        "lastCheckedAt": "2026-10-02T15:30:24.003Z"
       },
       {
         "kind": "issue",
@@ -3143,7 +3142,7 @@
         "up": 0,
         "down": 0,
         "totalReactions": 0,
-        "lastCheckedAt": "2026-10-02T10:06:40.560Z"
+        "lastCheckedAt": "2026-10-02T15:30:24.003Z"
       },
       {
         "kind": "issue",
@@ -3157,7 +3156,7 @@
         "up": 0,
         "down": 0,
         "totalReactions": 0,
-        "lastCheckedAt": "2026-10-02T10:06:40.560Z"
+        "lastCheckedAt": "2026-10-02T15:30:24.003Z"
       },
       {
         "kind": "issue",
@@ -3171,7 +3170,35 @@
         "up": 0,
         "down": 0,
         "totalReactions": 0,
-        "lastCheckedAt": "2026-10-02T10:06:40.560Z"
+        "lastCheckedAt": "2026-10-02T15:30:24.003Z"
+      },
+      {
+        "kind": "issue",
+        "id": 5954928990,
+        "repo": "uswds/uswds",
+        "issueNumber": 5024,
+        "author": "ajfarkas",
+        "body": "@mgifford I'm happy to merge this as soon as you rebase with a verified signature.",
+        "createdAt": "2026-10-02T14:46:02Z",
+        "url": "https://github.com/uswds/uswds/pull/5024#issuecomment-5954928990",
+        "up": 0,
+        "down": 0,
+        "totalReactions": 0,
+        "lastCheckedAt": "2026-10-02T15:30:24.003Z"
+      },
+      {
+        "kind": "issue",
+        "id": 5955220245,
+        "repo": "uswds/uswds",
+        "issueNumber": 3449,
+        "author": "ajfarkas",
+        "body": "Resolved by #6918",
+        "createdAt": "2026-10-02T15:02:52Z",
+        "url": "https://github.com/uswds/uswds/issues/3449#issuecomment-5955220245",
+        "up": 0,
+        "down": 0,
+        "totalReactions": 0,
+        "lastCheckedAt": "2026-10-02T15:30:24.003Z"
       },
       {
         "kind": "discussion",
@@ -3184,7 +3211,7 @@
         "url": "https://github.com/uswds/uswds/discussions/6991#discussioncomment-18614411",
         "up": 1,
         "down": 0,
-        "lastCheckedAt": "2026-10-02T10:06:42.234Z"
+        "lastCheckedAt": "2026-10-02T15:30:26.433Z"
       }
     ]
   },
@@ -3206,9 +3233,9 @@
       "server": "cloudflare",
       "via": null,
       "x_vercel_id": null,
-      "cf_ray": "a442e547dd75ed3f-SJC",
+      "cf_ray": "a444bf7dd9c61249-ORD",
       "hsts": "max-age=15552000; includeSubDomains; preload",
-      "csp": "default-src 'none'; script-src 'nonce-IOpSNP5zA5bc9EI7gZeGmx' 'unsafe-eval' https://challenges.fed.cloudflare.com; script-src-attr 'none'; style-src 'unsafe-inline'; img-src 'self' https://challenges.fed.cloudflare.com; connect-src 'self' https://challenges.fed.cloudflare.com; frame-src 'self' https://challenges.fed.cloudflare.com blob:; child-src 'self' https://challenges.fed.cloudflare.com blob:; worker-src blob:; form-action http: https:; base-uri 'self'",
+      "csp": "default-src 'none'; script-src 'nonce-QpvN6aG5lEJEiatqXOJDYY' 'unsafe-eval' https://challenges.fed.cloudflare.com; script-src-attr 'none'; style-src 'unsafe-inline'; img-src 'self' https://challenges.fed.cloudflare.com; connect-src 'self' https://challenges.fed.cloudflare.com; frame-src 'self' https://challenges.fed.cloudflare.com blob:; child-src 'self' https://challenges.fed.cloudflare.com blob:; worker-src blob:; form-action http: https:; base-uri 'self'",
       "x_powered_by": null,
       "looks_like_akamai": false,
       "looks_like_cloudflare": true
