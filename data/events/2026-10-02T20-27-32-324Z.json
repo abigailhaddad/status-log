@@ -1,0 +1,17 @@
+{
+  "timestamp": "2026-10-02T20:27:32.324Z",
+  "events": [
+    {
+      "type": "NEW_CERTIFICATE",
+      "detail": "america.gov (2026-09-26T18:48:38)"
+    },
+    {
+      "type": "NEW_REPO_COMMITS",
+      "detail": "[18F/identity-idp] 62cf387 LG-17765: Clear POC mint profile (#13552) — Amir Reavis-Bey\n  `https://github.com/18F/identity-idp/commit/62cf38755d0d6fbdd5e8d972f184944a830ba8d9`\n\n[18F/identity-idp] b9aa445 LG-17950 Discontinue photo retrieval job for mDLs (#13602) — Malik Warren\n  `https://github.com/18F/identity-idp/commit/b9aa4456e4f16262c88fca8e5809e041c3b373cb`"
+    },
+    {
+      "type": "NEW_PERSON_ACTIVITY",
+      "detail": "taigrr:\n[2026-10-02T07:05:32Z] created branch \"cd/readme-go-version-20261002\" on taigrr/crunch"
+    }
+  ]
+}
