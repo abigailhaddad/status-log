@@ -1,0 +1,13 @@
+{
+  "timestamp": "2026-10-02T10:06:36.628Z",
+  "events": [
+    {
+      "type": "NEW_PERSON_ACTIVITY",
+      "detail": "ryparker:\n[2026-10-01T20:36:36Z] pushed to uswds/uswds-elements (develop):\n  9e4afcf revert: docs: add moderation statement to conduct guidance (#332)\n\n[2026-10-01T20:36:28Z] pushed to uswds/uswds-savings (main):\n  4b5fc38 revert: docs: add moderation statement to conduct guidance (#5)\n\n[2026-10-01T20:30:34Z] created branch \"revert/conduct-moderation-20261001\" on uswds/uswds-proposals\n\n[2026-10-01T20:30:24Z] created branch \"revert/conduct-moderation-20261001\" on uswds/uswds-savings\n\n[2026-10-01T20:30:29Z] created branch \"revert/conduct-moderation-20261001\" on uswds/uswds-elements\n\n[2026-10-01T20:30:18Z] created branch \"revert/conduct-moderation-20261001\" on uswds/uswds-compile\n\n[2026-10-01T20:30:12Z] created branch \"revert/conduct-moderation-20261001\" on uswds/uswds-site\n\n[2026-10-01T20:36:49Z] pushed to uswds/uswds-tutorial (main):\n  e14bbb6 revert: docs: add moderation statement to conduct guidance (#76)\n\n[2026-10-01T20:22:33Z] pushed to uswds/uswds (develop):\n  be09ab9 revert: docs: add moderation statement to conduct guidance (#6997)"
+    },
+    {
+      "type": "NEW_PERSON_ACTIVITY",
+      "detail": "samcorcos:\n[2026-10-01T20:10:21Z] created branch \"revert-6993-docs/conduct-moderation-20260927\" on uswds/uswds"
+    }
+  ]
+}
