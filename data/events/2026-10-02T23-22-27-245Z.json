@@ -1,0 +1,9 @@
+{
+  "timestamp": "2026-10-02T23:22:27.245Z",
+  "events": [
+    {
+      "type": "NEW_PERSON_ACTIVITY",
+      "detail": "taigrr:\n[2026-10-02T09:33:24Z] pushed to taigrr/hidraw (cd/update-go-1.27.1):\n  db06c8d refactor(usbids): simplify parser state tracking\n\n[2026-10-01T09:35:02Z] created branch \"cd/reject-invalid-activity-range\" on taigrr/blastd\n\n[2026-10-02T21:40:26Z] pushed to 18F/identity-idp (sbx-taigrr):\n  5ebfc0d Record per-application token exchange grants and attribute returns to the target\n  5ba82df Keep broker infrastructure out of the target's fraud signal and harden grants\n  a740f3a Merge branch 'token-exchange' into sbx-taigrr\n\n[2026-10-02T08:32:44Z] pushed to taigrr/gopherbadgeimg (cd/round10-quality):\n  c3770c0 chore(deps): update x image"
+    }
+  ]
+}
