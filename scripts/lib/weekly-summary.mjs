@@ -111,7 +111,7 @@ export async function collectWeeklyComments(repos, sinceIso) {
 }
 
 function commentLocation(c) {
-  return c.kind === "discussion" ? `discussion #${c.discussionNumber} on ${c.repo}` : `${c.repo}#${c.issueNumber}`;
+  return c.kind === "discussion" ? `discussion #${c.discussionNumber} on ${c.repo}` : `\`${c.repo}#${c.issueNumber}\``;
 }
 
 // Only ever the top few by a strictly-positive count — most comments get

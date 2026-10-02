@@ -58,7 +58,7 @@ function formatDiscussion(d) {
 // comment-watch.mjs (an issue/PR) or discussion-watch.mjs (a discussion) —
 // everything else about the two is handled identically from here on.
 function commentLocation(c) {
-  return c.kind === "discussion" ? `discussion #${c.discussionNumber} on ${c.repo}` : `${c.repo}#${c.issueNumber}`;
+  return c.kind === "discussion" ? `discussion #${c.discussionNumber} on ${c.repo}` : `\`${c.repo}#${c.issueNumber}\``;
 }
 
 function formatComment(c) {
