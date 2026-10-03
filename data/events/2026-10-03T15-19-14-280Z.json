@@ -1,0 +1,9 @@
+{
+  "timestamp": "2026-10-03T15:19:14.280Z",
+  "events": [
+    {
+      "type": "NEW_PERSON_ACTIVITY",
+      "detail": "ryparker:\n[2026-10-01T20:37:09Z] pushed to uswds/public-sans (develop):\n  e40fcf5 revert: docs: add moderation statement to conduct guidance (#395)\n\n[2026-10-01T20:30:59Z] created branch \"revert/conduct-moderation-20261001\" on uswds/uswds-for-designers\n\n[2026-10-01T20:30:12Z] created branch \"revert/conduct-moderation-20261001\" on uswds/uswds-site"
+    }
+  ]
+}
