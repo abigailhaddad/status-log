@@ -1,0 +1,13 @@
+{
+  "timestamp": "2026-10-03T12:18:24.896Z",
+  "events": [
+    {
+      "type": "NEW_PERSON_ACTIVITY",
+      "detail": "ryparker:\n[2026-10-01T20:36:55Z] pushed to uswds/uswds-team (main):\n  95f438b revert: docs: add moderation statement to conduct guidance (#499)\n\n[2026-10-01T20:30:49Z] created branch \"revert/conduct-moderation-20261001\" on uswds/uswds-sandbox"
+    },
+    {
+      "type": "NEW_PERSON_ACTIVITY",
+      "detail": "taigrr:\n[2026-10-03T10:03:28Z] pushed to taigrr/temper-cli (cd/local-command-options-20260829):\n  59433d2 build(deps): refresh indirect dependencies\n\n[2026-10-02T18:54:35Z] pushed to 18F/identity-idp (sbx-taigrr):\n  e343d07 Update postcss from security advisory (#13304)\n  71bf338 update french translation for connected services in account nav (#13302)\n  9b8f472 Use IdP auth time for SAML auth instant (#13307)\n  26dd2e8 Update phone finder proofer (#13310)\n  6588f30 Use IdP authentication time for OIDC auth_time (#13308)\n  d7ef746 Remove chromedriver from Brewfile and rely on Selenium Manager (#13298)\n  ce35013 Joan 114: Update event summarizer (#13311)\n  58ce71d LG-17779: DocV passport cards refactor (#13300)\n  fbfc37e LG-17782 gpo code expiration (#13313)\n  d7f7788 LG-17734 proofing completion confirmation text (#13305)\n\n[2026-10-03T09:35:44Z] opened PR #9 on taigrr/whalefin: \"feat(login): add session selector\" (`https://github.com/taigrr/whalefin/pull/9`)"
+    }
+  ]
+}
