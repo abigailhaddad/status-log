@@ -1,0 +1,9 @@
+{
+  "timestamp": "2026-10-03T06:09:57.704Z",
+  "events": [
+    {
+      "type": "NEW_ISSUE",
+      "detail": "aaronperegrina18-ui opened issue #6998 on uswds/uswds: \"USWDS - Feature: [YOUR TITLE]\"\n  `https://github.com/uswds/uswds/issues/6998`"
+    }
+  ]
+}
