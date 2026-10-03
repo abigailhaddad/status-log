@@ -1,0 +1,13 @@
+{
+  "timestamp": "2026-10-03T09:29:11.410Z",
+  "events": [
+    {
+      "type": "NEW_PERSON_ACTIVITY",
+      "detail": "ryparker:\n[2026-10-01T20:42:04Z] pushed to uswds/uswds-site (main):\n  69c76d6 revert: docs: add moderation statement to conduct guidance (#3320)\n\n[2026-10-01T20:36:23Z] pushed to uswds/uswds-compile (develop):\n  d2ce560 revert: docs: add moderation statement to conduct guidance (#199)"
+    },
+    {
+      "type": "NEW_PERSON_ACTIVITY",
+      "detail": "taigrr:\n[2026-10-03T08:03:57Z] opened PR #11 on taigrr/doc-mcp: \"fix(mcp): validate document URLs with parser\" (`https://github.com/taigrr/doc-mcp/pull/11`)\n\n[2026-10-03T07:06:11Z] opened PR #354 on gogrlx/grlx: \"fix(jobs): create CLI job logs privately\" (`https://github.com/gogrlx/grlx/pull/354`)"
+    }
+  ]
+}
