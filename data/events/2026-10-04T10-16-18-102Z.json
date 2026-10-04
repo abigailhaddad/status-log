@@ -1,0 +1,9 @@
+{
+  "timestamp": "2026-10-04T10:16:18.102Z",
+  "events": [
+    {
+      "type": "NEW_PERSON_ACTIVITY",
+      "detail": "taigrr:\n[2026-10-04T09:39:08Z] pushed to taigrr/crush (cd/cache-warm-long-tools-feature):\n  c7ea20b fix(lint): satisfy staticcheck in editmatch\n\n[2026-10-04T09:34:34Z] pushed to taigrr/crush (cd/cache-warm-long-tools-feature):\n  8365f17 chore(swagger): include StateWarn in the generated OpenAPI spec\n\n[2026-10-04T09:30:14Z] opened PR #40 on taigrr/crush: \"perf(agent): warm prompt cache during long tool calls\" (`https://github.com/taigrr/crush/pull/40`)\n\n[2026-10-04T09:30:06Z] created branch \"cd/cache-warm-long-tools-feature\" on taigrr/crush\n\n[2026-10-04T09:22:56Z] reopened PR #4011 on charmbracelet/crush: \"perf(agent): warm prompt cache during long tool calls\" (`https://github.com/charmbracelet/crush/pull/4011`)\n\n[2026-10-02T00:31:38Z] closed PR #4011 on charmbracelet/crush: \"perf(agent): warm prompt cache during long tool calls\" (`https://github.com/charmbracelet/crush/pull/4011`)\n\n[2026-10-04T08:35:29Z] opened PR #21 on taigrr/blastd: \"ci: update Go toolchain\" (`https://github.com/taigrr/blastd/pull/21`)\n\n[2026-10-04T08:35:14Z] created branch \"cd/fix-govulncheck\" on taigrr/blastd\n\n[2026-10-04T08:17:37Z] pushed to 18F/identity-idp (sbx-taigrr):\n  f0b063d Make token exchange grants per application with account page controls\n\n[2026-10-04T06:37:09Z] opened PR #41 on taigrr/crunch: \"fix(llm): detect provider env vars directly\" (`https://github.com/taigrr/crunch/pull/41`)\n\n[2026-10-04T06:36:17Z] pushed to 18F/identity-idp (sbx-taigrr):\n  fedbaf7 Derive a broker's reach from target opt-in instead of a signed manifest\n\n[2026-10-04T06:09:26Z] opened PR #355 on gogrlx/grlx: \"test(audit): cover logger directory setup\" (`https://github.com/gogrlx/grlx/pull/355`)\n\n[2026-10-04T06:09:11Z] created branch \"cd/grlx-round1-20261004\" on gogrlx/grlx"
+    }
+  ]
+}
