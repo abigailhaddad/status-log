@@ -1,0 +1,9 @@
+{
+  "timestamp": "2026-10-05T08:35:50.587Z",
+  "events": [
+    {
+      "type": "NEW_PERSON_ACTIVITY",
+      "detail": "taigrr:\n[2026-10-05T08:04:13Z] opened PR #22 on taigrr/blastd: \"fix(sync): redact branch in metrics-only mode\" (`https://github.com/taigrr/blastd/pull/22`)\n\n[2026-10-05T08:04:01Z] created branch \"cd/metrics-only-redact-branch\" on taigrr/blastd\n\n[2026-10-05T06:35:46Z] opened PR #42 on taigrr/crunch: \"test(db): cover malformed message parts\" (`https://github.com/taigrr/crunch/pull/42`)\n\n[2026-10-05T06:35:32Z] created branch \"cd/collect-message-filter-tests-20261005\" on taigrr/crunch\n\n[2026-10-05T06:05:44Z] opened PR #356 on gogrlx/grlx: \"fix(props): encode persisted sprout ids\" (`https://github.com/gogrlx/grlx/pull/356`)"
+    }
+  ]
+}
