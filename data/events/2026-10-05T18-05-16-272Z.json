@@ -1,0 +1,13 @@
+{
+  "timestamp": "2026-10-05T18:05:16.272Z",
+  "events": [
+    {
+      "type": "NEW_REPO_COMMITS",
+      "detail": "[18F/identity-idp] e1ce396 LG-17948 Capture back of Passport Card in LN flow (#13564) — Alex Bradley\n  `https://github.com/18F/identity-idp/commit/e1ce39607c1cd1e1b9e06bd337c3ffcf5bbedca4`"
+    },
+    {
+      "type": "NEW_COMMENT",
+      "detail": "github-actions[bot] commented on `uswds/uswds#6999`: ✅ All commits on this PR have a verified signature. Thanks! <!-- Sticky Pull Request Commentverify-commits -->\n  `https://github.com/uswds/uswds/pull/6999#issuecomment-5997147567`\n\najfarkas commented on `uswds/uswds#6998`: Closing due to lack of content. If you have a feature request, please open a new issue with a full description of the feature and the reason you think it should be included.\n  `https://github.com/uswds/uswds/issues/6998#issuecomment-5997419921`\n\najfarkas commented on `uswds/uswds#6995`: Hi `@jessicaarlich`. I'm unable to reproduce this error. Using Mac VoiceOver, I hear \"Breadcrumbs\" when navigating to that section.    I do not hear the aria-label announced while tabbing through links, which is expected behavior. This pattern is also [the W3C WAI recommended pattern](https://www.w3.o\n  `https://github.com/uswds/uswds/issues/6995#issuecomment-5997964623`\n\najfarkas commented on `uswds/uswds#5345`: > I added the breaking label for consumers of the Twig template. Existing authored HTML does not need to be reordered. Preserving `noLabels` as a compatibility input, or documenting how consumers should move to `showLabels`, would make the remaining upgrade requirement clear.  While this is technica\n  `https://github.com/uswds/uswds/pull/5345#issuecomment-5999284843`\n\najfarkas commented on `uswds/uswds#6464`: I agree with `@mgifford` that we should aspire to meet preferably AAA, and at least AA.   I believe this does not fail the WCAG criteria, though. WCAG 2.2 SC 2.5.8 has [an exception for inline text](https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum.html#success-criterion) that is the sam\n  `https://github.com/uswds/uswds/issues/6464#issuecomment-6000014097`\n\nGovLandScout commented on `uswds/uswds-site#3108`: If this is still wanted I'd love to help here.\n  `https://github.com/uswds/uswds-site/issues/3108#issuecomment-5995810300`"
+    }
+  ]
+}
