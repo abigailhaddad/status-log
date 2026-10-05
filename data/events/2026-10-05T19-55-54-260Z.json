@@ -1,0 +1,17 @@
+{
+  "timestamp": "2026-10-05T19:55:54.260Z",
+  "events": [
+    {
+      "type": "NEW_DISCUSSION",
+      "detail": "krasnoff opened discussion #7000 on uswds/uswds: \"Developing componenet library for React Native\"\n  `https://github.com/uswds/uswds/discussions/7000`"
+    },
+    {
+      "type": "NEW_COMMENT",
+      "detail": "ajfarkas commented on discussion #6987 on uswds/uswds: I'm interested to understand the numbers: what are the absolute number and percentage of people using AI to find health and social care information? How do those numbers slice across demographics?    My goal is to understand whether designing for agents will increase the number of people we serve, o\n  `https://github.com/uswds/uswds/discussions/6987#discussioncomment-18764867`"
+    },
+    {
+      "type": "NEW_PERSON_ACTIVITY",
+      "detail": "taigrr:\n[2026-10-05T19:37:06Z] merged PR #2 on taigrr/gitward: \"test(gitutil): cover repo helper behavior\" (`https://github.com/taigrr/gitward/pull/2`)\n\n[2026-10-05T19:37:01Z] merged PR #3 on taigrr/gitward: \"test(crypto): speed passphrase store tests\" (`https://github.com/taigrr/gitward/pull/3`)\n\n[2026-10-05T19:37:02Z] pushed to taigrr/gitward (master):\n  7128e2f test(crypto): speed passphrase store tests (#3)\n\n[2026-10-04T06:36:57Z] created branch \"cd/llm-provider-env-tests-20261004\" on taigrr/crunch\n\n[2026-09-04T16:01:58Z] closed PR #28 on taigrr/crush: \"fix(backend): report accepted-but-not-yet-active runs as busy in session listings\" (`https://github.com/taigrr/crush/pull/28`)\n\n[2026-10-05T18:28:45Z] pushed to taigrr/toga (master):\n  32f3d10 Migrate S3/MinIO backends from minio-go to aws-sdk-go-v2\n\n[2026-10-05T18:06:38Z] pushed to taigrr/crush (feature):\n  950cc6f fix(agent): report accepted-but-not-yet-active runs as busy and wake WaitForIdle on their release"
+    }
+  ]
+}
