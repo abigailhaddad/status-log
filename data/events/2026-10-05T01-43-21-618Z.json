@@ -1,0 +1,9 @@
+{
+  "timestamp": "2026-10-05T01:43:21.618Z",
+  "events": [
+    {
+      "type": "NEW_PERSON_ACTIVITY",
+      "detail": "taigrr:\n[2026-10-05T00:51:52Z] pushed to taigrr/toga (master):\n  c988857 update go version\n\n[2026-10-05T00:37:41Z] pushed to taigrr/crush (feature):\n  2e53b65 upgrade gjson\n\n[2026-10-05T00:36:03Z] pushed to taigrr/crush (feature):\n  05b870a chore(deps): bump github.com/charmbracelet/x/exp/golden (#41)\n\n[2026-10-05T00:35:45Z] pushed to taigrr/crush (feature):\n  766c2f8 chore(deps): bump the all group across 1 directory with 4 updates (#34)\n\n[2026-10-05T00:21:42Z] merged PR #40 on taigrr/crush: \"perf(agent): warm prompt cache during long tool calls\" (`https://github.com/taigrr/crush/pull/40`)\n\n[2026-10-05T00:21:42Z] pushed to taigrr/crush (feature):\n  5dfdf01 perf(agent): warm prompt cache during long tool calls\n  8365f17 chore(swagger): include StateWarn in the generated OpenAPI spec\n  c7ea20b fix(lint): satisfy staticcheck in editmatch\n  fcfbc2d fix(agent): send tools in cache warm request so it refreshes the live prefix\n\n[2026-10-03T07:05:57Z] created branch \"cd/cli-job-log-perms-20261003\" on gogrlx/grlx"
+    }
+  ]
+}
