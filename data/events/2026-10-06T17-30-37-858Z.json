@@ -1,0 +1,17 @@
+{
+  "timestamp": "2026-10-06T17:30:37.858Z",
+  "events": [
+    {
+      "type": "NEW_REPO_COMMITS",
+      "detail": "[GSA-TTS/identity-handbook] feb4f18 changelog: Update pivcac documentation (#732) — Malick Diarra\n  `https://github.com/GSA-TTS/identity-handbook/commit/feb4f18a70961f32d6850be5eb6a7d4e776bc6d0`"
+    },
+    {
+      "type": "NEW_COMMENT",
+      "detail": "ajfarkas commented on `uswds/uswds#7001`: Per Sam Corcos: > Hey AJ, thanks for the note! In our call, we discussed updating dependencies when they are blocking forward progress.  >  > If Snyk is blocking CI because the dependency is out of date, that sounds like a good one to fix.  > > But updating dependencies for the sake of updating depe\n  `https://github.com/uswds/uswds/issues/7001#issuecomment-6020265270`"
+    },
+    {
+      "type": "NEW_PERSON_ACTIVITY",
+      "detail": "taigrr:\n[2026-10-06T15:43:31Z] created branch \"site-keys/1-crypto\" on 18F/identity-idp\n\n[2026-10-06T15:43:40Z] created branch \"site-keys/3-oidc\" on 18F/identity-idp\n\n[2026-10-06T15:43:47Z] created branch \"site-keys/5-personal-key\" on 18F/identity-idp\n\n[2026-10-06T15:43:48Z] opened PR #13622 on 18F/identity-idp: \"Let identity-verified users recover per-site keys with their personal key\" (`https://github.com/18F/identity-idp/pull/13622`)\n\n[2026-10-06T15:43:44Z] opened PR #13621 on 18F/identity-idp: \"Let users recover per-site keys after a password reset\" (`https://github.com/18F/identity-idp/pull/13621`)\n\n[2026-10-06T15:43:40Z] opened PR #13620 on 18F/identity-idp: \"Release sealed per-site keys on OIDC authorization\" (`https://github.com/18F/identity-idp/pull/13620`)\n\n[2026-10-06T15:43:36Z] opened PR #13619 on 18F/identity-idp: \"Store per-site key roots wrapped under the user's password\" (`https://github.com/18F/identity-idp/pull/13619`)\n\n[2026-10-06T15:43:32Z] opened PR #13618 on 18F/identity-idp: \"Add sealing primitives for per-site keys\" (`https://github.com/18F/identity-idp/pull/13618`)\n\n[2026-10-06T15:43:26Z] opened PR #13617 on 18F/identity-idp: \"Stop specs from deleting the global form-action CSP directive\" (`https://github.com/18F/identity-idp/pull/13617`)"
+    }
+  ]
+}
