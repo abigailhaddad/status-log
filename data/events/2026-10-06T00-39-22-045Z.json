@@ -1,0 +1,13 @@
+{
+  "timestamp": "2026-10-06T00:39:22.045Z",
+  "events": [
+    {
+      "type": "NEW_CERTIFICATE",
+      "detail": "america.gov (2026-09-26T18:48:42)"
+    },
+    {
+      "type": "NEW_PERSON_ACTIVITY",
+      "detail": "taigrr:\n[2026-10-05T19:37:07Z] pushed to taigrr/gitward (master):\n  6af8911 test(gitutil): cover repo helper behavior (#2)\n\n[2026-10-04T08:17:39Z] created branch \"token-exchange\" on 18F/identity-idp"
+    }
+  ]
+}
