@@ -1,0 +1,17 @@
+{
+  "timestamp": "2026-10-06T14:51:43.434Z",
+  "events": [
+    {
+      "type": "NEW_ISSUE",
+      "detail": "ajfarkas opened issue #7001 on uswds/uswds: \"Address NPM audit High results: audit fix\"\n  `https://github.com/uswds/uswds/issues/7001`"
+    },
+    {
+      "type": "NEW_COMMENT",
+      "detail": "ajfarkas commented on `uswds/uswds#6474`: Hi `@venkatajanapareddy` thank you for opening an issue. While I'm able to see the behavior you described, I'm not it violates WCAG 2.4.7: the SC refers to \"keyboard operable user interfaces,\" which does not describe the `main` landmark. That said, I agree that a visual indicator would benefit keyboar\n  `https://github.com/uswds/uswds/issues/6474#issuecomment-6016791403`"
+    },
+    {
+      "type": "NEW_PERSON_ACTIVITY",
+      "detail": "taigrr:\n[2026-10-06T06:36:53Z] created branch \"cd/facts-clear-stale-ips-20261006\" on gogrlx/grlx"
+    }
+  ]
+}
