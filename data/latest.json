@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-06T17:30:37.858Z",
+  "timestamp": "2026-10-06T20:03:22.493Z",
   "live": true,
   "dns": {
     "america.gov": {
@@ -9,8 +9,8 @@
         "172.64.96.165"
       ],
       "aaaa": [
-        "2606:54c1:10::a29f:d4a5",
-        "2606:54c1:10::ac40:60a5"
+        "2606:54c1:10::ac40:60a5",
+        "2606:54c1:10::a29f:d4a5"
       ],
       "cname": null,
       "ns": [
@@ -43,22 +43,22 @@
       "finalHeaders": {
         "accept-ch": "Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA",
         "cf-mitigated": "challenge",
-        "cf-ray": "a466653bdd092975-DFW",
+        "cf-ray": "a4674540be6e2ee5-LAX",
         "connection": "close",
         "content-encoding": "gzip",
-        "content-security-policy": "default-src 'none'; script-src 'nonce-908PNtVZmCqIzIDdnNq3kk' 'unsafe-eval' https://challenges.fed.cloudflare.com; script-src-attr 'none'; style-src 'unsafe-inline'; img-src 'self' https://challenges.fed.cloudflare.com; connect-src 'self' https://challenges.fed.cloudflare.com; frame-src 'self' https://challenges.fed.cloudflare.com blob:; child-src 'self' https://challenges.fed.cloudflare.com blob:; worker-src blob:; form-action http: https:; base-uri 'self'",
+        "content-security-policy": "default-src 'none'; script-src 'nonce-JYBowmKgPSfHEHFdcUNRMz' 'unsafe-eval' https://challenges.fed.cloudflare.com; script-src-attr 'none'; style-src 'unsafe-inline'; img-src 'self' https://challenges.fed.cloudflare.com; connect-src 'self' https://challenges.fed.cloudflare.com; frame-src 'self' https://challenges.fed.cloudflare.com blob:; child-src 'self' https://challenges.fed.cloudflare.com blob:; worker-src blob:; form-action http: https:; base-uri 'self'",
         "content-type": "text/html; charset=UTF-8",
         "critical-ch": "Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA",
         "cross-origin-embedder-policy": "require-corp",
         "cross-origin-opener-policy": "same-origin",
         "cross-origin-resource-policy": "same-origin",
-        "date": "Tue, 06 Oct 2026 17:30:41 GMT",
+        "date": "Tue, 06 Oct 2026 20:03:37 GMT",
         "origin-agent-cluster": "?1",
         "permissions-policy": "accelerometer=(),camera=(),clipboard-read=(),clipboard-write=(),geolocation=(),gyroscope=(),hid=(),magnetometer=(),microphone=(),payment=(),publickey-credentials-get=(),screen-wake-lock=(),serial=(),sync-xhr=(),usb=(),xr-spatial-tracking=*",
         "referrer-policy": "same-origin",
         "server": "cloudflare",
-        "server-timing": "chlray;desc=\"a466653bdd092975\"",
-        "set-cookie": "__cf_bm=upvkxP4cJ6td4wQ76s7.AhhnuvCNhyrlk2YprxI_qck-1791307841.896979-1.0.1.1-TY1ABuMV11UcTmMqhD6ZOw2c_2Bq.l0O.hxiAInyGSOByYbsGNiqaltTiIRo81ZBhA8JWZrVaqHrPmHwCcTVzBPuUCVk0aD8iYkrxqqkqeSyyHfQAPKvkn5C8jDSaD7v; HttpOnly; SameSite=None; Secure; Path=/; Domain=america.gov; Expires=Tue, 06 Oct 2026 18:00:41 GMT",
+        "server-timing": "chlray;desc=\"a4674540be6e2ee5\"",
+        "set-cookie": "__cf_bm=BYvCT.WiSO5SatiEK7K0O0jgcyexZABVn9BqEMfCw9w-1791317017.7205207-1.0.1.1-Zbu5TizgwZnCUOACnveuCcNKY0FkkKUVBvIhZuBP_HlvTyea4WHm3.x9lmWQhEqrWPQ8wEWzRhY0W5NEOoznnc6EC_RLG6RILcAaqOF8fmL_joWa3JZ_7JFkhzea7wzB; HttpOnly; SameSite=None; Secure; Path=/; Domain=america.gov; Expires=Tue, 06 Oct 2026 20:33:37 GMT",
         "strict-transport-security": "max-age=15552000; includeSubDomains; preload",
         "transfer-encoding": "chunked",
         "x-content-type-options": "nosniff",
@@ -71,22 +71,22 @@
           "headers": {
             "accept-ch": "Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA",
             "cf-mitigated": "challenge",
-            "cf-ray": "a466653bdd092975-DFW",
+            "cf-ray": "a4674540be6e2ee5-LAX",
             "connection": "close",
             "content-encoding": "gzip",
-            "content-security-policy": "default-src 'none'; script-src 'nonce-908PNtVZmCqIzIDdnNq3kk' 'unsafe-eval' https://challenges.fed.cloudflare.com; script-src-attr 'none'; style-src 'unsafe-inline'; img-src 'self' https://challenges.fed.cloudflare.com; connect-src 'self' https://challenges.fed.cloudflare.com; frame-src 'self' https://challenges.fed.cloudflare.com blob:; child-src 'self' https://challenges.fed.cloudflare.com blob:; worker-src blob:; form-action http: https:; base-uri 'self'",
+            "content-security-policy": "default-src 'none'; script-src 'nonce-JYBowmKgPSfHEHFdcUNRMz' 'unsafe-eval' https://challenges.fed.cloudflare.com; script-src-attr 'none'; style-src 'unsafe-inline'; img-src 'self' https://challenges.fed.cloudflare.com; connect-src 'self' https://challenges.fed.cloudflare.com; frame-src 'self' https://challenges.fed.cloudflare.com blob:; child-src 'self' https://challenges.fed.cloudflare.com blob:; worker-src blob:; form-action http: https:; base-uri 'self'",
             "content-type": "text/html; charset=UTF-8",
             "critical-ch": "Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA",
             "cross-origin-embedder-policy": "require-corp",
             "cross-origin-opener-policy": "same-origin",
             "cross-origin-resource-policy": "same-origin",
-            "date": "Tue, 06 Oct 2026 17:30:41 GMT",
+            "date": "Tue, 06 Oct 2026 20:03:37 GMT",
             "origin-agent-cluster": "?1",
             "permissions-policy": "accelerometer=(),camera=(),clipboard-read=(),clipboard-write=(),geolocation=(),gyroscope=(),hid=(),magnetometer=(),microphone=(),payment=(),publickey-credentials-get=(),screen-wake-lock=(),serial=(),sync-xhr=(),usb=(),xr-spatial-tracking=*",
             "referrer-policy": "same-origin",
             "server": "cloudflare",
-            "server-timing": "chlray;desc=\"a466653bdd092975\"",
-            "set-cookie": "__cf_bm=upvkxP4cJ6td4wQ76s7.AhhnuvCNhyrlk2YprxI_qck-1791307841.896979-1.0.1.1-TY1ABuMV11UcTmMqhD6ZOw2c_2Bq.l0O.hxiAInyGSOByYbsGNiqaltTiIRo81ZBhA8JWZrVaqHrPmHwCcTVzBPuUCVk0aD8iYkrxqqkqeSyyHfQAPKvkn5C8jDSaD7v; HttpOnly; SameSite=None; Secure; Path=/; Domain=america.gov; Expires=Tue, 06 Oct 2026 18:00:41 GMT",
+            "server-timing": "chlray;desc=\"a4674540be6e2ee5\"",
+            "set-cookie": "__cf_bm=BYvCT.WiSO5SatiEK7K0O0jgcyexZABVn9BqEMfCw9w-1791317017.7205207-1.0.1.1-Zbu5TizgwZnCUOACnveuCcNKY0FkkKUVBvIhZuBP_HlvTyea4WHm3.x9lmWQhEqrWPQ8wEWzRhY0W5NEOoznnc6EC_RLG6RILcAaqOF8fmL_joWa3JZ_7JFkhzea7wzB; HttpOnly; SameSite=None; Secure; Path=/; Domain=america.gov; Expires=Tue, 06 Oct 2026 20:33:37 GMT",
             "strict-transport-security": "max-age=15552000; includeSubDomains; preload",
             "transfer-encoding": "chunked",
             "x-content-type-options": "nosniff",
@@ -95,7 +95,7 @@
         }
       ],
       "bodyLength": 5422,
-      "bodySnippet": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><meta http-equiv=\"content-security-policy\" content=\"default-src &#39;none&#39;; script-src &#39;nonce-908PNtVZmCqIzIDdnNq3kk&#39; &#39;unsafe-eval&#39; https://challenges.fed.cloudflare.com; script-src-attr &#39;none&#39;; style-src &#39;unsafe-inline&#39;; img-src &#39;self&#39; https://challenges.fed.cloudflare.com; connect-src &#39;self&#39; https://challenges.fed.cloudflare.com; frame-src &#39;self&#39; https://challenges.fed.cloudflare.com blob:; child-src &#39;self&#39; https://challenges.fed.cloudflare.com blob:; worker-src blob:; form-action http: https:; base-uri &#39;self&#39;\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\"}body{display:flex;flex-direction:column;height:100vh;min-height:100vh}.main-content{margin:8rem auto;padding-left:1.5rem;max-width:60rem}@media (width <= 720px){.main-content{margin-top:4rem}}#challenge-error-text{background-image:url(\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0ibm9uZSI+PHBhdGggZmlsbD0iI0IyMEYwMyIgZD0iTTE2IDNhMTMgMTMgMCAxIDAgMTMgMTNBMTMuMDE1IDEzLjAxNSAwIDAgMCAxNiAzbTAgMjRhMTEgMTEgMCAxIDEgMTEtMTEgMTEuMDEgMTEuMDEgMCAwIDEtMTEgMTEiLz48cGF0aCBmaWxsPSIjQjIwRjAzIiBkPSJNMTcuMDM4IDE4LjYxNUgxNC44N0wxNC41NjMgOS41aDIuNzgzem0tMS4wODQgMS40MjdxLjY2IDAgMS4wNTcuMzg4LjQwNy4zODkuNDA3Ljk5NCAwIC41OTYtLjQwNy45ODQtLjM5Ny4zOS0xLjA1Ny4zODktLjY1IDAtMS4wNTYtLjM4OS0uMzk4LS4zODktLjM5OC0uOTg0IDAtLjU5Ny4zOTgtLjk4NS40MDYtL",
+      "bodySnippet": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><meta http-equiv=\"content-security-policy\" content=\"default-src &#39;none&#39;; script-src &#39;nonce-JYBowmKgPSfHEHFdcUNRMz&#39; &#39;unsafe-eval&#39; https://challenges.fed.cloudflare.com; script-src-attr &#39;none&#39;; style-src &#39;unsafe-inline&#39;; img-src &#39;self&#39; https://challenges.fed.cloudflare.com; connect-src &#39;self&#39; https://challenges.fed.cloudflare.com; frame-src &#39;self&#39; https://challenges.fed.cloudflare.com blob:; child-src &#39;self&#39; https://challenges.fed.cloudflare.com blob:; worker-src blob:; form-action http: https:; base-uri &#39;self&#39;\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\"}body{display:flex;flex-direction:column;height:100vh;min-height:100vh}.main-content{margin:8rem auto;padding-left:1.5rem;max-width:60rem}@media (width <= 720px){.main-content{margin-top:4rem}}#challenge-error-text{background-image:url(\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0ibm9uZSI+PHBhdGggZmlsbD0iI0IyMEYwMyIgZD0iTTE2IDNhMTMgMTMgMCAxIDAgMTMgMTNBMTMuMDE1IDEzLjAxNSAwIDAgMCAxNiAzbTAgMjRhMTEgMTEgMCAxIDEgMTEtMTEgMTEuMDEgMTEuMDEgMCAwIDEtMTEgMTEiLz48cGF0aCBmaWxsPSIjQjIwRjAzIiBkPSJNMTcuMDM4IDE4LjYxNUgxNC44N0wxNC41NjMgOS41aDIuNzgzem0tMS4wODQgMS40MjdxLjY2IDAgMS4wNTcuMzg4LjQwNy4zODkuNDA3Ljk5NCAwIC41OTYtLjQwNy45ODQtLjM5Ny4zOS0xLjA1Ny4zODktLjY1IDAtMS4wNTYtLjM4OS0uMzk4LS4zODktLjM5OC0uOTg0IDAtLjU5Ny4zOTgtLjk4NS40MDYtL",
       "error": null
     },
     "www.america.gov": {
@@ -105,22 +105,22 @@
       "finalHeaders": {
         "accept-ch": "Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA",
         "cf-mitigated": "challenge",
-        "cf-ray": "a466653cca30f35f-DFW",
+        "cf-ray": "a46745414ce50d77-LAX",
         "connection": "close",
         "content-encoding": "gzip",
-        "content-security-policy": "default-src 'none'; script-src 'nonce-nkBS0cNEV2MRJv10Kf1hZu' 'unsafe-eval' https://challenges.fed.cloudflare.com; script-src-attr 'none'; style-src 'unsafe-inline'; img-src 'self' https://challenges.fed.cloudflare.com; connect-src 'self' https://challenges.fed.cloudflare.com; frame-src 'self' https://challenges.fed.cloudflare.com blob:; child-src 'self' https://challenges.fed.cloudflare.com blob:; worker-src blob:; form-action http: https:; base-uri 'self'",
+        "content-security-policy": "default-src 'none'; script-src 'nonce-9bkOTda2OqggPzEvUhm63Y' 'unsafe-eval' https://challenges.fed.cloudflare.com; script-src-attr 'none'; style-src 'unsafe-inline'; img-src 'self' https://challenges.fed.cloudflare.com; connect-src 'self' https://challenges.fed.cloudflare.com; frame-src 'self' https://challenges.fed.cloudflare.com blob:; child-src 'self' https://challenges.fed.cloudflare.com blob:; worker-src blob:; form-action http: https:; base-uri 'self'",
         "content-type": "text/html; charset=UTF-8",
         "critical-ch": "Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA",
         "cross-origin-embedder-policy": "require-corp",
         "cross-origin-opener-policy": "same-origin",
         "cross-origin-resource-policy": "same-origin",
-        "date": "Tue, 06 Oct 2026 17:30:42 GMT",
+        "date": "Tue, 06 Oct 2026 20:03:37 GMT",
         "origin-agent-cluster": "?1",
         "permissions-policy": "accelerometer=(),camera=(),clipboard-read=(),clipboard-write=(),geolocation=(),gyroscope=(),hid=(),magnetometer=(),microphone=(),payment=(),publickey-credentials-get=(),screen-wake-lock=(),serial=(),sync-xhr=(),usb=(),xr-spatial-tracking=*",
         "referrer-policy": "same-origin",
         "server": "cloudflare",
-        "server-timing": "chlray;desc=\"a466653cca30f35f\"",
-        "set-cookie": "__cf_bm=2asA35bdEUghNlIfbQWwzaZzOwU9.atM3Hm2KI6DAMU-1791307842.0506408-1.0.1.1-EuoZjRIqhV4NsK63FRE3f_Zp0AprwQirF.Ex.3tS9m1tf8ehQG8gKf1CrDZiMa_v92f4ppw0HP31dwGAJZATOeakXQCR05AB1nziS6aUfmHS9dEhtucbUMPRMDThIrqH; HttpOnly; SameSite=None; Secure; Path=/; Domain=america.gov; Expires=Tue, 06 Oct 2026 18:00:42 GMT",
+        "server-timing": "chlray;desc=\"a46745414ce50d77\"",
+        "set-cookie": "__cf_bm=oKJAPBZyDlCajIP35gr08Rg_obsyiR6GB4vnl4ox.Qw-1791317017.8099127-1.0.1.1-yLJSKk089oe0TpV7IreXT5srX9fDupuJxlr_zHK6BygSHciCGp_kIVUeKgZ6P7ugrLXuQfyCMmCU5Dv9Kj5L3FZc7ZZWUfRqqZtWu3d1.DAUsybY5w9kiuUHnDUADZKP; HttpOnly; SameSite=None; Secure; Path=/; Domain=america.gov; Expires=Tue, 06 Oct 2026 20:33:37 GMT",
         "strict-transport-security": "max-age=15552000; includeSubDomains; preload",
         "transfer-encoding": "chunked",
         "x-content-type-options": "nosniff",
@@ -131,10 +131,10 @@
           "url": "https://www.america.gov/",
           "status": 301,
           "headers": {
-            "cf-ray": "a466653c6e504854-DFW",
+            "cf-ray": "a46745411a81b152-LAX",
             "connection": "keep-alive",
             "content-type": "text/html; charset=UTF-8",
-            "date": "Tue, 06 Oct 2026 17:30:41 GMT",
+            "date": "Tue, 06 Oct 2026 20:03:37 GMT",
             "location": "https://america.gov/",
             "server": "cloudflare",
             "strict-transport-security": "max-age=15552000; includeSubDomains; preload",
@@ -148,22 +148,22 @@
           "headers": {
             "accept-ch": "Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA",
             "cf-mitigated": "challenge",
-            "cf-ray": "a466653cca30f35f-DFW",
+            "cf-ray": "a46745414ce50d77-LAX",
             "connection": "close",
             "content-encoding": "gzip",
-            "content-security-policy": "default-src 'none'; script-src 'nonce-nkBS0cNEV2MRJv10Kf1hZu' 'unsafe-eval' https://challenges.fed.cloudflare.com; script-src-attr 'none'; style-src 'unsafe-inline'; img-src 'self' https://challenges.fed.cloudflare.com; connect-src 'self' https://challenges.fed.cloudflare.com; frame-src 'self' https://challenges.fed.cloudflare.com blob:; child-src 'self' https://challenges.fed.cloudflare.com blob:; worker-src blob:; form-action http: https:; base-uri 'self'",
+            "content-security-policy": "default-src 'none'; script-src 'nonce-9bkOTda2OqggPzEvUhm63Y' 'unsafe-eval' https://challenges.fed.cloudflare.com; script-src-attr 'none'; style-src 'unsafe-inline'; img-src 'self' https://challenges.fed.cloudflare.com; connect-src 'self' https://challenges.fed.cloudflare.com; frame-src 'self' https://challenges.fed.cloudflare.com blob:; child-src 'self' https://challenges.fed.cloudflare.com blob:; worker-src blob:; form-action http: https:; base-uri 'self'",
             "content-type": "text/html; charset=UTF-8",
             "critical-ch": "Sec-CH-UA-Bitness, Sec-CH-UA-Arch, Sec-CH-UA-Full-Version, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Platform, Sec-CH-UA, UA-Bitness, UA-Arch, UA-Full-Version, UA-Mobile, UA-Model, UA-Platform-Version, UA-Platform, UA",
             "cross-origin-embedder-policy": "require-corp",
             "cross-origin-opener-policy": "same-origin",
             "cross-origin-resource-policy": "same-origin",
-            "date": "Tue, 06 Oct 2026 17:30:42 GMT",
+            "date": "Tue, 06 Oct 2026 20:03:37 GMT",
             "origin-agent-cluster": "?1",
             "permissions-policy": "accelerometer=(),camera=(),clipboard-read=(),clipboard-write=(),geolocation=(),gyroscope=(),hid=(),magnetometer=(),microphone=(),payment=(),publickey-credentials-get=(),screen-wake-lock=(),serial=(),sync-xhr=(),usb=(),xr-spatial-tracking=*",
             "referrer-policy": "same-origin",
             "server": "cloudflare",
-            "server-timing": "chlray;desc=\"a466653cca30f35f\"",
-            "set-cookie": "__cf_bm=2asA35bdEUghNlIfbQWwzaZzOwU9.atM3Hm2KI6DAMU-1791307842.0506408-1.0.1.1-EuoZjRIqhV4NsK63FRE3f_Zp0AprwQirF.Ex.3tS9m1tf8ehQG8gKf1CrDZiMa_v92f4ppw0HP31dwGAJZATOeakXQCR05AB1nziS6aUfmHS9dEhtucbUMPRMDThIrqH; HttpOnly; SameSite=None; Secure; Path=/; Domain=america.gov; Expires=Tue, 06 Oct 2026 18:00:42 GMT",
+            "server-timing": "chlray;desc=\"a46745414ce50d77\"",
+            "set-cookie": "__cf_bm=oKJAPBZyDlCajIP35gr08Rg_obsyiR6GB4vnl4ox.Qw-1791317017.8099127-1.0.1.1-yLJSKk089oe0TpV7IreXT5srX9fDupuJxlr_zHK6BygSHciCGp_kIVUeKgZ6P7ugrLXuQfyCMmCU5Dv9Kj5L3FZc7ZZWUfRqqZtWu3d1.DAUsybY5w9kiuUHnDUADZKP; HttpOnly; SameSite=None; Secure; Path=/; Domain=america.gov; Expires=Tue, 06 Oct 2026 20:33:37 GMT",
             "strict-transport-security": "max-age=15552000; includeSubDomains; preload",
             "transfer-encoding": "chunked",
             "x-content-type-options": "nosniff",
@@ -172,7 +172,7 @@
         }
       ],
       "bodyLength": 5400,
-      "bodySnippet": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><meta http-equiv=\"content-security-policy\" content=\"default-src &#39;none&#39;; script-src &#39;nonce-nkBS0cNEV2MRJv10Kf1hZu&#39; &#39;unsafe-eval&#39; https://challenges.fed.cloudflare.com; script-src-attr &#39;none&#39;; style-src &#39;unsafe-inline&#39;; img-src &#39;self&#39; https://challenges.fed.cloudflare.com; connect-src &#39;self&#39; https://challenges.fed.cloudflare.com; frame-src &#39;self&#39; https://challenges.fed.cloudflare.com blob:; child-src &#39;self&#39; https://challenges.fed.cloudflare.com blob:; worker-src blob:; form-action http: https:; base-uri &#39;self&#39;\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\"}body{display:flex;flex-direction:column;height:100vh;min-height:100vh}.main-content{margin:8rem auto;padding-left:1.5rem;max-width:60rem}@media (width <= 720px){.main-content{margin-top:4rem}}#challenge-error-text{background-image:url(\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0ibm9uZSI+PHBhdGggZmlsbD0iI0IyMEYwMyIgZD0iTTE2IDNhMTMgMTMgMCAxIDAgMTMgMTNBMTMuMDE1IDEzLjAxNSAwIDAgMCAxNiAzbTAgMjRhMTEgMTEgMCAxIDEgMTEtMTEgMTEuMDEgMTEuMDEgMCAwIDEtMTEgMTEiLz48cGF0aCBmaWxsPSIjQjIwRjAzIiBkPSJNMTcuMDM4IDE4LjYxNUgxNC44N0wxNC41NjMgOS41aDIuNzgzem0tMS4wODQgMS40MjdxLjY2IDAgMS4wNTcuMzg4LjQwNy4zODkuNDA3Ljk5NCAwIC41OTYtLjQwNy45ODQtLjM5Ny4zOS0xLjA1Ny4zODktLjY1IDAtMS4wNTYtLjM4OS0uMzk4LS4zODktLjM5OC0uOTg0IDAtLjU5Ny4zOTgtLjk4NS40MDYtL",
+      "bodySnippet": "<!DOCTYPE html><html lang=\"en-US\"><head><title>Just a moment...</title><meta http-equiv=\"Content-Type\" content=\"text/html; charset=UTF-8\"><meta http-equiv=\"X-UA-Compatible\" content=\"IE=Edge\"><meta name=\"robots\" content=\"noindex,nofollow\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><meta http-equiv=\"content-security-policy\" content=\"default-src &#39;none&#39;; script-src &#39;nonce-9bkOTda2OqggPzEvUhm63Y&#39; &#39;unsafe-eval&#39; https://challenges.fed.cloudflare.com; script-src-attr &#39;none&#39;; style-src &#39;unsafe-inline&#39;; img-src &#39;self&#39; https://challenges.fed.cloudflare.com; connect-src &#39;self&#39; https://challenges.fed.cloudflare.com; frame-src &#39;self&#39; https://challenges.fed.cloudflare.com blob:; child-src &#39;self&#39; https://challenges.fed.cloudflare.com blob:; worker-src blob:; form-action http: https:; base-uri &#39;self&#39;\"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,\"Helvetica Neue\",Arial,\"Noto Sans\",sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\",\"Segoe UI Symbol\",\"Noto Color Emoji\"}body{display:flex;flex-direction:column;height:100vh;min-height:100vh}.main-content{margin:8rem auto;padding-left:1.5rem;max-width:60rem}@media (width <= 720px){.main-content{margin-top:4rem}}#challenge-error-text{background-image:url(\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0ibm9uZSI+PHBhdGggZmlsbD0iI0IyMEYwMyIgZD0iTTE2IDNhMTMgMTMgMCAxIDAgMTMgMTNBMTMuMDE1IDEzLjAxNSAwIDAgMCAxNiAzbTAgMjRhMTEgMTEgMCAxIDEgMTEtMTEgMTEuMDEgMTEuMDEgMCAwIDEtMTEgMTEiLz48cGF0aCBmaWxsPSIjQjIwRjAzIiBkPSJNMTcuMDM4IDE4LjYxNUgxNC44N0wxNC41NjMgOS41aDIuNzgzem0tMS4wODQgMS40MjdxLjY2IDAgMS4wNTcuMzg4LjQwNy4zODkuNDA3Ljk5NCAwIC41OTYtLjQwNy45ODQtLjM5Ny4zOS0xLjA1Ny4zODktLjY1IDAtMS4wNTYtLjM4OS0uMzk4LS4zODktLjM5OC0uOTg0IDAtLjU5Ny4zOTgtLjk4NS40MDYtL",
       "error": null
     }
   },
@@ -968,6 +968,24 @@
       },
       {
         "repo": "18F/identity-idp",
+        "sha": "557cdf126607fb6dc5cece7a05fb48423086a2d0",
+        "author": "Gerardo E. Cruz-Ortiz",
+        "githubLogin": "astrogeco",
+        "date": "2026-10-06T18:38:03Z",
+        "message": "[Team-Data, GL-1623] Add sp request_id to CloudWatch events (#13608)\n\nchangelog: Internal, Events, Load Testing, Adds session request_id to analytics events as sp_request_id, Fixes the CONFIRM NOW shortcut so load tests exercise the same confirmation routes and params as real users\n\n* Add sp_request_id to analytics events under properties. Fed from the sp session id.\n* Fix load testing bugs in register and add_email\n* Pass explicit nil value to platform_authenticator_available hidden fields\n* Add troubleshooting tips for interrupted gems\n\nAssisted by: Claude Opus 5, OpenCode 1.18.33",
+        "url": "https://github.com/18F/identity-idp/commit/557cdf126607fb6dc5cece7a05fb48423086a2d0"
+      },
+      {
+        "repo": "18F/identity-idp",
+        "sha": "2aa7400d8adac57bccf9d1622610bbbbbbf9a1ca",
+        "author": "Tai Groot",
+        "githubLogin": "taigrr",
+        "date": "2026-10-06T18:31:23Z",
+        "message": "Stop specs from deleting the global form-action CSP directive (#13617)\n\nActionDispatch::ContentSecurityPolicy directive methods are setters: calling\n`form_action` with no arguments deletes the directive. Specs that \"read\" it\nthis way stripped form-action from the application-wide policy whenever the\nrequest had not cloned it, so later specs (e.g. openid_connect_spec.rb:146)\nfailed depending on order. Read `directives['form-action']` instead.\n\nchangelog: Internal, Specs, Fix order-dependent failure caused by specs mutating the global CSP",
+        "url": "https://github.com/18F/identity-idp/commit/2aa7400d8adac57bccf9d1622610bbbbbbf9a1ca"
+      },
+      {
+        "repo": "18F/identity-idp",
         "sha": "75f8a55369d696a2102b4a1ac31ab9d5f089da5b",
         "author": "Malik Warren",
         "githubLogin": "Mawar2",
@@ -1217,24 +1235,6 @@
         "date": "2026-09-24T12:57:57Z",
         "message": "changelog: Bug Fixes, LookBook Component, Sanitize Component schemes to fix XSS issue (#13583)",
         "url": "https://github.com/18F/identity-idp/commit/f4f8500a9059e77dcc18d0b11dbeea69c4ba1b82"
-      },
-      {
-        "repo": "18F/identity-idp",
-        "sha": "54fa5f9d476a42d1cb49b5b5837ad5b30fd78809",
-        "author": "Vraj Mohan",
-        "githubLogin": "vrajmohan",
-        "date": "2026-09-23T20:09:58Z",
-        "message": "LG-17894 Log the extended reason codes enabled in reCaptcha (#13584)\n\nchangelog: Internal, Security, Log the extended reason codes enabled in reCaptcha",
-        "url": "https://github.com/18F/identity-idp/commit/54fa5f9d476a42d1cb49b5b5837ad5b30fd78809"
-      },
-      {
-        "repo": "18F/identity-idp",
-        "sha": "e8c3b367bbe9bb53c0743b9335962f6b4c93d6d3",
-        "author": "Daeron",
-        "githubLogin": "dlh-woc",
-        "date": "2026-09-23T20:01:25Z",
-        "message": "Revert \"SECURE-PROTOCOLS-120 Add optional PKCE support for private_key_jwt (#13561)\" (#13587)\n\nThis reverts commit df9128f7b178213f326226a3ecabeb513db784bf.\n\nThe feature introduced a regression that broke an integration, even with the flag set to false.\n\nCo-authored-by: AJ Farkas <aj.farkas@gsa.gov>",
-        "url": "https://github.com/18F/identity-idp/commit/e8c3b367bbe9bb53c0743b9335962f6b4c93d6d3"
       },
       {
         "repo": "GSA-TTS/identity-site",
@@ -2535,6 +2535,59 @@
       "error": null,
       "events": [
         {
+          "id": "23194698927",
+          "type": "PushEvent",
+          "repo": "18F/identity-idp",
+          "createdAt": "2026-10-06T18:31:31Z",
+          "ref": "refs/heads/site-keys/4-recovery",
+          "before": "9e0618469e1bfe54dbe06bd6bad4518dc9b52ad5",
+          "head": "af0472842f9a6a85747d3d4a2b10088334d3a522"
+        },
+        {
+          "id": "23194551036",
+          "type": "PushEvent",
+          "repo": "18F/identity-idp",
+          "createdAt": "2026-10-06T18:31:27Z",
+          "ref": "refs/heads/main",
+          "before": "75f8a55369d696a2102b4a1ac31ab9d5f089da5b",
+          "head": "2aa7400d8adac57bccf9d1622610bbbbbbf9a1ca"
+        },
+        {
+          "id": "23194174072",
+          "type": "PushEvent",
+          "repo": "18F/identity-idp",
+          "createdAt": "2026-10-06T18:31:30Z",
+          "ref": "refs/heads/site-keys/3-oidc",
+          "before": "4b5c080fc12df8f16109b20b6a70de2b05230eef",
+          "head": "542080dcee8da0c2a92670af8c68d26d5a538086"
+        },
+        {
+          "id": "23191311243",
+          "type": "PushEvent",
+          "repo": "18F/identity-idp",
+          "createdAt": "2026-10-06T18:31:31Z",
+          "ref": "refs/heads/site-keys/5-personal-key",
+          "before": "02fa1a6a433517b943d52cb51c342694c0c3d373",
+          "head": "75b21a2765ca0918f1d6208895bd3ff26ef1ea92"
+        },
+        {
+          "id": "23191309495",
+          "type": "PushEvent",
+          "repo": "18F/identity-idp",
+          "createdAt": "2026-10-06T18:31:30Z",
+          "ref": "refs/heads/site-keys/1-crypto",
+          "before": "cfce45c1db0a040ae8b162e66e696e8e0c1f5f08",
+          "head": "396d70b5a23f8207a50ee6d8ae8f1dbf1b53710d"
+        },
+        {
+          "id": "16573104093",
+          "type": "PullRequestEvent",
+          "repo": "18F/identity-idp",
+          "createdAt": "2026-10-06T18:31:23Z",
+          "action": "merged",
+          "number": 13617
+        },
+        {
           "id": "23178353223",
           "type": "CreateEvent",
           "repo": "18F/identity-idp",
@@ -2860,63 +2913,6 @@
           "ref": "refs/heads/cd/cache-warm-long-tools-feature",
           "before": "5dfdf01a627dab129c2a66929d58d5b4816e5064",
           "head": "8365f17284e5cfc81131ead80f739c5c16096a50"
-        },
-        {
-          "id": "16379177191",
-          "type": "PullRequestEvent",
-          "repo": "taigrr/crush",
-          "createdAt": "2026-10-04T09:30:14Z",
-          "action": "opened",
-          "number": 40
-        },
-        {
-          "id": "22955664736",
-          "type": "CreateEvent",
-          "repo": "taigrr/crush",
-          "createdAt": "2026-10-04T09:30:06Z",
-          "refType": "branch",
-          "ref": "cd/cache-warm-long-tools-feature"
-        },
-        {
-          "id": "16378950676",
-          "type": "PullRequestEvent",
-          "repo": "charmbracelet/crush",
-          "createdAt": "2026-10-04T09:22:56Z",
-          "action": "reopened",
-          "number": 4011
-        },
-        {
-          "id": "16378930614",
-          "type": "PullRequestEvent",
-          "repo": "charmbracelet/crush",
-          "createdAt": "2026-10-02T00:31:38Z",
-          "action": "closed",
-          "number": 4011
-        },
-        {
-          "id": "16377488756",
-          "type": "PullRequestEvent",
-          "repo": "taigrr/blastd",
-          "createdAt": "2026-10-04T08:35:29Z",
-          "action": "opened",
-          "number": 21
-        },
-        {
-          "id": "22952489401",
-          "type": "CreateEvent",
-          "repo": "taigrr/blastd",
-          "createdAt": "2026-10-04T08:35:14Z",
-          "refType": "branch",
-          "ref": "cd/fix-govulncheck"
-        },
-        {
-          "id": "22951471147",
-          "type": "PushEvent",
-          "repo": "18F/identity-idp",
-          "createdAt": "2026-10-04T08:17:37Z",
-          "ref": "refs/heads/sbx-taigrr",
-          "before": "fedbaf7d0c0a9f2fb7c0a714e4fe98ce8c3d8c5a",
-          "head": "f0b063dc7ed10da80f64a7463aff15475e5ce588"
         }
       ]
     },
@@ -3043,7 +3039,7 @@
         "up": 0,
         "down": 0,
         "totalReactions": 0,
-        "lastCheckedAt": "2026-10-06T17:30:43.423Z"
+        "lastCheckedAt": "2026-10-06T20:03:39.156Z"
       },
       {
         "kind": "issue",
@@ -3057,7 +3053,7 @@
         "up": 0,
         "down": 0,
         "totalReactions": 0,
-        "lastCheckedAt": "2026-10-06T17:30:43.423Z"
+        "lastCheckedAt": "2026-10-06T20:03:39.156Z"
       },
       {
         "kind": "issue",
@@ -3071,7 +3067,7 @@
         "up": 0,
         "down": 0,
         "totalReactions": 0,
-        "lastCheckedAt": "2026-10-06T17:30:43.423Z"
+        "lastCheckedAt": "2026-10-06T20:03:39.156Z"
       },
       {
         "kind": "issue",
@@ -3085,7 +3081,7 @@
         "up": 0,
         "down": 0,
         "totalReactions": 0,
-        "lastCheckedAt": "2026-10-06T17:30:43.423Z"
+        "lastCheckedAt": "2026-10-06T20:03:39.156Z"
       },
       {
         "kind": "issue",
@@ -3099,7 +3095,7 @@
         "up": 0,
         "down": 0,
         "totalReactions": 0,
-        "lastCheckedAt": "2026-10-06T17:30:43.423Z"
+        "lastCheckedAt": "2026-10-06T20:03:39.156Z"
       },
       {
         "kind": "issue",
@@ -3113,7 +3109,7 @@
         "up": 0,
         "down": 0,
         "totalReactions": 0,
-        "lastCheckedAt": "2026-10-06T17:30:43.423Z"
+        "lastCheckedAt": "2026-10-06T20:03:39.156Z"
       },
       {
         "kind": "issue",
@@ -3127,7 +3123,7 @@
         "up": 0,
         "down": 0,
         "totalReactions": 0,
-        "lastCheckedAt": "2026-10-06T17:30:43.423Z"
+        "lastCheckedAt": "2026-10-06T20:03:39.156Z"
       },
       {
         "kind": "issue",
@@ -3141,7 +3137,7 @@
         "up": 0,
         "down": 0,
         "totalReactions": 0,
-        "lastCheckedAt": "2026-10-06T17:30:43.423Z"
+        "lastCheckedAt": "2026-10-06T20:03:39.156Z"
       },
       {
         "kind": "issue",
@@ -3155,7 +3151,7 @@
         "up": 0,
         "down": 0,
         "totalReactions": 0,
-        "lastCheckedAt": "2026-10-06T17:30:43.423Z"
+        "lastCheckedAt": "2026-10-06T20:03:39.156Z"
       },
       {
         "kind": "issue",
@@ -3169,7 +3165,7 @@
         "up": 0,
         "down": 0,
         "totalReactions": 0,
-        "lastCheckedAt": "2026-10-06T17:30:43.423Z"
+        "lastCheckedAt": "2026-10-06T20:03:39.156Z"
       },
       {
         "kind": "issue",
@@ -3183,7 +3179,7 @@
         "up": 0,
         "down": 0,
         "totalReactions": 0,
-        "lastCheckedAt": "2026-10-06T17:30:43.423Z"
+        "lastCheckedAt": "2026-10-06T20:03:39.156Z"
       },
       {
         "kind": "issue",
@@ -3197,7 +3193,7 @@
         "up": 0,
         "down": 0,
         "totalReactions": 0,
-        "lastCheckedAt": "2026-10-06T17:30:43.423Z"
+        "lastCheckedAt": "2026-10-06T20:03:39.156Z"
       },
       {
         "kind": "issue",
@@ -3211,7 +3207,7 @@
         "up": 0,
         "down": 0,
         "totalReactions": 0,
-        "lastCheckedAt": "2026-10-06T17:30:43.423Z"
+        "lastCheckedAt": "2026-10-06T20:03:39.156Z"
       },
       {
         "kind": "issue",
@@ -3225,7 +3221,7 @@
         "up": 0,
         "down": 0,
         "totalReactions": 0,
-        "lastCheckedAt": "2026-10-06T17:30:43.423Z"
+        "lastCheckedAt": "2026-10-06T20:03:39.156Z"
       },
       {
         "kind": "issue",
@@ -3239,7 +3235,7 @@
         "up": 0,
         "down": 0,
         "totalReactions": 0,
-        "lastCheckedAt": "2026-10-06T17:30:43.423Z"
+        "lastCheckedAt": "2026-10-06T20:03:39.156Z"
       },
       {
         "kind": "issue",
@@ -3253,7 +3249,7 @@
         "up": 0,
         "down": 0,
         "totalReactions": 0,
-        "lastCheckedAt": "2026-10-06T17:30:43.423Z"
+        "lastCheckedAt": "2026-10-06T20:03:39.156Z"
       },
       {
         "kind": "issue",
@@ -3267,7 +3263,105 @@
         "up": 0,
         "down": 0,
         "totalReactions": 0,
-        "lastCheckedAt": "2026-10-06T17:30:43.423Z"
+        "lastCheckedAt": "2026-10-06T20:03:39.156Z"
+      },
+      {
+        "kind": "issue",
+        "id": 6023321230,
+        "repo": "uswds/uswds",
+        "issueNumber": 6979,
+        "author": "ajfarkas",
+        "body": "The contributor order is different in this presentation table, otherwise there is no change of information. Closing because this PR is unnecessary.",
+        "createdAt": "2026-10-06T18:57:56Z",
+        "url": "https://github.com/uswds/uswds/pull/6979#issuecomment-6023321230",
+        "up": 0,
+        "down": 0,
+        "totalReactions": 0,
+        "lastCheckedAt": "2026-10-06T20:03:39.156Z"
+      },
+      {
+        "kind": "issue",
+        "id": 6023412246,
+        "repo": "uswds/uswds",
+        "issueNumber": 6975,
+        "author": "ajfarkas",
+        "body": "> @ryparker Thanks, good catch. The 20.6 requirement was only for the Mocha loader hook, not the published package, so I reverted the `engines` change and kept `>=20`. The test setup now checks for `module.register()` and fails with a clear message on older Node. It also declares the component files as ESM, so the spec no longer depends on newer syntax detection. I verified it on Node 20.6.0 and 22. With the published range back to what's on `develop`, could the breaking label come off?\r\n\r\nI agree that this change works around the Node version issue. I've removed the breaking change label and will rebase and approve if everything looks  good.",
+        "createdAt": "2026-10-06T19:02:34Z",
+        "url": "https://github.com/uswds/uswds/pull/6975#issuecomment-6023412246",
+        "up": 0,
+        "down": 0,
+        "totalReactions": 0,
+        "lastCheckedAt": "2026-10-06T20:03:39.156Z"
+      },
+      {
+        "kind": "issue",
+        "id": 6023779309,
+        "repo": "uswds/uswds",
+        "issueNumber": 6975,
+        "author": "Raydman",
+        "body": "Thanks for the rebase @ajfarkas! It dropped the commit signatures, so I re-signed the same commits on top of develop. The diff is unchanged. Ready for your review.",
+        "createdAt": "2026-10-06T19:22:12Z",
+        "url": "https://github.com/uswds/uswds/pull/6975#issuecomment-6023779309",
+        "up": 0,
+        "down": 0,
+        "totalReactions": 0,
+        "lastCheckedAt": "2026-10-06T20:03:39.156Z"
+      },
+      {
+        "kind": "issue",
+        "id": 6023968205,
+        "repo": "uswds/uswds",
+        "issueNumber": 7003,
+        "author": "github-actions[bot]",
+        "body": "✅ All commits on this PR have a verified signature. Thanks!\n<!-- Sticky Pull Request Commentverify-commits -->",
+        "createdAt": "2026-10-06T19:33:42Z",
+        "url": "https://github.com/uswds/uswds/pull/7003#issuecomment-6023968205",
+        "up": 0,
+        "down": 0,
+        "totalReactions": 0,
+        "lastCheckedAt": "2026-10-06T20:03:39.156Z"
+      },
+      {
+        "kind": "issue",
+        "id": 6023974630,
+        "repo": "uswds/uswds",
+        "issueNumber": 7003,
+        "author": "coderabbitai[bot]",
+        "body": "<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- review_stack_entry_start -->\n\n<a href=\"https://app.coderabbit.ai/change-stack/uswds/uswds/pull/7003?scope=ghh_OusAJGA4HG8ljoOV0wJvVx8NmnZIjc2DdjmxOu0xZWA&amp;cs_source=review_comment\"><img src=\"https://storage.googleapis.com/coderabbit_public_assets/review-stack-in-coderabbit-ui-dark.svg?v=2\" alt=\"Review in Change Stack →\" width=\"220\" height=\"32\"></a>\n\n<!-- review_stack_entry_end -->\n<!-- recent_review_start -->\n\nNo actionable comments were generated in the recent review. 🎉\n\n<details>\n<summary>ℹ️ Recent review info</summary>\n\n<details>\n<summary>⚙️ Run configuration</summary>\n\n- **Configuration used**: Repository: uswds/uswds/.coderabbit.yaml\n- **Review profile**: QUIET\n- **Plan**: Advanced\n- **Run ID**: `c1be961c-22c7-49e4-b60e-664ebcdee583`\n\n</details>\n\n<details>\n<summary>📥 Commits</summary>\n\nReviewing files that changed from the base of the PR and between be09ab9d454b32dc764d5cdceb653444cd9a8fb6 and 9665e075a09ceb3e2a1229dadcd12ff8f79b6808.\n\n</details>\n\n<details>\n<summary>📒 Files selected for processing (3)</summary>\n\n* `.circleci/config.yml`\n* `package-lock.json`\n* `package.json`\n\n</details>\n\n**Included review availability:** This review used your included allowance. Your plan provides up to 8 included reviews per hour; 6 remain after this review.\n\n</details>\n\n---\n\n\n\n<!-- recent_review_end -->\n<!-- walkthrough_start -->\n\n<details>\n<summary>📝 Summary</summary>\n\n<!-- This is an auto-generated comment: release notes by coderabbit.ai -->\n\n## Summary by CodeRabbit\n\n* **Chores**\n  * Updated the security-scanning tools used in automated checks to newer versions. This maintenance update affects the project’s development and CI setup; it does not add or change application features or alter the end-user experience. No other user-facing changes are included in this release.\n\n<!-- end of auto-generated comment: release notes by coderabbit.ai -->\n## Walkthrough\n\nThe Snyk development dependency changes from 1.1306.2 to 1.1307.4. The lockfile records its bundled dependencies. The CircleCI Snyk orb changes from 1.1.2 to 2.3.0.\n\n### Changes\n\n**Snyk tooling update**\n\n|Layer / File(s)|Summary|\n|:---|:---|\n|**Snyk versions and lockfile** <br> `package.json`, `package-lock.json`, `.circleci/config.yml`|The Snyk development dependency changes to 1.1307.4, and the CircleCI Snyk orb changes to 2.3.0. The lockfile records Snyk's bundled dependencies and removes their corresponding standalone entries.|\n\n<!-- change_assessment_start -->\n**Priority:** ➖ Normal\n\n**Estimated code review effort:** 2 (Simple) | ~8 minutes\n\n<!-- change_assessment_commit:\"9665e075a09ceb3e2a1229dadcd12ff8f79b6808\" -->\n**Change:** Other · **Severity of issue fixed:** Medium\n<!-- change_assessment_end -->\n\n</details>\n\n<!-- walkthrough_end -->\n<!-- final_review_risk_start -->\n**Merge Risk:** _⚪ Minimal_ · up to `9665e`\n<!-- final_review_risk_coverage:{\"sourceCommitId\":\"9665e075a09ceb3e2a1229dadcd12ff8f79b6808\",\"coveredCommitId\":\"9665e075a09ceb3e2a1229dadcd12ff8f79b6808\",\"kind\":\"reviewed\"} -->\n\nThe Snyk version declarations agree, and the CircleCI step remains compatible with the upgraded orb. No concrete issue remains that should delay merging.\n<!-- final_review_risk_end -->\n<!-- pre_merge_checks_walkthrough_start -->\n\n<details>\n<summary>🚥 Pre-merge checks | ✅ 10</summary>\n\n<details>\n<summary>✅ Passed checks (10 passed)</summary>\n\n|              Check name             | Status   | Explanation                                                                                                                                                                                               |\n| :---------------------------------: | :------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |\n|             Title check             | ✅ Passed | The title follows the required conventional format and describes the CircleCI Snyk orb update, which is part of the changeset. It does not mention the Snyk package update.                               |\n|          Description check          | ✅ Passed | The description explains the Snyk package and CircleCI orb updates, their purpose, and the reported test run. It is relevant to the changeset.                                                            |\n|         Linked Issues check         | ✅ Passed | Issue `#7002` asks for a Snyk update to help debug failing CI builds and improve security and developer experience. The PR updates the `snyk` devDependency from 1.1306.2 to 1.1307.4 and the CircleCI Sny… |\n|      Out of Scope Changes check     | ✅ Passed | The reported changes are limited to the Snyk package, its lockfile entries, and the CircleCI Snyk orb. Each change supports the Snyk update requested by issue `#7002`. The repository diff could not be f… |\n|       Breaking Change Declared      | ✅ Passed | The PR description contains exactly one template statement: “This is not a breaking change.” The reviewed diff changes only the CircleCI Snyk orb and the Snyk package and lockfile entries. It does not… |\n|      No New Runtime Dependency      | ✅ Passed | The `dependencies` field is unchanged: both base and head list only `lit` at `3.3.3`. The `snyk` change is in `devDependencies`. The PR changes no production JavaScript files under `packages/**/src/**… |\n|  Regression Test Targets The Change | ✅ Passed | The changed-file inventory contains only `.circleci/config.yml`, `package.json`, and `package-lock.json`. The diff updates the CircleCI Snyk orb and the Snyk development dependency and its lockfile en… |\n|      New Api Surface Follow-Ups     | ✅ Passed | The check does not apply. The PR changes only `.circleci/config.yml`, `package.json`, and `package-lock.json` to update Snyk versions. The diff adds no `$theme-*` setting, public Sass mixin or functio… |\n| Accessibility Verification Declared | ✅ Passed | The check does not apply. The PR diff only updates the Snyk CircleCI orb and the Snyk package and lockfile; it changes no ARIA attributes, focus management, keyboard handling, screen reader text, or f… |\n|        Theme Token Discipline       | ✅ Passed | The pull request changes only `.circleci/config.yml`, `package-lock.json`, and `package.json`. It changes no `*.scss` files under `packages/`, so the theme token discipline check does not apply.        |\n\n</details>\n\n</details>\n\n<!-- pre_merge_checks_walkthrough_end -->\n<!-- autopilot:start -->\n- [ ] <!-- {\"checkboxId\":\"2708ad07-9f24-4260-9c11-7dc76a49f2e3\"} --> <strong title=\"Keep fixing CodeRabbit findings and required CI, and resolving merge conflicts\">Autopilot</strong> · Keep fixing CodeRabbit findings and required CI, and resolving merge conflicts\n<!-- autopilot:end -->\n<!-- tips_start -->\n\n---\n\nThanks for using [CodeRabbit](https://coderabbit.ai?utm_source=oss&utm_medium=github&utm_campaign=uswds/uswds&utm_content=7003)! It's free for OSS, and your support helps us grow. If you like it, consider giving us a shout-out.\n\n<details>\n<summary>❤️ Share</summary>\n\n- [X](https://twitter.com/intent/tweet?text=I%20just%20used%20%40coderabbitai%20for%20my%20code%20review%2C%20and%20it%27s%20fantastic%21%20It%27s%20free%20for%20OSS%20and%20offers%20a%20free%20trial%20for%20the%20proprietary%20code.%20Check%20it%20out%3A&url=https%3A//coderabbit.ai)\n- [Mastodon](https://mastodon.social/share?text=I%20just%20used%20%40coderabbitai%20for%20my%20code%20review%2C%20and%20it%27s%20fantastic%21%20It%27s%20free%20for%20OSS%20and%20offers%20a%20free%20trial%20for%20the%20proprietary%20code.%20Check%20it%20out%3A%20https%3A%2F%2Fcoderabbit.ai)\n- [Reddit](https://www.reddit.com/submit?title=Great%20tool%20for%20code%20review%20-%20CodeRabbit&text=I%20just%20used%20CodeRabbit%20for%20my%20code%20review%2C%20and%20it%27s%20fantastic%21%20It%27s%20free%20for%20OSS%20and%20offers%20a%20free%20trial%20for%20proprietary%20code.%20Check%20it%20out%3A%20https%3A//coderabbit.ai)\n- [LinkedIn](https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fcoderabbit.ai&mini=true&title=Great%20tool%20for%20code%20review%20-%20CodeRabbit&summary=I%20just%20used%20CodeRabbit%20for%20my%20code%20review%2C%20and%20it%27s%20fantastic%21%20It%27s%20free%20for%20OSS%20and%20offers%20a%20free%20trial%20for%20proprietary%20code)\n\n</details>\n\n\n<sub>Comment `@coderabbitai help` to get the list of available commands.</sub>\n\n<!-- tips_end -->",
+        "createdAt": "2026-10-06T19:34:06Z",
+        "url": "https://github.com/uswds/uswds/pull/7003#issuecomment-6023974630",
+        "up": 0,
+        "down": 0,
+        "totalReactions": 0,
+        "lastCheckedAt": "2026-10-06T20:03:39.156Z"
+      },
+      {
+        "kind": "issue",
+        "id": 6022974691,
+        "repo": "18F/identity-idp",
+        "issueNumber": 13608,
+        "author": "astrogeco",
+        "body": "## Extra docs (already in commit history)\r\n\r\n### Hidden Field Tags Fix \r\n\r\n**Why**:\r\n- `hidden_field_tag(name, value = nil, options = {})` has no keyword params, so\r\n  the four call sites that omit the value bind their `id:` hash to `value`,\r\n  rendering a stringified hash as the field's value instead of an empty string.\r\n\r\n**How**:\r\n- Pass `nil` explicitly at the four sites, matching sign_up/passwords/new.html.erb.\r\n- Assert the rendered value is empty in the affected view specs.\r\n\r\n### Confirm Now fix\r\n\r\n**Why**:\r\n- The add-email verify page's CONFIRM NOW link pointed at\r\n  `sign_up_create_email_confirmation_url`, the registration confirmation\r\n  route, so the load-testing shortcut never exercised the add-email\r\n  confirmation it was standing in for.\r\n- Its `EmailAddress.find_with_email` lookup was unscoped and could\r\n  resolve a row belonging to a different user.\r\n- Both the add-email and registration links omitted params the real\r\n  confirmation emails carry (`request_id`/`_request_id`, `locale`,\r\n  `from_select_email_flow`), so load tests drove a different code path\r\n  than production users.\r\n- Four `platform_authenticator_available` hidden fields omitted the\r\n  positional value argument to `hidden_field_tag(name, value, options)`,\r\n  binding the `id:` hash to `value` and rendering a stringified hash.\r\n\r\n**How**:\r\n- Point the add-email link at `add_email_confirmation_url`, scope the\r\n  lookup to `current_user`, and pass the params the mailer passes.\r\n- Add `_request_id` and `locale` to both registration links.\r\n- Pass an explicit `nil` value at the four hidden-field call sites.\r\n- Add a load-testing feature spec that fails on the wrong route, plus\r\n  view-spec coverage for the link params and the hidden-field value.\r\n",
+        "createdAt": "2026-10-06T18:37:40Z",
+        "url": "https://github.com/18F/identity-idp/pull/13608#issuecomment-6022974691",
+        "up": 0,
+        "down": 0,
+        "totalReactions": 0,
+        "lastCheckedAt": "2026-10-06T20:03:39.156Z"
+      },
+      {
+        "kind": "issue",
+        "id": 6023904956,
+        "repo": "18F/identity-idp",
+        "issueNumber": 13476,
+        "author": "tahineemay",
+        "body": "Holding merge for now - I want us to deep dive into the existing transactions results AND I want the Fraud team to review current transaction to make a binary call on whether we will bring the functionality of the phone check to parity with NIST Rev 4 or continue the checks. Not acting the results of the checks without a thorough analysis of the transactions we have today, seems counterintuitive. There should be a data-informed decision to run the check or not, as it comes at a cost now that we are using two vendors.",
+        "createdAt": "2026-10-06T19:29:51Z",
+        "url": "https://github.com/18F/identity-idp/pull/13476#issuecomment-6023904956",
+        "up": 0,
+        "down": 0,
+        "totalReactions": 0,
+        "lastCheckedAt": "2026-10-06T20:03:39.156Z"
       },
       {
         "kind": "discussion",
@@ -3293,7 +3387,7 @@
         "url": "https://github.com/uswds/uswds/discussions/6987#discussioncomment-18764867",
         "up": 1,
         "down": 0,
-        "lastCheckedAt": "2026-10-06T17:30:45.813Z"
+        "lastCheckedAt": "2026-10-06T20:03:41.042Z"
       }
     ]
   },
@@ -3315,9 +3409,9 @@
       "server": "cloudflare",
       "via": null,
       "x_vercel_id": null,
-      "cf_ray": "a466653bdd092975-DFW",
+      "cf_ray": "a4674540be6e2ee5-LAX",
       "hsts": "max-age=15552000; includeSubDomains; preload",
-      "csp": "default-src 'none'; script-src 'nonce-908PNtVZmCqIzIDdnNq3kk' 'unsafe-eval' https://challenges.fed.cloudflare.com; script-src-attr 'none'; style-src 'unsafe-inline'; img-src 'self' https://challenges.fed.cloudflare.com; connect-src 'self' https://challenges.fed.cloudflare.com; frame-src 'self' https://challenges.fed.cloudflare.com blob:; child-src 'self' https://challenges.fed.cloudflare.com blob:; worker-src blob:; form-action http: https:; base-uri 'self'",
+      "csp": "default-src 'none'; script-src 'nonce-JYBowmKgPSfHEHFdcUNRMz' 'unsafe-eval' https://challenges.fed.cloudflare.com; script-src-attr 'none'; style-src 'unsafe-inline'; img-src 'self' https://challenges.fed.cloudflare.com; connect-src 'self' https://challenges.fed.cloudflare.com; frame-src 'self' https://challenges.fed.cloudflare.com blob:; child-src 'self' https://challenges.fed.cloudflare.com blob:; worker-src blob:; form-action http: https:; base-uri 'self'",
       "x_powered_by": null,
       "looks_like_akamai": false,
       "looks_like_cloudflare": true
