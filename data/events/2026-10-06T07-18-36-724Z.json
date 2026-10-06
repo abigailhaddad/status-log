@@ -1,0 +1,13 @@
+{
+  "timestamp": "2026-10-06T07:18:36.724Z",
+  "events": [
+    {
+      "type": "NEW_REPO_COMMITS",
+      "detail": "[18F/identity-idp] 75f8a55 LG-17896 Redirect DocV user with undetected mDL to Choose ID Type screen (#13459) — Malik Warren\n  `https://github.com/18F/identity-idp/commit/75f8a55369d696a2102b4a1ac31ab9d5f089da5b`"
+    },
+    {
+      "type": "NEW_PERSON_ACTIVITY",
+      "detail": "taigrr:\n[2026-10-06T06:37:06Z] opened PR #357 on gogrlx/grlx: \"fix(facts): clear stale sprout IP props\" (`https://github.com/gogrlx/grlx/pull/357`)\n\n[2026-10-04T19:22:40Z] pushed to taigrr/crush (cd/cache-warm-long-tools):\n  4ee345d fix(agent): send tools in cache warm request so it refreshes the live prefix\n\n[2026-10-05T18:52:41Z] pushed to taigrr/ssh-mcp (master):\n  d77ff1a chore(deps): bump the gomod group across 1 directory with 2 updates (#20)\n\n[2026-10-05T00:28:23Z] pushed to taigrr/crush (feature):\n  614fb7b upgrade deps"
+    }
+  ]
+}
