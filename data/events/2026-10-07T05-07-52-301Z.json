@@ -1,0 +1,13 @@
+{
+  "timestamp": "2026-10-07T05:07:52.301Z",
+  "events": [
+    {
+      "type": "NEW_COMMENT",
+      "detail": "ravitejapioneerblaze-code commented on `uswds/uswds#6980`: Hi team, the commit is now verified, and the Snyk step in circle-uswds is failing with an enrichment error (SNYK-CLI-0000) that looks unrelated to this change. Could someone re-run the workflow?\n  `https://github.com/uswds/uswds/pull/6980#issuecomment-6026493733`"
+    },
+    {
+      "type": "NEW_PERSON_ACTIVITY",
+      "detail": "taigrr:\n[2026-10-05T20:21:45Z] pushed to taigrr/toga (master):\n  fa38672 Add AGENTS.md: release tags must track the Go version\n\n[2026-10-06T15:43:43Z] created branch \"site-keys/4-recovery\" on 18F/identity-idp\n\n[2026-10-06T22:35:22Z] pushed to taigrr/fantasy (main):\n  f28adce feat(cloudflare): add Clef evaluation provider for Workers AI"
+    }
+  ]
+}
