@@ -1,0 +1,17 @@
+{
+  "timestamp": "2026-10-07T20:28:15.210Z",
+  "events": [
+    {
+      "type": "NEW_REPO_COMMITS",
+      "detail": "[GSA-TTS/identity-dev-docs] 0275288 Merge pull request #643 from GSA-TTS/nadyaprimak/release-notes/rc-2026-09-23 — Jeremy Curcio\n  `https://github.com/GSA-TTS/identity-dev-docs/commit/027528821e952038fcc1c4430c99e238539a6ee7`\n\n[GSA-TTS/identity-dev-docs] c92b4c4 fix typo — Nadya Primak\n  `https://github.com/GSA-TTS/identity-dev-docs/commit/c92b4c4941882bd820e953905d258e54d6b36f9a`\n\n[GSA-TTS/identity-dev-docs] 8307e17 Release Notes for RC 2026-09-23 — Nadya Primak\n  `https://github.com/GSA-TTS/identity-dev-docs/commit/8307e174eb848b286c300c6e05dc7efd080ce42e`"
+    },
+    {
+      "type": "NEW_COMMENT",
+      "detail": "chughes87 commented on `uswds/uswds#6801`: One of my projects is suffering from the issue this PR intends to fix. It would be nice to get this in!\n  `https://github.com/uswds/uswds/pull/6801#issuecomment-6046215978`"
+    },
+    {
+      "type": "NEW_PERSON_ACTIVITY",
+      "detail": "taigrr:\n[2026-10-06T23:14:24Z] pushed to taigrr/gojev (main):\n  d856c5f feat: add Cloudflare Clef provider, endpoint overrides, and npm releases"
+    }
+  ]
+}
