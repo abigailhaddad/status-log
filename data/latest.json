@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-07T20:28:15.210Z",
+  "timestamp": "2026-10-07T23:54:28.930Z",
   "live": true,
   "dns": {
     "america.gov": {
@@ -23,8 +23,8 @@
     "www.america.gov": {
       "host": "www.america.gov",
       "a": [
-        "162.159.212.165",
-        "172.64.96.165"
+        "172.64.96.165",
+        "162.159.212.165"
       ],
       "aaaa": [
         "2606:54c1:10::ac40:60a5",
@@ -43,15 +43,15 @@
       "finalHeaders": {
         "cache-control": "private, no-store, no-transform",
         "cf-cache-status": "HIT",
-        "cf-ray": "a46fa6e49f295e82-EWR",
+        "cf-ray": "a470d4ddb976bd97-LAX",
         "connection": "keep-alive",
-        "content-security-policy": "default-src 'none'; base-uri 'none'; object-src 'none'; form-action 'self'; font-src 'self' data:; worker-src 'self' blob:; img-src 'self' data: blob:; connect-src 'self'; media-src 'self' blob: data:; frame-src 'self'; frame-ancestors 'none'; script-src 'self' 'wasm-unsafe-eval' 'sha256-C/MS+M/q1h7xMxxNkNmnZprjEO47QsxjqiCQNBjCD2A=' 'sha256-BF0290pkb3jxQsE7z00xR8Imp8X34FLC88L0lkMnrGw=' 'sha256-QzWFZi+FLIx23tnm9SBU4aEgx4x8DsuASP07mfqol/c=' 'sha256-0chmwFk0zaA528yFfGV7J9ppIpdfTPPULncDF3WG7Zs=' 'sha256-eIXWvAmxkr251LJZkjniEK5LcPF3NkapbJepohwYRIc=' 'sha256-Q2BPg90ZMplYY+FSdApNErhpWafg2hcRRbndmvxuL/Q=' 'sha256-Ya0pUYrC7nM5Cn/056TyVuEiz6dFGrzmkWzgON0pF0U=' 'sha256-SHXg3YtOAVshUMT3f+eElYDgbV0kaujWj8DSaXSS4Vs=' 'sha256-o6WEQ95Zktx2KYiIWpEgR5AD0cnj7ycU4MOAX5wRQ0Q=' 'sha256-umIJp04nPDeLKwAOXJ27vwAx1PnvlIR58a9pS/1HP5M=' 'nonce-mFQPehxnOzv1qOAJCYgMXWhU'; script-src-attr 'none'; style-src 'self' 'unsafe-inline', base-uri 'none'; object-src 'none'; form-action 'self'; font-src 'self' data:; worker-src 'self' blob:; img-src 'self' data: blob:; connect-src 'self'; media-src 'self' blob: data:; frame-src https://america.gov/cdn-cgi/challenge-platform/; frame-ancestors 'none'",
+        "content-security-policy": "default-src 'none'; base-uri 'none'; object-src 'none'; form-action 'self'; font-src 'self' data:; worker-src 'self' blob:; img-src 'self' data: blob:; connect-src 'self'; media-src 'self' blob: data:; frame-src 'self'; frame-ancestors 'none'; script-src 'self' 'wasm-unsafe-eval' 'sha256-C/MS+M/q1h7xMxxNkNmnZprjEO47QsxjqiCQNBjCD2A=' 'sha256-BF0290pkb3jxQsE7z00xR8Imp8X34FLC88L0lkMnrGw=' 'sha256-QzWFZi+FLIx23tnm9SBU4aEgx4x8DsuASP07mfqol/c=' 'sha256-0chmwFk0zaA528yFfGV7J9ppIpdfTPPULncDF3WG7Zs=' 'sha256-eIXWvAmxkr251LJZkjniEK5LcPF3NkapbJepohwYRIc=' 'sha256-Q2BPg90ZMplYY+FSdApNErhpWafg2hcRRbndmvxuL/Q=' 'sha256-Ya0pUYrC7nM5Cn/056TyVuEiz6dFGrzmkWzgON0pF0U=' 'sha256-SHXg3YtOAVshUMT3f+eElYDgbV0kaujWj8DSaXSS4Vs=' 'sha256-o6WEQ95Zktx2KYiIWpEgR5AD0cnj7ycU4MOAX5wRQ0Q=' 'sha256-umIJp04nPDeLKwAOXJ27vwAx1PnvlIR58a9pS/1HP5M=' 'nonce-LA1Xn7aelucY2Cb688ILPbXB'; script-src-attr 'none'; style-src 'self' 'unsafe-inline', base-uri 'none'; object-src 'none'; form-action 'self'; font-src 'self' data:; worker-src 'self' blob:; img-src 'self' data: blob:; connect-src 'self'; media-src 'self' blob: data:; frame-src https://america.gov/cdn-cgi/challenge-platform/; frame-ancestors 'none'",
         "content-type": "text/html",
-        "date": "Wed, 07 Oct 2026 20:28:23 GMT",
+        "date": "Wed, 07 Oct 2026 23:54:31 GMT",
         "permissions-policy": "camera=(), microphone=(self), geolocation=(), payment=(), usb=()",
         "referrer-policy": "no-referrer",
         "server": "cloudflare",
-        "set-cookie": "__cf_bm=hdXSbdcvfDPkrXopYrq0zwwf_EtPsJJs5pkEIsc.vtk-1791404903.1385431-1.0.1.1-v3.2QOExJG37wD57uostJK55m1fDKh.M8k3TsIVnqnmlwcpx3WInJqSD7zNO1aYrKHuDIIhnEBFguD6vMLGFwuYQ6hrG7jKHpZ9lomAFF2a8J5wB_d1ObsnwI1gtoi8m; HttpOnly; SameSite=None; Secure; Path=/; Domain=america.gov; Expires=Wed, 07 Oct 2026 20:58:23 GMT",
+        "set-cookie": "__cf_bm=1doP_ncQ92iQCUqY7R8DW6TEFz18uLUXelIt3Fk7nWQ-1791417271.9604015-1.0.1.1-QR8eZwJ7rzstM9C1VRp4PGbZGGSvpQ_dAPZzmDrO2v.R8z1DTq0Ol59m0Nmbr2CZ22sYn1eFet2ygLfYFrwR.UKUL.vXPhs0MM48UKHOUQv8XV493.dJkSwzNcyIvRwD; HttpOnly; SameSite=None; Secure; Path=/; Domain=america.gov; Expires=Thu, 08 Oct 2026 00:24:31 GMT",
         "strict-transport-security": "max-age=15552000; includeSubDomains; preload",
         "transfer-encoding": "chunked",
         "x-content-type-options": "nosniff",
@@ -64,15 +64,15 @@
           "headers": {
             "cache-control": "private, no-store, no-transform",
             "cf-cache-status": "HIT",
-            "cf-ray": "a46fa6e49f295e82-EWR",
+            "cf-ray": "a470d4ddb976bd97-LAX",
             "connection": "keep-alive",
-            "content-security-policy": "default-src 'none'; base-uri 'none'; object-src 'none'; form-action 'self'; font-src 'self' data:; worker-src 'self' blob:; img-src 'self' data: blob:; connect-src 'self'; media-src 'self' blob: data:; frame-src 'self'; frame-ancestors 'none'; script-src 'self' 'wasm-unsafe-eval' 'sha256-C/MS+M/q1h7xMxxNkNmnZprjEO47QsxjqiCQNBjCD2A=' 'sha256-BF0290pkb3jxQsE7z00xR8Imp8X34FLC88L0lkMnrGw=' 'sha256-QzWFZi+FLIx23tnm9SBU4aEgx4x8DsuASP07mfqol/c=' 'sha256-0chmwFk0zaA528yFfGV7J9ppIpdfTPPULncDF3WG7Zs=' 'sha256-eIXWvAmxkr251LJZkjniEK5LcPF3NkapbJepohwYRIc=' 'sha256-Q2BPg90ZMplYY+FSdApNErhpWafg2hcRRbndmvxuL/Q=' 'sha256-Ya0pUYrC7nM5Cn/056TyVuEiz6dFGrzmkWzgON0pF0U=' 'sha256-SHXg3YtOAVshUMT3f+eElYDgbV0kaujWj8DSaXSS4Vs=' 'sha256-o6WEQ95Zktx2KYiIWpEgR5AD0cnj7ycU4MOAX5wRQ0Q=' 'sha256-umIJp04nPDeLKwAOXJ27vwAx1PnvlIR58a9pS/1HP5M=' 'nonce-mFQPehxnOzv1qOAJCYgMXWhU'; script-src-attr 'none'; style-src 'self' 'unsafe-inline', base-uri 'none'; object-src 'none'; form-action 'self'; font-src 'self' data:; worker-src 'self' blob:; img-src 'self' data: blob:; connect-src 'self'; media-src 'self' blob: data:; frame-src https://america.gov/cdn-cgi/challenge-platform/; frame-ancestors 'none'",
+            "content-security-policy": "default-src 'none'; base-uri 'none'; object-src 'none'; form-action 'self'; font-src 'self' data:; worker-src 'self' blob:; img-src 'self' data: blob:; connect-src 'self'; media-src 'self' blob: data:; frame-src 'self'; frame-ancestors 'none'; script-src 'self' 'wasm-unsafe-eval' 'sha256-C/MS+M/q1h7xMxxNkNmnZprjEO47QsxjqiCQNBjCD2A=' 'sha256-BF0290pkb3jxQsE7z00xR8Imp8X34FLC88L0lkMnrGw=' 'sha256-QzWFZi+FLIx23tnm9SBU4aEgx4x8DsuASP07mfqol/c=' 'sha256-0chmwFk0zaA528yFfGV7J9ppIpdfTPPULncDF3WG7Zs=' 'sha256-eIXWvAmxkr251LJZkjniEK5LcPF3NkapbJepohwYRIc=' 'sha256-Q2BPg90ZMplYY+FSdApNErhpWafg2hcRRbndmvxuL/Q=' 'sha256-Ya0pUYrC7nM5Cn/056TyVuEiz6dFGrzmkWzgON0pF0U=' 'sha256-SHXg3YtOAVshUMT3f+eElYDgbV0kaujWj8DSaXSS4Vs=' 'sha256-o6WEQ95Zktx2KYiIWpEgR5AD0cnj7ycU4MOAX5wRQ0Q=' 'sha256-umIJp04nPDeLKwAOXJ27vwAx1PnvlIR58a9pS/1HP5M=' 'nonce-LA1Xn7aelucY2Cb688ILPbXB'; script-src-attr 'none'; style-src 'self' 'unsafe-inline', base-uri 'none'; object-src 'none'; form-action 'self'; font-src 'self' data:; worker-src 'self' blob:; img-src 'self' data: blob:; connect-src 'self'; media-src 'self' blob: data:; frame-src https://america.gov/cdn-cgi/challenge-platform/; frame-ancestors 'none'",
             "content-type": "text/html",
-            "date": "Wed, 07 Oct 2026 20:28:23 GMT",
+            "date": "Wed, 07 Oct 2026 23:54:31 GMT",
             "permissions-policy": "camera=(), microphone=(self), geolocation=(), payment=(), usb=()",
             "referrer-policy": "no-referrer",
             "server": "cloudflare",
-            "set-cookie": "__cf_bm=hdXSbdcvfDPkrXopYrq0zwwf_EtPsJJs5pkEIsc.vtk-1791404903.1385431-1.0.1.1-v3.2QOExJG37wD57uostJK55m1fDKh.M8k3TsIVnqnmlwcpx3WInJqSD7zNO1aYrKHuDIIhnEBFguD6vMLGFwuYQ6hrG7jKHpZ9lomAFF2a8J5wB_d1ObsnwI1gtoi8m; HttpOnly; SameSite=None; Secure; Path=/; Domain=america.gov; Expires=Wed, 07 Oct 2026 20:58:23 GMT",
+            "set-cookie": "__cf_bm=1doP_ncQ92iQCUqY7R8DW6TEFz18uLUXelIt3Fk7nWQ-1791417271.9604015-1.0.1.1-QR8eZwJ7rzstM9C1VRp4PGbZGGSvpQ_dAPZzmDrO2v.R8z1DTq0Ol59m0Nmbr2CZ22sYn1eFet2ygLfYFrwR.UKUL.vXPhs0MM48UKHOUQv8XV493.dJkSwzNcyIvRwD; HttpOnly; SameSite=None; Secure; Path=/; Domain=america.gov; Expires=Thu, 08 Oct 2026 00:24:31 GMT",
             "strict-transport-security": "max-age=15552000; includeSubDomains; preload",
             "transfer-encoding": "chunked",
             "x-content-type-options": "nosniff",
@@ -80,8 +80,8 @@
           }
         }
       ],
-      "bodyLength": 296451,
-      "bodySnippet": "<!DOCTYPE html><html lang=\"en\" dir=\"ltr\"><head><style>\n/* Preserve the navigation's position across document loads and chat handoffs. */\n@view-transition {\n  navigation: auto;\n}\n\n:root {\n  view-transition-name: none;\n}\n\n.site-home-link {\n  view-transition-name: site-nav-logo;\n}\n\n.site-menu-trigger {\n  view-transition-name: site-nav-menu;\n}\n\n:root:active-view-transition .site-header {\n  transition: none;\n}\n\n::view-transition-group(site-nav-logo),\n::view-transition-group(site-nav-menu) {\n  animation-duration: 300ms;\n  animation-timing-function: var(--ease-drawer);\n}\n\n@media (prefers-reduced-motion: reduce) {\n  ::view-transition-group(site-nav-logo),\n  ::view-transition-group(site-nav-menu) {\n    animation-duration: 0s;\n  }\n}\n\n    </style><meta charset=\"utf-8\"><meta name=\"america-build-id\" content=\"16d9cd741c48149a963cb36715648f7c1e04a838\"><script>(function(){const languageQueryParam = \"lang\";\nconst languageOptions = [\"en\",\"fr\",\"es\"];\n\n      const saved = new URLSearchParams(location.search).get(languageQueryParam);\n      const preferred = languageOptions.includes(saved) ? saved : \"en\";\n      if (!/^en(?:-|$)/i.test(preferred)) {\n        document.documentElement.dataset.languagePending = \"\";\n        setTimeout(() => { delete document.documentElement.dataset.languagePending; }, 3000);\n      }\n    })();</script><script type=\"module\" src=\"/_astro/base-html.astro_astro_type_script_index_0_lang.DXY2Dhr9.js\"></script><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, viewport-fit=cover\"><link rel=\"preload\" href=\"/_astro/rhymes-text-regular.DRsO9i-l.woff2\" as=\"font\" type=\"font/woff2\" crossorigin=\"\"><link rel=\"icon\" href=\"/favicon.ico\" sizes=\"16x16 32x32 48x48\"><link rel=\"icon\" href=\"/favicon.svg\" type=\"image/svg+xml\"><link rel=\"apple-touch-icon\" href=\"/apple-touch-icon.png\" sizes=\"180x180\"><meta name=\"apple-mobile-web-app-title\" content=\"America.gov\"><title data-site-en=\"America.gov\" data-site-fr=\"America.gov\" data-site-es=\"America.gov\">America.gov</title><sc",
+      "bodyLength": 294769,
+      "bodySnippet": "<!DOCTYPE html><html lang=\"en\" dir=\"ltr\"><head><style>\n/* Preserve the navigation's position across document loads and chat handoffs. */\n@view-transition {\n  navigation: auto;\n}\n\n:root {\n  view-transition-name: none;\n}\n\n.site-home-link {\n  view-transition-name: site-nav-logo;\n}\n\n.site-menu-trigger {\n  view-transition-name: site-nav-menu;\n}\n\n:root:active-view-transition .site-header {\n  transition: none;\n}\n\n::view-transition-group(site-nav-logo),\n::view-transition-group(site-nav-menu) {\n  animation-duration: 300ms;\n  animation-timing-function: var(--ease-drawer);\n}\n\n@media (prefers-reduced-motion: reduce) {\n  ::view-transition-group(site-nav-logo),\n  ::view-transition-group(site-nav-menu) {\n    animation-duration: 0s;\n  }\n}\n\n    </style><meta charset=\"utf-8\"><meta name=\"america-build-id\" content=\"4e139e5e1c066962187a9c0c7c8a5f5885f434c0\"><script>(function(){const languageQueryParam = \"lang\";\nconst languageOptions = [\"en\",\"fr\",\"es\"];\n\n      const saved = new URLSearchParams(location.search).get(languageQueryParam);\n      const preferred = languageOptions.includes(saved) ? saved : \"en\";\n      if (!/^en(?:-|$)/i.test(preferred)) {\n        document.documentElement.dataset.languagePending = \"\";\n        setTimeout(() => { delete document.documentElement.dataset.languagePending; }, 3000);\n      }\n    })();</script><script type=\"module\" src=\"/_astro/base-html.astro_astro_type_script_index_0_lang.CaBRHTVY.js\"></script><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, viewport-fit=cover\"><link rel=\"preload\" href=\"/_astro/rhymes-text-regular.DRsO9i-l.woff2\" as=\"font\" type=\"font/woff2\" crossorigin=\"\"><link rel=\"icon\" href=\"/favicon.ico\" sizes=\"16x16 32x32 48x48\"><link rel=\"icon\" href=\"/favicon.svg\" type=\"image/svg+xml\"><link rel=\"apple-touch-icon\" href=\"/apple-touch-icon.png\" sizes=\"180x180\"><meta name=\"apple-mobile-web-app-title\" content=\"America.gov\"><title data-site-en=\"America.gov\" data-site-fr=\"America.gov\" data-site-es=\"America.gov\">America.gov</title><sc",
       "error": null
     },
     "www.america.gov": {
@@ -91,15 +91,15 @@
       "finalHeaders": {
         "cache-control": "private, no-store, no-transform",
         "cf-cache-status": "HIT",
-        "cf-ray": "a46fa6e568695e82-EWR",
+        "cf-ray": "a470d4de8c21bd97-LAX",
         "connection": "keep-alive",
-        "content-security-policy": "default-src 'none'; base-uri 'none'; object-src 'none'; form-action 'self'; font-src 'self' data:; worker-src 'self' blob:; img-src 'self' data: blob:; connect-src 'self'; media-src 'self' blob: data:; frame-src 'self'; frame-ancestors 'none'; script-src 'self' 'wasm-unsafe-eval' 'sha256-C/MS+M/q1h7xMxxNkNmnZprjEO47QsxjqiCQNBjCD2A=' 'sha256-BF0290pkb3jxQsE7z00xR8Imp8X34FLC88L0lkMnrGw=' 'sha256-QzWFZi+FLIx23tnm9SBU4aEgx4x8DsuASP07mfqol/c=' 'sha256-0chmwFk0zaA528yFfGV7J9ppIpdfTPPULncDF3WG7Zs=' 'sha256-eIXWvAmxkr251LJZkjniEK5LcPF3NkapbJepohwYRIc=' 'sha256-Q2BPg90ZMplYY+FSdApNErhpWafg2hcRRbndmvxuL/Q=' 'sha256-Ya0pUYrC7nM5Cn/056TyVuEiz6dFGrzmkWzgON0pF0U=' 'sha256-SHXg3YtOAVshUMT3f+eElYDgbV0kaujWj8DSaXSS4Vs=' 'sha256-o6WEQ95Zktx2KYiIWpEgR5AD0cnj7ycU4MOAX5wRQ0Q=' 'sha256-umIJp04nPDeLKwAOXJ27vwAx1PnvlIR58a9pS/1HP5M=' 'nonce-lcgioK8vp4UgVpuBF362eZNQ'; script-src-attr 'none'; style-src 'self' 'unsafe-inline', base-uri 'none'; object-src 'none'; form-action 'self'; font-src 'self' data:; worker-src 'self' blob:; img-src 'self' data: blob:; connect-src 'self'; media-src 'self' blob: data:; frame-src https://america.gov/cdn-cgi/challenge-platform/; frame-ancestors 'none'",
+        "content-security-policy": "default-src 'none'; base-uri 'none'; object-src 'none'; form-action 'self'; font-src 'self' data:; worker-src 'self' blob:; img-src 'self' data: blob:; connect-src 'self'; media-src 'self' blob: data:; frame-src 'self'; frame-ancestors 'none'; script-src 'self' 'wasm-unsafe-eval' 'sha256-C/MS+M/q1h7xMxxNkNmnZprjEO47QsxjqiCQNBjCD2A=' 'sha256-BF0290pkb3jxQsE7z00xR8Imp8X34FLC88L0lkMnrGw=' 'sha256-QzWFZi+FLIx23tnm9SBU4aEgx4x8DsuASP07mfqol/c=' 'sha256-0chmwFk0zaA528yFfGV7J9ppIpdfTPPULncDF3WG7Zs=' 'sha256-eIXWvAmxkr251LJZkjniEK5LcPF3NkapbJepohwYRIc=' 'sha256-Q2BPg90ZMplYY+FSdApNErhpWafg2hcRRbndmvxuL/Q=' 'sha256-Ya0pUYrC7nM5Cn/056TyVuEiz6dFGrzmkWzgON0pF0U=' 'sha256-SHXg3YtOAVshUMT3f+eElYDgbV0kaujWj8DSaXSS4Vs=' 'sha256-o6WEQ95Zktx2KYiIWpEgR5AD0cnj7ycU4MOAX5wRQ0Q=' 'sha256-umIJp04nPDeLKwAOXJ27vwAx1PnvlIR58a9pS/1HP5M=' 'nonce-gEV5LrHG4NhxnNbe413RcbGd'; script-src-attr 'none'; style-src 'self' 'unsafe-inline', base-uri 'none'; object-src 'none'; form-action 'self'; font-src 'self' data:; worker-src 'self' blob:; img-src 'self' data: blob:; connect-src 'self'; media-src 'self' blob: data:; frame-src https://america.gov/cdn-cgi/challenge-platform/; frame-ancestors 'none'",
         "content-type": "text/html",
-        "date": "Wed, 07 Oct 2026 20:28:23 GMT",
+        "date": "Wed, 07 Oct 2026 23:54:32 GMT",
         "permissions-policy": "camera=(), microphone=(self), geolocation=(), payment=(), usb=()",
         "referrer-policy": "no-referrer",
         "server": "cloudflare",
-        "set-cookie": "__cf_bm=vhb50DPj4lg9GwnaWpVunqd7g1Y18Xm5Pl3yYDqINtw-1791404903.2698438-1.0.1.1-lf4schGGJ0Z2gXBgezf3WEhYhVNJhLexaNJecKgp3nACPSqWBa1DGogm1H3mNp5sI66i6uwjZTY5k38GXozLLaKfYEvlxYYOdTLN7CIm3eOR8x0BhtXRyPRBtaKHQZS5; HttpOnly; SameSite=None; Secure; Path=/; Domain=america.gov; Expires=Wed, 07 Oct 2026 20:58:23 GMT",
+        "set-cookie": "__cf_bm=nVjDqzVABzaN8U46FfdkEQosPOxTyeVgA18Grv61CQI-1791417272.0859373-1.0.1.1-glgMWWekmBf1ob6jOycfoLMhBMH8nzUziMMe8nJ5Jz7jI.hQCe6DGbOM90ujQeyP.JYioTWj9GTfZ5SdcyWrB7nuUUqIIJDWp7yXJw0fD7NbuVCOjYdcPRsvUftRjbf_; HttpOnly; SameSite=None; Secure; Path=/; Domain=america.gov; Expires=Thu, 08 Oct 2026 00:24:32 GMT",
         "strict-transport-security": "max-age=15552000; includeSubDomains; preload",
         "transfer-encoding": "chunked",
         "x-content-type-options": "nosniff",
@@ -110,10 +110,10 @@
           "url": "https://www.america.gov/",
           "status": 301,
           "headers": {
-            "cf-ray": "a46fa6e5488ac42c-EWR",
+            "cf-ray": "a470d4de6957349f-SJC",
             "connection": "keep-alive",
             "content-type": "text/html; charset=UTF-8",
-            "date": "Wed, 07 Oct 2026 20:28:23 GMT",
+            "date": "Wed, 07 Oct 2026 23:54:32 GMT",
             "location": "https://america.gov/",
             "server": "cloudflare",
             "strict-transport-security": "max-age=15552000; includeSubDomains; preload",
@@ -127,15 +127,15 @@
           "headers": {
             "cache-control": "private, no-store, no-transform",
             "cf-cache-status": "HIT",
-            "cf-ray": "a46fa6e568695e82-EWR",
+            "cf-ray": "a470d4de8c21bd97-LAX",
             "connection": "keep-alive",
-            "content-security-policy": "default-src 'none'; base-uri 'none'; object-src 'none'; form-action 'self'; font-src 'self' data:; worker-src 'self' blob:; img-src 'self' data: blob:; connect-src 'self'; media-src 'self' blob: data:; frame-src 'self'; frame-ancestors 'none'; script-src 'self' 'wasm-unsafe-eval' 'sha256-C/MS+M/q1h7xMxxNkNmnZprjEO47QsxjqiCQNBjCD2A=' 'sha256-BF0290pkb3jxQsE7z00xR8Imp8X34FLC88L0lkMnrGw=' 'sha256-QzWFZi+FLIx23tnm9SBU4aEgx4x8DsuASP07mfqol/c=' 'sha256-0chmwFk0zaA528yFfGV7J9ppIpdfTPPULncDF3WG7Zs=' 'sha256-eIXWvAmxkr251LJZkjniEK5LcPF3NkapbJepohwYRIc=' 'sha256-Q2BPg90ZMplYY+FSdApNErhpWafg2hcRRbndmvxuL/Q=' 'sha256-Ya0pUYrC7nM5Cn/056TyVuEiz6dFGrzmkWzgON0pF0U=' 'sha256-SHXg3YtOAVshUMT3f+eElYDgbV0kaujWj8DSaXSS4Vs=' 'sha256-o6WEQ95Zktx2KYiIWpEgR5AD0cnj7ycU4MOAX5wRQ0Q=' 'sha256-umIJp04nPDeLKwAOXJ27vwAx1PnvlIR58a9pS/1HP5M=' 'nonce-lcgioK8vp4UgVpuBF362eZNQ'; script-src-attr 'none'; style-src 'self' 'unsafe-inline', base-uri 'none'; object-src 'none'; form-action 'self'; font-src 'self' data:; worker-src 'self' blob:; img-src 'self' data: blob:; connect-src 'self'; media-src 'self' blob: data:; frame-src https://america.gov/cdn-cgi/challenge-platform/; frame-ancestors 'none'",
+            "content-security-policy": "default-src 'none'; base-uri 'none'; object-src 'none'; form-action 'self'; font-src 'self' data:; worker-src 'self' blob:; img-src 'self' data: blob:; connect-src 'self'; media-src 'self' blob: data:; frame-src 'self'; frame-ancestors 'none'; script-src 'self' 'wasm-unsafe-eval' 'sha256-C/MS+M/q1h7xMxxNkNmnZprjEO47QsxjqiCQNBjCD2A=' 'sha256-BF0290pkb3jxQsE7z00xR8Imp8X34FLC88L0lkMnrGw=' 'sha256-QzWFZi+FLIx23tnm9SBU4aEgx4x8DsuASP07mfqol/c=' 'sha256-0chmwFk0zaA528yFfGV7J9ppIpdfTPPULncDF3WG7Zs=' 'sha256-eIXWvAmxkr251LJZkjniEK5LcPF3NkapbJepohwYRIc=' 'sha256-Q2BPg90ZMplYY+FSdApNErhpWafg2hcRRbndmvxuL/Q=' 'sha256-Ya0pUYrC7nM5Cn/056TyVuEiz6dFGrzmkWzgON0pF0U=' 'sha256-SHXg3YtOAVshUMT3f+eElYDgbV0kaujWj8DSaXSS4Vs=' 'sha256-o6WEQ95Zktx2KYiIWpEgR5AD0cnj7ycU4MOAX5wRQ0Q=' 'sha256-umIJp04nPDeLKwAOXJ27vwAx1PnvlIR58a9pS/1HP5M=' 'nonce-gEV5LrHG4NhxnNbe413RcbGd'; script-src-attr 'none'; style-src 'self' 'unsafe-inline', base-uri 'none'; object-src 'none'; form-action 'self'; font-src 'self' data:; worker-src 'self' blob:; img-src 'self' data: blob:; connect-src 'self'; media-src 'self' blob: data:; frame-src https://america.gov/cdn-cgi/challenge-platform/; frame-ancestors 'none'",
             "content-type": "text/html",
-            "date": "Wed, 07 Oct 2026 20:28:23 GMT",
+            "date": "Wed, 07 Oct 2026 23:54:32 GMT",
             "permissions-policy": "camera=(), microphone=(self), geolocation=(), payment=(), usb=()",
             "referrer-policy": "no-referrer",
             "server": "cloudflare",
-            "set-cookie": "__cf_bm=vhb50DPj4lg9GwnaWpVunqd7g1Y18Xm5Pl3yYDqINtw-1791404903.2698438-1.0.1.1-lf4schGGJ0Z2gXBgezf3WEhYhVNJhLexaNJecKgp3nACPSqWBa1DGogm1H3mNp5sI66i6uwjZTY5k38GXozLLaKfYEvlxYYOdTLN7CIm3eOR8x0BhtXRyPRBtaKHQZS5; HttpOnly; SameSite=None; Secure; Path=/; Domain=america.gov; Expires=Wed, 07 Oct 2026 20:58:23 GMT",
+            "set-cookie": "__cf_bm=nVjDqzVABzaN8U46FfdkEQosPOxTyeVgA18Grv61CQI-1791417272.0859373-1.0.1.1-glgMWWekmBf1ob6jOycfoLMhBMH8nzUziMMe8nJ5Jz7jI.hQCe6DGbOM90ujQeyP.JYioTWj9GTfZ5SdcyWrB7nuUUqIIJDWp7yXJw0fD7NbuVCOjYdcPRsvUftRjbf_; HttpOnly; SameSite=None; Secure; Path=/; Domain=america.gov; Expires=Thu, 08 Oct 2026 00:24:32 GMT",
             "strict-transport-security": "max-age=15552000; includeSubDomains; preload",
             "transfer-encoding": "chunked",
             "x-content-type-options": "nosniff",
@@ -143,8 +143,8 @@
           }
         }
       ],
-      "bodyLength": 296816,
-      "bodySnippet": "<!DOCTYPE html><html lang=\"en\" dir=\"ltr\"><head><style>\n/* Preserve the navigation's position across document loads and chat handoffs. */\n@view-transition {\n  navigation: auto;\n}\n\n:root {\n  view-transition-name: none;\n}\n\n.site-home-link {\n  view-transition-name: site-nav-logo;\n}\n\n.site-menu-trigger {\n  view-transition-name: site-nav-menu;\n}\n\n:root:active-view-transition .site-header {\n  transition: none;\n}\n\n::view-transition-group(site-nav-logo),\n::view-transition-group(site-nav-menu) {\n  animation-duration: 300ms;\n  animation-timing-function: var(--ease-drawer);\n}\n\n@media (prefers-reduced-motion: reduce) {\n  ::view-transition-group(site-nav-logo),\n  ::view-transition-group(site-nav-menu) {\n    animation-duration: 0s;\n  }\n}\n\n    </style><meta charset=\"utf-8\"><meta name=\"america-build-id\" content=\"16d9cd741c48149a963cb36715648f7c1e04a838\"><script>(function(){const languageQueryParam = \"lang\";\nconst languageOptions = [\"en\",\"fr\",\"es\"];\n\n      const saved = new URLSearchParams(location.search).get(languageQueryParam);\n      const preferred = languageOptions.includes(saved) ? saved : \"en\";\n      if (!/^en(?:-|$)/i.test(preferred)) {\n        document.documentElement.dataset.languagePending = \"\";\n        setTimeout(() => { delete document.documentElement.dataset.languagePending; }, 3000);\n      }\n    })();</script><script type=\"module\" src=\"/_astro/base-html.astro_astro_type_script_index_0_lang.DXY2Dhr9.js\"></script><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, viewport-fit=cover\"><link rel=\"preload\" href=\"/_astro/rhymes-text-regular.DRsO9i-l.woff2\" as=\"font\" type=\"font/woff2\" crossorigin=\"\"><link rel=\"icon\" href=\"/favicon.ico\" sizes=\"16x16 32x32 48x48\"><link rel=\"icon\" href=\"/favicon.svg\" type=\"image/svg+xml\"><link rel=\"apple-touch-icon\" href=\"/apple-touch-icon.png\" sizes=\"180x180\"><meta name=\"apple-mobile-web-app-title\" content=\"America.gov\"><title data-site-en=\"America.gov\" data-site-fr=\"America.gov\" data-site-es=\"America.gov\">America.gov</title><sc",
+      "bodyLength": 294834,
+      "bodySnippet": "<!DOCTYPE html><html lang=\"en\" dir=\"ltr\"><head><style>\n/* Preserve the navigation's position across document loads and chat handoffs. */\n@view-transition {\n  navigation: auto;\n}\n\n:root {\n  view-transition-name: none;\n}\n\n.site-home-link {\n  view-transition-name: site-nav-logo;\n}\n\n.site-menu-trigger {\n  view-transition-name: site-nav-menu;\n}\n\n:root:active-view-transition .site-header {\n  transition: none;\n}\n\n::view-transition-group(site-nav-logo),\n::view-transition-group(site-nav-menu) {\n  animation-duration: 300ms;\n  animation-timing-function: var(--ease-drawer);\n}\n\n@media (prefers-reduced-motion: reduce) {\n  ::view-transition-group(site-nav-logo),\n  ::view-transition-group(site-nav-menu) {\n    animation-duration: 0s;\n  }\n}\n\n    </style><meta charset=\"utf-8\"><meta name=\"america-build-id\" content=\"4e139e5e1c066962187a9c0c7c8a5f5885f434c0\"><script>(function(){const languageQueryParam = \"lang\";\nconst languageOptions = [\"en\",\"fr\",\"es\"];\n\n      const saved = new URLSearchParams(location.search).get(languageQueryParam);\n      const preferred = languageOptions.includes(saved) ? saved : \"en\";\n      if (!/^en(?:-|$)/i.test(preferred)) {\n        document.documentElement.dataset.languagePending = \"\";\n        setTimeout(() => { delete document.documentElement.dataset.languagePending; }, 3000);\n      }\n    })();</script><script type=\"module\" src=\"/_astro/base-html.astro_astro_type_script_index_0_lang.CaBRHTVY.js\"></script><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, viewport-fit=cover\"><link rel=\"preload\" href=\"/_astro/rhymes-text-regular.DRsO9i-l.woff2\" as=\"font\" type=\"font/woff2\" crossorigin=\"\"><link rel=\"icon\" href=\"/favicon.ico\" sizes=\"16x16 32x32 48x48\"><link rel=\"icon\" href=\"/favicon.svg\" type=\"image/svg+xml\"><link rel=\"apple-touch-icon\" href=\"/apple-touch-icon.png\" sizes=\"180x180\"><meta name=\"apple-mobile-web-app-title\" content=\"America.gov\"><title data-site-en=\"America.gov\" data-site-fr=\"America.gov\" data-site-es=\"America.gov\">America.gov</title><sc",
       "error": null
     }
   },
@@ -2491,6 +2491,24 @@
       "error": null,
       "events": [
         {
+          "id": "23309437736",
+          "type": "PushEvent",
+          "repo": "gogrlx/grlx",
+          "createdAt": "2026-10-07T06:38:18Z",
+          "ref": "refs/heads/cd/go-1-27-20260913",
+          "before": "cbd38716a435432c01ab03f84b1d7eff196da81a",
+          "head": "0ba67d08f7032a32f2e1f7b9759eff525da9b42c"
+        },
+        {
+          "id": "23301107831",
+          "type": "PushEvent",
+          "repo": "18F/identity-idp",
+          "createdAt": "2026-10-06T18:31:30Z",
+          "ref": "refs/heads/site-keys/2-custody",
+          "before": "021f4c576ea57b4e4cd17fa16337a7a982d3c0b4",
+          "head": "661cb065f7f3d2f34b12c69159ead5b9cb6b0a56"
+        },
+        {
           "id": "23291758149",
           "type": "PushEvent",
           "repo": "taigrr/gojev",
@@ -2859,24 +2877,6 @@
           "ref": "refs/heads/master",
           "before": "08f687a274e07ec75d96c4b09322a33c03952bd7",
           "head": "c988857ba61f35ec5e9fa74fb23ca858597697ab"
-        },
-        {
-          "id": "23012319625",
-          "type": "PushEvent",
-          "repo": "taigrr/crush",
-          "createdAt": "2026-10-05T00:37:41Z",
-          "ref": "refs/heads/feature",
-          "before": "05b870ab0ada5c3c2021494c1d1e1a1ac366c6a9",
-          "head": "2e53b6563f4a6b07dfb5e7edeef5756bc712a92f"
-        },
-        {
-          "id": "23012220907",
-          "type": "PushEvent",
-          "repo": "taigrr/crush",
-          "createdAt": "2026-10-05T00:36:03Z",
-          "ref": "refs/heads/feature",
-          "before": "766c2f87d3d09d401daaf060f1810cb35243aceb",
-          "head": "05b870ab0ada5c3c2021494c1d1e1a1ac366c6a9"
         }
       ]
     },
@@ -3031,7 +3031,7 @@
         "up": 0,
         "down": 0,
         "totalReactions": 0,
-        "lastCheckedAt": "2026-10-07T20:28:24.166Z"
+        "lastCheckedAt": "2026-10-07T23:54:33.139Z"
       },
       {
         "kind": "issue",
@@ -3045,7 +3045,7 @@
         "up": 0,
         "down": 0,
         "totalReactions": 0,
-        "lastCheckedAt": "2026-10-07T20:28:24.166Z"
+        "lastCheckedAt": "2026-10-07T23:54:33.139Z"
       },
       {
         "kind": "issue",
@@ -3059,7 +3059,7 @@
         "up": 0,
         "down": 0,
         "totalReactions": 0,
-        "lastCheckedAt": "2026-10-07T20:28:24.166Z"
+        "lastCheckedAt": "2026-10-07T23:54:33.139Z"
       },
       {
         "kind": "issue",
@@ -3073,7 +3073,7 @@
         "up": 0,
         "down": 0,
         "totalReactions": 0,
-        "lastCheckedAt": "2026-10-07T20:28:24.166Z"
+        "lastCheckedAt": "2026-10-07T23:54:33.139Z"
       },
       {
         "kind": "issue",
@@ -3087,7 +3087,7 @@
         "up": 0,
         "down": 0,
         "totalReactions": 0,
-        "lastCheckedAt": "2026-10-07T20:28:24.166Z"
+        "lastCheckedAt": "2026-10-07T23:54:33.139Z"
       },
       {
         "kind": "issue",
@@ -3101,7 +3101,7 @@
         "up": 0,
         "down": 0,
         "totalReactions": 0,
-        "lastCheckedAt": "2026-10-07T20:28:24.166Z"
+        "lastCheckedAt": "2026-10-07T23:54:33.139Z"
       },
       {
         "kind": "issue",
@@ -3115,7 +3115,7 @@
         "up": 0,
         "down": 0,
         "totalReactions": 0,
-        "lastCheckedAt": "2026-10-07T20:28:24.166Z"
+        "lastCheckedAt": "2026-10-07T23:54:33.139Z"
       },
       {
         "kind": "issue",
@@ -3129,7 +3129,7 @@
         "up": 0,
         "down": 0,
         "totalReactions": 0,
-        "lastCheckedAt": "2026-10-07T20:28:24.166Z"
+        "lastCheckedAt": "2026-10-07T23:54:33.139Z"
       },
       {
         "kind": "issue",
@@ -3143,7 +3143,7 @@
         "up": 0,
         "down": 0,
         "totalReactions": 0,
-        "lastCheckedAt": "2026-10-07T20:28:24.166Z"
+        "lastCheckedAt": "2026-10-07T23:54:33.139Z"
       },
       {
         "kind": "issue",
@@ -3157,7 +3157,7 @@
         "up": 0,
         "down": 0,
         "totalReactions": 0,
-        "lastCheckedAt": "2026-10-07T20:28:24.166Z"
+        "lastCheckedAt": "2026-10-07T23:54:33.139Z"
       },
       {
         "kind": "issue",
@@ -3171,7 +3171,7 @@
         "up": 0,
         "down": 0,
         "totalReactions": 0,
-        "lastCheckedAt": "2026-10-07T20:28:24.166Z"
+        "lastCheckedAt": "2026-10-07T23:54:33.139Z"
       },
       {
         "kind": "issue",
@@ -3185,7 +3185,7 @@
         "up": 0,
         "down": 0,
         "totalReactions": 0,
-        "lastCheckedAt": "2026-10-07T20:28:24.166Z"
+        "lastCheckedAt": "2026-10-07T23:54:33.139Z"
       },
       {
         "kind": "issue",
@@ -3199,7 +3199,7 @@
         "up": 0,
         "down": 0,
         "totalReactions": 0,
-        "lastCheckedAt": "2026-10-07T20:28:24.166Z"
+        "lastCheckedAt": "2026-10-07T23:54:33.139Z"
       },
       {
         "kind": "issue",
@@ -3213,7 +3213,7 @@
         "up": 0,
         "down": 0,
         "totalReactions": 0,
-        "lastCheckedAt": "2026-10-07T20:28:24.166Z"
+        "lastCheckedAt": "2026-10-07T23:54:33.139Z"
       },
       {
         "kind": "issue",
@@ -3227,7 +3227,7 @@
         "up": 0,
         "down": 0,
         "totalReactions": 0,
-        "lastCheckedAt": "2026-10-07T20:28:24.166Z"
+        "lastCheckedAt": "2026-10-07T23:54:33.139Z"
       },
       {
         "kind": "issue",
@@ -3241,7 +3241,7 @@
         "up": 0,
         "down": 0,
         "totalReactions": 0,
-        "lastCheckedAt": "2026-10-07T20:28:24.166Z"
+        "lastCheckedAt": "2026-10-07T23:54:33.139Z"
       },
       {
         "kind": "issue",
@@ -3255,7 +3255,7 @@
         "up": 0,
         "down": 0,
         "totalReactions": 0,
-        "lastCheckedAt": "2026-10-07T20:28:24.166Z"
+        "lastCheckedAt": "2026-10-07T23:54:33.139Z"
       },
       {
         "kind": "issue",
@@ -3269,7 +3269,7 @@
         "up": 0,
         "down": 0,
         "totalReactions": 0,
-        "lastCheckedAt": "2026-10-07T20:28:24.166Z"
+        "lastCheckedAt": "2026-10-07T23:54:33.139Z"
       },
       {
         "kind": "issue",
@@ -3283,7 +3283,7 @@
         "up": 0,
         "down": 0,
         "totalReactions": 0,
-        "lastCheckedAt": "2026-10-07T20:28:24.166Z"
+        "lastCheckedAt": "2026-10-07T23:54:33.139Z"
       },
       {
         "kind": "issue",
@@ -3297,7 +3297,7 @@
         "up": 0,
         "down": 0,
         "totalReactions": 0,
-        "lastCheckedAt": "2026-10-07T20:28:24.166Z"
+        "lastCheckedAt": "2026-10-07T23:54:33.139Z"
       },
       {
         "kind": "issue",
@@ -3311,7 +3311,7 @@
         "up": 0,
         "down": 0,
         "totalReactions": 0,
-        "lastCheckedAt": "2026-10-07T20:28:24.166Z"
+        "lastCheckedAt": "2026-10-07T23:54:33.139Z"
       },
       {
         "kind": "issue",
@@ -3325,7 +3325,7 @@
         "up": 0,
         "down": 0,
         "totalReactions": 0,
-        "lastCheckedAt": "2026-10-07T20:28:24.166Z"
+        "lastCheckedAt": "2026-10-07T23:54:33.139Z"
       },
       {
         "kind": "issue",
@@ -3339,7 +3339,7 @@
         "up": 0,
         "down": 0,
         "totalReactions": 0,
-        "lastCheckedAt": "2026-10-07T20:28:24.166Z"
+        "lastCheckedAt": "2026-10-07T23:54:33.139Z"
       },
       {
         "kind": "issue",
@@ -3353,7 +3353,7 @@
         "up": 0,
         "down": 0,
         "totalReactions": 0,
-        "lastCheckedAt": "2026-10-07T20:28:24.166Z"
+        "lastCheckedAt": "2026-10-07T23:54:33.139Z"
       },
       {
         "kind": "issue",
@@ -3367,7 +3367,49 @@
         "up": 0,
         "down": 0,
         "totalReactions": 0,
-        "lastCheckedAt": "2026-10-07T20:28:24.166Z"
+        "lastCheckedAt": "2026-10-07T23:54:33.139Z"
+      },
+      {
+        "kind": "issue",
+        "id": 6046286289,
+        "repo": "uswds/uswds",
+        "issueNumber": 7005,
+        "author": "github-actions[bot]",
+        "body": "✅ All commits on this PR have a verified signature. Thanks!\n<!-- Sticky Pull Request Commentverify-commits -->",
+        "createdAt": "2026-10-07T20:31:21Z",
+        "url": "https://github.com/uswds/uswds/pull/7005#issuecomment-6046286289",
+        "up": 0,
+        "down": 0,
+        "totalReactions": 0,
+        "lastCheckedAt": "2026-10-07T23:54:33.139Z"
+      },
+      {
+        "kind": "issue",
+        "id": 6046287705,
+        "repo": "uswds/uswds",
+        "issueNumber": 7005,
+        "author": "coderabbitai[bot]",
+        "body": "<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- review_stack_entry_start -->\n\n<a href=\"https://app.coderabbit.ai/change-stack/uswds/uswds/pull/7005?scope=ghh_OusAJGA4HG8ljoOV0wJvVx8NmnZIjc2DdjmxOu0xZWA&amp;cs_source=review_comment\"><img src=\"https://storage.googleapis.com/coderabbit_public_assets/review-stack-in-coderabbit-ui-dark.svg?v=2\" alt=\"Review in Change Stack →\" width=\"220\" height=\"32\"></a>\n\n<!-- review_stack_entry_end -->\n<!-- recent_review_start -->\n\nNo actionable comments were generated in the recent review. 🎉\n\n<details>\n<summary>ℹ️ Recent review info</summary>\n\n<details>\n<summary>⚙️ Run configuration</summary>\n\n- **Configuration used**: Repository: uswds/uswds/.coderabbit.yaml\n- **Review profile**: QUIET\n- **Plan**: Advanced\n- **Run ID**: `b8fdfa44-cc09-4869-81ed-64dce22eb7bc`\n\n</details>\n\n<details>\n<summary>📥 Commits</summary>\n\nReviewing files that changed from the base of the PR and between ec801339fa287d26ef0e1b3a19291eeaa0b3b634 and ee3639b69641a89a1f215ceb2997a439844b7b2c.\n\n</details>\n\n<details>\n<summary>📒 Files selected for processing (3)</summary>\n\n* `packages/usa-footer/src/test/template.html`\n* `packages/usa-skipnav/src/test/template.html`\n* `packages/usa-tooltip/src/test/test-patterns/test-usa-tooltip-utilities.twig`\n\n</details>\n\n**Included review availability:** This review used your included allowance. Your plan provides up to 8 included reviews per hour; 7 remain after this review.\n\n</details>\n\n---\n\n\n\n<!-- recent_review_end -->\n<!-- walkthrough_start -->\n\n<details>\n<summary>📝 Summary</summary>\n\n<!-- This is an auto-generated comment: release notes by coderabbit.ai -->\n\n## Summary by CodeRabbit\n\n* **Bug Fixes**\n  * Updated return-to-top links in footer, skip-navigation, and tooltip examples to target the page’s top anchor, so they return users to the top instead of navigating to an empty fragment. These updates apply to the corresponding component examples and test pages.\n* **Style**\n  * Reformatted footer markup without changing its displayed content, contact details, or attributes.\n\n<!-- end of auto-generated comment: release notes by coderabbit.ai -->\n## Walkthrough\n\nThree test templates change their return-to-top link target from `#` to `#top`. The footer and skip-navigation templates also have markup layout changes.\n\n### Changes\n\n**Test template link updates**\n\n|Layer / File(s)|Summary|\n|:---|:---|\n|**Align return-to-top links** <br> `packages/usa-footer/src/test/template.html`, `packages/usa-skipnav/src/test/template.html`, `packages/usa-tooltip/src/test/test-patterns/test-usa-tooltip-utilities.twig`|All three templates now target `#top`. The footer markup is reformatted, and the skip-navigation template’s empty `main` element is condensed to one line.|\n\n<!-- change_assessment_start -->\n**Priority:** ⬇️ Low\n\n**Estimated code review effort:** 1 (Trivial) | ~4 minutes\n\n<!-- change_assessment_commit:\"ee3639b69641a89a1f215ceb2997a439844b7b2c\" -->\n**Change:** Other\n<!-- change_assessment_end -->\n\n**Suggested labels:** `Is: Breaking 🔴`, `Affects: Markup 🟡`, `Affects: Testing`\n\n</details>\n\n<!-- walkthrough_end -->\n<!-- final_review_risk_start -->\n**Merge Risk:** _⚪ Minimal_ · up to `ee363`\n<!-- final_review_risk_coverage:{\"sourceCommitId\":\"ee3639b69641a89a1f215ceb2997a439844b7b2c\",\"coveredCommitId\":\"ee3639b69641a89a1f215ceb2997a439844b7b2c\",\"kind\":\"reviewed\"} -->\n\nThe updated example links continue to take users to the page top in supported browsers. These template changes present no identified merge-blocking behavior risk.\n<!-- final_review_risk_end -->\n<!-- pre_merge_checks_walkthrough_start -->\n\n<details>\n<summary>🚥 Pre-merge checks | ✅ 8 | ❌ 2</summary>\n\n### ❌ Failed checks (2 warnings)\n\n|        Check name        | Status     | Explanation                                                                                                                                             | Resolution                                                                                                                                                                                   |\n| :----------------------: | :--------- | :------------------------------------------------------------------------------------------------------------------------------------------------------ | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |\n|        Title check       | ⚠️ Warning | The title describes the change, but it does not follow the required syntax. The type is uppercase, and the scope contains uppercase letters and spaces. | Change the title to use a lowercase type and an optional lowercase scope, followed by a colon and description. For example: \"docs(return-to-top): use `#top` for the return-to-top component\". |\n| Breaking Change Declared | ⚠️ Warning | The pull request description contains none of the three required breaking-change statements. It must contain exactly one approved statement.            | Add exactly one of these statements to the description: “This is not a breaking change.”, “:warning: This is potentially a breaking change.”, or “:warning: This is a breaking change.”      |\n\n<details>\n<summary>✅ Passed checks (8 passed)</summary>\n\n|              Check name             | Status   | Explanation                                                                                                                                                                                               |\n| :---------------------------------: | :------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |\n|          Description check          | ✅ Passed | The description clearly explains that the example templates change from # to `#top` and states the reason for the change.                                                                                   |\n|         Linked Issues check         | ✅ Passed | Check skipped because no linked issues were found for this pull request.                                                                                                                                  |\n|      Out of Scope Changes check     | ✅ Passed | Check skipped because no linked issues were found for this pull request.                                                                                                                                  |\n|      No New Runtime Dependency      | ✅ Passed | PASS. The PR changes only three HTML/Twig test templates; no package.json file changes the dependencies field, and no production JavaScript files under packages/**/src/**/*.js are changed. Therefore, … |\n|  Regression Test Targets The Change | ✅ Passed | PASS: The PR changes only HTML/Twig fixtures under `packages/**/src/test/**`. It does not change production JavaScript or Sass, so this regression-test check is not applicable. The diff only updates e… |\n|      New Api Surface Follow-Ups     | ✅ Passed | The check is not applicable. The pull request changes only test-template markup: three `Return to top` links now use `href=\"#top\"`, with unrelated HTML formatting changes. It adds no `$theme-*` settin… |\n| Accessibility Verification Declared | ✅ Passed | PASS — The pull request changes example link targets from `#` to `#top` and makes unrelated markup formatting changes. The diff does not change ARIA attributes, focus management, keyboard handling, sc… |\n|        Theme Token Discipline       | ✅ Passed | PASS: The pull request changes only HTML and Twig test templates. No `*.scss` file under `packages/` changes, so it introduces no literal replacement or new hardcoded theme value covered by this check… |\n\n</details>\n\n</details>\n\n<!-- pre_merge_checks_walkthrough_end -->\n<!-- autopilot:start -->\n- [ ] <!-- {\"checkboxId\":\"2708ad07-9f24-4260-9c11-7dc76a49f2e3\"} --> <strong title=\"Keep fixing CodeRabbit findings and required CI, and resolving merge conflicts\">Autopilot</strong> · Keep fixing CodeRabbit findings and required CI, and resolving merge conflicts\n<!-- autopilot:end -->\n<!-- tips_start -->\n\n---\n\nThanks for using [CodeRabbit](https://coderabbit.ai?utm_source=oss&utm_medium=github&utm_campaign=uswds/uswds&utm_content=7005)! It's free for OSS, and your support helps us grow. If you like it, consider giving us a shout-out.\n\n<details>\n<summary>❤️ Share</summary>\n\n- [X](https://twitter.com/intent/tweet?text=I%20just%20used%20%40coderabbitai%20for%20my%20code%20review%2C%20and%20it%27s%20fantastic%21%20It%27s%20free%20for%20OSS%20and%20offers%20a%20free%20trial%20for%20the%20proprietary%20code.%20Check%20it%20out%3A&url=https%3A//coderabbit.ai)\n- [Mastodon](https://mastodon.social/share?text=I%20just%20used%20%40coderabbitai%20for%20my%20code%20review%2C%20and%20it%27s%20fantastic%21%20It%27s%20free%20for%20OSS%20and%20offers%20a%20free%20trial%20for%20the%20proprietary%20code.%20Check%20it%20out%3A%20https%3A%2F%2Fcoderabbit.ai)\n- [Reddit](https://www.reddit.com/submit?title=Great%20tool%20for%20code%20review%20-%20CodeRabbit&text=I%20just%20used%20CodeRabbit%20for%20my%20code%20review%2C%20and%20it%27s%20fantastic%21%20It%27s%20free%20for%20OSS%20and%20offers%20a%20free%20trial%20for%20proprietary%20code.%20Check%20it%20out%3A%20https%3A//coderabbit.ai)\n- [LinkedIn](https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fcoderabbit.ai&mini=true&title=Great%20tool%20for%20code%20review%20-%20CodeRabbit&summary=I%20just%20used%20CodeRabbit%20for%20my%20code%20review%2C%20and%20it%27s%20fantastic%21%20It%27s%20free%20for%20OSS%20and%20offers%20a%20free%20trial%20for%20proprietary%20code)\n\n</details>\n\n\n<sub>Comment `@coderabbitai help` to get the list of available commands.</sub>\n\n<!-- tips_end -->",
+        "createdAt": "2026-10-07T20:31:26Z",
+        "url": "https://github.com/uswds/uswds/pull/7005#issuecomment-6046287705",
+        "up": 0,
+        "down": 0,
+        "totalReactions": 0,
+        "lastCheckedAt": "2026-10-07T23:54:33.139Z"
+      },
+      {
+        "kind": "issue",
+        "id": 6046354830,
+        "repo": "uswds/uswds",
+        "issueNumber": 7005,
+        "author": "caseywatts",
+        "body": "I don't consent to using CodeRabbit... sorry, I'll close this PR 😞 ",
+        "createdAt": "2026-10-07T20:35:27Z",
+        "url": "https://github.com/uswds/uswds/pull/7005#issuecomment-6046354830",
+        "up": 0,
+        "down": 0,
+        "totalReactions": 0,
+        "lastCheckedAt": "2026-10-07T23:54:33.139Z"
       },
       {
         "kind": "discussion",
@@ -3393,7 +3435,7 @@
         "url": "https://github.com/uswds/uswds/discussions/6987#discussioncomment-18764867",
         "up": 1,
         "down": 0,
-        "lastCheckedAt": "2026-10-07T20:28:25.636Z"
+        "lastCheckedAt": "2026-10-07T23:54:36.135Z"
       }
     ]
   },
@@ -3415,9 +3457,9 @@
       "server": "cloudflare",
       "via": null,
       "x_vercel_id": null,
-      "cf_ray": "a46fa6e49f295e82-EWR",
+      "cf_ray": "a470d4ddb976bd97-LAX",
       "hsts": "max-age=15552000; includeSubDomains; preload",
-      "csp": "default-src 'none'; base-uri 'none'; object-src 'none'; form-action 'self'; font-src 'self' data:; worker-src 'self' blob:; img-src 'self' data: blob:; connect-src 'self'; media-src 'self' blob: data:; frame-src 'self'; frame-ancestors 'none'; script-src 'self' 'wasm-unsafe-eval' 'sha256-C/MS+M/q1h7xMxxNkNmnZprjEO47QsxjqiCQNBjCD2A=' 'sha256-BF0290pkb3jxQsE7z00xR8Imp8X34FLC88L0lkMnrGw=' 'sha256-QzWFZi+FLIx23tnm9SBU4aEgx4x8DsuASP07mfqol/c=' 'sha256-0chmwFk0zaA528yFfGV7J9ppIpdfTPPULncDF3WG7Zs=' 'sha256-eIXWvAmxkr251LJZkjniEK5LcPF3NkapbJepohwYRIc=' 'sha256-Q2BPg90ZMplYY+FSdApNErhpWafg2hcRRbndmvxuL/Q=' 'sha256-Ya0pUYrC7nM5Cn/056TyVuEiz6dFGrzmkWzgON0pF0U=' 'sha256-SHXg3YtOAVshUMT3f+eElYDgbV0kaujWj8DSaXSS4Vs=' 'sha256-o6WEQ95Zktx2KYiIWpEgR5AD0cnj7ycU4MOAX5wRQ0Q=' 'sha256-umIJp04nPDeLKwAOXJ27vwAx1PnvlIR58a9pS/1HP5M=' 'nonce-mFQPehxnOzv1qOAJCYgMXWhU'; script-src-attr 'none'; style-src 'self' 'unsafe-inline', base-uri 'none'; object-src 'none'; form-action 'self'; font-src 'self' data:; worker-src 'self' blob:; img-src 'self' data: blob:; connect-src 'self'; media-src 'self' blob: data:; frame-src https://america.gov/cdn-cgi/challenge-platform/; frame-ancestors 'none'",
+      "csp": "default-src 'none'; base-uri 'none'; object-src 'none'; form-action 'self'; font-src 'self' data:; worker-src 'self' blob:; img-src 'self' data: blob:; connect-src 'self'; media-src 'self' blob: data:; frame-src 'self'; frame-ancestors 'none'; script-src 'self' 'wasm-unsafe-eval' 'sha256-C/MS+M/q1h7xMxxNkNmnZprjEO47QsxjqiCQNBjCD2A=' 'sha256-BF0290pkb3jxQsE7z00xR8Imp8X34FLC88L0lkMnrGw=' 'sha256-QzWFZi+FLIx23tnm9SBU4aEgx4x8DsuASP07mfqol/c=' 'sha256-0chmwFk0zaA528yFfGV7J9ppIpdfTPPULncDF3WG7Zs=' 'sha256-eIXWvAmxkr251LJZkjniEK5LcPF3NkapbJepohwYRIc=' 'sha256-Q2BPg90ZMplYY+FSdApNErhpWafg2hcRRbndmvxuL/Q=' 'sha256-Ya0pUYrC7nM5Cn/056TyVuEiz6dFGrzmkWzgON0pF0U=' 'sha256-SHXg3YtOAVshUMT3f+eElYDgbV0kaujWj8DSaXSS4Vs=' 'sha256-o6WEQ95Zktx2KYiIWpEgR5AD0cnj7ycU4MOAX5wRQ0Q=' 'sha256-umIJp04nPDeLKwAOXJ27vwAx1PnvlIR58a9pS/1HP5M=' 'nonce-LA1Xn7aelucY2Cb688ILPbXB'; script-src-attr 'none'; style-src 'self' 'unsafe-inline', base-uri 'none'; object-src 'none'; form-action 'self'; font-src 'self' data:; worker-src 'self' blob:; img-src 'self' data: blob:; connect-src 'self'; media-src 'self' blob: data:; frame-src https://america.gov/cdn-cgi/challenge-platform/; frame-ancestors 'none'",
       "x_powered_by": null,
       "looks_like_akamai": false,
       "looks_like_cloudflare": true

@@ -1,0 +1,13 @@
+{
+  "timestamp": "2026-10-07T23:54:28.930Z",
+  "events": [
+    {
+      "type": "NEW_COMMENT",
+      "detail": "github-actions[bot] commented on `uswds/uswds#7005`: ✅ All commits on this PR have a verified signature. Thanks! <!-- Sticky Pull Request Commentverify-commits -->\n  `https://github.com/uswds/uswds/pull/7005#issuecomment-6046286289`\n\ncoderabbitai[bot] commented on `uswds/uswds#7005`: <!-- This is an auto-generated comment: summarize by coderabbit.ai --> <!-- review_stack_entry_start -->  <a href=\"https://app.coderabbit.ai/change-stack/uswds/uswds/pull/7005?scope=ghh_OusAJGA4HG8ljoOV0wJvVx8NmnZIjc2DdjmxOu0xZWA&amp;cs_source=review_comment\"><img src=\"https://storage.googleapis.com\n  `https://github.com/uswds/uswds/pull/7005#issuecomment-6046287705`\n\ncaseywatts commented on `uswds/uswds#7005`: I don't consent to using CodeRabbit... sorry, I'll close this PR 😞 \n  `https://github.com/uswds/uswds/pull/7005#issuecomment-6046354830`"
+    },
+    {
+      "type": "NEW_PERSON_ACTIVITY",
+      "detail": "taigrr:\n[2026-10-07T06:38:18Z] pushed to gogrlx/grlx (cd/go-1-27-20260913):\n  c414d3a fix(props): return nil for empty props\n  8df8f3b Merge pull request #349 from gogrlx/cd/props-empty-map-20260927\n  0ba67d0 Merge remote-tracking branch 'origin/master' into cd/go-1-27-20260913\n\n[2026-10-06T18:31:30Z] pushed to 18F/identity-idp (site-keys/2-custody):\n  2aa7400 Stop specs from deleting the global form-action CSP directive (#13617)\n  396d70b Add sealing primitives for per-site keys\n  661cb06 Store per-site key roots wrapped under the user's password"
+    }
+  ]
+}
