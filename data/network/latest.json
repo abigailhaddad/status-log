@@ -1,28 +1,115 @@
 {
   "ok": true,
-  "timestamp": "2026-09-29T14:16:06.930Z",
-  "harArtifactPath": "har-artifacts/2026-09-29T14-15-24-302Z.har",
+  "timestamp": "2026-10-07T19:20:23.476Z",
+  "harArtifactPath": "har-artifacts/2026-10-07T19-18-51-089Z.har",
   "pages": [
     {
       "url": "https://america.gov/",
       "redirectedTo": null,
-      "title": "Just a moment...",
-      "httpStatus": 403,
+      "title": "America.gov",
+      "httpStatus": 200,
       "navError": null,
-      "formCount": 0,
+      "formCount": 2,
+      "chatInputFound": true,
+      "blockers": [],
+      "a11yViolationCount": 0
+    },
+    {
+      "url": "https://america.gov/privacy",
+      "redirectedTo": null,
+      "title": "Privacy | America.gov",
+      "httpStatus": 200,
+      "navError": null,
+      "formCount": 1,
       "chatInputFound": false,
       "blockers": [],
-      "a11yViolationCount": 1
+      "a11yViolationCount": 0
+    },
+    {
+      "url": "https://america.gov/how-it-works",
+      "redirectedTo": null,
+      "title": "How it works | America.gov",
+      "httpStatus": 200,
+      "navError": null,
+      "formCount": 1,
+      "chatInputFound": false,
+      "blockers": [],
+      "a11yViolationCount": 0
+    },
+    {
+      "url": "https://america.gov/about",
+      "redirectedTo": null,
+      "title": "About | America.gov",
+      "httpStatus": 200,
+      "navError": null,
+      "formCount": 1,
+      "chatInputFound": false,
+      "blockers": [],
+      "a11yViolationCount": 0
+    },
+    {
+      "url": "https://america.gov/faq",
+      "redirectedTo": null,
+      "title": "Frequently asked questions | America.gov",
+      "httpStatus": 200,
+      "navError": null,
+      "formCount": 2,
+      "chatInputFound": true,
+      "blockers": [],
+      "a11yViolationCount": 0
+    },
+    {
+      "url": "https://america.gov/privacy-policy",
+      "redirectedTo": null,
+      "title": "Privacy policy | America.gov",
+      "httpStatus": 200,
+      "navError": null,
+      "formCount": 1,
+      "chatInputFound": false,
+      "blockers": [],
+      "a11yViolationCount": 0
+    },
+    {
+      "url": "https://america.gov/terms",
+      "redirectedTo": null,
+      "title": "Terms of use | America.gov",
+      "httpStatus": 200,
+      "navError": null,
+      "formCount": 1,
+      "chatInputFound": false,
+      "blockers": [],
+      "a11yViolationCount": 0
+    },
+    {
+      "url": "https://america.gov/coming-soon",
+      "redirectedTo": null,
+      "title": "Coming soon | America.gov",
+      "httpStatus": 200,
+      "navError": null,
+      "formCount": 1,
+      "chatInputFound": false,
+      "blockers": [],
+      "a11yViolationCount": 0
     }
   ],
-  "siteWideA11yViolationCount": 1,
-  "a11yReportPath": "data/a11y/2026-09-29T14-15-24-302Z-sitewide.json",
-  "pagesVisited": 1,
-  "chatInputFoundOnPages": [],
-  "totalRequests": 21,
+  "siteWideA11yViolationCount": 0,
+  "a11yReportPath": "data/a11y/2026-10-07T19-18-51-089Z-sitewide.json",
+  "pagesVisited": 8,
+  "chatInputFoundOnPages": [
+    {
+      "url": "https://america.gov/",
+      "selector": "textarea",
+      "testMessage": "How do I renew my passport?"
+    },
+    {
+      "url": "https://america.gov/faq",
+      "selector": "input[type=\"text\"]",
+      "testMessage": "How do I contact my member of Congress?"
+    }
+  ],
+  "totalRequests": 1313,
   "uniqueHosts": [
-    "america.gov",
-    "challenges.fed.cloudflare.com"
+    "america.gov"
   ],
   "aiProviderHostMatches": [],
   "streamingEndpoints": [],
@@ -33,30 +120,6 @@
   "cookies": [
     {
       "name": "cf_clearance",
-      "domain": ".cloudflare.com",
-      "secure": true,
-      "httpOnly": true,
-      "sameSite": "None",
-      "session": false
-    },
-    {
-      "name": "cf_clearance",
-      "domain": ".america.gov",
-      "secure": true,
-      "httpOnly": true,
-      "sameSite": "None",
-      "session": false
-    },
-    {
-      "name": "cf_chl_rc_ni",
-      "domain": "america.gov",
-      "secure": true,
-      "httpOnly": false,
-      "sameSite": "None",
-      "session": false
-    },
-    {
-      "name": "__cf_bm",
       "domain": ".america.gov",
       "secure": true,
       "httpOnly": true,
@@ -65,7 +128,7 @@
     },
     {
       "name": "__cf_bm",
-      "domain": ".challenges.fed.cloudflare.com",
+      "domain": ".america.gov",
       "secure": true,
       "httpOnly": true,
       "sameSite": "None",
@@ -76,18 +139,5 @@
     "localStorage": [],
     "sessionStorage": []
   },
-  "newEvents": [
-    {
-      "type": "NEW_NETWORK_HOSTS",
-      "detail": "challenges.fed.cloudflare.com"
-    },
-    {
-      "type": "NEW_COOKIES",
-      "detail": "cf_clearance (.cloudflare.com, httpOnly), cf_clearance (.america.gov, httpOnly), cf_chl_rc_ni (america.gov), __cf_bm (.america.gov, httpOnly), __cf_bm (.challenges.fed.cloudflare.com, httpOnly)"
-    },
-    {
-      "type": "PAGE_ERROR_STATUS",
-      "detail": "403 on https://america.gov/ (\"Just a moment...\")"
-    }
-  ]
+  "newEvents": []
 }
