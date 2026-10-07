@@ -1,0 +1,17 @@
+{
+  "timestamp": "2026-10-07T17:38:30.153Z",
+  "events": [
+    {
+      "type": "NEW_REPO_COMMITS",
+      "detail": "[uswds/uswds] ec80133 test(banner): add unit tests for web component variant (#6975) — Dmitry Bochok\n  `https://github.com/uswds/uswds/commit/ec801339fa287d26ef0e1b3a19291eeaa0b3b634`"
+    },
+    {
+      "type": "NEW_COMMENT",
+      "detail": "hobbez commented on `uswds/uswds#4848`: Here's one way to accomplish this: ``` document.getElementById('file').value='';  document.getElementById('file').dispatchEvent(new Event('change', { bubbles: true })); ```\n  `https://github.com/uswds/uswds/issues/4848#issuecomment-6041329519`"
+    },
+    {
+      "type": "NEW_PERSON_ACTIVITY",
+      "detail": "taigrr:\n[2026-10-06T22:35:24Z] pushed to taigrr/catwalk (main):\n  a150ff0 feat: add Cloudflare Workers AI provider with Clef evaluation models"
+    }
+  ]
+}
