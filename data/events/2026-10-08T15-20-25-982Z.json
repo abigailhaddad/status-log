@@ -1,0 +1,9 @@
+{
+  "timestamp": "2026-10-08T15:20:25.982Z",
+  "events": [
+    {
+      "type": "NEW_COMMENT",
+      "detail": "ajfarkas commented on `uswds/uswds#7003`: `@ryparker` thanks for catching that. Honest question: is it really current practice to duplicate code in agent instructions? That seems fragile, for this reason.\n  `https://github.com/uswds/uswds/pull/7003#issuecomment-6060872635`"
+    }
+  ]
+}
