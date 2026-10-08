@@ -1,0 +1,13 @@
+{
+  "timestamp": "2026-10-08T18:04:52.870Z",
+  "events": [
+    {
+      "type": "NEW_REPO_COMMITS",
+      "detail": "[18F/identity-idp] 19c0d72 Joan 144: Add vendor cost attribution (#13625) — jc-gsa\n  `https://github.com/18F/identity-idp/commit/19c0d725d6e9e590d93f441ba924a930107a0ebb`\n\n[18F/identity-idp] caea33b Joan 147: Add document_type_received to analytics (#13626) — jc-gsa\n  `https://github.com/18F/identity-idp/commit/caea33b2e00278a739c6801db707943898d67097`"
+    },
+    {
+      "type": "NEW_COMMENT",
+      "detail": "ajfarkas commented on `uswds/uswds#6977`: We can safely ignore the coderabbit review: editing next to mask separators puts the caret in the correct position.   I think this was flagged because the user is able to \"delete\" the separator, which is immediately replaced by JavaScript. Whether we want that behavior is something we can discuss, b\n  `https://github.com/uswds/uswds/pull/6977#issuecomment-6064205529`\n\nRaydman commented on `uswds/uswds#6977`: `@ajfarkas` Thanks! The commit is re-signed and now shows as verified. I also changed line 9 of `usa-input-mask.twig` to `data-placeholder=\"{{ placeholder }}\"` in 1dd4d4bbe so the mask works in Storybook.\n  `https://github.com/uswds/uswds/pull/6977#issuecomment-6064336657`"
+    }
+  ]
+}
