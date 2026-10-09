@@ -1,0 +1,9 @@
+{
+  "timestamp": "2026-10-09T08:37:45.035Z",
+  "events": [
+    {
+      "type": "NEW_PERSON_ACTIVITY",
+      "detail": "taigrr:\n[2026-10-08T06:03:18Z] pushed to taigrr/crunch (cd/projects-registry):\n  559cb28 test(scanner): cover registry dedupe callbacks\n\n[2026-10-09T07:11:55Z] opened PR #5 on taigrr/gojev: \"fix(deps): use patched go network stack\" (`https://github.com/taigrr/gojev/pull/5`)\n\n[2026-10-06T19:46:00Z] closed PR #3 on taigrr/gojev: \"build(deps): bump the gomod group with 2 updates\" (`https://github.com/taigrr/gojev/pull/3`)\n\n[2026-10-08T08:04:08Z] created branch \"cd/bool-string-coercion\" on taigrr/jety\n\n[2026-10-09T06:36:01Z] opened PR #359 on gogrlx/grlx: \"fix(update): accept latest release endpoint URLs\" (`https://github.com/gogrlx/grlx/pull/359`)\n\n[2026-10-09T06:35:48Z] created branch \"cd/update-version-compare-20261009\" on gogrlx/grlx\n\n[2026-10-08T21:32:01Z] pushed to 18F/identity-idp (sbx-taigrr):\n  0b0539e Add document metadata (number, issue/expiration) to document image sharing\n\n[2026-10-08T06:37:49Z] created branch \"cd/log-wrapper-coverage-20261008\" on gogrlx/grlx\n\n[2026-10-08T07:03:59Z] created branch \"cd/response-close-coverage\" on taigrr/gojev"
+    }
+  ]
+}
