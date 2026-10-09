@@ -1,0 +1,9 @@
+{
+  "timestamp": "2026-10-09T00:01:38.411Z",
+  "events": [
+    {
+      "type": "NEW_REPO_COMMITS",
+      "detail": "[18F/identity-idp] 42e6a71 [LG-17893] Add logging to recaptcha failures for password reset and email confirmation (#13609) — Joshua Alley\n  `https://github.com/18F/identity-idp/commit/42e6a717105e52153c108d7f79170a560b9fa181`"
+    }
+  ]
+}
