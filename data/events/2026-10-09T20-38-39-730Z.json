@@ -1,0 +1,17 @@
+{
+  "timestamp": "2026-10-09T20:38:39.730Z",
+  "events": [
+    {
+      "type": "NEW_REPO_COMMITS",
+      "detail": "[18F/identity-idp] 59b13bc LG-17762 Add Verify with CLEAR UX option to Hybrid Handoff (#13444) — Malik Warren\n  `https://github.com/18F/identity-idp/commit/59b13bc78fa112b4c49edd98b7384e2060c0018d`"
+    },
+    {
+      "type": "NEW_COMMENT",
+      "detail": "ajfarkas commented on `uswds/uswds#5826`: on reading the associated issue #5817 I think this needs more discussion before merging.\n  `https://github.com/uswds/uswds/pull/5826#issuecomment-6086314470`"
+    },
+    {
+      "type": "NEW_PERSON_ACTIVITY",
+      "detail": "taigrr:\n[2026-09-08T18:35:27Z] closed PR #29 on taigrr/crush: \"feat(swarm): lineage, working_dir, require_reply; session-scoped busy state, pinnable sidebar; config/glob/tool-call fixes\" (`https://github.com/taigrr/crush/pull/29`)\n\n[2026-09-26T16:41:46Z] closed PR #37 on taigrr/crush: \"feat: support GPT-6 Astra, Sol, and Luna\" (`https://github.com/taigrr/crush/pull/37`)\n\n[2026-09-26T16:41:47Z] closed PR #36 on taigrr/crush: \"feat: support Claude Opus 5.5\" (`https://github.com/taigrr/crush/pull/36`)"
+    }
+  ]
+}
