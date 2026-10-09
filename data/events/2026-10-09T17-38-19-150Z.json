@@ -1,0 +1,13 @@
+{
+  "timestamp": "2026-10-09T17:38:19.150Z",
+  "events": [
+    {
+      "type": "NEW_REPO_COMMITS",
+      "detail": "[uswds/uswds] 029d6d7 fix(input-mask): keep the caret in place while formatting (#6977) — Dmitry Bochok\n  `https://github.com/uswds/uswds/commit/029d6d792241b3b4107a630590a27ee951a152b5`\n\n[18F/identity-idp] 6ee0ed4 LG-16880 AAMVA to DocAuth cleanup (#13629) — Alex Bradley\n  `https://github.com/18F/identity-idp/commit/6ee0ed43bc2363d7a09b7b860572ab9ac3aa3a8d`"
+    },
+    {
+      "type": "NEW_COMMENT",
+      "detail": "ajfarkas commented on `uswds/uswds#5827`: Resolved by PR #6977 \n  `https://github.com/uswds/uswds/issues/5827#issuecomment-6085900938`\n\nryparker commented on `uswds/uswds#7003`: > `@ryparker` thanks for catching that. Honest question: is it really current practice to duplicate code in agent instructions? That seems fragile, for this reason.  Fair point. Agent docs should point to the source file rather than copy values an agent can already read. Feel free to open a follow-up \n  `https://github.com/uswds/uswds/pull/7003#issuecomment-6085968494`"
+    }
+  ]
+}
