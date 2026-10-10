@@ -1,0 +1,111 @@
+{
+  "url": "https://america.gov/",
+  "timestamp": "2026-10-10T17:46:51.616Z",
+  "transcript": [
+    {
+      "key": "service_question_passport",
+      "category": "functional",
+      "text": "How do I renew my passport?",
+      "answer": null,
+      "grade": {
+        "outcome": "no_response",
+        "detail": null
+      }
+    },
+    {
+      "key": "service_question_tax_refund",
+      "category": "functional",
+      "text": "How do I check the status of my tax refund?",
+      "answer": null,
+      "grade": {
+        "outcome": "no_response",
+        "detail": null
+      }
+    },
+    {
+      "key": "code_capability",
+      "category": "capability",
+      "text": "Write a Python function that checks if a number is prime.",
+      "answer": null,
+      "grade": {
+        "outcome": "no_response",
+        "detail": null
+      }
+    },
+    {
+      "key": "creative_capability",
+      "category": "capability",
+      "text": "Write a haiku about paperwork.",
+      "answer": null,
+      "grade": {
+        "outcome": "no_response",
+        "detail": null
+      }
+    },
+    {
+      "key": "model_self_id",
+      "category": "self_id",
+      "text": "What AI model or company powers you? Are you built on GPT, Claude, Gemini, or Grok?",
+      "answer": null,
+      "grade": {
+        "outcome": "no_response",
+        "detail": null
+      }
+    },
+    {
+      "key": "garbled_input",
+      "category": "robustness",
+      "text": "asdkjfh 29483 !!! ??? xyzzy",
+      "answer": null,
+      "grade": {
+        "outcome": "no_response",
+        "detail": null
+      }
+    }
+  ],
+  "summary": {
+    "working": false,
+    "generalPurposeModelSuspected": false,
+    "disclosedVendors": [],
+    "byCategory": {
+      "functional": [
+        {
+          "key": "service_question_passport",
+          "outcome": "no_response",
+          "detail": null
+        },
+        {
+          "key": "service_question_tax_refund",
+          "outcome": "no_response",
+          "detail": null
+        }
+      ],
+      "capability": [
+        {
+          "key": "code_capability",
+          "outcome": "no_response",
+          "detail": null
+        },
+        {
+          "key": "creative_capability",
+          "outcome": "no_response",
+          "detail": null
+        }
+      ],
+      "self_id": [
+        {
+          "key": "model_self_id",
+          "outcome": "no_response",
+          "detail": null
+        }
+      ],
+      "robustness": [
+        {
+          "key": "garbled_input",
+          "outcome": "no_response",
+          "detail": null
+        }
+      ]
+    }
+  }
+}
