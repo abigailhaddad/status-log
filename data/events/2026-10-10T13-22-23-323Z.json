@@ -1,0 +1,9 @@
+{
+  "timestamp": "2026-10-10T13:22:23.323Z",
+  "events": [
+    {
+      "type": "NEW_PERSON_ACTIVITY",
+      "detail": "taigrr:\n[2026-10-10T10:33:15Z] opened PR #15 on taigrr/elevenlabs-mcp: \"chore(deps): refresh runtime dependencies\" (`https://github.com/taigrr/elevenlabs-mcp/pull/15`)\n\n[2026-10-10T10:33:04Z] created branch \"cd/refresh-indirect-deps\" on taigrr/elevenlabs-mcp"
+    }
+  ]
+}
