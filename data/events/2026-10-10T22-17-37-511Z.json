@@ -1,0 +1,9 @@
+{
+  "timestamp": "2026-10-10T22:17:37.511Z",
+  "events": [
+    {
+      "type": "NEW_PERSON_ACTIVITY",
+      "detail": "taigrr:\n[2026-10-09T10:33:25Z] pushed to taigrr/eff (cd/update-go-1-27-0):\n  a09e241 chore(deps): update Go directive to 1.27.2\n\n[2026-10-10T07:38:16Z] pushed to taigrr/blastd (cd/protect-socket-path):\n  01b7d6e fix(socket): preserve non-socket path files\n\n[2026-10-10T07:35:08Z] created branch \"cd/protect-socket-path\" on taigrr/blastd\n\n[2026-10-10T09:35:43Z] pushed to taigrr/gojev (cd/fallback-close-coverage-round8):\n  9a8dd22 fix(deps): use patched go network stack\n  20f1d49 test: cover fallback close behavior"
+    }
+  ]
+}
