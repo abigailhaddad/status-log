@@ -1,0 +1,9 @@
+{
+  "timestamp": "2026-10-10T06:46:45.431Z",
+  "events": [
+    {
+      "type": "NEW_PERSON_ACTIVITY",
+      "detail": "taigrr:\n[2026-10-10T06:08:41Z] opened PR #360 on gogrlx/grlx: \"test(cli): cover test ping command output\" (`https://github.com/gogrlx/grlx/pull/360`)\n\n[2026-10-09T23:06:12Z] pushed to taigrr/catwalk (main):\n  211a09b feat: add GPT-6 Astra, Sol, and Luna\n\n[2026-10-09T23:06:00Z] pushed to taigrr/fantasy (main):\n  27b491e feat(openai): support GPT-6 reasoning models\n  b9e2c71 feat(clef): run Clef decision models in-process via llama.cpp, sharing GGUF download and library code with kev\n  5df93f6 Merge branch 'gpt6'\n\n[2026-10-09T07:11:35Z] created branch \"cd/go-1.27.2\" on taigrr/gojev"
+    }
+  ]
+}
