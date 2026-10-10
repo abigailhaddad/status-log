@@ -1,0 +1,9 @@
+{
+  "timestamp": "2026-10-10T10:10:52.163Z",
+  "events": [
+    {
+      "type": "NEW_PERSON_ACTIVITY",
+      "detail": "taigrr:\n[2026-10-10T09:33:59Z] opened PR #6 on taigrr/gojev: \"test: cover fallback close behavior\" (`https://github.com/taigrr/gojev/pull/6`)\n\n[2026-10-09T10:35:48Z] pushed to taigrr/eff (cd/update-go-1-27-0):\n  c81672f chore(deps): keep Go directive on lint-compatible release\n\n[2026-10-10T07:35:20Z] opened PR #23 on taigrr/blastd: \"fix(socket): preserve non-socket path files\" (`https://github.com/taigrr/blastd/pull/23`)"
+    }
+  ]
+}
