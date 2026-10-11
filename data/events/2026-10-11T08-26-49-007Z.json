@@ -1,0 +1,9 @@
+{
+  "timestamp": "2026-10-11T08:26:49.007Z",
+  "events": [
+    {
+      "type": "NEW_PERSON_ACTIVITY",
+      "detail": "taigrr:\n[2026-10-11T07:56:04Z] pushed to taigrr/crush (feature):\n  ef5f345 fix(ui): exclude swarm-injected messages from prompt history recall\n  42e3e29 fix(config): honor disable_default_providers in Providers catalog lookup\n  5439bd0 Merge branch 'fix/disable-default-providers-catalog' into feature\n  ebc616e fix(ui): scope agent-busy UI state to the open session instead of the workspace\n  d24a801 fix(agent): hand off to queued prompts when a turn ends in a provider error\n  bc2a853 Merge branch 'fix/editor-busy-session-scope' into feature\n  867207f fix(config): backfill max_tokens and reasoning_effort from catalog when saving a model selection\n  f01aea1 fix(glob): bound glob with a 30s timeout, honor ctx cancellation, and stop following symlinks\n  e466e45 Merge branch 'fix/drain-queue-after-error' into feature\n  d75c902 Merge branch 'fix/glob-ctx-symlinks-timeout' into feature\n\n[2026-10-11T07:39:39Z] pushed to taigrr/blastd (cd/blastd-round10-quality):\n  ed5ba4c chore(deps): update go toolchain and sqlite deps\n\n[2026-10-11T06:06:20Z] opened PR #361 on gogrlx/grlx: \"fix(update): clean staged binary on install failure\" (`https://github.com/gogrlx/grlx/pull/361`)"
+    }
+  ]
+}
