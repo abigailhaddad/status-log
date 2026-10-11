@@ -1,7 +1,7 @@
 {
   "ok": true,
-  "timestamp": "2026-10-10T17:46:18.895Z",
-  "harArtifactPath": "har-artifacts/2026-10-10T17-44-46-862Z.har",
+  "timestamp": "2026-10-11T18:00:25.878Z",
+  "harArtifactPath": "har-artifacts/2026-10-11T17-59-10-299Z.har",
   "pages": [
     {
       "url": "https://america.gov/",
@@ -12,7 +12,7 @@
       "formCount": 2,
       "chatInputFound": true,
       "blockers": [],
-      "a11yViolationCount": 0
+      "a11yViolationCount": 1
     },
     {
       "url": "https://america.gov/privacy",
@@ -92,8 +92,8 @@
       "a11yViolationCount": 0
     }
   ],
-  "siteWideA11yViolationCount": 0,
-  "a11yReportPath": "data/a11y/2026-10-10T17-44-46-862Z-sitewide.json",
+  "siteWideA11yViolationCount": 1,
+  "a11yReportPath": "data/a11y/2026-10-11T17-59-10-299Z-sitewide.json",
   "pagesVisited": 8,
   "chatInputFoundOnPages": [
     {
@@ -107,7 +107,7 @@
       "testMessage": "How do I contact my member of Congress?"
     }
   ],
-  "totalRequests": 1312,
+  "totalRequests": 1313,
   "uniqueHosts": [
     "america.gov"
   ],
