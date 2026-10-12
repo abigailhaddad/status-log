@@ -1,6 +1,6 @@
 {
-  "sinceIso": "2026-09-28T13:25:19.854Z",
-  "untilIso": "2026-10-05T13:25:19.854Z",
+  "sinceIso": "2026-10-05T23:02:13.593Z",
+  "untilIso": "2026-10-12T23:02:13.593Z",
   "repos": [
     "uswds/uswds",
     "uswds/uswds-site",
@@ -11,43 +11,23 @@
     "nationaldesignstudio/rampart"
   ],
   "commitSummary": {
-    "total": 26,
+    "total": 16,
     "topAuthors": [
       [
-        "Sgtpluck",
-        3
-      ],
-      [
-        "shanechesnutt-ft",
-        3
-      ],
-      [
-        "AShukla-GSA",
-        2
-      ],
-      [
         "jc-gsa",
+        3
+      ],
+      [
+        "Raydman",
         2
-      ],
-      [
-        "samcorcos",
-        1
-      ],
-      [
-        "GovLandScout",
-        1
-      ],
-      [
-        "ryparker",
-        1
-      ],
-      [
-        "amirbey",
-        1
       ],
       [
         "Mawar2",
-        1
+        2
+      ],
+      [
+        "monfresh",
+        2
       ],
       [
         "theabrad",
@@ -58,70 +38,68 @@
         1
       ],
       [
-        "dlh-woc",
+        "AShukla-GSA",
         1
       ],
       [
-        "jmdembe",
+        "astrogeco",
         1
       ],
       [
-        "MrNagoo",
+        "taigrr",
         1
       ],
       [
-        "vrajmohan",
+        "mdiarra3",
         1
       ],
       [
-        "colton-lapp",
-        1
-      ],
-      [
-        "dependabot[bot]",
-        1
-      ],
-      [
-        "ameter",
-        1
-      ],
-      [
-        "ksebesta-gsa",
-        1
-      ],
-      [
-        "antcampbelll",
+        "Jeremy1026",
         1
       ]
     ],
     "byHourUtc": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
+      1,
       1,
       0,
       1,
-      4,
-      3,
-      3,
       0,
-      4,
-      3,
-      5,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
       2,
       0,
-      0
+      0,
+      2,
+      3,
+      3,
+      1,
+      1,
+      0,
+      0,
+      1
     ],
     "rapidFirePairs": []
   },
-  "topUpvotedComments": [],
+  "topUpvotedComments": [
+    {
+      "kind": "issue",
+      "id": 6064336657,
+      "repo": "uswds/uswds",
+      "issueNumber": 6977,
+      "author": "Raydman",
+      "body": "@ajfarkas Thanks! The commit is re-signed and now shows as verified. I also changed line 9 of `usa-input-mask.twig` to `data-placeholder=\"{{ placeholder }}\"` in 1dd4d4bbe so the mask works in Storybook.",
+      "createdAt": "2026-10-08T16:25:06Z",
+      "url": "https://github.com/uswds/uswds/pull/6977#issuecomment-6064336657",
+      "up": 1,
+      "down": 0,
+      "totalReactions": 1
+    }
+  ],
   "topDownvotedComments": []
 }

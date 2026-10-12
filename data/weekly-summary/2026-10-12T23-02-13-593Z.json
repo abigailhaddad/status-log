@@ -1,0 +1,105 @@
+{
+  "sinceIso": "2026-10-05T23:02:13.593Z",
+  "untilIso": "2026-10-12T23:02:13.593Z",
+  "repos": [
+    "uswds/uswds",
+    "uswds/uswds-site",
+    "18F/identity-idp",
+    "GSA-TTS/identity-site",
+    "GSA-TTS/identity-handbook",
+    "GSA-TTS/identity-dev-docs",
+    "nationaldesignstudio/rampart"
+  ],
+  "commitSummary": {
+    "total": 16,
+    "topAuthors": [
+      [
+        "jc-gsa",
+        3
+      ],
+      [
+        "Raydman",
+        2
+      ],
+      [
+        "Mawar2",
+        2
+      ],
+      [
+        "monfresh",
+        2
+      ],
+      [
+        "theabrad",
+        1
+      ],
+      [
+        "joshuaalley25",
+        1
+      ],
+      [
+        "AShukla-GSA",
+        1
+      ],
+      [
+        "astrogeco",
+        1
+      ],
+      [
+        "taigrr",
+        1
+      ],
+      [
+        "mdiarra3",
+        1
+      ],
+      [
+        "Jeremy1026",
+        1
+      ]
+    ],
+    "byHourUtc": [
+      1,
+      1,
+      0,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      0,
+      0,
+      2,
+      3,
+      3,
+      1,
+      1,
+      0,
+      0,
+      1
+    ],
+    "rapidFirePairs": []
+  },
+  "topUpvotedComments": [
+    {
+      "kind": "issue",
+      "id": 6064336657,
+      "repo": "uswds/uswds",
+      "issueNumber": 6977,
+      "author": "Raydman",
+      "body": "@ajfarkas Thanks! The commit is re-signed and now shows as verified. I also changed line 9 of `usa-input-mask.twig` to `data-placeholder=\"{{ placeholder }}\"` in 1dd4d4bbe so the mask works in Storybook.",
+      "createdAt": "2026-10-08T16:25:06Z",
+      "url": "https://github.com/uswds/uswds/pull/6977#issuecomment-6064336657",
+      "up": 1,
+      "down": 0,
+      "totalReactions": 1
+    }
+  ],
+  "topDownvotedComments": []
+}
