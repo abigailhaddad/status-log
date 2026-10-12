@@ -1,0 +1,9 @@
+{
+  "timestamp": "2026-10-12T23:03:42.911Z",
+  "events": [
+    {
+      "type": "NEW_PERSON_ACTIVITY",
+      "detail": "taigrr:\n[2026-10-11T07:42:21Z] pushed to taigrr/blastd (cd/blastd-round10-quality):\n  4600380 chore(deps): update go toolchain and module deps\n\n[2026-10-12T20:52:30Z] opened PR #42 on taigrr/crush: \"fix(agent): make cache warm request safe with thinking and Bedrock Europe\" (`https://github.com/taigrr/crush/pull/42`)\n\n[2026-10-12T20:52:23Z] created branch \"fix/cache-warm-bedrock-thinking\" on taigrr/crush\n\n[2026-10-12T20:43:53Z] pushed to 18F/identity-idp (site-keys/5-personal-key):\n  557cdf1 [Team-Data, GL-1623] Add sp request_id to CloudWatch events (#13608)\n  caea33b Joan 147: Add document_type_received to analytics (#13626)\n  19c0d72 Joan 144: Add vendor cost attribution (#13625)\n  80720e4 LG-17974 Update proofing agent api validation (#13627)\n  42e6a71 [LG-17893] Add logging to recaptcha failures for password reset and email confirmation (#13609)\n  6ee0ed4 LG-16880 AAMVA to DocAuth cleanup (#13629)\n  59b13bc LG-17762 Add Verify with CLEAR UX option to Hybrid Handoff (#13444)\n  046467c Add sealing primitives for per-site keys\n  6b19706 Store per-site key roots wrapped under the user's password\n  34f3735 Release sealed per-site keys on OIDC authorization\n\n[2026-10-11T06:06:07Z] created branch \"cd/update-rollback-errors-20261011\" on gogrlx/grlx\n\n[2026-10-11T10:04:16Z] pushed to taigrr/elevenlabs-mcp (cd/refresh-indirect-deps):\n  d796fe8 test(ximcp): cover audio history loading\n\n[2026-10-12T15:45:33Z] pushed to taigrr/crush (cd/cache-warm-long-tools):\n  6d47e57 fix(agent): make cache warm request safe with thinking and Bedrock Europe"
+    }
+  ]
+}
