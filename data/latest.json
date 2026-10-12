@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-12T04:59:26.128Z",
+  "timestamp": "2026-10-12T11:24:20.760Z",
   "live": true,
   "dns": {
     "america.gov": {
@@ -9,8 +9,8 @@
         "172.64.96.165"
       ],
       "aaaa": [
-        "2606:54c1:10::a29f:d4a5",
-        "2606:54c1:10::ac40:60a5"
+        "2606:54c1:10::ac40:60a5",
+        "2606:54c1:10::a29f:d4a5"
       ],
       "cname": null,
       "ns": [
@@ -43,15 +43,15 @@
       "finalHeaders": {
         "cache-control": "private, no-store, no-transform",
         "cf-cache-status": "HIT",
-        "cf-ray": "a49389150a802f20-LAX",
+        "cf-ray": "a495bce8dd26485e-DFW",
         "connection": "keep-alive",
-        "content-security-policy": "default-src 'none'; base-uri 'none'; object-src 'none'; form-action 'self'; font-src 'self' data:; worker-src 'self' blob:; img-src 'self' data: blob:; connect-src 'self'; media-src 'self' blob: data:; frame-src 'self'; frame-ancestors 'none'; script-src 'self' 'wasm-unsafe-eval' 'sha256-C/MS+M/q1h7xMxxNkNmnZprjEO47QsxjqiCQNBjCD2A=' 'sha256-BF0290pkb3jxQsE7z00xR8Imp8X34FLC88L0lkMnrGw=' 'sha256-QzWFZi+FLIx23tnm9SBU4aEgx4x8DsuASP07mfqol/c=' 'sha256-0chmwFk0zaA528yFfGV7J9ppIpdfTPPULncDF3WG7Zs=' 'sha256-eIXWvAmxkr251LJZkjniEK5LcPF3NkapbJepohwYRIc=' 'sha256-Q2BPg90ZMplYY+FSdApNErhpWafg2hcRRbndmvxuL/Q=' 'sha256-Ya0pUYrC7nM5Cn/056TyVuEiz6dFGrzmkWzgON0pF0U=' 'sha256-SHXg3YtOAVshUMT3f+eElYDgbV0kaujWj8DSaXSS4Vs=' 'sha256-o6WEQ95Zktx2KYiIWpEgR5AD0cnj7ycU4MOAX5wRQ0Q=' 'sha256-umIJp04nPDeLKwAOXJ27vwAx1PnvlIR58a9pS/1HP5M=' 'nonce-FIjYqid+nrYHDWMRffRGX6MN'; script-src-attr 'none'; style-src 'self' 'unsafe-inline', base-uri 'none'; object-src 'none'; form-action 'self'; font-src 'self' data:; worker-src 'self' blob:; img-src 'self' data: blob:; connect-src 'self'; media-src 'self' blob: data:; frame-src https://america.gov/cdn-cgi/challenge-platform/; frame-ancestors 'none'",
+        "content-security-policy": "default-src 'none'; base-uri 'none'; object-src 'none'; form-action 'self'; font-src 'self' data:; worker-src 'self' blob:; img-src 'self' data: blob:; connect-src 'self'; media-src 'self' blob: data:; frame-src 'self'; frame-ancestors 'none'; script-src 'self' 'wasm-unsafe-eval' 'sha256-C/MS+M/q1h7xMxxNkNmnZprjEO47QsxjqiCQNBjCD2A=' 'sha256-BF0290pkb3jxQsE7z00xR8Imp8X34FLC88L0lkMnrGw=' 'sha256-QzWFZi+FLIx23tnm9SBU4aEgx4x8DsuASP07mfqol/c=' 'sha256-0chmwFk0zaA528yFfGV7J9ppIpdfTPPULncDF3WG7Zs=' 'sha256-eIXWvAmxkr251LJZkjniEK5LcPF3NkapbJepohwYRIc=' 'sha256-Q2BPg90ZMplYY+FSdApNErhpWafg2hcRRbndmvxuL/Q=' 'sha256-Ya0pUYrC7nM5Cn/056TyVuEiz6dFGrzmkWzgON0pF0U=' 'sha256-SHXg3YtOAVshUMT3f+eElYDgbV0kaujWj8DSaXSS4Vs=' 'sha256-o6WEQ95Zktx2KYiIWpEgR5AD0cnj7ycU4MOAX5wRQ0Q=' 'sha256-umIJp04nPDeLKwAOXJ27vwAx1PnvlIR58a9pS/1HP5M=' 'nonce-9918ZopuaBlIv3oKrqrjKjlf'; script-src-attr 'none'; style-src 'self' 'unsafe-inline', base-uri 'none'; object-src 'none'; form-action 'self'; font-src 'self' data:; worker-src 'self' blob:; img-src 'self' data: blob:; connect-src 'self'; media-src 'self' blob: data:; frame-src https://america.gov/cdn-cgi/challenge-platform/; frame-ancestors 'none'",
         "content-type": "text/html",
-        "date": "Mon, 12 Oct 2026 04:59:29 GMT",
+        "date": "Mon, 12 Oct 2026 11:24:23 GMT",
         "permissions-policy": "camera=(), microphone=(self), geolocation=(), payment=(), usb=()",
         "referrer-policy": "no-referrer",
         "server": "cloudflare",
-        "set-cookie": "__cf_bm=N1dqFCU7ZdpCO_WSlD1sUMjNeHB37l9DdwreFoJ.Ky4-1791781169.4511528-1.0.1.1-S9xqQELpEUGUPVy6KYHIkO5RGMFFzLBWAWCUOdAucUOud5CiKBBDTlvNFrkTSk_ODnJDg5PamWi5F539.o09H7oCYYO9irT2Ychln4Q7VtBYv0vce9XEnH9MQyAC_q.Q; HttpOnly; SameSite=None; Secure; Path=/; Domain=america.gov; Expires=Mon, 12 Oct 2026 05:29:29 GMT",
+        "set-cookie": "__cf_bm=EHYKJmb5Btx0syweer.3K6gWXy1OeYv_DpkzMLLpnfw-1791804263.8136072-1.0.1.1-4Tn9ISF8XIxnYuqD6fcPvNa2YdJIQkOV2OPAodmepWvY8vRRIndlvkCGMXhJnNGJxuUw8JlgyEszBleKgXirr4.9pqlSqaASIuQrsNIIK1Xxql96ZgkKaMhpJ00ZOQAS; HttpOnly; SameSite=None; Secure; Path=/; Domain=america.gov; Expires=Mon, 12 Oct 2026 11:54:23 GMT",
         "strict-transport-security": "max-age=15552000; includeSubDomains; preload",
         "transfer-encoding": "chunked",
         "x-content-type-options": "nosniff",
@@ -64,15 +64,15 @@
           "headers": {
             "cache-control": "private, no-store, no-transform",
             "cf-cache-status": "HIT",
-            "cf-ray": "a49389150a802f20-LAX",
+            "cf-ray": "a495bce8dd26485e-DFW",
             "connection": "keep-alive",
-            "content-security-policy": "default-src 'none'; base-uri 'none'; object-src 'none'; form-action 'self'; font-src 'self' data:; worker-src 'self' blob:; img-src 'self' data: blob:; connect-src 'self'; media-src 'self' blob: data:; frame-src 'self'; frame-ancestors 'none'; script-src 'self' 'wasm-unsafe-eval' 'sha256-C/MS+M/q1h7xMxxNkNmnZprjEO47QsxjqiCQNBjCD2A=' 'sha256-BF0290pkb3jxQsE7z00xR8Imp8X34FLC88L0lkMnrGw=' 'sha256-QzWFZi+FLIx23tnm9SBU4aEgx4x8DsuASP07mfqol/c=' 'sha256-0chmwFk0zaA528yFfGV7J9ppIpdfTPPULncDF3WG7Zs=' 'sha256-eIXWvAmxkr251LJZkjniEK5LcPF3NkapbJepohwYRIc=' 'sha256-Q2BPg90ZMplYY+FSdApNErhpWafg2hcRRbndmvxuL/Q=' 'sha256-Ya0pUYrC7nM5Cn/056TyVuEiz6dFGrzmkWzgON0pF0U=' 'sha256-SHXg3YtOAVshUMT3f+eElYDgbV0kaujWj8DSaXSS4Vs=' 'sha256-o6WEQ95Zktx2KYiIWpEgR5AD0cnj7ycU4MOAX5wRQ0Q=' 'sha256-umIJp04nPDeLKwAOXJ27vwAx1PnvlIR58a9pS/1HP5M=' 'nonce-FIjYqid+nrYHDWMRffRGX6MN'; script-src-attr 'none'; style-src 'self' 'unsafe-inline', base-uri 'none'; object-src 'none'; form-action 'self'; font-src 'self' data:; worker-src 'self' blob:; img-src 'self' data: blob:; connect-src 'self'; media-src 'self' blob: data:; frame-src https://america.gov/cdn-cgi/challenge-platform/; frame-ancestors 'none'",
+            "content-security-policy": "default-src 'none'; base-uri 'none'; object-src 'none'; form-action 'self'; font-src 'self' data:; worker-src 'self' blob:; img-src 'self' data: blob:; connect-src 'self'; media-src 'self' blob: data:; frame-src 'self'; frame-ancestors 'none'; script-src 'self' 'wasm-unsafe-eval' 'sha256-C/MS+M/q1h7xMxxNkNmnZprjEO47QsxjqiCQNBjCD2A=' 'sha256-BF0290pkb3jxQsE7z00xR8Imp8X34FLC88L0lkMnrGw=' 'sha256-QzWFZi+FLIx23tnm9SBU4aEgx4x8DsuASP07mfqol/c=' 'sha256-0chmwFk0zaA528yFfGV7J9ppIpdfTPPULncDF3WG7Zs=' 'sha256-eIXWvAmxkr251LJZkjniEK5LcPF3NkapbJepohwYRIc=' 'sha256-Q2BPg90ZMplYY+FSdApNErhpWafg2hcRRbndmvxuL/Q=' 'sha256-Ya0pUYrC7nM5Cn/056TyVuEiz6dFGrzmkWzgON0pF0U=' 'sha256-SHXg3YtOAVshUMT3f+eElYDgbV0kaujWj8DSaXSS4Vs=' 'sha256-o6WEQ95Zktx2KYiIWpEgR5AD0cnj7ycU4MOAX5wRQ0Q=' 'sha256-umIJp04nPDeLKwAOXJ27vwAx1PnvlIR58a9pS/1HP5M=' 'nonce-9918ZopuaBlIv3oKrqrjKjlf'; script-src-attr 'none'; style-src 'self' 'unsafe-inline', base-uri 'none'; object-src 'none'; form-action 'self'; font-src 'self' data:; worker-src 'self' blob:; img-src 'self' data: blob:; connect-src 'self'; media-src 'self' blob: data:; frame-src https://america.gov/cdn-cgi/challenge-platform/; frame-ancestors 'none'",
             "content-type": "text/html",
-            "date": "Mon, 12 Oct 2026 04:59:29 GMT",
+            "date": "Mon, 12 Oct 2026 11:24:23 GMT",
             "permissions-policy": "camera=(), microphone=(self), geolocation=(), payment=(), usb=()",
             "referrer-policy": "no-referrer",
             "server": "cloudflare",
-            "set-cookie": "__cf_bm=N1dqFCU7ZdpCO_WSlD1sUMjNeHB37l9DdwreFoJ.Ky4-1791781169.4511528-1.0.1.1-S9xqQELpEUGUPVy6KYHIkO5RGMFFzLBWAWCUOdAucUOud5CiKBBDTlvNFrkTSk_ODnJDg5PamWi5F539.o09H7oCYYO9irT2Ychln4Q7VtBYv0vce9XEnH9MQyAC_q.Q; HttpOnly; SameSite=None; Secure; Path=/; Domain=america.gov; Expires=Mon, 12 Oct 2026 05:29:29 GMT",
+            "set-cookie": "__cf_bm=EHYKJmb5Btx0syweer.3K6gWXy1OeYv_DpkzMLLpnfw-1791804263.8136072-1.0.1.1-4Tn9ISF8XIxnYuqD6fcPvNa2YdJIQkOV2OPAodmepWvY8vRRIndlvkCGMXhJnNGJxuUw8JlgyEszBleKgXirr4.9pqlSqaASIuQrsNIIK1Xxql96ZgkKaMhpJ00ZOQAS; HttpOnly; SameSite=None; Secure; Path=/; Domain=america.gov; Expires=Mon, 12 Oct 2026 11:54:23 GMT",
             "strict-transport-security": "max-age=15552000; includeSubDomains; preload",
             "transfer-encoding": "chunked",
             "x-content-type-options": "nosniff",
@@ -80,7 +80,7 @@
           }
         }
       ],
-      "bodyLength": 294542,
+      "bodyLength": 294894,
       "bodySnippet": "<!DOCTYPE html><html lang=\"en\" dir=\"ltr\"><head><style>\n/* Preserve the navigation's position across document loads and chat handoffs. */\n@view-transition {\n  navigation: auto;\n}\n\n:root {\n  view-transition-name: none;\n}\n\n.site-home-link {\n  view-transition-name: site-nav-logo;\n}\n\n.site-menu-trigger {\n  view-transition-name: site-nav-menu;\n}\n\n:root:active-view-transition .site-header {\n  transition: none;\n}\n\n::view-transition-group(site-nav-logo),\n::view-transition-group(site-nav-menu) {\n  animation-duration: 300ms;\n  animation-timing-function: var(--ease-drawer);\n}\n\n@media (prefers-reduced-motion: reduce) {\n  ::view-transition-group(site-nav-logo),\n  ::view-transition-group(site-nav-menu) {\n    animation-duration: 0s;\n  }\n}\n\n    </style><meta charset=\"utf-8\"><meta name=\"america-build-id\" content=\"4e139e5e1c066962187a9c0c7c8a5f5885f434c0\"><script>(function(){const languageQueryParam = \"lang\";\nconst languageOptions = [\"en\",\"fr\",\"es\"];\n\n      const saved = new URLSearchParams(location.search).get(languageQueryParam);\n      const preferred = languageOptions.includes(saved) ? saved : \"en\";\n      if (!/^en(?:-|$)/i.test(preferred)) {\n        document.documentElement.dataset.languagePending = \"\";\n        setTimeout(() => { delete document.documentElement.dataset.languagePending; }, 3000);\n      }\n    })();</script><script type=\"module\" src=\"/_astro/base-html.astro_astro_type_script_index_0_lang.CaBRHTVY.js\"></script><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, viewport-fit=cover\"><link rel=\"preload\" href=\"/_astro/rhymes-text-regular.DRsO9i-l.woff2\" as=\"font\" type=\"font/woff2\" crossorigin=\"\"><link rel=\"icon\" href=\"/favicon.ico\" sizes=\"16x16 32x32 48x48\"><link rel=\"icon\" href=\"/favicon.svg\" type=\"image/svg+xml\"><link rel=\"apple-touch-icon\" href=\"/apple-touch-icon.png\" sizes=\"180x180\"><meta name=\"apple-mobile-web-app-title\" content=\"America.gov\"><title data-site-en=\"America.gov\" data-site-fr=\"America.gov\" data-site-es=\"America.gov\">America.gov</title><sc",
       "error": null
     },
@@ -91,15 +91,15 @@
       "finalHeaders": {
         "cache-control": "private, no-store, no-transform",
         "cf-cache-status": "HIT",
-        "cf-ray": "a49389159aed2f20-LAX",
+        "cf-ray": "a495bce9ddd7485e-DFW",
         "connection": "keep-alive",
-        "content-security-policy": "default-src 'none'; base-uri 'none'; object-src 'none'; form-action 'self'; font-src 'self' data:; worker-src 'self' blob:; img-src 'self' data: blob:; connect-src 'self'; media-src 'self' blob: data:; frame-src 'self'; frame-ancestors 'none'; script-src 'self' 'wasm-unsafe-eval' 'sha256-C/MS+M/q1h7xMxxNkNmnZprjEO47QsxjqiCQNBjCD2A=' 'sha256-BF0290pkb3jxQsE7z00xR8Imp8X34FLC88L0lkMnrGw=' 'sha256-QzWFZi+FLIx23tnm9SBU4aEgx4x8DsuASP07mfqol/c=' 'sha256-0chmwFk0zaA528yFfGV7J9ppIpdfTPPULncDF3WG7Zs=' 'sha256-eIXWvAmxkr251LJZkjniEK5LcPF3NkapbJepohwYRIc=' 'sha256-Q2BPg90ZMplYY+FSdApNErhpWafg2hcRRbndmvxuL/Q=' 'sha256-Ya0pUYrC7nM5Cn/056TyVuEiz6dFGrzmkWzgON0pF0U=' 'sha256-SHXg3YtOAVshUMT3f+eElYDgbV0kaujWj8DSaXSS4Vs=' 'sha256-o6WEQ95Zktx2KYiIWpEgR5AD0cnj7ycU4MOAX5wRQ0Q=' 'sha256-umIJp04nPDeLKwAOXJ27vwAx1PnvlIR58a9pS/1HP5M=' 'nonce-H59jt36gX1e8vIwXRTLF5NPs'; script-src-attr 'none'; style-src 'self' 'unsafe-inline', base-uri 'none'; object-src 'none'; form-action 'self'; font-src 'self' data:; worker-src 'self' blob:; img-src 'self' data: blob:; connect-src 'self'; media-src 'self' blob: data:; frame-src https://america.gov/cdn-cgi/challenge-platform/; frame-ancestors 'none'",
+        "content-security-policy": "default-src 'none'; base-uri 'none'; object-src 'none'; form-action 'self'; font-src 'self' data:; worker-src 'self' blob:; img-src 'self' data: blob:; connect-src 'self'; media-src 'self' blob: data:; frame-src 'self'; frame-ancestors 'none'; script-src 'self' 'wasm-unsafe-eval' 'sha256-C/MS+M/q1h7xMxxNkNmnZprjEO47QsxjqiCQNBjCD2A=' 'sha256-BF0290pkb3jxQsE7z00xR8Imp8X34FLC88L0lkMnrGw=' 'sha256-QzWFZi+FLIx23tnm9SBU4aEgx4x8DsuASP07mfqol/c=' 'sha256-0chmwFk0zaA528yFfGV7J9ppIpdfTPPULncDF3WG7Zs=' 'sha256-eIXWvAmxkr251LJZkjniEK5LcPF3NkapbJepohwYRIc=' 'sha256-Q2BPg90ZMplYY+FSdApNErhpWafg2hcRRbndmvxuL/Q=' 'sha256-Ya0pUYrC7nM5Cn/056TyVuEiz6dFGrzmkWzgON0pF0U=' 'sha256-SHXg3YtOAVshUMT3f+eElYDgbV0kaujWj8DSaXSS4Vs=' 'sha256-o6WEQ95Zktx2KYiIWpEgR5AD0cnj7ycU4MOAX5wRQ0Q=' 'sha256-umIJp04nPDeLKwAOXJ27vwAx1PnvlIR58a9pS/1HP5M=' 'nonce-ZOOi4tYuiFnhlZyG+vW+Z1b9'; script-src-attr 'none'; style-src 'self' 'unsafe-inline', base-uri 'none'; object-src 'none'; form-action 'self'; font-src 'self' data:; worker-src 'self' blob:; img-src 'self' data: blob:; connect-src 'self'; media-src 'self' blob: data:; frame-src https://america.gov/cdn-cgi/challenge-platform/; frame-ancestors 'none'",
         "content-type": "text/html",
-        "date": "Mon, 12 Oct 2026 04:59:29 GMT",
+        "date": "Mon, 12 Oct 2026 11:24:23 GMT",
         "permissions-policy": "camera=(), microphone=(self), geolocation=(), payment=(), usb=()",
         "referrer-policy": "no-referrer",
         "server": "cloudflare",
-        "set-cookie": "__cf_bm=WIaCIcqPsplfkYDSWzwdrTgFs8KLCM4PTupes100o74-1791781169.5423002-1.0.1.1-wMJy76IQyGenW9XHl4O5r4ClduTsF4s6g_.s.ngtsWNyXZAK1hqEAeRz..kbhEg79tx.ons.AAzSy89dtCtGjDgYXFx6O5yFM5tZOOUzWkIujw857uAnY2hU9ZMhEgQd; HttpOnly; SameSite=None; Secure; Path=/; Domain=america.gov; Expires=Mon, 12 Oct 2026 05:29:29 GMT",
+        "set-cookie": "__cf_bm=Gct_n1zgK3KKvw0BCy8QsbLc8STAJUO7QMDW77aW.HU-1791804263.9736843-1.0.1.1-oCqJ0jjMqpHgAwtoTLFT_u8kpEWxwG50LBfBS_UsozWstkCiw3c7bdLWSoi32Ctwi7bBDGF0Bi65suRyDYplGcvTi8g2AD4UK2GbiwGlbwAj5VqGkh.raazV3_vmbJ0b; HttpOnly; SameSite=None; Secure; Path=/; Domain=america.gov; Expires=Mon, 12 Oct 2026 11:54:23 GMT",
         "strict-transport-security": "max-age=15552000; includeSubDomains; preload",
         "transfer-encoding": "chunked",
         "x-content-type-options": "nosniff",
@@ -110,10 +110,10 @@
           "url": "https://www.america.gov/",
           "status": 301,
           "headers": {
-            "cf-ray": "a4938915896c5027-LAX",
+            "cf-ray": "a495bce9ad80474c-DFW",
             "connection": "keep-alive",
             "content-type": "text/html; charset=UTF-8",
-            "date": "Mon, 12 Oct 2026 04:59:29 GMT",
+            "date": "Mon, 12 Oct 2026 11:24:23 GMT",
             "location": "https://america.gov/",
             "server": "cloudflare",
             "strict-transport-security": "max-age=15552000; includeSubDomains; preload",
@@ -127,15 +127,15 @@
           "headers": {
             "cache-control": "private, no-store, no-transform",
             "cf-cache-status": "HIT",
-            "cf-ray": "a49389159aed2f20-LAX",
+            "cf-ray": "a495bce9ddd7485e-DFW",
             "connection": "keep-alive",
-            "content-security-policy": "default-src 'none'; base-uri 'none'; object-src 'none'; form-action 'self'; font-src 'self' data:; worker-src 'self' blob:; img-src 'self' data: blob:; connect-src 'self'; media-src 'self' blob: data:; frame-src 'self'; frame-ancestors 'none'; script-src 'self' 'wasm-unsafe-eval' 'sha256-C/MS+M/q1h7xMxxNkNmnZprjEO47QsxjqiCQNBjCD2A=' 'sha256-BF0290pkb3jxQsE7z00xR8Imp8X34FLC88L0lkMnrGw=' 'sha256-QzWFZi+FLIx23tnm9SBU4aEgx4x8DsuASP07mfqol/c=' 'sha256-0chmwFk0zaA528yFfGV7J9ppIpdfTPPULncDF3WG7Zs=' 'sha256-eIXWvAmxkr251LJZkjniEK5LcPF3NkapbJepohwYRIc=' 'sha256-Q2BPg90ZMplYY+FSdApNErhpWafg2hcRRbndmvxuL/Q=' 'sha256-Ya0pUYrC7nM5Cn/056TyVuEiz6dFGrzmkWzgON0pF0U=' 'sha256-SHXg3YtOAVshUMT3f+eElYDgbV0kaujWj8DSaXSS4Vs=' 'sha256-o6WEQ95Zktx2KYiIWpEgR5AD0cnj7ycU4MOAX5wRQ0Q=' 'sha256-umIJp04nPDeLKwAOXJ27vwAx1PnvlIR58a9pS/1HP5M=' 'nonce-H59jt36gX1e8vIwXRTLF5NPs'; script-src-attr 'none'; style-src 'self' 'unsafe-inline', base-uri 'none'; object-src 'none'; form-action 'self'; font-src 'self' data:; worker-src 'self' blob:; img-src 'self' data: blob:; connect-src 'self'; media-src 'self' blob: data:; frame-src https://america.gov/cdn-cgi/challenge-platform/; frame-ancestors 'none'",
+            "content-security-policy": "default-src 'none'; base-uri 'none'; object-src 'none'; form-action 'self'; font-src 'self' data:; worker-src 'self' blob:; img-src 'self' data: blob:; connect-src 'self'; media-src 'self' blob: data:; frame-src 'self'; frame-ancestors 'none'; script-src 'self' 'wasm-unsafe-eval' 'sha256-C/MS+M/q1h7xMxxNkNmnZprjEO47QsxjqiCQNBjCD2A=' 'sha256-BF0290pkb3jxQsE7z00xR8Imp8X34FLC88L0lkMnrGw=' 'sha256-QzWFZi+FLIx23tnm9SBU4aEgx4x8DsuASP07mfqol/c=' 'sha256-0chmwFk0zaA528yFfGV7J9ppIpdfTPPULncDF3WG7Zs=' 'sha256-eIXWvAmxkr251LJZkjniEK5LcPF3NkapbJepohwYRIc=' 'sha256-Q2BPg90ZMplYY+FSdApNErhpWafg2hcRRbndmvxuL/Q=' 'sha256-Ya0pUYrC7nM5Cn/056TyVuEiz6dFGrzmkWzgON0pF0U=' 'sha256-SHXg3YtOAVshUMT3f+eElYDgbV0kaujWj8DSaXSS4Vs=' 'sha256-o6WEQ95Zktx2KYiIWpEgR5AD0cnj7ycU4MOAX5wRQ0Q=' 'sha256-umIJp04nPDeLKwAOXJ27vwAx1PnvlIR58a9pS/1HP5M=' 'nonce-ZOOi4tYuiFnhlZyG+vW+Z1b9'; script-src-attr 'none'; style-src 'self' 'unsafe-inline', base-uri 'none'; object-src 'none'; form-action 'self'; font-src 'self' data:; worker-src 'self' blob:; img-src 'self' data: blob:; connect-src 'self'; media-src 'self' blob: data:; frame-src https://america.gov/cdn-cgi/challenge-platform/; frame-ancestors 'none'",
             "content-type": "text/html",
-            "date": "Mon, 12 Oct 2026 04:59:29 GMT",
+            "date": "Mon, 12 Oct 2026 11:24:23 GMT",
             "permissions-policy": "camera=(), microphone=(self), geolocation=(), payment=(), usb=()",
             "referrer-policy": "no-referrer",
             "server": "cloudflare",
-            "set-cookie": "__cf_bm=WIaCIcqPsplfkYDSWzwdrTgFs8KLCM4PTupes100o74-1791781169.5423002-1.0.1.1-wMJy76IQyGenW9XHl4O5r4ClduTsF4s6g_.s.ngtsWNyXZAK1hqEAeRz..kbhEg79tx.ons.AAzSy89dtCtGjDgYXFx6O5yFM5tZOOUzWkIujw857uAnY2hU9ZMhEgQd; HttpOnly; SameSite=None; Secure; Path=/; Domain=america.gov; Expires=Mon, 12 Oct 2026 05:29:29 GMT",
+            "set-cookie": "__cf_bm=Gct_n1zgK3KKvw0BCy8QsbLc8STAJUO7QMDW77aW.HU-1791804263.9736843-1.0.1.1-oCqJ0jjMqpHgAwtoTLFT_u8kpEWxwG50LBfBS_UsozWstkCiw3c7bdLWSoi32Ctwi7bBDGF0Bi65suRyDYplGcvTi8g2AD4UK2GbiwGlbwAj5VqGkh.raazV3_vmbJ0b; HttpOnly; SameSite=None; Secure; Path=/; Domain=america.gov; Expires=Mon, 12 Oct 2026 11:54:23 GMT",
             "strict-transport-security": "max-age=15552000; includeSubDomains; preload",
             "transfer-encoding": "chunked",
             "x-content-type-options": "nosniff",
@@ -143,7 +143,7 @@
           }
         }
       ],
-      "bodyLength": 294794,
+      "bodyLength": 294749,
       "bodySnippet": "<!DOCTYPE html><html lang=\"en\" dir=\"ltr\"><head><style>\n/* Preserve the navigation's position across document loads and chat handoffs. */\n@view-transition {\n  navigation: auto;\n}\n\n:root {\n  view-transition-name: none;\n}\n\n.site-home-link {\n  view-transition-name: site-nav-logo;\n}\n\n.site-menu-trigger {\n  view-transition-name: site-nav-menu;\n}\n\n:root:active-view-transition .site-header {\n  transition: none;\n}\n\n::view-transition-group(site-nav-logo),\n::view-transition-group(site-nav-menu) {\n  animation-duration: 300ms;\n  animation-timing-function: var(--ease-drawer);\n}\n\n@media (prefers-reduced-motion: reduce) {\n  ::view-transition-group(site-nav-logo),\n  ::view-transition-group(site-nav-menu) {\n    animation-duration: 0s;\n  }\n}\n\n    </style><meta charset=\"utf-8\"><meta name=\"america-build-id\" content=\"4e139e5e1c066962187a9c0c7c8a5f5885f434c0\"><script>(function(){const languageQueryParam = \"lang\";\nconst languageOptions = [\"en\",\"fr\",\"es\"];\n\n      const saved = new URLSearchParams(location.search).get(languageQueryParam);\n      const preferred = languageOptions.includes(saved) ? saved : \"en\";\n      if (!/^en(?:-|$)/i.test(preferred)) {\n        document.documentElement.dataset.languagePending = \"\";\n        setTimeout(() => { delete document.documentElement.dataset.languagePending; }, 3000);\n      }\n    })();</script><script type=\"module\" src=\"/_astro/base-html.astro_astro_type_script_index_0_lang.CaBRHTVY.js\"></script><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, viewport-fit=cover\"><link rel=\"preload\" href=\"/_astro/rhymes-text-regular.DRsO9i-l.woff2\" as=\"font\" type=\"font/woff2\" crossorigin=\"\"><link rel=\"icon\" href=\"/favicon.ico\" sizes=\"16x16 32x32 48x48\"><link rel=\"icon\" href=\"/favicon.svg\" type=\"image/svg+xml\"><link rel=\"apple-touch-icon\" href=\"/apple-touch-icon.png\" sizes=\"180x180\"><meta name=\"apple-mobile-web-app-title\" content=\"America.gov\"><title data-site-en=\"America.gov\" data-site-fr=\"America.gov\" data-site-es=\"America.gov\">America.gov</title><sc",
       "error": null
     }
@@ -152,6 +152,12 @@
     "ok": true,
     "error": null,
     "certs": [
+      {
+        "common_name": "america.gov",
+        "issuer": "C=US, O=Google Trust Services, CN=WR1",
+        "not_before": "2026-09-28T20:58:42",
+        "not_after": "2026-12-27T21:56:22"
+      },
       {
         "common_name": "america.gov",
         "issuer": "C=US, O=Google Trust Services, CN=WR1",
@@ -385,12 +391,6 @@
         "issuer": "C=US, O=Amazon, CN=Amazon RSA 2048 M01",
         "not_before": "2026-03-01T00:00:00",
         "not_after": "2026-09-14T23:59:59"
-      },
-      {
-        "common_name": "mta-sts.america.gov",
-        "issuer": "C=US, O=Amazon, CN=Amazon RSA 2048 M04",
-        "not_before": "2026-02-22T00:00:00",
-        "not_after": "2026-09-07T23:59:59"
       }
     ]
   },
@@ -2475,6 +2475,90 @@
       "error": null,
       "events": [
         {
+          "id": "23764042905",
+          "type": "PushEvent",
+          "repo": "taigrr/gomap",
+          "createdAt": "2026-10-12T10:03:46Z",
+          "ref": "refs/heads/cd/round8-gomap-upkeep",
+          "before": "d30dd2272f6ed348b8388de745fdad8eaefe0b40",
+          "head": "b99f4e899195a49b8868d91b37bcea0f9a00a85d"
+        },
+        {
+          "id": "23761950331",
+          "type": "PushEvent",
+          "repo": "gogrlx/docs.grlx.dev",
+          "createdAt": "2026-10-12T09:32:56Z",
+          "ref": "refs/heads/cd/update-starlight-tooling",
+          "before": "1a2fa041812963f79a2ea57d826815ffbb4ef1ff",
+          "head": "d0c5fd42a36b697ce3d68b5f9d65ee3a2f31953e"
+        },
+        {
+          "id": "23755778123",
+          "type": "CreateEvent",
+          "repo": "taigrr/xmodem",
+          "createdAt": "2026-10-12T08:05:17Z",
+          "refType": "branch",
+          "ref": "cd/control-write-errors"
+        },
+        {
+          "id": "16989380924",
+          "type": "PullRequestEvent",
+          "repo": "taigrr/xmodem",
+          "createdAt": "2026-10-12T08:05:30Z",
+          "action": "opened",
+          "number": 11
+        },
+        {
+          "id": "23753655764",
+          "type": "PushEvent",
+          "repo": "taigrr/log-slack",
+          "createdAt": "2026-10-12T07:35:03Z",
+          "ref": "refs/heads/cd/log-slack-http-client",
+          "before": "95d2b9c10734308f38c14a01b55717e662785a22",
+          "head": "68a3352bec841aede178df805a0b9a5b559ebdf4"
+        },
+        {
+          "id": "23753555165",
+          "type": "PushEvent",
+          "repo": "taigrr/log-slack",
+          "createdAt": "2026-10-12T07:33:19Z",
+          "ref": "refs/heads/cd/log-slack-http-client",
+          "before": "0eb91971ff691fdea0521876dae74a8bf64a8e97",
+          "head": "95d2b9c10734308f38c14a01b55717e662785a22"
+        },
+        {
+          "id": "16986308040",
+          "type": "PullRequestEvent",
+          "repo": "gogrlx/grlx",
+          "createdAt": "2026-10-12T07:06:10Z",
+          "action": "opened",
+          "number": 362
+        },
+        {
+          "id": "23751704065",
+          "type": "CreateEvent",
+          "repo": "gogrlx/grlx",
+          "createdAt": "2026-10-12T07:05:57Z",
+          "refType": "branch",
+          "ref": "cd/grlx-round3-20261012"
+        },
+        {
+          "id": "16983992911",
+          "type": "PullRequestEvent",
+          "repo": "taigrr/crunch",
+          "createdAt": "2026-10-12T06:19:47Z",
+          "action": "opened",
+          "number": 43
+        },
+        {
+          "id": "23748714157",
+          "type": "CreateEvent",
+          "repo": "taigrr/crunch",
+          "createdAt": "2026-10-12T06:19:33Z",
+          "refType": "branch",
+          "ref": "cd/security-go-net-20261012"
+        },
+        {
           "id": "23739378277",
           "type": "CreateEvent",
           "repo": "taigrr/gojev",
@@ -2776,90 +2860,6 @@
           "createdAt": "2026-10-08T06:37:49Z",
           "refType": "branch",
           "ref": "cd/log-wrapper-coverage-20261008"
-        },
-        {
-          "id": "23444517893",
-          "type": "CreateEvent",
-          "repo": "taigrr/gojev",
-          "createdAt": "2026-10-08T07:03:59Z",
-          "refType": "branch",
-          "ref": "cd/response-close-coverage"
-        },
-        {
-          "id": "23403414837",
-          "type": "CreateEvent",
-          "repo": "taigrr/vidnumerator",
-          "createdAt": "2026-10-08T07:35:35Z",
-          "refType": "branch",
-          "ref": "cd/non-linux-stub"
-        },
-        {
-          "id": "16711914354",
-          "type": "PullRequestEvent",
-          "repo": "taigrr/jety",
-          "createdAt": "2026-10-08T08:04:20Z",
-          "action": "opened",
-          "number": 12
-        },
-        {
-          "id": "23351970445",
-          "type": "PushEvent",
-          "repo": "taigrr/crunch",
-          "createdAt": "2026-10-07T06:03:51Z",
-          "ref": "refs/heads/cd/projects-registry",
-          "before": "eef4dc1a53936519342ed39c6ba16a77c1f5277c",
-          "head": "9c5fc6152414d1e9dce5046d36f95ea88eab9667"
-        },
-        {
-          "id": "16710357350",
-          "type": "PullRequestEvent",
-          "repo": "taigrr/vidnumerator",
-          "createdAt": "2026-10-08T07:35:51Z",
-          "action": "opened",
-          "number": 10
-        },
-        {
-          "id": "16708609202",
-          "type": "PullRequestEvent",
-          "repo": "taigrr/gojev",
-          "createdAt": "2026-10-08T07:04:12Z",
-          "action": "opened",
-          "number": 4
-        },
-        {
-          "id": "16707117694",
-          "type": "PullRequestEvent",
-          "repo": "gogrlx/grlx",
-          "createdAt": "2026-10-08T06:38:02Z",
-          "action": "opened",
-          "number": 358
-        },
-        {
-          "id": "23313882508",
-          "type": "PushEvent",
-          "repo": "taigrr/gojev",
-          "createdAt": "2026-10-07T07:04:24Z",
-          "ref": "refs/heads/cd/kev-source-revision",
-          "before": "2b023fffc4dcf076f04d6073d18053cc5532dd3e",
-          "head": "f1547853ec7e4ad5a88090ec1d7fffb5ff2d15f4"
-        },
-        {
-          "id": "23309437736",
-          "type": "PushEvent",
-          "repo": "gogrlx/grlx",
-          "createdAt": "2026-10-07T06:38:18Z",
-          "ref": "refs/heads/cd/go-1-27-20260913",
-          "before": "cbd38716a435432c01ab03f84b1d7eff196da81a",
-          "head": "0ba67d08f7032a32f2e1f7b9759eff525da9b42c"
-        },
-        {
-          "id": "23301107831",
-          "type": "PushEvent",
-          "repo": "18F/identity-idp",
-          "createdAt": "2026-10-06T18:31:30Z",
-          "ref": "refs/heads/site-keys/2-custody",
-          "before": "021f4c576ea57b4e4cd17fa16337a7a982d3c0b4",
-          "head": "661cb065f7f3d2f34b12c69159ead5b9cb6b0a56"
         }
       ]
     },
@@ -2878,34 +2878,6 @@
   },
   "comments": {
     "known": [
-      {
-        "kind": "issue",
-        "id": 5873370230,
-        "repo": "uswds/uswds",
-        "issueNumber": 4773,
-        "author": "ajfarkas",
-        "body": "Hi @jkjustjoshing. We're staffing up, and reviewing PRs to determine what can be merged, and what needs rework or has been resolved. Could you let us know if this PR is still relevant? If it is, please rebase onto the `develop` branch so we can review your code. Thank you.",
-        "createdAt": "2026-09-28T15:38:11Z",
-        "url": "https://github.com/uswds/uswds/pull/4773#issuecomment-5873370230",
-        "up": 0,
-        "down": 0,
-        "totalReactions": 0,
-        "lastCheckedAt": "2026-10-05T10:56:09.530Z"
-      },
-      {
-        "kind": "issue",
-        "id": 5875416049,
-        "repo": "18F/identity-idp",
-        "issueNumber": 13588,
-        "author": "astrogeco",
-        "body": "Left some minor comments but otherwise lgtm",
-        "createdAt": "2026-09-28T17:45:07Z",
-        "url": "https://github.com/18F/identity-idp/pull/13588#issuecomment-5875416049",
-        "up": 0,
-        "down": 0,
-        "totalReactions": 0,
-        "lastCheckedAt": "2026-10-05T10:56:09.530Z"
-      },
       {
         "kind": "issue",
         "id": 5892362629,
@@ -3090,6 +3062,34 @@
       },
       {
         "kind": "issue",
+        "id": 5873370230,
+        "repo": "uswds/uswds",
+        "issueNumber": 4773,
+        "author": "ajfarkas",
+        "body": "Hi @jkjustjoshing. We're staffing up, and reviewing PRs to determine what can be merged, and what needs rework or has been resolved. Could you let us know if this PR is still relevant? If it is, please rebase onto the `develop` branch so we can review your code. Thank you.",
+        "createdAt": "2026-09-28T15:38:11Z",
+        "url": "https://github.com/uswds/uswds/pull/4773#issuecomment-5873370230",
+        "up": 0,
+        "down": 0,
+        "totalReactions": 0,
+        "lastCheckedAt": "2026-10-12T11:24:25.118Z"
+      },
+      {
+        "kind": "issue",
+        "id": 5875416049,
+        "repo": "18F/identity-idp",
+        "issueNumber": 13588,
+        "author": "astrogeco",
+        "body": "Left some minor comments but otherwise lgtm",
+        "createdAt": "2026-09-28T17:45:07Z",
+        "url": "https://github.com/18F/identity-idp/pull/13588#issuecomment-5875416049",
+        "up": 0,
+        "down": 0,
+        "totalReactions": 0,
+        "lastCheckedAt": "2026-10-12T11:24:25.118Z"
+      },
+      {
+        "kind": "issue",
         "id": 5997147567,
         "repo": "uswds/uswds",
         "issueNumber": 6999,
@@ -3100,7 +3100,7 @@
         "up": 0,
         "down": 0,
         "totalReactions": 0,
-        "lastCheckedAt": "2026-10-12T04:59:30.065Z"
+        "lastCheckedAt": "2026-10-12T11:24:25.118Z"
       },
       {
         "kind": "issue",
@@ -3114,7 +3114,7 @@
         "up": 0,
         "down": 0,
         "totalReactions": 0,
-        "lastCheckedAt": "2026-10-12T04:59:30.065Z"
+        "lastCheckedAt": "2026-10-12T11:24:25.118Z"
       },
       {
         "kind": "issue",
@@ -3128,7 +3128,7 @@
         "up": 0,
         "down": 0,
         "totalReactions": 0,
-        "lastCheckedAt": "2026-10-12T04:59:30.065Z"
+        "lastCheckedAt": "2026-10-12T11:24:25.118Z"
       },
       {
         "kind": "issue",
@@ -3142,7 +3142,7 @@
         "up": 0,
         "down": 0,
         "totalReactions": 0,
-        "lastCheckedAt": "2026-10-12T04:59:30.065Z"
+        "lastCheckedAt": "2026-10-12T11:24:25.118Z"
       },
       {
         "kind": "issue",
@@ -3156,7 +3156,7 @@
         "up": 0,
         "down": 0,
         "totalReactions": 0,
-        "lastCheckedAt": "2026-10-12T04:59:30.065Z"
+        "lastCheckedAt": "2026-10-12T11:24:25.118Z"
       },
       {
         "kind": "issue",
@@ -3170,7 +3170,7 @@
         "up": 0,
         "down": 0,
         "totalReactions": 0,
-        "lastCheckedAt": "2026-10-12T04:59:30.065Z"
+        "lastCheckedAt": "2026-10-12T11:24:25.118Z"
       },
       {
         "kind": "issue",
@@ -3184,7 +3184,7 @@
         "up": 0,
         "down": 0,
         "totalReactions": 0,
-        "lastCheckedAt": "2026-10-12T04:59:30.065Z"
+        "lastCheckedAt": "2026-10-12T11:24:25.118Z"
       },
       {
         "kind": "issue",
@@ -3198,7 +3198,7 @@
         "up": 0,
         "down": 0,
         "totalReactions": 0,
-        "lastCheckedAt": "2026-10-12T04:59:30.065Z"
+        "lastCheckedAt": "2026-10-12T11:24:25.118Z"
       },
       {
         "kind": "issue",
@@ -3212,7 +3212,7 @@
         "up": 0,
         "down": 0,
         "totalReactions": 0,
-        "lastCheckedAt": "2026-10-12T04:59:30.065Z"
+        "lastCheckedAt": "2026-10-12T11:24:25.118Z"
       },
       {
         "kind": "issue",
@@ -3226,7 +3226,7 @@
         "up": 0,
         "down": 0,
         "totalReactions": 0,
-        "lastCheckedAt": "2026-10-12T04:59:30.065Z"
+        "lastCheckedAt": "2026-10-12T11:24:25.118Z"
       },
       {
         "kind": "issue",
@@ -3240,7 +3240,7 @@
         "up": 0,
         "down": 0,
         "totalReactions": 0,
-        "lastCheckedAt": "2026-10-12T04:59:30.065Z"
+        "lastCheckedAt": "2026-10-12T11:24:25.118Z"
       },
       {
         "kind": "issue",
@@ -3254,7 +3254,7 @@
         "up": 0,
         "down": 0,
         "totalReactions": 0,
-        "lastCheckedAt": "2026-10-12T04:59:30.065Z"
+        "lastCheckedAt": "2026-10-12T11:24:25.118Z"
       },
       {
         "kind": "issue",
@@ -3268,7 +3268,7 @@
         "up": 0,
         "down": 0,
         "totalReactions": 0,
-        "lastCheckedAt": "2026-10-12T04:59:30.065Z"
+        "lastCheckedAt": "2026-10-12T11:24:25.118Z"
       },
       {
         "kind": "issue",
@@ -3282,7 +3282,7 @@
         "up": 0,
         "down": 0,
         "totalReactions": 0,
-        "lastCheckedAt": "2026-10-12T04:59:30.065Z"
+        "lastCheckedAt": "2026-10-12T11:24:25.118Z"
       },
       {
         "kind": "issue",
@@ -3296,7 +3296,7 @@
         "up": 0,
         "down": 0,
         "totalReactions": 0,
-        "lastCheckedAt": "2026-10-12T04:59:30.065Z"
+        "lastCheckedAt": "2026-10-12T11:24:25.118Z"
       },
       {
         "kind": "issue",
@@ -3310,7 +3310,7 @@
         "up": 0,
         "down": 0,
         "totalReactions": 0,
-        "lastCheckedAt": "2026-10-12T04:59:30.065Z"
+        "lastCheckedAt": "2026-10-12T11:24:25.118Z"
       },
       {
         "kind": "issue",
@@ -3324,7 +3324,7 @@
         "up": 0,
         "down": 0,
         "totalReactions": 0,
-        "lastCheckedAt": "2026-10-12T04:59:30.065Z"
+        "lastCheckedAt": "2026-10-12T11:24:25.118Z"
       },
       {
         "kind": "issue",
@@ -3338,7 +3338,7 @@
         "up": 0,
         "down": 0,
         "totalReactions": 0,
-        "lastCheckedAt": "2026-10-12T04:59:30.065Z"
+        "lastCheckedAt": "2026-10-12T11:24:25.118Z"
       },
       {
         "kind": "issue",
@@ -3352,7 +3352,7 @@
         "up": 0,
         "down": 0,
         "totalReactions": 0,
-        "lastCheckedAt": "2026-10-12T04:59:30.065Z"
+        "lastCheckedAt": "2026-10-12T11:24:25.118Z"
       },
       {
         "kind": "issue",
@@ -3366,7 +3366,7 @@
         "up": 0,
         "down": 0,
         "totalReactions": 0,
-        "lastCheckedAt": "2026-10-12T04:59:30.065Z"
+        "lastCheckedAt": "2026-10-12T11:24:25.118Z"
       },
       {
         "kind": "issue",
@@ -3380,7 +3380,7 @@
         "up": 0,
         "down": 0,
         "totalReactions": 0,
-        "lastCheckedAt": "2026-10-12T04:59:30.065Z"
+        "lastCheckedAt": "2026-10-12T11:24:25.118Z"
       },
       {
         "kind": "issue",
@@ -3394,7 +3394,7 @@
         "up": 0,
         "down": 0,
         "totalReactions": 0,
-        "lastCheckedAt": "2026-10-12T04:59:30.065Z"
+        "lastCheckedAt": "2026-10-12T11:24:25.118Z"
       },
       {
         "kind": "issue",
@@ -3408,7 +3408,7 @@
         "up": 0,
         "down": 0,
         "totalReactions": 0,
-        "lastCheckedAt": "2026-10-12T04:59:30.065Z"
+        "lastCheckedAt": "2026-10-12T11:24:25.118Z"
       },
       {
         "kind": "issue",
@@ -3422,7 +3422,7 @@
         "up": 0,
         "down": 0,
         "totalReactions": 0,
-        "lastCheckedAt": "2026-10-12T04:59:30.065Z"
+        "lastCheckedAt": "2026-10-12T11:24:25.118Z"
       },
       {
         "kind": "issue",
@@ -3436,7 +3436,7 @@
         "up": 0,
         "down": 0,
         "totalReactions": 0,
-        "lastCheckedAt": "2026-10-12T04:59:30.065Z"
+        "lastCheckedAt": "2026-10-12T11:24:25.118Z"
       },
       {
         "kind": "issue",
@@ -3450,7 +3450,7 @@
         "up": 0,
         "down": 0,
         "totalReactions": 0,
-        "lastCheckedAt": "2026-10-12T04:59:30.065Z"
+        "lastCheckedAt": "2026-10-12T11:24:25.118Z"
       },
       {
         "kind": "issue",
@@ -3464,7 +3464,147 @@
         "up": 0,
         "down": 0,
         "totalReactions": 0,
-        "lastCheckedAt": "2026-10-12T04:59:30.065Z"
+        "lastCheckedAt": "2026-10-12T11:24:25.118Z"
+      },
+      {
+        "kind": "issue",
+        "id": 6122934069,
+        "repo": "uswds/uswds",
+        "issueNumber": 7006,
+        "author": "coderabbitai[bot]",
+        "body": "<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- This is an auto-generated comment: skip review by coderabbit.ai -->\n\n> [!IMPORTANT]\n> ## Review skipped\n> \n> Bot user detected.\n> \n> To trigger a single review, invoke the `@coderabbitai review` command.\n> \n> <details>\n> <summary><strong>⚙️ Run configuration</strong></summary>\n> <dl>\n> <dd>\n> \n> - **Configuration used**: Repository: uswds/uswds/.coderabbit.yaml\n> - **Review profile**: QUIET\n> - **Plan**: Advanced\n> - **Run ID**: `8e385388-90ab-447b-9d7d-4d3d3346abb0`\n> \n> \n> <hr>\n> \n> </dd>\n> </dl>\n> </details>\n> \n> You can disable this status message by setting the `reviews.review_status` to `false` in the CodeRabbit configuration file.\n> \n> Use the checkbox below for a quick retry:\n> - [ ] <!-- {\"checkboxId\":\"e9bb8d72-00e8-4f67-9cb2-caf3b22574fe\"} --> 🔍 Trigger review\n\n<!-- end of auto-generated comment: skip review by coderabbit.ai -->\n\n<!-- autopilot:start -->\n- [ ] <!-- {\"checkboxId\":\"2708ad07-9f24-4260-9c11-7dc76a49f2e3\"} --> <strong title=\"Keep fixing CodeRabbit findings and required CI, and resolving merge conflicts\">Autofix</strong> · Keep fixing CodeRabbit findings and required CI, and resolving merge conflicts\n<!-- autopilot:end -->\n<!-- tips_start -->\n\n---\n\nThanks for using [CodeRabbit](https://coderabbit.ai?utm_source=oss&utm_medium=github&utm_campaign=uswds/uswds&utm_content=7006)! It's free for OSS, and your support helps us grow. If you like it, consider giving us a shout-out.\n\n<details>\n<summary><strong>❤️ Share</strong></summary>\n<dl>\n<dd>\n\n- [X](https://twitter.com/intent/tweet?text=I%20just%20used%20%40coderabbitai%20for%20my%20code%20review%2C%20and%20it%27s%20fantastic%21%20It%27s%20free%20for%20OSS%20and%20offers%20a%20free%20trial%20for%20the%20proprietary%20code.%20Check%20it%20out%3A&url=https%3A//coderabbit.ai)\n- [Mastodon](https://mastodon.social/share?text=I%20just%20used%20%40coderabbitai%20for%20my%20code%20review%2C%20and%20it%27s%20fantastic%21%20It%27s%20free%20for%20OSS%20and%20offers%20a%20free%20trial%20for%20the%20proprietary%20code.%20Check%20it%20out%3A%20https%3A%2F%2Fcoderabbit.ai)\n- [Reddit](https://www.reddit.com/submit?title=Great%20tool%20for%20code%20review%20-%20CodeRabbit&text=I%20just%20used%20CodeRabbit%20for%20my%20code%20review%2C%20and%20it%27s%20fantastic%21%20It%27s%20free%20for%20OSS%20and%20offers%20a%20free%20trial%20for%20proprietary%20code.%20Check%20it%20out%3A%20https%3A//coderabbit.ai)\n- [LinkedIn](https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fcoderabbit.ai&mini=true&title=Great%20tool%20for%20code%20review%20-%20CodeRabbit&summary=I%20just%20used%20CodeRabbit%20for%20my%20code%20review%2C%20and%20it%27s%20fantastic%21%20It%27s%20free%20for%20OSS%20and%20offers%20a%20free%20trial%20for%20proprietary%20code)\n\n<hr>\n\n</dd>\n</dl>\n</details>\n\n\n<sub>Comment `@coderabbitai help` to get the list of available commands.</sub>\n\n<!-- tips_end -->",
+        "createdAt": "2026-10-12T11:00:43Z",
+        "url": "https://github.com/uswds/uswds/pull/7006#issuecomment-6122934069",
+        "up": 0,
+        "down": 0,
+        "totalReactions": 0,
+        "lastCheckedAt": "2026-10-12T11:24:25.118Z"
+      },
+      {
+        "kind": "issue",
+        "id": 6122934087,
+        "repo": "uswds/uswds",
+        "issueNumber": 7006,
+        "author": "github-actions[bot]",
+        "body": "✅ All commits on this PR have a verified signature. Thanks!\n<!-- Sticky Pull Request Commentverify-commits -->",
+        "createdAt": "2026-10-12T11:00:43Z",
+        "url": "https://github.com/uswds/uswds/pull/7006#issuecomment-6122934087",
+        "up": 0,
+        "down": 0,
+        "totalReactions": 0,
+        "lastCheckedAt": "2026-10-12T11:24:25.118Z"
+      },
+      {
+        "kind": "issue",
+        "id": 6122934284,
+        "repo": "uswds/uswds",
+        "issueNumber": 7007,
+        "author": "coderabbitai[bot]",
+        "body": "<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- This is an auto-generated comment: skip review by coderabbit.ai -->\n\n> [!IMPORTANT]\n> ## Review skipped\n> \n> Bot user detected.\n> \n> To trigger a single review, invoke the `@coderabbitai review` command.\n> \n> <details>\n> <summary><strong>⚙️ Run configuration</strong></summary>\n> <dl>\n> <dd>\n> \n> - **Configuration used**: Repository: uswds/uswds/.coderabbit.yaml\n> - **Review profile**: QUIET\n> - **Plan**: Advanced\n> - **Run ID**: `f54b8fe2-ac6d-4699-8d53-f1392f60a4bc`\n> \n> \n> <hr>\n> \n> </dd>\n> </dl>\n> </details>\n> \n> You can disable this status message by setting the `reviews.review_status` to `false` in the CodeRabbit configuration file.\n> \n> Use the checkbox below for a quick retry:\n> - [ ] <!-- {\"checkboxId\":\"e9bb8d72-00e8-4f67-9cb2-caf3b22574fe\"} --> 🔍 Trigger review\n\n<!-- end of auto-generated comment: skip review by coderabbit.ai -->\n\n<!-- autopilot:start -->\n- [ ] <!-- {\"checkboxId\":\"2708ad07-9f24-4260-9c11-7dc76a49f2e3\"} --> <strong title=\"Keep fixing CodeRabbit findings and required CI, and resolving merge conflicts\">Autofix</strong> · Keep fixing CodeRabbit findings and required CI, and resolving merge conflicts\n<!-- autopilot:end -->\n<!-- tips_start -->\n\n---\n\nThanks for using [CodeRabbit](https://coderabbit.ai?utm_source=oss&utm_medium=github&utm_campaign=uswds/uswds&utm_content=7007)! It's free for OSS, and your support helps us grow. If you like it, consider giving us a shout-out.\n\n<details>\n<summary><strong>❤️ Share</strong></summary>\n<dl>\n<dd>\n\n- [X](https://twitter.com/intent/tweet?text=I%20just%20used%20%40coderabbitai%20for%20my%20code%20review%2C%20and%20it%27s%20fantastic%21%20It%27s%20free%20for%20OSS%20and%20offers%20a%20free%20trial%20for%20the%20proprietary%20code.%20Check%20it%20out%3A&url=https%3A//coderabbit.ai)\n- [Mastodon](https://mastodon.social/share?text=I%20just%20used%20%40coderabbitai%20for%20my%20code%20review%2C%20and%20it%27s%20fantastic%21%20It%27s%20free%20for%20OSS%20and%20offers%20a%20free%20trial%20for%20the%20proprietary%20code.%20Check%20it%20out%3A%20https%3A%2F%2Fcoderabbit.ai)\n- [Reddit](https://www.reddit.com/submit?title=Great%20tool%20for%20code%20review%20-%20CodeRabbit&text=I%20just%20used%20CodeRabbit%20for%20my%20code%20review%2C%20and%20it%27s%20fantastic%21%20It%27s%20free%20for%20OSS%20and%20offers%20a%20free%20trial%20for%20proprietary%20code.%20Check%20it%20out%3A%20https%3A//coderabbit.ai)\n- [LinkedIn](https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fcoderabbit.ai&mini=true&title=Great%20tool%20for%20code%20review%20-%20CodeRabbit&summary=I%20just%20used%20CodeRabbit%20for%20my%20code%20review%2C%20and%20it%27s%20fantastic%21%20It%27s%20free%20for%20OSS%20and%20offers%20a%20free%20trial%20for%20proprietary%20code)\n\n<hr>\n\n</dd>\n</dl>\n</details>\n\n\n<sub>Comment `@coderabbitai help` to get the list of available commands.</sub>\n\n<!-- tips_end -->",
+        "createdAt": "2026-10-12T11:00:44Z",
+        "url": "https://github.com/uswds/uswds/pull/7007#issuecomment-6122934284",
+        "up": 0,
+        "down": 0,
+        "totalReactions": 0,
+        "lastCheckedAt": "2026-10-12T11:24:25.118Z"
+      },
+      {
+        "kind": "issue",
+        "id": 6122934640,
+        "repo": "uswds/uswds",
+        "issueNumber": 7007,
+        "author": "github-actions[bot]",
+        "body": "✅ All commits on this PR have a verified signature. Thanks!\n<!-- Sticky Pull Request Commentverify-commits -->",
+        "createdAt": "2026-10-12T11:00:45Z",
+        "url": "https://github.com/uswds/uswds/pull/7007#issuecomment-6122934640",
+        "up": 0,
+        "down": 0,
+        "totalReactions": 0,
+        "lastCheckedAt": "2026-10-12T11:24:25.118Z"
+      },
+      {
+        "kind": "issue",
+        "id": 6122934930,
+        "repo": "uswds/uswds",
+        "issueNumber": 7008,
+        "author": "coderabbitai[bot]",
+        "body": "<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- This is an auto-generated comment: skip review by coderabbit.ai -->\n\n> [!IMPORTANT]\n> ## Review skipped\n> \n> Bot user detected.\n> \n> To trigger a single review, invoke the `@coderabbitai review` command.\n> \n> <details>\n> <summary><strong>⚙️ Run configuration</strong></summary>\n> <dl>\n> <dd>\n> \n> - **Configuration used**: Repository: uswds/uswds/.coderabbit.yaml\n> - **Review profile**: QUIET\n> - **Plan**: Advanced\n> - **Run ID**: `2d1c827b-0ed4-43a2-a3a4-4a5b0363fa95`\n> \n> \n> <hr>\n> \n> </dd>\n> </dl>\n> </details>\n> \n> You can disable this status message by setting the `reviews.review_status` to `false` in the CodeRabbit configuration file.\n> \n> Use the checkbox below for a quick retry:\n> - [ ] <!-- {\"checkboxId\":\"e9bb8d72-00e8-4f67-9cb2-caf3b22574fe\"} --> 🔍 Trigger review\n\n<!-- end of auto-generated comment: skip review by coderabbit.ai -->\n\n<!-- autopilot:start -->\n- [ ] <!-- {\"checkboxId\":\"2708ad07-9f24-4260-9c11-7dc76a49f2e3\"} --> <strong title=\"Keep fixing CodeRabbit findings and required CI, and resolving merge conflicts\">Autofix</strong> · Keep fixing CodeRabbit findings and required CI, and resolving merge conflicts\n<!-- autopilot:end -->\n<!-- tips_start -->\n\n---\n\nThanks for using [CodeRabbit](https://coderabbit.ai?utm_source=oss&utm_medium=github&utm_campaign=uswds/uswds&utm_content=7008)! It's free for OSS, and your support helps us grow. If you like it, consider giving us a shout-out.\n\n<details>\n<summary><strong>❤️ Share</strong></summary>\n<dl>\n<dd>\n\n- [X](https://twitter.com/intent/tweet?text=I%20just%20used%20%40coderabbitai%20for%20my%20code%20review%2C%20and%20it%27s%20fantastic%21%20It%27s%20free%20for%20OSS%20and%20offers%20a%20free%20trial%20for%20the%20proprietary%20code.%20Check%20it%20out%3A&url=https%3A//coderabbit.ai)\n- [Mastodon](https://mastodon.social/share?text=I%20just%20used%20%40coderabbitai%20for%20my%20code%20review%2C%20and%20it%27s%20fantastic%21%20It%27s%20free%20for%20OSS%20and%20offers%20a%20free%20trial%20for%20the%20proprietary%20code.%20Check%20it%20out%3A%20https%3A%2F%2Fcoderabbit.ai)\n- [Reddit](https://www.reddit.com/submit?title=Great%20tool%20for%20code%20review%20-%20CodeRabbit&text=I%20just%20used%20CodeRabbit%20for%20my%20code%20review%2C%20and%20it%27s%20fantastic%21%20It%27s%20free%20for%20OSS%20and%20offers%20a%20free%20trial%20for%20proprietary%20code.%20Check%20it%20out%3A%20https%3A//coderabbit.ai)\n- [LinkedIn](https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fcoderabbit.ai&mini=true&title=Great%20tool%20for%20code%20review%20-%20CodeRabbit&summary=I%20just%20used%20CodeRabbit%20for%20my%20code%20review%2C%20and%20it%27s%20fantastic%21%20It%27s%20free%20for%20OSS%20and%20offers%20a%20free%20trial%20for%20proprietary%20code)\n\n<hr>\n\n</dd>\n</dl>\n</details>\n\n\n<sub>Comment `@coderabbitai help` to get the list of available commands.</sub>\n\n<!-- tips_end -->",
+        "createdAt": "2026-10-12T11:00:46Z",
+        "url": "https://github.com/uswds/uswds/pull/7008#issuecomment-6122934930",
+        "up": 0,
+        "down": 0,
+        "totalReactions": 0,
+        "lastCheckedAt": "2026-10-12T11:24:25.118Z"
+      },
+      {
+        "kind": "issue",
+        "id": 6122935625,
+        "repo": "uswds/uswds",
+        "issueNumber": 7008,
+        "author": "github-actions[bot]",
+        "body": "✅ All commits on this PR have a verified signature. Thanks!\n<!-- Sticky Pull Request Commentverify-commits -->",
+        "createdAt": "2026-10-12T11:00:49Z",
+        "url": "https://github.com/uswds/uswds/pull/7008#issuecomment-6122935625",
+        "up": 0,
+        "down": 0,
+        "totalReactions": 0,
+        "lastCheckedAt": "2026-10-12T11:24:25.118Z"
+      },
+      {
+        "kind": "issue",
+        "id": 6122936600,
+        "repo": "uswds/uswds",
+        "issueNumber": 7009,
+        "author": "coderabbitai[bot]",
+        "body": "<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- This is an auto-generated comment: skip review by coderabbit.ai -->\n\n> [!IMPORTANT]\n> ## Review skipped\n> \n> Bot user detected.\n> \n> To trigger a single review, invoke the `@coderabbitai review` command.\n> \n> <details>\n> <summary><strong>⚙️ Run configuration</strong></summary>\n> <dl>\n> <dd>\n> \n> - **Configuration used**: Repository: uswds/uswds/.coderabbit.yaml\n> - **Review profile**: QUIET\n> - **Plan**: Advanced\n> - **Run ID**: `7f51cabf-2f84-47c4-b78d-1e7b5b65313a`\n> \n> \n> <hr>\n> \n> </dd>\n> </dl>\n> </details>\n> \n> You can disable this status message by setting the `reviews.review_status` to `false` in the CodeRabbit configuration file.\n> \n> Use the checkbox below for a quick retry:\n> - [ ] <!-- {\"checkboxId\":\"e9bb8d72-00e8-4f67-9cb2-caf3b22574fe\"} --> 🔍 Trigger review\n\n<!-- end of auto-generated comment: skip review by coderabbit.ai -->\n\n<!-- autopilot:start -->\n- [ ] <!-- {\"checkboxId\":\"2708ad07-9f24-4260-9c11-7dc76a49f2e3\"} --> <strong title=\"Keep fixing CodeRabbit findings and required CI, and resolving merge conflicts\">Autofix</strong> · Keep fixing CodeRabbit findings and required CI, and resolving merge conflicts\n<!-- autopilot:end -->\n<!-- tips_start -->\n\n---\n\nThanks for using [CodeRabbit](https://coderabbit.ai?utm_source=oss&utm_medium=github&utm_campaign=uswds/uswds&utm_content=7009)! It's free for OSS, and your support helps us grow. If you like it, consider giving us a shout-out.\n\n<details>\n<summary><strong>❤️ Share</strong></summary>\n<dl>\n<dd>\n\n- [X](https://twitter.com/intent/tweet?text=I%20just%20used%20%40coderabbitai%20for%20my%20code%20review%2C%20and%20it%27s%20fantastic%21%20It%27s%20free%20for%20OSS%20and%20offers%20a%20free%20trial%20for%20the%20proprietary%20code.%20Check%20it%20out%3A&url=https%3A//coderabbit.ai)\n- [Mastodon](https://mastodon.social/share?text=I%20just%20used%20%40coderabbitai%20for%20my%20code%20review%2C%20and%20it%27s%20fantastic%21%20It%27s%20free%20for%20OSS%20and%20offers%20a%20free%20trial%20for%20the%20proprietary%20code.%20Check%20it%20out%3A%20https%3A%2F%2Fcoderabbit.ai)\n- [Reddit](https://www.reddit.com/submit?title=Great%20tool%20for%20code%20review%20-%20CodeRabbit&text=I%20just%20used%20CodeRabbit%20for%20my%20code%20review%2C%20and%20it%27s%20fantastic%21%20It%27s%20free%20for%20OSS%20and%20offers%20a%20free%20trial%20for%20proprietary%20code.%20Check%20it%20out%3A%20https%3A//coderabbit.ai)\n- [LinkedIn](https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fcoderabbit.ai&mini=true&title=Great%20tool%20for%20code%20review%20-%20CodeRabbit&summary=I%20just%20used%20CodeRabbit%20for%20my%20code%20review%2C%20and%20it%27s%20fantastic%21%20It%27s%20free%20for%20OSS%20and%20offers%20a%20free%20trial%20for%20proprietary%20code)\n\n<hr>\n\n</dd>\n</dl>\n</details>\n\n\n<sub>Comment `@coderabbitai help` to get the list of available commands.</sub>\n\n<!-- tips_end -->",
+        "createdAt": "2026-10-12T11:00:53Z",
+        "url": "https://github.com/uswds/uswds/pull/7009#issuecomment-6122936600",
+        "up": 0,
+        "down": 0,
+        "totalReactions": 0,
+        "lastCheckedAt": "2026-10-12T11:24:25.118Z"
+      },
+      {
+        "kind": "issue",
+        "id": 6122936915,
+        "repo": "uswds/uswds",
+        "issueNumber": 7009,
+        "author": "github-actions[bot]",
+        "body": "✅ All commits on this PR have a verified signature. Thanks!\n<!-- Sticky Pull Request Commentverify-commits -->",
+        "createdAt": "2026-10-12T11:00:54Z",
+        "url": "https://github.com/uswds/uswds/pull/7009#issuecomment-6122936915",
+        "up": 0,
+        "down": 0,
+        "totalReactions": 0,
+        "lastCheckedAt": "2026-10-12T11:24:25.118Z"
+      },
+      {
+        "kind": "issue",
+        "id": 6122947751,
+        "repo": "uswds/uswds",
+        "issueNumber": 7010,
+        "author": "coderabbitai[bot]",
+        "body": "<!-- This is an auto-generated comment: summarize by coderabbit.ai -->\n<!-- This is an auto-generated comment: skip review by coderabbit.ai -->\n\n> [!IMPORTANT]\n> ## Review skipped\n> \n> Bot user detected.\n> \n> To trigger a single review, invoke the `@coderabbitai review` command.\n> \n> <details>\n> <summary><strong>⚙️ Run configuration</strong></summary>\n> <dl>\n> <dd>\n> \n> - **Configuration used**: Repository: uswds/uswds/.coderabbit.yaml\n> - **Review profile**: QUIET\n> - **Plan**: Advanced\n> - **Run ID**: `9a2e513e-3423-4615-a94e-edbcf8934d9f`\n> \n> \n> <hr>\n> \n> </dd>\n> </dl>\n> </details>\n> \n> You can disable this status message by setting the `reviews.review_status` to `false` in the CodeRabbit configuration file.\n> \n> Use the checkbox below for a quick retry:\n> - [ ] <!-- {\"checkboxId\":\"e9bb8d72-00e8-4f67-9cb2-caf3b22574fe\"} --> 🔍 Trigger review\n\n<!-- end of auto-generated comment: skip review by coderabbit.ai -->\n\n<!-- autopilot:start -->\n- [ ] <!-- {\"checkboxId\":\"2708ad07-9f24-4260-9c11-7dc76a49f2e3\"} --> <strong title=\"Keep fixing CodeRabbit findings and required CI, and resolving merge conflicts\">Autofix</strong> · Keep fixing CodeRabbit findings and required CI, and resolving merge conflicts\n<!-- autopilot:end -->\n<!-- tips_start -->\n\n---\n\nThanks for using [CodeRabbit](https://coderabbit.ai?utm_source=oss&utm_medium=github&utm_campaign=uswds/uswds&utm_content=7010)! It's free for OSS, and your support helps us grow. If you like it, consider giving us a shout-out.\n\n<details>\n<summary><strong>❤️ Share</strong></summary>\n<dl>\n<dd>\n\n- [X](https://twitter.com/intent/tweet?text=I%20just%20used%20%40coderabbitai%20for%20my%20code%20review%2C%20and%20it%27s%20fantastic%21%20It%27s%20free%20for%20OSS%20and%20offers%20a%20free%20trial%20for%20the%20proprietary%20code.%20Check%20it%20out%3A&url=https%3A//coderabbit.ai)\n- [Mastodon](https://mastodon.social/share?text=I%20just%20used%20%40coderabbitai%20for%20my%20code%20review%2C%20and%20it%27s%20fantastic%21%20It%27s%20free%20for%20OSS%20and%20offers%20a%20free%20trial%20for%20the%20proprietary%20code.%20Check%20it%20out%3A%20https%3A%2F%2Fcoderabbit.ai)\n- [Reddit](https://www.reddit.com/submit?title=Great%20tool%20for%20code%20review%20-%20CodeRabbit&text=I%20just%20used%20CodeRabbit%20for%20my%20code%20review%2C%20and%20it%27s%20fantastic%21%20It%27s%20free%20for%20OSS%20and%20offers%20a%20free%20trial%20for%20proprietary%20code.%20Check%20it%20out%3A%20https%3A//coderabbit.ai)\n- [LinkedIn](https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fcoderabbit.ai&mini=true&title=Great%20tool%20for%20code%20review%20-%20CodeRabbit&summary=I%20just%20used%20CodeRabbit%20for%20my%20code%20review%2C%20and%20it%27s%20fantastic%21%20It%27s%20free%20for%20OSS%20and%20offers%20a%20free%20trial%20for%20proprietary%20code)\n\n<hr>\n\n</dd>\n</dl>\n</details>\n\n\n<sub>Comment `@coderabbitai help` to get the list of available commands.</sub>\n\n<!-- tips_end -->",
+        "createdAt": "2026-10-12T11:01:36Z",
+        "url": "https://github.com/uswds/uswds/pull/7010#issuecomment-6122947751",
+        "up": 0,
+        "down": 0,
+        "totalReactions": 0,
+        "lastCheckedAt": "2026-10-12T11:24:25.118Z"
+      },
+      {
+        "kind": "issue",
+        "id": 6122948398,
+        "repo": "uswds/uswds",
+        "issueNumber": 7010,
+        "author": "github-actions[bot]",
+        "body": "✅ All commits on this PR have a verified signature. Thanks!\n<!-- Sticky Pull Request Commentverify-commits -->",
+        "createdAt": "2026-10-12T11:01:39Z",
+        "url": "https://github.com/uswds/uswds/pull/7010#issuecomment-6122948398",
+        "up": 0,
+        "down": 0,
+        "totalReactions": 0,
+        "lastCheckedAt": "2026-10-12T11:24:25.118Z"
       },
       {
         "kind": "discussion",
@@ -3490,7 +3630,7 @@
         "url": "https://github.com/uswds/uswds/discussions/6987#discussioncomment-18764867",
         "up": 1,
         "down": 0,
-        "lastCheckedAt": "2026-10-12T04:59:31.709Z"
+        "lastCheckedAt": "2026-10-12T11:24:27.137Z"
       }
     ]
   },
@@ -3512,9 +3652,9 @@
       "server": "cloudflare",
       "via": null,
       "x_vercel_id": null,
-      "cf_ray": "a49389150a802f20-LAX",
+      "cf_ray": "a495bce8dd26485e-DFW",
       "hsts": "max-age=15552000; includeSubDomains; preload",
-      "csp": "default-src 'none'; base-uri 'none'; object-src 'none'; form-action 'self'; font-src 'self' data:; worker-src 'self' blob:; img-src 'self' data: blob:; connect-src 'self'; media-src 'self' blob: data:; frame-src 'self'; frame-ancestors 'none'; script-src 'self' 'wasm-unsafe-eval' 'sha256-C/MS+M/q1h7xMxxNkNmnZprjEO47QsxjqiCQNBjCD2A=' 'sha256-BF0290pkb3jxQsE7z00xR8Imp8X34FLC88L0lkMnrGw=' 'sha256-QzWFZi+FLIx23tnm9SBU4aEgx4x8DsuASP07mfqol/c=' 'sha256-0chmwFk0zaA528yFfGV7J9ppIpdfTPPULncDF3WG7Zs=' 'sha256-eIXWvAmxkr251LJZkjniEK5LcPF3NkapbJepohwYRIc=' 'sha256-Q2BPg90ZMplYY+FSdApNErhpWafg2hcRRbndmvxuL/Q=' 'sha256-Ya0pUYrC7nM5Cn/056TyVuEiz6dFGrzmkWzgON0pF0U=' 'sha256-SHXg3YtOAVshUMT3f+eElYDgbV0kaujWj8DSaXSS4Vs=' 'sha256-o6WEQ95Zktx2KYiIWpEgR5AD0cnj7ycU4MOAX5wRQ0Q=' 'sha256-umIJp04nPDeLKwAOXJ27vwAx1PnvlIR58a9pS/1HP5M=' 'nonce-FIjYqid+nrYHDWMRffRGX6MN'; script-src-attr 'none'; style-src 'self' 'unsafe-inline', base-uri 'none'; object-src 'none'; form-action 'self'; font-src 'self' data:; worker-src 'self' blob:; img-src 'self' data: blob:; connect-src 'self'; media-src 'self' blob: data:; frame-src https://america.gov/cdn-cgi/challenge-platform/; frame-ancestors 'none'",
+      "csp": "default-src 'none'; base-uri 'none'; object-src 'none'; form-action 'self'; font-src 'self' data:; worker-src 'self' blob:; img-src 'self' data: blob:; connect-src 'self'; media-src 'self' blob: data:; frame-src 'self'; frame-ancestors 'none'; script-src 'self' 'wasm-unsafe-eval' 'sha256-C/MS+M/q1h7xMxxNkNmnZprjEO47QsxjqiCQNBjCD2A=' 'sha256-BF0290pkb3jxQsE7z00xR8Imp8X34FLC88L0lkMnrGw=' 'sha256-QzWFZi+FLIx23tnm9SBU4aEgx4x8DsuASP07mfqol/c=' 'sha256-0chmwFk0zaA528yFfGV7J9ppIpdfTPPULncDF3WG7Zs=' 'sha256-eIXWvAmxkr251LJZkjniEK5LcPF3NkapbJepohwYRIc=' 'sha256-Q2BPg90ZMplYY+FSdApNErhpWafg2hcRRbndmvxuL/Q=' 'sha256-Ya0pUYrC7nM5Cn/056TyVuEiz6dFGrzmkWzgON0pF0U=' 'sha256-SHXg3YtOAVshUMT3f+eElYDgbV0kaujWj8DSaXSS4Vs=' 'sha256-o6WEQ95Zktx2KYiIWpEgR5AD0cnj7ycU4MOAX5wRQ0Q=' 'sha256-umIJp04nPDeLKwAOXJ27vwAx1PnvlIR58a9pS/1HP5M=' 'nonce-9918ZopuaBlIv3oKrqrjKjlf'; script-src-attr 'none'; style-src 'self' 'unsafe-inline', base-uri 'none'; object-src 'none'; form-action 'self'; font-src 'self' data:; worker-src 'self' blob:; img-src 'self' data: blob:; connect-src 'self'; media-src 'self' blob: data:; frame-src https://america.gov/cdn-cgi/challenge-platform/; frame-ancestors 'none'",
       "x_powered_by": null,
       "looks_like_akamai": false,
       "looks_like_cloudflare": true
