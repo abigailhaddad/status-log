@@ -1,14 +1,14 @@
 {
-  "timestamp": "2026-10-11T18:01:11.183Z",
+  "timestamp": "2026-10-12T22:10:40.550Z",
   "lighthouse": {
     "ok": true,
     "scores": {
-      "performance": 0.57,
-      "accessibility": 0.97,
+      "performance": 0.32,
+      "accessibility": 1,
       "bestPractices": 0.77,
       "seo": 1
     },
-    "reportPath": "data/lighthouse/2026-10-11T17-59-10-299Z.json"
+    "reportPath": "data/lighthouse/2026-10-12T22-08-11-796Z.json"
   },
   "a11y": {
     "ok": false,
@@ -16,8 +16,8 @@
   },
   "network": {
     "ok": true,
-    "timestamp": "2026-10-11T18:00:25.878Z",
-    "harArtifactPath": "har-artifacts/2026-10-11T17-59-10-299Z.har",
+    "timestamp": "2026-10-12T22:09:54.210Z",
+    "harArtifactPath": "har-artifacts/2026-10-12T22-08-11-796Z.har",
     "pages": [
       {
         "url": "https://america.gov/",
@@ -28,7 +28,7 @@
         "formCount": 2,
         "chatInputFound": true,
         "blockers": [],
-        "a11yViolationCount": 1
+        "a11yViolationCount": 0
       },
       {
         "url": "https://america.gov/privacy",
@@ -108,8 +108,8 @@
         "a11yViolationCount": 0
       }
     ],
-    "siteWideA11yViolationCount": 1,
-    "a11yReportPath": "data/a11y/2026-10-11T17-59-10-299Z-sitewide.json",
+    "siteWideA11yViolationCount": 0,
+    "a11yReportPath": "data/a11y/2026-10-12T22-08-11-796Z-sitewide.json",
     "pagesVisited": 8,
     "chatInputFoundOnPages": [
       {
@@ -123,7 +123,7 @@
         "testMessage": "How do I contact my member of Congress?"
       }
     ],
-    "totalRequests": 1313,
+    "totalRequests": 1316,
     "uniqueHosts": [
       "america.gov"
     ],
@@ -206,7 +206,7 @@
           ]
         }
       },
-      "reportPath": "data/chat-eval/2026-10-11T17-59-10-299Z-root.json"
+      "reportPath": "data/chat-eval/2026-10-12T22-08-11-796Z-root.json"
     },
     {
       "url": "https://america.gov/faq",
@@ -256,7 +256,7 @@
           ]
         }
       },
-      "reportPath": "data/chat-eval/2026-10-11T17-59-10-299Z-faq.json"
+      "reportPath": "data/chat-eval/2026-10-12T22-08-11-796Z-faq.json"
     }
   ]
 }
