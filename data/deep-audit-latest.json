@@ -1,14 +1,14 @@
 {
-  "timestamp": "2026-10-12T22:10:40.550Z",
+  "timestamp": "2026-10-13T19:51:30.726Z",
   "lighthouse": {
     "ok": true,
     "scores": {
-      "performance": 0.32,
+      "performance": 0.33,
       "accessibility": 1,
       "bestPractices": 0.77,
       "seo": 1
     },
-    "reportPath": "data/lighthouse/2026-10-12T22-08-11-796Z.json"
+    "reportPath": "data/lighthouse/2026-10-13T19-49-42-744Z.json"
   },
   "a11y": {
     "ok": false,
@@ -16,8 +16,8 @@
   },
   "network": {
     "ok": true,
-    "timestamp": "2026-10-12T22:09:54.210Z",
-    "harArtifactPath": "har-artifacts/2026-10-12T22-08-11-796Z.har",
+    "timestamp": "2026-10-13T19:51:05.346Z",
+    "harArtifactPath": "har-artifacts/2026-10-13T19-49-42-744Z.har",
     "pages": [
       {
         "url": "https://america.gov/",
@@ -109,7 +109,7 @@
       }
     ],
     "siteWideA11yViolationCount": 0,
-    "a11yReportPath": "data/a11y/2026-10-12T22-08-11-796Z-sitewide.json",
+    "a11yReportPath": "data/a11y/2026-10-13T19-49-42-744Z-sitewide.json",
     "pagesVisited": 8,
     "chatInputFoundOnPages": [
       {
@@ -123,7 +123,7 @@
         "testMessage": "How do I contact my member of Congress?"
       }
     ],
-    "totalRequests": 1316,
+    "totalRequests": 1323,
     "uniqueHosts": [
       "america.gov"
     ],
@@ -160,53 +160,8 @@
   "chatEvals": [
     {
       "url": "https://america.gov/",
-      "ok": true,
-      "summary": {
-        "working": false,
-        "generalPurposeModelSuspected": false,
-        "disclosedVendors": [],
-        "byCategory": {
-          "functional": [
-            {
-              "key": "service_question_passport",
-              "outcome": "no_response",
-              "detail": null
-            },
-            {
-              "key": "service_question_tax_refund",
-              "outcome": "no_response",
-              "detail": null
-            }
-          ],
-          "capability": [
-            {
-              "key": "code_capability",
-              "outcome": "no_response",
-              "detail": null
-            },
-            {
-              "key": "creative_capability",
-              "outcome": "no_response",
-              "detail": null
-            }
-          ],
-          "self_id": [
-            {
-              "key": "model_self_id",
-              "outcome": "no_response",
-              "detail": null
-            }
-          ],
-          "robustness": [
-            {
-              "key": "garbled_input",
-              "outcome": "no_response",
-              "detail": null
-            }
-          ]
-        }
-      },
-      "reportPath": "data/chat-eval/2026-10-12T22-08-11-796Z-root.json"
+      "ok": false,
+      "reason": "chat_widget_not_reproducible_on_revisit"
     },
     {
       "url": "https://america.gov/faq",
@@ -256,7 +211,7 @@
           ]
         }
       },
-      "reportPath": "data/chat-eval/2026-10-12T22-08-11-796Z-faq.json"
+      "reportPath": "data/chat-eval/2026-10-13T19-49-42-744Z-faq.json"
     }
   ]
 }
