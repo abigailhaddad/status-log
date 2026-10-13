@@ -1,0 +1,25 @@
+{
+  "timestamp": "2026-10-13T15:21:24.365Z",
+  "events": [
+    {
+      "type": "NEW_CERTIFICATE",
+      "detail": "america.gov (2026-09-28T20:58:52)"
+    },
+    {
+      "type": "NEW_REPO_COMMITS",
+      "detail": "[GSA-TTS/identity-dev-docs] df79a4f Add Chinese (Simplified) as locale option in OIDC authorization requests (#640) — Mitchell Henke\n  `https://github.com/GSA-TTS/identity-dev-docs/commit/df79a4f56919ceca94ac4c0ca89c62af350ca7fd`"
+    },
+    {
+      "type": "NEW_ISSUE",
+      "detail": "Kneuman0 opened issue #13646 on 18F/identity-idp: \"Delegated access: stacked pull request tracker (14 branches)\"\n  `https://github.com/18F/identity-idp/issues/13646`"
+    },
+    {
+      "type": "NEW_COMMENT",
+      "detail": "mmagsa commented on `GSA-TTS/identity-dev-docs#647`: Closing. (created to trigger codeql run on [original PR](https://github.com/GSA-TTS/identity-dev-docs/pull/640))\n  `https://github.com/GSA-TTS/identity-dev-docs/pull/647#issuecomment-6145163785`\n\nmitchelled commented on `GSA-TTS/identity-dev-docs#640`: Thank you! ❤️ \n  `https://github.com/GSA-TTS/identity-dev-docs/pull/640#issuecomment-6147299201`"
+    },
+    {
+      "type": "NEW_PERSON_ACTIVITY",
+      "detail": "taigrr:\n[2026-10-13T14:36:50Z] created branch \"docidv/doc-images-3-capture-artifacts\" on 18F/identity-idp\n\n[2026-10-13T14:36:50Z] created branch \"docidv/doc-images-3-capture-artifacts\" on 18F/identity-idp\n\n[2026-10-13T14:37:00Z] opened PR #13651 on 18F/identity-idp: \"Release document images and identifiers via a document_images scope\" (`https://github.com/18F/identity-idp/pull/13651`)\n\n[2026-10-13T14:36:55Z] opened PR #13650 on 18F/identity-idp: \"Collect purpose-specific consent before sharing document images\" (`https://github.com/18F/identity-idp/pull/13650`)\n\n[2026-10-13T14:36:51Z] opened PR #13649 on 18F/identity-idp: \"Persist document artifacts for successful Socure verifications\" (`https://github.com/18F/identity-idp/pull/13649`)\n\n[2026-10-13T14:36:46Z] opened PR #13648 on 18F/identity-idp: \"Add data model for shareable document artifacts\" (`https://github.com/18F/identity-idp/pull/13648`)\n\n[2026-10-13T14:36:40Z] opened PR #13647 on 18F/identity-idp: \"Add a read path to encrypted document storage\" (`https://github.com/18F/identity-idp/pull/13647`)\n\n[2026-10-13T09:30:03Z] merged PR #42 on taigrr/crush: \"fix(agent): make cache warm request safe with thinking and Bedrock Europe\" (`https://github.com/taigrr/crush/pull/42`)"
+    }
+  ]
+}
