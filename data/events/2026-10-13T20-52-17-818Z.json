@@ -1,0 +1,9 @@
+{
+  "timestamp": "2026-10-13T20:52:17.818Z",
+  "events": [
+    {
+      "type": "NEW_COMMENT",
+      "detail": "vrajmohan commented on `GSA-TTS/identity-site#1644`: Minor: IMO, \"Accessibility and language support\" is better than \"Accessibility and languages\".\n  `https://github.com/GSA-TTS/identity-site/pull/1644#issuecomment-6154525517`\n\nnickttng commented on `GSA-TTS/identity-site#1644`: > Minor: IMO, \"Accessibility and language support\" is better than \"Accessibility and languages\".  `@vrajmohan` I've thought about it, including \"Accessibility & multilingual support\" too, but I opted for just \"Languages\" to prevent confusion. 'Support' might imply a customer service line for users to \n  `https://github.com/GSA-TTS/identity-site/pull/1644#issuecomment-6154667208`\n\nvrajmohan commented on `GSA-TTS/identity-site#1644`: It was a minor comment. I'm OK with it.\n  `https://github.com/GSA-TTS/identity-site/pull/1644#issuecomment-6154822748`"
+    }
+  ]
+}
