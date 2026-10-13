@@ -1,0 +1,13 @@
+{
+  "timestamp": "2026-10-13T18:01:58.100Z",
+  "events": [
+    {
+      "type": "NEW_REPO_COMMITS",
+      "detail": "[GSA-TTS/identity-dev-docs] dca6290 Merge pull request #644 from GSA-TTS/jcurcio/release-notes/rc-2026-10-07 — Jeremy Curcio\n  `https://github.com/GSA-TTS/identity-dev-docs/commit/dca62902d518b65e5a16d4b3ea73e7a579a09355`\n\n[GSA-TTS/identity-dev-docs] 84bb317 Turns out the “ was requried — Jeremy Curcio\n  `https://github.com/GSA-TTS/identity-dev-docs/commit/84bb3179d3859be9e0460c001fefecc2ef2a0010`\n\n[GSA-TTS/identity-dev-docs] f035c89 remove stuff from release notes — Jeremy Curcio\n  `https://github.com/GSA-TTS/identity-dev-docs/commit/f035c89247d002ba434c0f40edbf94bb551b2fe5`\n\n[GSA-TTS/identity-dev-docs] c642238 Fix missing tag from merge conflict resolution — Jeremy Curcio\n  `https://github.com/GSA-TTS/identity-dev-docs/commit/c642238d5002041dc649cd36a87a1fb24ba0b95e`\n\n[GSA-TTS/identity-dev-docs] 7a6ae46 Merge branch 'main' into jcurcio/release-notes/rc-2026-10-07 — Jeremy Curcio\n  `https://github.com/GSA-TTS/identity-dev-docs/commit/7a6ae46e02b5a356fe584df5323b0b0b4bd1167e`\n\n[GSA-TTS/identity-dev-docs] e9baf0c Release Notes for RC 2026-10-07 — Jeremy Curcio\n  `https://github.com/GSA-TTS/identity-dev-docs/commit/e9baf0c5ca559e4e7cf8b3d30a38aa25cec11b60`"
+    },
+    {
+      "type": "NEW_PERSON_ACTIVITY",
+      "detail": "taigrr:\n[2026-10-13T16:36:58Z] pushed to 18F/identity-idp (docidv/doc-images-4-consent):\n  4898d5f Add a read path to encrypted document storage\n  0619fd1 Add data model for shareable document artifacts\n  b4bcdb0 Persist document artifacts for successful Socure verifications\n  c6b5c39 Collect purpose-specific consent before sharing document images\n\n[2026-10-13T16:36:59Z] pushed to 18F/identity-idp (docidv/doc-images-2-data-model):\n  4898d5f Add a read path to encrypted document storage\n  0619fd1 Add data model for shareable document artifacts\n\n[2026-10-13T15:54:07Z] pushed to 18F/identity-idp (docidv/doc-images-4-consent):\n  38209da changelog: Internal, Automated Testing, Rename IAL2 SP visit helpers to distinguish basic and enhanced verified scopes (#13599)\n  8b5a3a1 Add a read path to encrypted document storage\n  0c8f4ef Add data model for shareable document artifacts\n  6cbd48c Persist document artifacts for successful Socure verifications\n  e8cbe57 Collect purpose-specific consent before sharing document images"
+    }
+  ]
+}
