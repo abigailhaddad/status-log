@@ -1,0 +1,9 @@
+{
+  "timestamp": "2026-10-13T10:25:23.456Z",
+  "events": [
+    {
+      "type": "NEW_PERSON_ACTIVITY",
+      "detail": "taigrr:\n[2026-10-13T09:30:04Z] pushed to taigrr/crush (feature):\n  630a20b fix(agent): make cache warm request safe with thinking and Bedrock Europe (#42)\n\n[2026-10-13T08:33:23Z] created branch \"cd/remove-unused-zoom-buffer-state\" on taigrr/zoom.nvim\n\n[2026-10-13T08:33:34Z] opened PR #11 on taigrr/zoom.nvim: \"refactor(state): remove unused zoom buffer tracking\" (`https://github.com/taigrr/zoom.nvim/pull/11`)\n\n[2026-10-13T07:32:45Z] pushed to taigrr/samfilter (cd/round-6-sam-validation):\n  eecf8d6 chore(deps): update go toolchain and modules\n\n[2026-10-13T07:07:25Z] opened PR #363 on gogrlx/grlx: \"fix(jobs): allow CLI reaper shutdown\" (`https://github.com/gogrlx/grlx/pull/363`)\n\n[2026-10-13T06:04:16Z] opened PR #7 on taigrr/gojev: \"fix(cli): reject empty input question names\" (`https://github.com/taigrr/gojev/pull/7`)\n\n[2026-10-13T06:04:06Z] created branch \"cd/input-question-name\" on taigrr/gojev"
+    }
+  ]
+}
