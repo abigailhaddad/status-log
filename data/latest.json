@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-13T20:52:17.818Z",
+  "timestamp": "2026-10-13T23:13:15.568Z",
   "live": true,
   "dns": {
     "america.gov": {
@@ -9,8 +9,8 @@
         "172.64.96.165"
       ],
       "aaaa": [
-        "2606:54c1:10::ac40:60a5",
-        "2606:54c1:10::a29f:d4a5"
+        "2606:54c1:10::a29f:d4a5",
+        "2606:54c1:10::ac40:60a5"
       ],
       "cname": null,
       "ns": [
@@ -23,12 +23,12 @@
     "www.america.gov": {
       "host": "www.america.gov",
       "a": [
-        "172.64.96.165",
-        "162.159.212.165"
+        "162.159.212.165",
+        "172.64.96.165"
       ],
       "aaaa": [
-        "2606:54c1:10::ac40:60a5",
-        "2606:54c1:10::a29f:d4a5"
+        "2606:54c1:10::a29f:d4a5",
+        "2606:54c1:10::ac40:60a5"
       ],
       "cname": null,
       "ns": [],
@@ -43,15 +43,15 @@
       "finalHeaders": {
         "cache-control": "private, no-store, no-transform",
         "cf-cache-status": "HIT",
-        "cf-ray": "a4a13a419d5e76aa-SEA",
+        "cf-ray": "a4a208b88fa6822d-IAD",
         "connection": "keep-alive",
-        "content-security-policy": "default-src 'none'; base-uri 'none'; object-src 'none'; form-action 'self'; font-src 'self' data:; worker-src 'self' blob:; img-src 'self' data: blob:; connect-src 'self'; media-src 'self' blob: data:; frame-src 'self'; frame-ancestors 'none'; script-src 'self' 'wasm-unsafe-eval' 'sha256-C/MS+M/q1h7xMxxNkNmnZprjEO47QsxjqiCQNBjCD2A=' 'sha256-BF0290pkb3jxQsE7z00xR8Imp8X34FLC88L0lkMnrGw=' 'sha256-QzWFZi+FLIx23tnm9SBU4aEgx4x8DsuASP07mfqol/c=' 'sha256-0chmwFk0zaA528yFfGV7J9ppIpdfTPPULncDF3WG7Zs=' 'sha256-eIXWvAmxkr251LJZkjniEK5LcPF3NkapbJepohwYRIc=' 'sha256-Q2BPg90ZMplYY+FSdApNErhpWafg2hcRRbndmvxuL/Q=' 'sha256-Ya0pUYrC7nM5Cn/056TyVuEiz6dFGrzmkWzgON0pF0U=' 'sha256-SHXg3YtOAVshUMT3f+eElYDgbV0kaujWj8DSaXSS4Vs=' 'sha256-o6WEQ95Zktx2KYiIWpEgR5AD0cnj7ycU4MOAX5wRQ0Q=' 'sha256-umIJp04nPDeLKwAOXJ27vwAx1PnvlIR58a9pS/1HP5M=' 'nonce-s4pduQiLdAHJqgznS+HAeFSY'; script-src-attr 'none'; style-src 'self' 'unsafe-inline', base-uri 'none'; object-src 'none'; form-action 'self'; font-src 'self' data:; worker-src 'self' blob:; img-src 'self' data: blob:; connect-src 'self'; media-src 'self' blob: data:; frame-src https://america.gov/cdn-cgi/challenge-platform/; frame-ancestors 'none'",
+        "content-security-policy": "default-src 'none'; base-uri 'none'; object-src 'none'; form-action 'self'; font-src 'self' data:; worker-src 'self' blob:; img-src 'self' data: blob:; connect-src 'self'; media-src 'self' blob: data:; frame-src 'self'; frame-ancestors 'none'; script-src 'self' 'wasm-unsafe-eval' 'sha256-C/MS+M/q1h7xMxxNkNmnZprjEO47QsxjqiCQNBjCD2A=' 'sha256-BF0290pkb3jxQsE7z00xR8Imp8X34FLC88L0lkMnrGw=' 'sha256-QzWFZi+FLIx23tnm9SBU4aEgx4x8DsuASP07mfqol/c=' 'sha256-0chmwFk0zaA528yFfGV7J9ppIpdfTPPULncDF3WG7Zs=' 'sha256-eIXWvAmxkr251LJZkjniEK5LcPF3NkapbJepohwYRIc=' 'sha256-Q2BPg90ZMplYY+FSdApNErhpWafg2hcRRbndmvxuL/Q=' 'sha256-Ya0pUYrC7nM5Cn/056TyVuEiz6dFGrzmkWzgON0pF0U=' 'sha256-SHXg3YtOAVshUMT3f+eElYDgbV0kaujWj8DSaXSS4Vs=' 'sha256-o6WEQ95Zktx2KYiIWpEgR5AD0cnj7ycU4MOAX5wRQ0Q=' 'sha256-umIJp04nPDeLKwAOXJ27vwAx1PnvlIR58a9pS/1HP5M=' 'nonce-w6l94sQQ7fILl91dliGfpQJK'; script-src-attr 'none'; style-src 'self' 'unsafe-inline', base-uri 'none'; object-src 'none'; form-action 'self'; font-src 'self' data:; worker-src 'self' blob:; img-src 'self' data: blob:; connect-src 'self'; media-src 'self' blob: data:; frame-src https://america.gov/cdn-cgi/challenge-platform/; frame-ancestors 'none'",
         "content-type": "text/html",
-        "date": "Tue, 13 Oct 2026 20:52:21 GMT",
+        "date": "Tue, 13 Oct 2026 23:13:18 GMT",
         "permissions-policy": "camera=(), microphone=(self), geolocation=(), payment=(), usb=()",
         "referrer-policy": "no-referrer",
         "server": "cloudflare",
-        "set-cookie": "__cf_bm=gAmdNG0a5DhZlE.qIFILEEUnYYo43YWRT2eGKtoKvDg-1791924741.3792996-1.0.1.1-1nztVTN8Pywffu.7fb6OAq2OmylvyaPxqneL44RAuoBEBdrfObts0qfNE51WQEaG0S.lugpbw44ZW9RLSjynWSPO0Q7PMHfSO1WY2CG5N9WXxj.Vq70wJYDR9bZ9O4Kc; HttpOnly; SameSite=None; Secure; Path=/; Domain=america.gov; Expires=Tue, 13 Oct 2026 21:22:21 GMT",
+        "set-cookie": "__cf_bm=_H4vrk5Rvc8X4bBMoJiOphTxGb.jxBqMP9W3ll8hkQE-1791933198.169637-1.0.1.1-3nXQKlkZyPU2fc.hkvNfO1RzBEFUvoP43PPljERTKtWr_O3fEGwZ818DvBfvfdEirg.Z1Hr2AaEDiGFx15qbVupCNudqvZdoIX9U2.TmHRDfw7a0JO5aDHSIAGAhmw.C; HttpOnly; SameSite=None; Secure; Path=/; Domain=america.gov; Expires=Tue, 13 Oct 2026 23:43:18 GMT",
         "strict-transport-security": "max-age=15552000; includeSubDomains; preload",
         "transfer-encoding": "chunked",
         "x-content-type-options": "nosniff",
@@ -64,15 +64,15 @@
           "headers": {
             "cache-control": "private, no-store, no-transform",
             "cf-cache-status": "HIT",
-            "cf-ray": "a4a13a419d5e76aa-SEA",
+            "cf-ray": "a4a208b88fa6822d-IAD",
             "connection": "keep-alive",
-            "content-security-policy": "default-src 'none'; base-uri 'none'; object-src 'none'; form-action 'self'; font-src 'self' data:; worker-src 'self' blob:; img-src 'self' data: blob:; connect-src 'self'; media-src 'self' blob: data:; frame-src 'self'; frame-ancestors 'none'; script-src 'self' 'wasm-unsafe-eval' 'sha256-C/MS+M/q1h7xMxxNkNmnZprjEO47QsxjqiCQNBjCD2A=' 'sha256-BF0290pkb3jxQsE7z00xR8Imp8X34FLC88L0lkMnrGw=' 'sha256-QzWFZi+FLIx23tnm9SBU4aEgx4x8DsuASP07mfqol/c=' 'sha256-0chmwFk0zaA528yFfGV7J9ppIpdfTPPULncDF3WG7Zs=' 'sha256-eIXWvAmxkr251LJZkjniEK5LcPF3NkapbJepohwYRIc=' 'sha256-Q2BPg90ZMplYY+FSdApNErhpWafg2hcRRbndmvxuL/Q=' 'sha256-Ya0pUYrC7nM5Cn/056TyVuEiz6dFGrzmkWzgON0pF0U=' 'sha256-SHXg3YtOAVshUMT3f+eElYDgbV0kaujWj8DSaXSS4Vs=' 'sha256-o6WEQ95Zktx2KYiIWpEgR5AD0cnj7ycU4MOAX5wRQ0Q=' 'sha256-umIJp04nPDeLKwAOXJ27vwAx1PnvlIR58a9pS/1HP5M=' 'nonce-s4pduQiLdAHJqgznS+HAeFSY'; script-src-attr 'none'; style-src 'self' 'unsafe-inline', base-uri 'none'; object-src 'none'; form-action 'self'; font-src 'self' data:; worker-src 'self' blob:; img-src 'self' data: blob:; connect-src 'self'; media-src 'self' blob: data:; frame-src https://america.gov/cdn-cgi/challenge-platform/; frame-ancestors 'none'",
+            "content-security-policy": "default-src 'none'; base-uri 'none'; object-src 'none'; form-action 'self'; font-src 'self' data:; worker-src 'self' blob:; img-src 'self' data: blob:; connect-src 'self'; media-src 'self' blob: data:; frame-src 'self'; frame-ancestors 'none'; script-src 'self' 'wasm-unsafe-eval' 'sha256-C/MS+M/q1h7xMxxNkNmnZprjEO47QsxjqiCQNBjCD2A=' 'sha256-BF0290pkb3jxQsE7z00xR8Imp8X34FLC88L0lkMnrGw=' 'sha256-QzWFZi+FLIx23tnm9SBU4aEgx4x8DsuASP07mfqol/c=' 'sha256-0chmwFk0zaA528yFfGV7J9ppIpdfTPPULncDF3WG7Zs=' 'sha256-eIXWvAmxkr251LJZkjniEK5LcPF3NkapbJepohwYRIc=' 'sha256-Q2BPg90ZMplYY+FSdApNErhpWafg2hcRRbndmvxuL/Q=' 'sha256-Ya0pUYrC7nM5Cn/056TyVuEiz6dFGrzmkWzgON0pF0U=' 'sha256-SHXg3YtOAVshUMT3f+eElYDgbV0kaujWj8DSaXSS4Vs=' 'sha256-o6WEQ95Zktx2KYiIWpEgR5AD0cnj7ycU4MOAX5wRQ0Q=' 'sha256-umIJp04nPDeLKwAOXJ27vwAx1PnvlIR58a9pS/1HP5M=' 'nonce-w6l94sQQ7fILl91dliGfpQJK'; script-src-attr 'none'; style-src 'self' 'unsafe-inline', base-uri 'none'; object-src 'none'; form-action 'self'; font-src 'self' data:; worker-src 'self' blob:; img-src 'self' data: blob:; connect-src 'self'; media-src 'self' blob: data:; frame-src https://america.gov/cdn-cgi/challenge-platform/; frame-ancestors 'none'",
             "content-type": "text/html",
-            "date": "Tue, 13 Oct 2026 20:52:21 GMT",
+            "date": "Tue, 13 Oct 2026 23:13:18 GMT",
             "permissions-policy": "camera=(), microphone=(self), geolocation=(), payment=(), usb=()",
             "referrer-policy": "no-referrer",
             "server": "cloudflare",
-            "set-cookie": "__cf_bm=gAmdNG0a5DhZlE.qIFILEEUnYYo43YWRT2eGKtoKvDg-1791924741.3792996-1.0.1.1-1nztVTN8Pywffu.7fb6OAq2OmylvyaPxqneL44RAuoBEBdrfObts0qfNE51WQEaG0S.lugpbw44ZW9RLSjynWSPO0Q7PMHfSO1WY2CG5N9WXxj.Vq70wJYDR9bZ9O4Kc; HttpOnly; SameSite=None; Secure; Path=/; Domain=america.gov; Expires=Tue, 13 Oct 2026 21:22:21 GMT",
+            "set-cookie": "__cf_bm=_H4vrk5Rvc8X4bBMoJiOphTxGb.jxBqMP9W3ll8hkQE-1791933198.169637-1.0.1.1-3nXQKlkZyPU2fc.hkvNfO1RzBEFUvoP43PPljERTKtWr_O3fEGwZ818DvBfvfdEirg.Z1Hr2AaEDiGFx15qbVupCNudqvZdoIX9U2.TmHRDfw7a0JO5aDHSIAGAhmw.C; HttpOnly; SameSite=None; Secure; Path=/; Domain=america.gov; Expires=Tue, 13 Oct 2026 23:43:18 GMT",
             "strict-transport-security": "max-age=15552000; includeSubDomains; preload",
             "transfer-encoding": "chunked",
             "x-content-type-options": "nosniff",
@@ -80,7 +80,7 @@
           }
         }
       ],
-      "bodyLength": 294542,
+      "bodyLength": 294427,
       "bodySnippet": "<!DOCTYPE html><html lang=\"en\" dir=\"ltr\"><head><style>\n/* Preserve the navigation's position across document loads and chat handoffs. */\n@view-transition {\n  navigation: auto;\n}\n\n:root {\n  view-transition-name: none;\n}\n\n.site-home-link {\n  view-transition-name: site-nav-logo;\n}\n\n.site-menu-trigger {\n  view-transition-name: site-nav-menu;\n}\n\n:root:active-view-transition .site-header {\n  transition: none;\n}\n\n::view-transition-group(site-nav-logo),\n::view-transition-group(site-nav-menu) {\n  animation-duration: 300ms;\n  animation-timing-function: var(--ease-drawer);\n}\n\n@media (prefers-reduced-motion: reduce) {\n  ::view-transition-group(site-nav-logo),\n  ::view-transition-group(site-nav-menu) {\n    animation-duration: 0s;\n  }\n}\n\n    </style><meta charset=\"utf-8\"><meta name=\"america-build-id\" content=\"4e139e5e1c066962187a9c0c7c8a5f5885f434c0\"><script>(function(){const languageQueryParam = \"lang\";\nconst languageOptions = [\"en\",\"fr\",\"es\"];\n\n      const saved = new URLSearchParams(location.search).get(languageQueryParam);\n      const preferred = languageOptions.includes(saved) ? saved : \"en\";\n      if (!/^en(?:-|$)/i.test(preferred)) {\n        document.documentElement.dataset.languagePending = \"\";\n        setTimeout(() => { delete document.documentElement.dataset.languagePending; }, 3000);\n      }\n    })();</script><script type=\"module\" src=\"/_astro/base-html.astro_astro_type_script_index_0_lang.CaBRHTVY.js\"></script><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, viewport-fit=cover\"><link rel=\"preload\" href=\"/_astro/rhymes-text-regular.DRsO9i-l.woff2\" as=\"font\" type=\"font/woff2\" crossorigin=\"\"><link rel=\"icon\" href=\"/favicon.ico\" sizes=\"16x16 32x32 48x48\"><link rel=\"icon\" href=\"/favicon.svg\" type=\"image/svg+xml\"><link rel=\"apple-touch-icon\" href=\"/apple-touch-icon.png\" sizes=\"180x180\"><meta name=\"apple-mobile-web-app-title\" content=\"America.gov\"><title data-site-en=\"America.gov\" data-site-fr=\"America.gov\" data-site-es=\"America.gov\">America.gov</title><sc",
       "error": null
     },
@@ -91,15 +91,15 @@
       "finalHeaders": {
         "cache-control": "private, no-store, no-transform",
         "cf-cache-status": "HIT",
-        "cf-ray": "a4a13a42be0376aa-SEA",
+        "cf-ray": "a4a208b92834822d-IAD",
         "connection": "keep-alive",
-        "content-security-policy": "default-src 'none'; base-uri 'none'; object-src 'none'; form-action 'self'; font-src 'self' data:; worker-src 'self' blob:; img-src 'self' data: blob:; connect-src 'self'; media-src 'self' blob: data:; frame-src 'self'; frame-ancestors 'none'; script-src 'self' 'wasm-unsafe-eval' 'sha256-C/MS+M/q1h7xMxxNkNmnZprjEO47QsxjqiCQNBjCD2A=' 'sha256-BF0290pkb3jxQsE7z00xR8Imp8X34FLC88L0lkMnrGw=' 'sha256-QzWFZi+FLIx23tnm9SBU4aEgx4x8DsuASP07mfqol/c=' 'sha256-0chmwFk0zaA528yFfGV7J9ppIpdfTPPULncDF3WG7Zs=' 'sha256-eIXWvAmxkr251LJZkjniEK5LcPF3NkapbJepohwYRIc=' 'sha256-Q2BPg90ZMplYY+FSdApNErhpWafg2hcRRbndmvxuL/Q=' 'sha256-Ya0pUYrC7nM5Cn/056TyVuEiz6dFGrzmkWzgON0pF0U=' 'sha256-SHXg3YtOAVshUMT3f+eElYDgbV0kaujWj8DSaXSS4Vs=' 'sha256-o6WEQ95Zktx2KYiIWpEgR5AD0cnj7ycU4MOAX5wRQ0Q=' 'sha256-umIJp04nPDeLKwAOXJ27vwAx1PnvlIR58a9pS/1HP5M=' 'nonce-um9EPosdPePA51YB2JKSocwk'; script-src-attr 'none'; style-src 'self' 'unsafe-inline', base-uri 'none'; object-src 'none'; form-action 'self'; font-src 'self' data:; worker-src 'self' blob:; img-src 'self' data: blob:; connect-src 'self'; media-src 'self' blob: data:; frame-src https://america.gov/cdn-cgi/challenge-platform/; frame-ancestors 'none'",
+        "content-security-policy": "default-src 'none'; base-uri 'none'; object-src 'none'; form-action 'self'; font-src 'self' data:; worker-src 'self' blob:; img-src 'self' data: blob:; connect-src 'self'; media-src 'self' blob: data:; frame-src 'self'; frame-ancestors 'none'; script-src 'self' 'wasm-unsafe-eval' 'sha256-C/MS+M/q1h7xMxxNkNmnZprjEO47QsxjqiCQNBjCD2A=' 'sha256-BF0290pkb3jxQsE7z00xR8Imp8X34FLC88L0lkMnrGw=' 'sha256-QzWFZi+FLIx23tnm9SBU4aEgx4x8DsuASP07mfqol/c=' 'sha256-0chmwFk0zaA528yFfGV7J9ppIpdfTPPULncDF3WG7Zs=' 'sha256-eIXWvAmxkr251LJZkjniEK5LcPF3NkapbJepohwYRIc=' 'sha256-Q2BPg90ZMplYY+FSdApNErhpWafg2hcRRbndmvxuL/Q=' 'sha256-Ya0pUYrC7nM5Cn/056TyVuEiz6dFGrzmkWzgON0pF0U=' 'sha256-SHXg3YtOAVshUMT3f+eElYDgbV0kaujWj8DSaXSS4Vs=' 'sha256-o6WEQ95Zktx2KYiIWpEgR5AD0cnj7ycU4MOAX5wRQ0Q=' 'sha256-umIJp04nPDeLKwAOXJ27vwAx1PnvlIR58a9pS/1HP5M=' 'nonce-g+1W7qGjB5rMLBmEqgkHvx6J'; script-src-attr 'none'; style-src 'self' 'unsafe-inline', base-uri 'none'; object-src 'none'; form-action 'self'; font-src 'self' data:; worker-src 'self' blob:; img-src 'self' data: blob:; connect-src 'self'; media-src 'self' blob: data:; frame-src https://america.gov/cdn-cgi/challenge-platform/; frame-ancestors 'none'",
         "content-type": "text/html",
-        "date": "Tue, 13 Oct 2026 20:52:21 GMT",
+        "date": "Tue, 13 Oct 2026 23:13:18 GMT",
         "permissions-policy": "camera=(), microphone=(self), geolocation=(), payment=(), usb=()",
         "referrer-policy": "no-referrer",
         "server": "cloudflare",
-        "set-cookie": "__cf_bm=KcKTYVZi6iu1edi03CAkrnVtU9JFMfhqgxRuKvZFRe0-1791924741.5522935-1.0.1.1-3h0ASNHReuX1NSyBktmPyJHa.6HyIW2EDZmflHmvtZe5egbqKlyBwhsSI0RXlxWuvcxFJXBABULx4W82OwLkvORcU.fLR_WWiRBk0WKg1tagfLOTWSNFrrliGpttJIzZ; HttpOnly; SameSite=None; Secure; Path=/; Domain=america.gov; Expires=Tue, 13 Oct 2026 21:22:21 GMT",
+        "set-cookie": "__cf_bm=AZ0.6wgKD8ogEVf0iv.OPdYqUIvTIFTM4qc85gxYUFs-1791933198.2641447-1.0.1.1-im24PDxfNaDt3t8BPMuKJvHxqqWc0fceXFAo13oYBnUZlpF3LeykJqOwvmni498wSAZ25hDxUpEkmirz2_zguikKUJ.26rKxPSVZ7aQJ4vRLrh47Qk6RsJSe.JX5Ak7O; HttpOnly; SameSite=None; Secure; Path=/; Domain=america.gov; Expires=Tue, 13 Oct 2026 23:43:18 GMT",
         "strict-transport-security": "max-age=15552000; includeSubDomains; preload",
         "transfer-encoding": "chunked",
         "x-content-type-options": "nosniff",
@@ -110,10 +110,10 @@
           "url": "https://www.america.gov/",
           "status": 301,
           "headers": {
-            "cf-ray": "a4a13a428832e6d4-LAX",
+            "cf-ray": "a4a208b91a5b0ca0-EWR",
             "connection": "keep-alive",
             "content-type": "text/html; charset=UTF-8",
-            "date": "Tue, 13 Oct 2026 20:52:21 GMT",
+            "date": "Tue, 13 Oct 2026 23:13:18 GMT",
             "location": "https://america.gov/",
             "server": "cloudflare",
             "strict-transport-security": "max-age=15552000; includeSubDomains; preload",
@@ -127,15 +127,15 @@
           "headers": {
             "cache-control": "private, no-store, no-transform",
             "cf-cache-status": "HIT",
-            "cf-ray": "a4a13a42be0376aa-SEA",
+            "cf-ray": "a4a208b92834822d-IAD",
             "connection": "keep-alive",
-            "content-security-policy": "default-src 'none'; base-uri 'none'; object-src 'none'; form-action 'self'; font-src 'self' data:; worker-src 'self' blob:; img-src 'self' data: blob:; connect-src 'self'; media-src 'self' blob: data:; frame-src 'self'; frame-ancestors 'none'; script-src 'self' 'wasm-unsafe-eval' 'sha256-C/MS+M/q1h7xMxxNkNmnZprjEO47QsxjqiCQNBjCD2A=' 'sha256-BF0290pkb3jxQsE7z00xR8Imp8X34FLC88L0lkMnrGw=' 'sha256-QzWFZi+FLIx23tnm9SBU4aEgx4x8DsuASP07mfqol/c=' 'sha256-0chmwFk0zaA528yFfGV7J9ppIpdfTPPULncDF3WG7Zs=' 'sha256-eIXWvAmxkr251LJZkjniEK5LcPF3NkapbJepohwYRIc=' 'sha256-Q2BPg90ZMplYY+FSdApNErhpWafg2hcRRbndmvxuL/Q=' 'sha256-Ya0pUYrC7nM5Cn/056TyVuEiz6dFGrzmkWzgON0pF0U=' 'sha256-SHXg3YtOAVshUMT3f+eElYDgbV0kaujWj8DSaXSS4Vs=' 'sha256-o6WEQ95Zktx2KYiIWpEgR5AD0cnj7ycU4MOAX5wRQ0Q=' 'sha256-umIJp04nPDeLKwAOXJ27vwAx1PnvlIR58a9pS/1HP5M=' 'nonce-um9EPosdPePA51YB2JKSocwk'; script-src-attr 'none'; style-src 'self' 'unsafe-inline', base-uri 'none'; object-src 'none'; form-action 'self'; font-src 'self' data:; worker-src 'self' blob:; img-src 'self' data: blob:; connect-src 'self'; media-src 'self' blob: data:; frame-src https://america.gov/cdn-cgi/challenge-platform/; frame-ancestors 'none'",
+            "content-security-policy": "default-src 'none'; base-uri 'none'; object-src 'none'; form-action 'self'; font-src 'self' data:; worker-src 'self' blob:; img-src 'self' data: blob:; connect-src 'self'; media-src 'self' blob: data:; frame-src 'self'; frame-ancestors 'none'; script-src 'self' 'wasm-unsafe-eval' 'sha256-C/MS+M/q1h7xMxxNkNmnZprjEO47QsxjqiCQNBjCD2A=' 'sha256-BF0290pkb3jxQsE7z00xR8Imp8X34FLC88L0lkMnrGw=' 'sha256-QzWFZi+FLIx23tnm9SBU4aEgx4x8DsuASP07mfqol/c=' 'sha256-0chmwFk0zaA528yFfGV7J9ppIpdfTPPULncDF3WG7Zs=' 'sha256-eIXWvAmxkr251LJZkjniEK5LcPF3NkapbJepohwYRIc=' 'sha256-Q2BPg90ZMplYY+FSdApNErhpWafg2hcRRbndmvxuL/Q=' 'sha256-Ya0pUYrC7nM5Cn/056TyVuEiz6dFGrzmkWzgON0pF0U=' 'sha256-SHXg3YtOAVshUMT3f+eElYDgbV0kaujWj8DSaXSS4Vs=' 'sha256-o6WEQ95Zktx2KYiIWpEgR5AD0cnj7ycU4MOAX5wRQ0Q=' 'sha256-umIJp04nPDeLKwAOXJ27vwAx1PnvlIR58a9pS/1HP5M=' 'nonce-g+1W7qGjB5rMLBmEqgkHvx6J'; script-src-attr 'none'; style-src 'self' 'unsafe-inline', base-uri 'none'; object-src 'none'; form-action 'self'; font-src 'self' data:; worker-src 'self' blob:; img-src 'self' data: blob:; connect-src 'self'; media-src 'self' blob: data:; frame-src https://america.gov/cdn-cgi/challenge-platform/; frame-ancestors 'none'",
             "content-type": "text/html",
-            "date": "Tue, 13 Oct 2026 20:52:21 GMT",
+            "date": "Tue, 13 Oct 2026 23:13:18 GMT",
             "permissions-policy": "camera=(), microphone=(self), geolocation=(), payment=(), usb=()",
             "referrer-policy": "no-referrer",
             "server": "cloudflare",
-            "set-cookie": "__cf_bm=KcKTYVZi6iu1edi03CAkrnVtU9JFMfhqgxRuKvZFRe0-1791924741.5522935-1.0.1.1-3h0ASNHReuX1NSyBktmPyJHa.6HyIW2EDZmflHmvtZe5egbqKlyBwhsSI0RXlxWuvcxFJXBABULx4W82OwLkvORcU.fLR_WWiRBk0WKg1tagfLOTWSNFrrliGpttJIzZ; HttpOnly; SameSite=None; Secure; Path=/; Domain=america.gov; Expires=Tue, 13 Oct 2026 21:22:21 GMT",
+            "set-cookie": "__cf_bm=AZ0.6wgKD8ogEVf0iv.OPdYqUIvTIFTM4qc85gxYUFs-1791933198.2641447-1.0.1.1-im24PDxfNaDt3t8BPMuKJvHxqqWc0fceXFAo13oYBnUZlpF3LeykJqOwvmni498wSAZ25hDxUpEkmirz2_zguikKUJ.26rKxPSVZ7aQJ4vRLrh47Qk6RsJSe.JX5Ak7O; HttpOnly; SameSite=None; Secure; Path=/; Domain=america.gov; Expires=Tue, 13 Oct 2026 23:43:18 GMT",
             "strict-transport-security": "max-age=15552000; includeSubDomains; preload",
             "transfer-encoding": "chunked",
             "x-content-type-options": "nosniff",
@@ -143,7 +143,7 @@
           }
         }
       ],
-      "bodyLength": 294794,
+      "bodyLength": 294524,
       "bodySnippet": "<!DOCTYPE html><html lang=\"en\" dir=\"ltr\"><head><style>\n/* Preserve the navigation's position across document loads and chat handoffs. */\n@view-transition {\n  navigation: auto;\n}\n\n:root {\n  view-transition-name: none;\n}\n\n.site-home-link {\n  view-transition-name: site-nav-logo;\n}\n\n.site-menu-trigger {\n  view-transition-name: site-nav-menu;\n}\n\n:root:active-view-transition .site-header {\n  transition: none;\n}\n\n::view-transition-group(site-nav-logo),\n::view-transition-group(site-nav-menu) {\n  animation-duration: 300ms;\n  animation-timing-function: var(--ease-drawer);\n}\n\n@media (prefers-reduced-motion: reduce) {\n  ::view-transition-group(site-nav-logo),\n  ::view-transition-group(site-nav-menu) {\n    animation-duration: 0s;\n  }\n}\n\n    </style><meta charset=\"utf-8\"><meta name=\"america-build-id\" content=\"4e139e5e1c066962187a9c0c7c8a5f5885f434c0\"><script>(function(){const languageQueryParam = \"lang\";\nconst languageOptions = [\"en\",\"fr\",\"es\"];\n\n      const saved = new URLSearchParams(location.search).get(languageQueryParam);\n      const preferred = languageOptions.includes(saved) ? saved : \"en\";\n      if (!/^en(?:-|$)/i.test(preferred)) {\n        document.documentElement.dataset.languagePending = \"\";\n        setTimeout(() => { delete document.documentElement.dataset.languagePending; }, 3000);\n      }\n    })();</script><script type=\"module\" src=\"/_astro/base-html.astro_astro_type_script_index_0_lang.CaBRHTVY.js\"></script><meta name=\"viewport\" content=\"width=device-width, initial-scale=1, viewport-fit=cover\"><link rel=\"preload\" href=\"/_astro/rhymes-text-regular.DRsO9i-l.woff2\" as=\"font\" type=\"font/woff2\" crossorigin=\"\"><link rel=\"icon\" href=\"/favicon.ico\" sizes=\"16x16 32x32 48x48\"><link rel=\"icon\" href=\"/favicon.svg\" type=\"image/svg+xml\"><link rel=\"apple-touch-icon\" href=\"/apple-touch-icon.png\" sizes=\"180x180\"><meta name=\"apple-mobile-web-app-title\" content=\"America.gov\"><title data-site-en=\"America.gov\" data-site-fr=\"America.gov\" data-site-es=\"America.gov\">America.gov</title><sc",
       "error": null
     }
@@ -940,6 +940,15 @@
       },
       {
         "repo": "18F/identity-idp",
+        "sha": "063d69fc915f073f5580f5105634d6215dbbb5bb",
+        "author": "Nick Ng",
+        "githubLogin": "nickttng",
+        "date": "2026-10-13T22:07:08Z",
+        "message": "Include Languages Statement (#13628)\n\n* update to accessibility & languages\n\n* machine translations placeholder\n\nplaceholder until we have vendor translations\n\n* update key\n\n* Add changelog entry\n\nchangelog: User-Facing Improvements, Footer, Rename \"Accessibility statement\" footer link to \"Accessibility & languages\"\n\n* update zh characters in the link",
+        "url": "https://github.com/18F/identity-idp/commit/063d69fc915f073f5580f5105634d6215dbbb5bb"
+      },
+      {
+        "repo": "18F/identity-idp",
         "sha": "38209da70d72eb51189243ab52c061be2ed18aed",
         "author": "Anthony",
         "githubLogin": "antcampbelll",
@@ -1200,13 +1209,13 @@
         "url": "https://github.com/18F/identity-idp/commit/fd2797d4c98ee16ff92d3bae03f575389e4ac7b8"
       },
       {
-        "repo": "18F/identity-idp",
-        "sha": "8cee86f49d8f7d1cf2901581166bc7884c565d7c",
-        "author": "Chris Ameter",
-        "githubLogin": "ameter",
-        "date": "2026-09-28T18:42:05Z",
-        "message": "Joan-131: Implement AAMVA get-to-yes for Socure KYC (#13542)\n\n* Joan-131: Implement AAMVA get-to-yes for Socure KYC\n* add config-backed mechanism to block AAMVA get-to-yes on Socure KYC reason codes\n\nchangelog: Internal, Identity Verification, Report failed attributes from Socure KYC so AAMVA can cover them",
-        "url": "https://github.com/18F/identity-idp/commit/8cee86f49d8f7d1cf2901581166bc7884c565d7c"
+        "repo": "GSA-TTS/identity-site",
+        "sha": "19d20797738b4d9f9b8a0a89ba771ed781548602",
+        "author": "Nick Ng",
+        "githubLogin": "nickttng",
+        "date": "2026-10-13T21:12:35Z",
+        "message": "Include Languages Statement (#1644)\n\n* initial languages statement\n\n* update sidenav text\n\n* machine-translation-placeholder\n\nplaceholder until we have vendor translations\n\n* replace machine with vendor translations\n\n* update footer translations\n\n* updated sidenav heading id",
+        "url": "https://github.com/GSA-TTS/identity-site/commit/19d20797738b4d9f9b8a0a89ba771ed781548602"
       },
       {
         "repo": "GSA-TTS/identity-site",
@@ -1468,15 +1477,6 @@
         "date": "2026-08-05T22:11:56Z",
         "message": "Bump undici from 7.22.0 to 7.29.0 (#1614)",
         "url": "https://github.com/GSA-TTS/identity-site/commit/0e43104b1d3e2cfcd99472cbf33bd064a68ad5a4"
-      },
-      {
-        "repo": "GSA-TTS/identity-site",
-        "sha": "4c9e23081cce2264e67e701dc111c465a072fca8",
-        "author": "dependabot[bot]",
-        "githubLogin": "dependabot[bot]",
-        "date": "2026-08-05T21:58:58Z",
-        "message": "Bump dompurify from 3.3.1 to 3.4.2 (#1589)",
-        "url": "https://github.com/GSA-TTS/identity-site/commit/4c9e23081cce2264e67e701dc111c465a072fca8"
       },
       {
         "repo": "GSA-TTS/identity-handbook",
@@ -1750,6 +1750,24 @@
       },
       {
         "repo": "GSA-TTS/identity-dev-docs",
+        "sha": "cc75e6d7f0f89130de44454686dfbbfae0ba25bb",
+        "author": "Nick Ng",
+        "githubLogin": "nickttng",
+        "date": "2026-10-13T22:11:29Z",
+        "message": "Merge pull request #645 from GSA-TTS/include-languages-statement\n\nUpdate footer link text from \"Accessibility\" to \"Accessibility & Languages\"",
+        "url": "https://github.com/GSA-TTS/identity-dev-docs/commit/cc75e6d7f0f89130de44454686dfbbfae0ba25bb"
+      },
+      {
+        "repo": "GSA-TTS/identity-dev-docs",
+        "sha": "1c81aac158ad772e10f85e16b9af9122b359fb2f",
+        "author": "Nick Ng",
+        "githubLogin": "nickttng",
+        "date": "2026-10-13T21:55:24Z",
+        "message": "Update link text",
+        "url": "https://github.com/GSA-TTS/identity-dev-docs/commit/1c81aac158ad772e10f85e16b9af9122b359fb2f"
+      },
+      {
+        "repo": "GSA-TTS/identity-dev-docs",
         "sha": "dca62902d518b65e5a16d4b3ea73e7a579a09355",
         "author": "Jeremy Curcio",
         "githubLogin": "Jeremy1026",
@@ -1999,24 +2017,6 @@
         "date": "2026-08-24T15:07:45Z",
         "message": "Merge pull request #634 from GSA-TTS/mb-improvements\n\nSpecify AAL2 as a minimum for all IdV apps",
         "url": "https://github.com/GSA-TTS/identity-dev-docs/commit/fb38d299615e108b634288000c6a1894af8182c0"
-      },
-      {
-        "repo": "GSA-TTS/identity-dev-docs",
-        "sha": "ce9c738f9953a6c2b0127fc0abf08513fd2f2139",
-        "author": "Moncef Belyamani",
-        "githubLogin": "monfresh",
-        "date": "2026-08-21T20:10:11Z",
-        "message": "Specify AAL2 as a minimum for all IdV apps\n\nThe fact that we don't allow MFA remembered devices for IdV apps was not previously documented.",
-        "url": "https://github.com/GSA-TTS/identity-dev-docs/commit/ce9c738f9953a6c2b0127fc0abf08513fd2f2139"
-      },
-      {
-        "repo": "GSA-TTS/identity-dev-docs",
-        "sha": "15d078040250533fac9bbc42ae0e50c9640170d5",
-        "author": "AJ Farkas",
-        "githubLogin": "ajfarkas",
-        "date": "2026-08-21T13:19:09Z",
-        "message": "Merge pull request #633 from GSA-TTS/aj/fix-deps-2026-08-20\n\nupdate dependencies to remove CVEs",
-        "url": "https://github.com/GSA-TTS/identity-dev-docs/commit/15d078040250533fac9bbc42ae0e50c9640170d5"
       }
     ]
   },
@@ -2459,6 +2459,42 @@
       "error": null,
       "events": [
         {
+          "id": "23916683783",
+          "type": "PushEvent",
+          "repo": "taigrr/crush",
+          "createdAt": "2026-10-12T21:13:46Z",
+          "ref": "refs/heads/cd/cache-warm-long-tools",
+          "before": "6d47e57c85388cad4aa883f654367771238a2434",
+          "head": "4f0bef71b8fc9e39fff00b85853c78ab7e983a74"
+        },
+        {
+          "id": "23912721164",
+          "type": "PushEvent",
+          "repo": "18F/identity-idp",
+          "createdAt": "2026-10-12T20:43:53Z",
+          "ref": "refs/heads/site-keys/4-recovery",
+          "before": "af0472842f9a6a85747d3d4a2b10088334d3a522",
+          "head": "30ffd37784ab7cdf5b43b190c24374f4219d9e0d"
+        },
+        {
+          "id": "23912720721",
+          "type": "PushEvent",
+          "repo": "18F/identity-idp",
+          "createdAt": "2026-10-12T20:43:53Z",
+          "ref": "refs/heads/site-keys/1-crypto",
+          "before": "396d70b5a23f8207a50ee6d8ae8f1dbf1b53710d",
+          "head": "046467c839b159c36eed0dfbc7e14a7431285f14"
+        },
+        {
+          "id": "23912007787",
+          "type": "PushEvent",
+          "repo": "18F/identity-idp",
+          "createdAt": "2026-10-12T20:43:53Z",
+          "ref": "refs/heads/site-keys/3-oidc",
+          "before": "542080dcee8da0c2a92670af8c68d26d5a538086",
+          "head": "34f3735e450f4248297ec8eaea26f5dcd74944f2"
+        },
+        {
           "id": "23892786206",
           "type": "PushEvent",
           "repo": "18F/identity-idp",
@@ -2827,42 +2863,6 @@
           "createdAt": "2026-10-10T07:35:08Z",
           "refType": "branch",
           "ref": "cd/protect-socket-path"
-        },
-        {
-          "id": "23620145281",
-          "type": "PushEvent",
-          "repo": "taigrr/gojev",
-          "createdAt": "2026-10-10T09:35:43Z",
-          "ref": "refs/heads/cd/fallback-close-coverage-round8",
-          "before": "ff30001aba048a735c0c8be4dc845ad041dc10c2",
-          "head": "20f1d49343c92254e3d9f50936792ae63c821f21"
-        },
-        {
-          "id": "23606474948",
-          "type": "PushEvent",
-          "repo": "taigrr/elevenlabs-mcp",
-          "createdAt": "2026-10-10T10:36:16Z",
-          "ref": "refs/heads/cd/refresh-indirect-deps",
-          "before": "5c82860926847aec8c711dfbee39c7d5b584a1b6",
-          "head": "3deb1ddca13621da0bcadb099efb57923d1da458"
-        },
-        {
-          "id": "23592314624",
-          "type": "PushEvent",
-          "repo": "taigrr/blastd",
-          "createdAt": "2026-10-10T07:40:25Z",
-          "ref": "refs/heads/cd/protect-socket-path",
-          "before": "01b7d6e7937804221b6287ba8b22f2c9dff82fbb",
-          "head": "338cb36a2d4b126547e8173b4e1b419304d0153b"
-        },
-        {
-          "id": "23590138267",
-          "type": "PushEvent",
-          "repo": "taigrr/gojev",
-          "createdAt": "2026-10-09T03:57:08Z",
-          "ref": "refs/heads/main",
-          "before": "d856c5f228279ba9b197928976c2c0c74c5a48f7",
-          "head": "3fb26206abd2fb04a14d038eac13c754be92d51a"
         }
       ]
     },
@@ -3327,7 +3327,7 @@
         "up": 0,
         "down": 0,
         "totalReactions": 0,
-        "lastCheckedAt": "2026-10-13T20:52:23.059Z"
+        "lastCheckedAt": "2026-10-13T23:13:19.276Z"
       },
       {
         "kind": "issue",
@@ -3341,7 +3341,7 @@
         "up": 0,
         "down": 0,
         "totalReactions": 0,
-        "lastCheckedAt": "2026-10-13T20:52:23.059Z"
+        "lastCheckedAt": "2026-10-13T23:13:19.276Z"
       },
       {
         "kind": "issue",
@@ -3355,7 +3355,7 @@
         "up": 0,
         "down": 0,
         "totalReactions": 0,
-        "lastCheckedAt": "2026-10-13T20:52:23.059Z"
+        "lastCheckedAt": "2026-10-13T23:13:19.276Z"
       },
       {
         "kind": "issue",
@@ -3369,7 +3369,7 @@
         "up": 0,
         "down": 0,
         "totalReactions": 0,
-        "lastCheckedAt": "2026-10-13T20:52:23.059Z"
+        "lastCheckedAt": "2026-10-13T23:13:19.276Z"
       },
       {
         "kind": "issue",
@@ -3383,7 +3383,7 @@
         "up": 0,
         "down": 0,
         "totalReactions": 0,
-        "lastCheckedAt": "2026-10-13T20:52:23.059Z"
+        "lastCheckedAt": "2026-10-13T23:13:19.276Z"
       },
       {
         "kind": "issue",
@@ -3397,7 +3397,7 @@
         "up": 0,
         "down": 0,
         "totalReactions": 0,
-        "lastCheckedAt": "2026-10-13T20:52:23.059Z"
+        "lastCheckedAt": "2026-10-13T23:13:19.276Z"
       },
       {
         "kind": "issue",
@@ -3411,7 +3411,7 @@
         "up": 0,
         "down": 0,
         "totalReactions": 0,
-        "lastCheckedAt": "2026-10-13T20:52:23.059Z"
+        "lastCheckedAt": "2026-10-13T23:13:19.276Z"
       },
       {
         "kind": "issue",
@@ -3425,7 +3425,7 @@
         "up": 0,
         "down": 0,
         "totalReactions": 0,
-        "lastCheckedAt": "2026-10-13T20:52:23.059Z"
+        "lastCheckedAt": "2026-10-13T23:13:19.276Z"
       },
       {
         "kind": "issue",
@@ -3439,7 +3439,7 @@
         "up": 0,
         "down": 0,
         "totalReactions": 0,
-        "lastCheckedAt": "2026-10-13T20:52:23.059Z"
+        "lastCheckedAt": "2026-10-13T23:13:19.276Z"
       },
       {
         "kind": "issue",
@@ -3453,7 +3453,7 @@
         "up": 0,
         "down": 0,
         "totalReactions": 0,
-        "lastCheckedAt": "2026-10-13T20:52:23.059Z"
+        "lastCheckedAt": "2026-10-13T23:13:19.276Z"
       },
       {
         "kind": "issue",
@@ -3467,7 +3467,7 @@
         "up": 0,
         "down": 0,
         "totalReactions": 0,
-        "lastCheckedAt": "2026-10-13T20:52:23.059Z"
+        "lastCheckedAt": "2026-10-13T23:13:19.276Z"
       },
       {
         "kind": "issue",
@@ -3481,7 +3481,7 @@
         "up": 0,
         "down": 0,
         "totalReactions": 0,
-        "lastCheckedAt": "2026-10-13T20:52:23.059Z"
+        "lastCheckedAt": "2026-10-13T23:13:19.276Z"
       },
       {
         "kind": "issue",
@@ -3495,7 +3495,7 @@
         "up": 0,
         "down": 0,
         "totalReactions": 0,
-        "lastCheckedAt": "2026-10-13T20:52:23.059Z"
+        "lastCheckedAt": "2026-10-13T23:13:19.276Z"
       },
       {
         "kind": "issue",
@@ -3509,7 +3509,7 @@
         "up": 0,
         "down": 0,
         "totalReactions": 0,
-        "lastCheckedAt": "2026-10-13T20:52:23.059Z"
+        "lastCheckedAt": "2026-10-13T23:13:19.276Z"
       },
       {
         "kind": "issue",
@@ -3523,7 +3523,7 @@
         "up": 0,
         "down": 0,
         "totalReactions": 0,
-        "lastCheckedAt": "2026-10-13T20:52:23.059Z"
+        "lastCheckedAt": "2026-10-13T23:13:19.276Z"
       },
       {
         "kind": "issue",
@@ -3537,7 +3537,7 @@
         "up": 0,
         "down": 0,
         "totalReactions": 0,
-        "lastCheckedAt": "2026-10-13T20:52:23.059Z"
+        "lastCheckedAt": "2026-10-13T23:13:19.276Z"
       },
       {
         "kind": "issue",
@@ -3551,7 +3551,7 @@
         "up": 0,
         "down": 0,
         "totalReactions": 0,
-        "lastCheckedAt": "2026-10-13T20:52:23.059Z"
+        "lastCheckedAt": "2026-10-13T23:13:19.276Z"
       },
       {
         "kind": "issue",
@@ -3565,7 +3565,7 @@
         "up": 0,
         "down": 0,
         "totalReactions": 0,
-        "lastCheckedAt": "2026-10-13T20:52:23.059Z"
+        "lastCheckedAt": "2026-10-13T23:13:19.276Z"
       },
       {
         "kind": "issue",
@@ -3579,7 +3579,7 @@
         "up": 0,
         "down": 0,
         "totalReactions": 0,
-        "lastCheckedAt": "2026-10-13T20:52:23.059Z"
+        "lastCheckedAt": "2026-10-13T23:13:19.276Z"
       },
       {
         "kind": "issue",
@@ -3593,7 +3593,7 @@
         "up": 0,
         "down": 0,
         "totalReactions": 0,
-        "lastCheckedAt": "2026-10-13T20:52:23.059Z"
+        "lastCheckedAt": "2026-10-13T23:13:19.276Z"
       },
       {
         "kind": "issue",
@@ -3607,7 +3607,7 @@
         "up": 0,
         "down": 0,
         "totalReactions": 0,
-        "lastCheckedAt": "2026-10-13T20:52:23.059Z"
+        "lastCheckedAt": "2026-10-13T23:13:19.276Z"
       },
       {
         "kind": "issue",
@@ -3621,7 +3621,7 @@
         "up": 0,
         "down": 0,
         "totalReactions": 0,
-        "lastCheckedAt": "2026-10-13T20:52:23.059Z"
+        "lastCheckedAt": "2026-10-13T23:13:19.276Z"
       },
       {
         "kind": "issue",
@@ -3635,7 +3635,7 @@
         "up": 0,
         "down": 0,
         "totalReactions": 0,
-        "lastCheckedAt": "2026-10-13T20:52:23.059Z"
+        "lastCheckedAt": "2026-10-13T23:13:19.276Z"
       },
       {
         "kind": "issue",
@@ -3649,7 +3649,7 @@
         "up": 0,
         "down": 0,
         "totalReactions": 0,
-        "lastCheckedAt": "2026-10-13T20:52:23.059Z"
+        "lastCheckedAt": "2026-10-13T23:13:19.276Z"
       },
       {
         "kind": "issue",
@@ -3663,7 +3663,7 @@
         "up": 0,
         "down": 0,
         "totalReactions": 0,
-        "lastCheckedAt": "2026-10-13T20:52:23.059Z"
+        "lastCheckedAt": "2026-10-13T23:13:19.276Z"
       },
       {
         "kind": "issue",
@@ -3677,7 +3677,7 @@
         "up": 1,
         "down": 0,
         "totalReactions": 1,
-        "lastCheckedAt": "2026-10-13T20:52:23.059Z"
+        "lastCheckedAt": "2026-10-13T23:13:19.276Z"
       },
       {
         "kind": "discussion",
@@ -3725,9 +3725,9 @@
       "server": "cloudflare",
       "via": null,
       "x_vercel_id": null,
-      "cf_ray": "a4a13a419d5e76aa-SEA",
+      "cf_ray": "a4a208b88fa6822d-IAD",
       "hsts": "max-age=15552000; includeSubDomains; preload",
-      "csp": "default-src 'none'; base-uri 'none'; object-src 'none'; form-action 'self'; font-src 'self' data:; worker-src 'self' blob:; img-src 'self' data: blob:; connect-src 'self'; media-src 'self' blob: data:; frame-src 'self'; frame-ancestors 'none'; script-src 'self' 'wasm-unsafe-eval' 'sha256-C/MS+M/q1h7xMxxNkNmnZprjEO47QsxjqiCQNBjCD2A=' 'sha256-BF0290pkb3jxQsE7z00xR8Imp8X34FLC88L0lkMnrGw=' 'sha256-QzWFZi+FLIx23tnm9SBU4aEgx4x8DsuASP07mfqol/c=' 'sha256-0chmwFk0zaA528yFfGV7J9ppIpdfTPPULncDF3WG7Zs=' 'sha256-eIXWvAmxkr251LJZkjniEK5LcPF3NkapbJepohwYRIc=' 'sha256-Q2BPg90ZMplYY+FSdApNErhpWafg2hcRRbndmvxuL/Q=' 'sha256-Ya0pUYrC7nM5Cn/056TyVuEiz6dFGrzmkWzgON0pF0U=' 'sha256-SHXg3YtOAVshUMT3f+eElYDgbV0kaujWj8DSaXSS4Vs=' 'sha256-o6WEQ95Zktx2KYiIWpEgR5AD0cnj7ycU4MOAX5wRQ0Q=' 'sha256-umIJp04nPDeLKwAOXJ27vwAx1PnvlIR58a9pS/1HP5M=' 'nonce-s4pduQiLdAHJqgznS+HAeFSY'; script-src-attr 'none'; style-src 'self' 'unsafe-inline', base-uri 'none'; object-src 'none'; form-action 'self'; font-src 'self' data:; worker-src 'self' blob:; img-src 'self' data: blob:; connect-src 'self'; media-src 'self' blob: data:; frame-src https://america.gov/cdn-cgi/challenge-platform/; frame-ancestors 'none'",
+      "csp": "default-src 'none'; base-uri 'none'; object-src 'none'; form-action 'self'; font-src 'self' data:; worker-src 'self' blob:; img-src 'self' data: blob:; connect-src 'self'; media-src 'self' blob: data:; frame-src 'self'; frame-ancestors 'none'; script-src 'self' 'wasm-unsafe-eval' 'sha256-C/MS+M/q1h7xMxxNkNmnZprjEO47QsxjqiCQNBjCD2A=' 'sha256-BF0290pkb3jxQsE7z00xR8Imp8X34FLC88L0lkMnrGw=' 'sha256-QzWFZi+FLIx23tnm9SBU4aEgx4x8DsuASP07mfqol/c=' 'sha256-0chmwFk0zaA528yFfGV7J9ppIpdfTPPULncDF3WG7Zs=' 'sha256-eIXWvAmxkr251LJZkjniEK5LcPF3NkapbJepohwYRIc=' 'sha256-Q2BPg90ZMplYY+FSdApNErhpWafg2hcRRbndmvxuL/Q=' 'sha256-Ya0pUYrC7nM5Cn/056TyVuEiz6dFGrzmkWzgON0pF0U=' 'sha256-SHXg3YtOAVshUMT3f+eElYDgbV0kaujWj8DSaXSS4Vs=' 'sha256-o6WEQ95Zktx2KYiIWpEgR5AD0cnj7ycU4MOAX5wRQ0Q=' 'sha256-umIJp04nPDeLKwAOXJ27vwAx1PnvlIR58a9pS/1HP5M=' 'nonce-w6l94sQQ7fILl91dliGfpQJK'; script-src-attr 'none'; style-src 'self' 'unsafe-inline', base-uri 'none'; object-src 'none'; form-action 'self'; font-src 'self' data:; worker-src 'self' blob:; img-src 'self' data: blob:; connect-src 'self'; media-src 'self' blob: data:; frame-src https://america.gov/cdn-cgi/challenge-platform/; frame-ancestors 'none'",
       "x_powered_by": null,
       "looks_like_akamai": false,
       "looks_like_cloudflare": true
