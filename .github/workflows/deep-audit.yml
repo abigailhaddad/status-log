@@ -1,8 +1,7 @@
 name: Deep audit
 
 on:
-  schedule:
-    - cron: "0 13 * * *"
+  # Schedule removed 2026-10-14; only subdomains.yml runs automatically.
   workflow_dispatch: {}
 
 permissions:

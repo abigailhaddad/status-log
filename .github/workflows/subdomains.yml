@@ -1,0 +1,68 @@
+name: New subdomain watch
+
+on:
+  schedule:
+    - cron: "17 */6 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: status-log-subdomains
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Install dependencies
+        run: npm ci --no-audit --no-fund
+
+      - name: Look for new hostnames in Certificate Transparency
+        id: watch
+        run: node scripts/subdomain-watch.mjs
+
+      - name: Commit state
+        run: |
+          git config user.name "status-log-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/known-hostnames.json
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+          git commit -m "chore: known hostnames $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          for attempt in 1 2 3 4 5; do
+            if git push; then
+              exit 0
+            fi
+            echo "Push rejected (attempt $attempt) — pulling and rebasing before retrying"
+            git pull --rebase -X ours origin main
+            sleep $((attempt * 3))
+          done
+          echo "::error::Failed to push after multiple retries"
+          exit 1
+
+      - name: Open issue for new hostnames
+        if: steps.watch.outputs.changed == 'true'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SUMMARY: ${{ steps.watch.outputs.summary }}
+          DETAILS: ${{ steps.watch.outputs.details }}
+        run: |
+          gh issue create \
+            --title "New subdomain: $SUMMARY" \
+            --assignee abigailhaddad \
+            --body "First appearance in Certificate Transparency (crt.sh) of:
+
+          $DETAILS
+
+          A hostname showing up here has a certificate; it may not be serving anything yet."
