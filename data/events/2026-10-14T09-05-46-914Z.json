@@ -1,0 +1,9 @@
+{
+  "timestamp": "2026-10-14T09:05:46.914Z",
+  "events": [
+    {
+      "type": "NEW_PERSON_ACTIVITY",
+      "detail": "taigrr:\n[2026-10-14T08:11:38Z] opened PR #15 on GSA-TTS/rspec_oscal_formatter: \"feat: support objective-id metadata\" (`https://github.com/GSA-TTS/rspec_oscal_formatter/pull/15`)\n\n[2026-10-14T07:34:23Z] created branch \"cd/add-security-policy\" on taigrr/usdc-arc-mcp-demo\n\n[2026-10-14T07:34:36Z] opened PR #3 on GSA-TTS/usdc-arc-mcp-demo: \"Add security policy and satisfy lint\" (`https://github.com/GSA-TTS/usdc-arc-mcp-demo/pull/3`)"
+    }
+  ]
+}
