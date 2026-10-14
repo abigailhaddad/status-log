@@ -54,8 +54,11 @@ async function main() {
   const fresh = [...names.keys()].filter((n) => !(n in known)).sort();
   for (const n of fresh) known[n] = baseline ? `baseline ${now.slice(0, 10)}` : now;
 
-  await mkdir("data", { recursive: true });
-  await writeFile(STATE_PATH, JSON.stringify({ updated: now, names: known }, null, 2) + "\n");
+  // Only touch the file when something changed, so quiet runs make no commit.
+  if (fresh.length > 0 || baseline) {
+    await mkdir("data", { recursive: true });
+    await writeFile(STATE_PATH, JSON.stringify({ updated: now, names: known }, null, 2) + "\n");
+  }
   console.log(`${names.size} names in CT (${rowCount} cert rows); ${fresh.length} ${baseline ? "baselined" : "new"}`);
 
   const out = process.env.GITHUB_OUTPUT;
