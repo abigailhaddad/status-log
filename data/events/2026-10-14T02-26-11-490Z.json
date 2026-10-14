@@ -1,0 +1,13 @@
+{
+  "timestamp": "2026-10-14T02:26:11.490Z",
+  "events": [
+    {
+      "type": "NEW_CERTIFICATE",
+      "detail": "courses.america.gov (2026-09-03T14:27:08)"
+    },
+    {
+      "type": "NEW_PERSON_ACTIVITY",
+      "detail": "taigrr:\n[2026-10-12T10:33:12Z] pushed to gogrlx/bootstrap.grlx.dev (cd/fix-gum-archive-extract-20260918):\n  b293a95 chore(farmer): update gum installer\n\n[2026-10-12T10:06:51Z] pushed to taigrr/gomap (cd/round8-gomap-upkeep):\n  299b0cf ci: pin staticcheck for Go 1.27\n\n[2026-10-14T00:45:18Z] pushed to taigrr/hyprls (main):\n  7be533d chore: refresh wiki + regenerate hl.config.meta.lua\n  0c47295 Merge pull request #2 from taigrr/bot/update-from-wiki\n\n[2026-10-12T08:36:01Z] pushed to taigrr/elevenlabs (cd/sound-generation-errors-20260917):\n  c757fd2 fix(client): omit default sound duration"
+    }
+  ]
+}
