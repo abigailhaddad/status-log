@@ -61,7 +61,7 @@ jobs:
           gh issue create \
             --title "New subdomain: $SUMMARY" \
             --assignee abigailhaddad \
-            --body "First appearance in Certificate Transparency (crt.sh) of:
+            --body "First appearance in Certificate Transparency (crt.sh or Cert Spotter) of:
 
           $DETAILS
 
